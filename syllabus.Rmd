@@ -1,0 +1,161 @@
+---
+title: "Syllabus"
+output:
+  html_document:
+    toc: false
+  pdf_document: default
+---
+
+There are two versions of this file: an [html](syllabus.html) and a [pdf](syllabus.pdf).
+
+### Introduction to Political Science Research (Research Intensive)
+
+This course introduces students to the basic methods of political science. It focuses on both statistical concepts (e.g., sample surveys) and computation (e.g., tidyverse). 
+
+### Staff 
+
+**Instructor**
+
+Name: Carlisle Rainey  
+E-Mail: [crainey@fsu.edu](mailto:crainey@fsu.edu)
+Office: Bellamy 540  
+GitHub: [carlislerainey](https://github.com/carlislerainey)  
+Office Hours: Tuesday, 9am-11am, Zoom (see link on Canvas), recommend signing up [here](https://calendly.com/carlislerainey/15-minute-meeting)
+
+**Teaching Assistant**
+
+Rob Lytle  
+[rlytle2@fsu.edu](mailto:rlytle2@fsu.edu)
+Office Hours: TBD, Zoom (see link on Canvas), recommend signing up [here](https://calendly.com/pos3713-ta)
+
+### Course Website
+
+I post all the materials for this course to [pos3713ri.github.io](http://pos3713ri.github.io). I recommend bookmarking this page. 
+
+### Important Dates
+
+| Date        | Day       | Assignment             | Notes                                          |
+|-------------|-----------|------------------------|------------------------------------------------|
+| Varies        | Thursday  | Weekly Assessment      | Due by 11:59pm. |
+| Varies        | Friday  | Weekly Assessment      | Due by 11:59pm. |
+| October 2 | Friday    | Computing Assignment 1 | Due by 11:59pm.                                    |
+| November 6    | Friday    | Computing Assignment 2 | Due by 11:59pm.                                    |
+| November 23  | Monday | Research Project - Initial Submission             | Due by 11:59pm. Will push back two days if requested.   |
+| December 9   | Wednesday | Research Project - Final Submission             | Due by 11:59pm.  |
+
+### Outcomes
+
+In taking this course seriously, you will:
+
+- Acquire and/or further develop knowledge of...
+    - basic statistical tools, such as the histograms, average, standard deviation, normal approximation, scatterplot, correlation, simple and multiple regression, sample survey, and hypothesis tests.
+    - basic concepts in probability theory, such as conditional probability, the law of averages, the expected value, and the standard error.
+- Acquire and/or further develop the ability to...
+    - evaluate empirical arguments.
+    - use R to implement basic statistical tools.
+    - clearly explain data and analysis in an honest and compelling manner.
+
+### Textbook
+
+You need to obtain the following items for this class:
+
+- Freedman, David, Robert Pisani, and Roger Purves. 2007. *Statistics.* 4th Edition. W. W. Norton and Company. New York. ISBN: 0393929728. 
+    - It is important to get the 4th Edition, and I recommend a hard copy rather than an eTexbook. 
+    - This book is expensive, but in past semesters, students have found good copies online for around $20.
+    - You should have the textbook by January 21.
+- A pocket calculator. I'm not going to be picky about the kind (your iPhone might work fine for you), but I like a designated, easy-to-use, simple calculator on my desk.
+
+### Grading
+
+| Item                      | Weight |
+|---------------------------|--------|
+| Weekly Assessment (13; 2 pts each)    | 26%    |
+| Weekly Letter (13; 1 pt each)  | 13%
+| Computing Assignment 1 (Avg, SD, and Histogram)    | 10%     |
+| Computing Assignment 2 (Sample Surveys) | 10%     |
+| Research Project - Initial Submission | 11%    |
+| Research Project - Final Submission | 30%    |
+
+
+Above is a summary of the graded assignments in the course, their due dates, and their weights.
+
+- **Weekly Assessments.** To encourage you to keep up with the material and help us assess your progress, we have weekly assessments. These are only two points, but these points add up quickly. The questions will vary in format and difficult, but will assess your understanding of the material assigned that week and occasionally revisit important ideas from prior weeks.
+- **Weekly Letters.** To offer you a open-ended, low-pressure avenue to engage the material, you write a short letter at the end of the week to a classmate. 
+- **Computing Assignments.** As part of the class, we'll learn about statistical computing in R. To demonstrate your ability with R, you'll submit two short reports. I'll provide detailed instructions at the appropriate time.
+- **Research Project.** The course builds toward a research paper you submit at the end of the semester. I'll provide detailed instructions at the appropriate time.
+
+Your points in the course will translate into a letter grade using the table below:
+
+| Letter Grade | Points          |
+|--------------|-----------------|
+| A            | at least 93     |
+| A-           | at least 90     |
+| B+           | at least 87     |
+| B            | at least 83     |
+| B-           | at least 80     |
+| C+           | at least 77     |
+| C            | at least 73     |
+| C-           | at least 70     |
+| D+           | at least 67     |
+| D            | at least 63     |
+| D-           | at least 60     |
+| F            | if less than 60 |
+
+### Workload
+
+Federal guidelines define a single semester credit hour as "one hour of classroom or direct faculty instruction and a minimum of two hours of out of class student work each week for approximately fifteen weeks." While the Covid-19 pandemic blurs the line between inside and outside of class, I have made an effort to design this class following this definition. All students are different, but as a rough starting point: **you should plan to spend about 9 hours per week on course material.**
+
+To help you with planning, here are my rough estimates for how much time to set aside for various assignments. The time required will vary across weeks and students. I make an effort to balance the workload across the semester. 
+
+- **Reading and doing the exercises:** The reading and exercises after each class should take about **four hours** per week. Some will be much shorter. A few might take longer. *All of the following time estimates assume you are keeping up with the review exercises.* If you don't keep up with the review exercises, then the computing assignments, for example, will be basically impossible.
+- **Weekly Assessment.** Once you have prepared, you should complete the assessment in about **30 minutes**.
+- **Weekly Letter.** The weekly letter should take **15 minutes**.
+- **Computing assignments.** Assuming you have kept up with the material, the computing assignments should take about **two hours** to complete and submit.
+- **Research project.** Once assigned, the research project should take about **four hours** per week to complete.
+
+
+### Late Assignments
+
+I begin with the assumption that each student works hard, wants to learn, and operates in good faith. I will work with you if you confront unexpected hurdles, but you need to let me know that you're facing a hurdle. 
+
+If you have a commitment on the day the assignment is due (e.g., you're traveling for a wedding), I usually expect you to submit the assignment early unless you have made prior arrangements with me. 
+
+In case of an unexpected circumstance (e.g., medical emergency), simply submit the assignment as soon as reasonable and notify me by e-mail. (I don't want you to worry about submitting the assignment during a medical emergency, for example.) Your e-mail should explain and document why you submitted the assignment late, and why you could not have simply submitted it early. Feel free to keep any private details private. I can follow up with a request for more documentation if needed. 
+
+If we did not have a prior arrangement and there's not unexpected circumstance, then I penalize late assignments 20 percentage points per day.
+
+# Academic Honor Policy
+
+The Florida State University Academic Honor Policy outlines the University's expectations for the integrity of students' academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process. Students are responsible for reading the Academic Honor Policy and for living up to their pledge to "...be honest and truthful and...[to] strive for personal and institutional integrity at Florida State University." (Florida State University Academic Honor Policy, found at [http://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy](http://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy).)
+
+# American's with Disabilities Act
+
+Students with disabilities needing academic accommodation should:
+
+1. Register with and provide documentation to the Student Disability Resource Center; and
+2. Bring a letter to the instructor indicating the need for accommodation and what type.
+
+Please note that instructors are not allowed to provide classroom accommodation to a student until appropriate verification from the Student Disability Resource Center has been provided.
+
+This syllabus and other class materials are available in alternative format upon request.
+
+For more information about services available to FSU students with disabilities, contact the:
+
+Student Disability Resource Center  
+874 Traditions Way  
+108 Student Services Building  
+Florida State University  
+Tallahassee, FL 32306-4167  
+(850) 644-9566 (voice)  
+(850) 644-8504 (TDD)  
+sdrc@admin.fsu.edu  
+http://www.disabilitycenter.fsu.edu/  
+
+
+# Syllabus Change Policy
+
+Except for changes that substantially affect implementation of the evaluation (grading) statement, this syllabus is a guide for the course and is subject to change with advance notice.
+
+**Changes**
+
+None so far.

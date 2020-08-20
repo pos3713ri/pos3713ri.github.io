@@ -1,0 +1,5026 @@
+state,ideology,name,party
+AL,0.968,"Ainsworth, Will",R
+AL,-0.337,"Alexander, Louise",D
+AL,0.739,"Baker, Alan",R
+AL,0.824,"Ball, Mike",R
+AL,-0.722,"Bandy, George C",D
+AL,0.787,"Beckman, Paul",R
+AL,0.103,"Beech, Elaine",D
+AL,-0.194,"Black, Marcel",D
+AL,0.85,"Blackshear, Chris",R
+AL,0.805,"Boothe, Alan C",R
+AL,-0.474,"Boyd, Barbara Bigsby",D
+AL,-0.619,"Bracy, Napoleon Jr.",D
+AL,0.954,"Brown, Koven",R
+AL,-0.586,"Buskey, James E",D
+AL,1.116,"Butler, Mack N",R
+AL,1.104,"Carns, Jim",R
+AL,0.9,"Chesteen, Donnie",D
+AL,-0.176,"Clarke, Adline Cecline",D
+AL,0.818,"Clouse, Steve",R
+AL,-0.575,"Coleman-Evans, Merika",D
+AL,1.042,"Collins, Terri",R
+AL,0.702,"Crawford, Danny",R
+AL,-0.338,"Daniels, Anthony",D
+AL,0.87,"Davis, Randy",R
+AL,0.996,"Drake, E. Richard",R
+AL,-0.493,"Drummond, Barbara",D
+AL,-0.621,"England, Christopher John",D
+AL,1.001,"Farley, Allen",R
+AL,0.935,"Faulkner, David",R
+AL,0.695,"Faust, Joe Sr.",R
+AL,0.989,"Fincher, Bob",R
+AL,-0.132,"Ford, Craig",D
+AL,-0.312,"Forte, Berry",D
+AL,0.996,"Fridy, Matt",R
+AL,0.919,"Garrett, Danny",R
+AL,0.861,"Gaston, Victor",R
+AL,-0.38,"Givan, Juandalynn",D
+AL,0.814,"Greer, Lynn",R
+AL,-0.582,"Grimsley, Dexter",D
+AL,-0.552,"Hall, Laura",D
+AL,1.021,"Hammon, Micky",R
+AL,0.749,"Hanes, James T.",R
+AL,0.869,"Harbison, Corey",R
+AL,0.498,"Harper, Alan",R
+AL,1.136,"Henry, William",R
+AL,0.818,"Hill, Jim",R
+AL,0.709,"Hill, Mike",R
+AL,-0.573,"Holmes, Alvin",D
+AL,0.782,"Holmes, Mike",R
+AL,-0.56,"Howard, Ralph A",D
+AL,1.027,"Hubbard, Mike",R
+AL,0.573,"Hurst, Stephen W",R
+AL,0.874,"Ingram, Reed",R
+AL,-0.433,"Jackson, Thomas Jr.",D
+AL,1.338,"Johnson, Ken",R
+AL,0.602,"Johnson, Ronald G",R
+AL,0.871,"Jones, Mike Jr.",R
+AL,-0.687,"Knight, John Jr.",D
+AL,-0.433,"Lawrence, Kelvin J.",D
+AL,1.059,"Ledbetter, Nathaniel",R
+AL,0.997,"Lee, Paul",R
+AL,-0.103,"Lindsey, Richard J",D
+AL,0.671,"Martin, James M",R
+AL,-0.475,"McCampbell, Artis",D
+AL,-0.715,"McClammy, Thad",D
+AL,0.818,"McCutcheon, Mac",R
+AL,0.787,"McMillan, Stephen",R
+AL,-0.685,"Melton, Darrio",D
+AL,0.652,"Millican, Michael",R
+AL,0.845,"Mooney, Arnold",R
+AL,1.041,"Moore, Barry",R
+AL,-0.664,"Moore, Mary",D
+AL,0.045,"Morrow, Johnny Mack",D
+AL,0.796,"Nordgren, Becky",R
+AL,1.17,"Patterson, James Jr.",R
+AL,0.972,"Pettus, Phillip",R
+AL,0.843,"Polizos, Dimitri",R
+AL,0.916,"Poole, William III",R
+AL,0.919,"Pringle, Chris",R
+AL,0.918,"Rich, Kerry",R
+AL,-0.461,"Robinson, Oliver",D
+AL,-0.524,"Rogers Jr, John W",D
+AL,0.813,"Rowe, Connie Cooner",R
+AL,0.877,"Sanderford, Howard",R
+AL,-0.412,"Scott, Roderick",D
+AL,0.888,"Sells, Chris",R
+AL,0.909,"Sessions, David",R
+AL,0.906,"Shedd, Randall",R
+AL,0.686,"Shiver, Harry",R
+AL,0.876,"South, Kyle",R
+AL,0.725,"Standridge, David",R
+AL,-0.441,"Todd, Patricia",D
+AL,0.872,"Treadaway, Benjamin",R
+AL,1.118,"Tuggle, Mark M",R
+AL,0.577,"Wadsworth, Timothy R.",R
+AL,-0.394,"Warren, Pebblin W",D
+AL,1.003,"Weaver, April",R
+AL,0.578,"Whorton, Issac",R
+AL,0.752,"Whorton, Ritchie",R
+AL,0.948,"Wilcox, Margie",R
+AL,0.932,"Williams, Jack D,",R
+AL,0.917,"Williams, Jack W.",R
+AL,0.814,"Williams, Phillip",R
+AL,1.111,"Wingo, Rich",R
+AL,0.99,"Wood, Randy",R
+AK,0.911,"Chenault, Charles",R
+AK,-0.339,"Claman, Matt",D
+AK,0.559,"Colver, Jim",R
+AK,-0.694,"Drummond, Harriet",D
+AK,0.275,"Edgmon, Bryce",D
+AK,0.43,"Foster, Neal",D
+AK,-0.69,"Gara, Les",D
+AK,0.935,"Gattis, Lynn",R
+AK,-0.353,"Gruenberg, Max Jr.",D
+AK,-0.659,"Guttenberg, David",D
+AK,0.791,"Hawker, Mike",R
+AK,0.515,"Herron, Bob",D
+AK,0.972,"Hughes, Shelley",R
+AK,1.037,"Johnson, Craig",R
+AK,-0.826,"Josephson, Andrew",D
+AK,-0.488,"Kawasaki, Scott",D
+AK,0.804,"Keller, Wes",R
+AK,-0.478,"Kito, Sam S.",D
+AK,-0.304,"Kreiss-Tomkins, Jonathan",D
+AK,0.507,"LeDoux, Gabrielle",R
+AK,0.632,"Lynn, Bob",R
+AK,0.869,"Millett, Charisse",R
+AK,0.516,"Muñoz, Cathy",R
+AK,0.527,"Nageak, Benjamin",D
+AK,0.818,"Neuman, Mark",R
+AK,0.891,"Olson, Kurt",R
+AK,0.918,"Pruitt, Lance",R
+AK,0.547,"Reinbold, Lora",R
+AK,1.005,"Saddler, Dan",R
+AK,0.571,"Seaton, Paul",R
+AK,-0.521,"Spohnholz, Ivy",D
+AK,0.48,"Stutes, Louise B.",R
+AK,0.814,"Talerico, David M.",R
+AK,-0.654,"Tarr, Geran",D
+AK,0.765,"Thompson, Steve",R
+AK,1.029,"Tilton, Cathy",R
+AK,-0.641,"Tuck, Chris",D
+AK,0.673,"Vazquez, Liz",R
+AK,0.879,"Wilson, Tammie",R
+AK,-0.341,"Wool, Adam",D
+AZ,1.368,"Bowers, Russell",R
+AZ,-1.325,"Hale, Albert",D
+AZ,-1.795,"McCune Davis, Debbie",D
+AZ,-1.242,"Rios, Rebecca",D
+AZ,0.797,"Ackerley, John Christopher",R
+AZ,1.29,"Allen, John",R
+AZ,-2.043,"Alston, Lela",D
+AZ,-1.947,"Andrade, Richard C.",D
+AZ,1.033,"Barton, Brenda",R
+AZ,-1.418,"Benally, Jennifer D.",D
+AZ,-1.149,"Bolding, Reginald",D
+AZ,1.341,"Borrelli, Sonny",R
+AZ,1.062,"Boyer, Paul",R
+AZ,0.838,"Campbell, Noel",R
+AZ,-1.001,"Cardenas, Mark A.",D
+AZ,0.68,"Carter, Heather",R
+AZ,-1.583,"Clark, Ken",D
+AZ,1.054,"Cobb, Regina",R
+AZ,0.691,"Coleman, Doug",R
+AZ,-1.261,"Espinoza, Diego",D
+AZ,0.956,"Fann, Karen",R
+AZ,1.975,"Farnsworth, Edwin W.",R
+AZ,-2.636,"Fernandez, Charlene R.",D
+AZ,1.627,"Finchem, Mark",R
+AZ,-1.781,"Friese, Randall",D
+AZ,-1.696,"Gabaldón, Rosanna",D
+AZ,-2.214,"Gonzales, Sally Ann",D
+AZ,1.308,"Gowan, David Sr.",R
+AZ,1.22,"Gray, Rick",R
+AZ,1.854,"Kern, Anthony",R
+AZ,-1.916,"Kopec, Matthew A.",D
+AZ,-1.335,"Larkin, Jonathan",D
+AZ,1.303,"Lawrence, Jay",R
+AZ,1.416,"Leach, Vince",R
+AZ,1.345,"Livingston, David",R
+AZ,1.236,"Lovas, Phil",R
+AZ,-1.595,"Mach, Stefanie",D
+AZ,0.494,"McGee, Kate Brophy",R
+AZ,-2.374,"Mendez, Juan",D
+AZ,1.202,"Mesnard, Javan",R
+AZ,-1.267,"Meyer, Eric",D
+AZ,1.772,"Mitchell, Darin",R
+AZ,1.776,"Montenegro, Steve",R
+AZ,1.255,"Norgaard, Jill",R
+AZ,1.642,"Olson, Justin",R
+AZ,-1.299,"Otondo, Lisa",D
+AZ,1.864,"Petersen, Warren",R
+AZ,-1.729,"Plumlee, Celeste",D
+AZ,0.773,"Pratt, Frank",R
+AZ,0.98,"Rivero, Tony",R
+AZ,0.805,"Robson, Bob",R
+AZ,-1.4,"Saldate, Macario IV",D
+AZ,0.77,"Shope, Thomas",R
+AZ,1.374,"Stevens, David",R
+AZ,1.43,"Thorpe, Bob",R
+AZ,1.379,"Townsend, Kelly",R
+AZ,1.22,"Ugenti-Rita, Michelle",R
+AZ,-2.205,"Velasquez, Ceci",D
+AZ,1.229,"Weninger, Jeff",R
+AZ,-1.291,"Wheeler, Bruce",D
+AR,0.7,"Hendren, Kim",R
+AR,-0.28,"Armstrong, Charles",D
+AR,-0.432,"Armstrong, Eddie III",D
+AR,0.273,"Baine, John",D
+AR,2.431,"Ballinger, Bob",R
+AR,0.324,"Baltz, Joseph",D
+AR,1.1,"Beck, Rick",R
+AR,2.475,"Bell, Jerry",R
+AR,0.06,"Bennett, Russell",D
+AR,1.181,"Bentley, Mary",R
+AR,-0.634,"Blake, Charles",D
+AR,0.648,"Boyd, Justin",R
+AR,1.03,"Bragg, Ken",R
+AR,0.927,"Branscum, David",R
+AR,-0.357,"Broadaway, Mary",D
+AR,1.033,"Brown, Karilyn B.",R
+AR,1.123,"Collins, Charles",R
+AR,1.178,"Copeland, Donnie",R
+AR,1.374,"Cozart, Bruce",R
+AR,1.407,"Davis, Andy",R
+AR,1.428,"Deffenbaugh, Gary",R
+AR,0.625,"Della Rosa, Jana",R
+AR,2.255,"Dotson, James",R
+AR,1.6,"Douglas, Charlotte",R
+AR,0.585,"Douglas, Dan",R
+AR,0.992,"Drown, Trevor",R
+AR,0.921,"Eads, Lance",R
+AR,0.953,"Eaves, Les",R
+AR,1.392,"Eubanks, Jon",R
+AR,1.089,"Farrer, Joe",R
+AR,0.181,"Ferguson, Deborah",D
+AR,-0.364,"Ferguson, Ken",D
+AR,0.132,"Fielding, David",D
+AR,1.07,"Fite, Charlene",R
+AR,1.059,"Fite, Lanny",R
+AR,-0.493,"Flowers, Vivian",D
+AR,1.54,"Gates, Mickey",R
+AR,0.987,"Gillam, Jeremy",R
+AR,1.955,"Gonzales, Justin",R
+AR,0.955,"Gossage, Bill",R
+AR,0.223,"Gray, Michael John",D
+AR,1.16,"Gray, Michelle",R
+AR,1.158,"Hammer, Kim",R
+AR,2.355,"Harris, Justin",R
+AR,0.951,"Henderson, Kenneth",R
+AR,0.807,"Hickerson, Mary",R
+AR,0.153,"Hillman, David",D
+AR,1.16,"Hodges, Grant",R
+AR,-0.254,"Hodges, Monte",D
+AR,0.438,"Holcomb, Mike",D
+AR,0.972,"House, Douglas",R
+AR,1.129,"Jean, Lane",R
+AR,0.141,"Jett, Logan",D
+AR,0.121,"Johnson, J.P. Bob",D
+AR,1.072,"Ladyman, Jack",R
+AR,0.323,"Lampkin, Sheilla",D
+AR,0.106,"Leding, Gregory",D
+AR,1.16,"Lemons, Tim",R
+AR,1.34,"Linck, Kelley",R
+AR,-0.652,"Love, Fredrick J",D
+AR,1.359,"Lowery, Mark",R
+AR,2.12,"Lundstrum, Robin",R
+AR,-0.004,"Magie, Stephen",D
+AR,1.093,"Mayberry, Julie",R
+AR,-0.181,"McElroy, Mark",D
+AR,-0.38,"McGill, George",D
+AR,0.864,"McNair, Ron",R
+AR,2.223,"Meeks, David",R
+AR,1.129,"Meeks, Stephen",R
+AR,1.789,"Miller, Josh",R
+AR,-0.632,"Murdock, Reginald",D
+AR,0.918,"Neal, Micah",R
+AR,-0.105,"Nicks Jr, Milton",D
+AR,0.217,"Overbey, Betty",D
+AR,1.437,"Payton, John",R
+AR,1.08,"Petty, Rebecca",R
+AR,0.734,"Pitsch, Matthew W.",R
+AR,0.321,"Ratliff, James",D
+AR,0.082,"Richey, Chris",D
+AR,1.18,"Richmond, Marcus Edward",R
+AR,1.026,"Rushing, Laurie",R
+AR,-0.669,"Sabin, Warwick",D
+AR,0.771,"Scott, Sue",R
+AR,1.262,"Shepherd, Matthew",R
+AR,1.154,"Smith, Brandt",R
+AR,1.037,"Sorvillo, Jim",R
+AR,0.921,"Speaks, Nelda",R
+AR,0.912,"Sturch, James",R
+AR,1.21,"Sullivan, Dan",R
+AR,0.2,"Talley, James",D
+AR,1.118,"Tosh, Dwight",R
+AR,-0.105,"Tucker, Clarke",D
+AR,1.077,"Vaught, DeAnn",R
+AR,0.419,"Vines, John",D
+AR,0.091,"Walker, John W",D
+AR,1.221,"Wardlaw, Jeffrey",D
+AR,-0.556,"Whitaker, David",D
+AR,1.736,"Womack, Richard",R
+AR,-0.319,"Wright, Marshall",D
+CA,-2.035,"Wieckowski, Robert",D
+CA,0.89,"Achadjian, Katcho",R
+CA,-1.768,"Alejo, Luis",D
+CA,1.682,"Allen, Travis",R
+CA,-0.91,"Arambula, Juan",D
+CA,0.8,"Baker, Catharine",R
+CA,1.642,"Bigelow, Frank",R
+CA,-1.765,"Bloom, Richard",D
+CA,-1.61,"Bonilla, Susan",D
+CA,-1.94,"Bonta, Rob",D
+CA,1.845,"Brough, William",R
+CA,-1.086,"Brown, Cheryl",D
+CA,-1.607,"Burke, Autumn",D
+CA,-1.661,"Calderon, Ian",D
+CA,-1.638,"Campos, Nora",D
+CA,1.02,"Chang, Ling-ling",R
+CA,-1.998,"Chau, Edwin",D
+CA,1.157,"Chavez, Rocky",R
+CA,-2.109,"Chiu, David",D
+CA,-1.925,"Chu, Kansen",D
+CA,-0.689,"Cooley, Ken",D
+CA,-0.939,"Cooper, Jim",D
+CA,-0.95,"Dababneh, Matthew",D
+CA,1.555,"Dahle, Brian",R
+CA,-1.007,"Daly, Tom",D
+CA,-1.408,"Eggman, Susan",D
+CA,-0.861,"Frazier, Jim",D
+CA,1.764,"Gaines, Beth",R
+CA,1.46,"Gallagher, James",R
+CA,-1.637,"Garcia, Cristina",D
+CA,-1.852,"Garcia, Eduardo",D
+CA,-0.755,"Gatto, Mike",D
+CA,-1.857,"Gipson, Mike",D
+CA,-1.911,"Gomez, Jimmy",D
+CA,-1.692,"Gonzalez, Lorena",D
+CA,-1.651,"Gordon, Richard",D
+CA,-0.573,"Gray, Adam",D
+CA,1.896,"Grove, Shannon",R
+CA,0.91,"Hadley, David",R
+CA,2.576,"Harper, Matthew",R
+CA,-1.586,"Hernandez, Roger",D
+CA,-1.691,"Holden, Chris",D
+CA,-0.533,"Irwin, Jacqui",D
+CA,-1.882,"Jones-Sawyer, Reginald Sr.",D
+CA,1.72,"Jones, Brian",R
+CA,1.259,"Kim, Young",R
+CA,0.947,"Lackey, Tom",R
+CA,-1.101,"Levine, Marc",D
+CA,0.926,"Linder, Eric",R
+CA,-1.794,"Lopez, Patty",D
+CA,-1.795,"Low, Evan",D
+CA,0.959,"Maienschein, Brian",R
+CA,1.522,"Mathis, Devon",R
+CA,1.386,"Mayes, Chad",R
+CA,-1.921,"McCarty, Kevin",D
+CA,-1.129,"Medina, Jose",D
+CA,1.527,"Melendez, Melissa",R
+CA,-1.934,"Mullin, Kevin",D
+CA,-2.017,"Nazarian, Adrin",D
+CA,-1.406,"O'Donnell, Patrick",D
+CA,1.6,"Obernolte, Jay P",R
+CA,1.109,"Olsen, Kristin",R
+CA,1.633,"Patterson, Jim",R
+CA,-0.879,"Perea, Henry",D
+CA,-1.678,"Quirk, Bill",D
+CA,-2.134,"Rendon, Anthony",D
+CA,-1.31,"Ridley-Thomas, Sebastian",D
+CA,-1.586,"Rodriguez, Freddie",D
+CA,-0.43,"Salas, Rudy Jr.",D
+CA,-2.287,"Santiago, Miguel",D
+CA,1.222,"Steinorth, Marc",R
+CA,-2.459,"Stone, Mark",D
+CA,-2.26,"Thurmond, Tony",D
+CA,-2.124,"Ting, Philip",D
+CA,1.601,"Wagner, Donald",R
+CA,1.205,"Waldron, Marie",R
+CA,-1.876,"Weber, Shirley",D
+CA,-1.689,"Williams, Das",D
+CA,-1.529,"Wood, Jim",D
+CO,-1.314,"Arndt, Jennifer J.",D
+CO,1.08,"Becker, Jon",R
+CO,-1.981,"Becker, KC",D
+CO,1.261,"Brown, J.",R
+CO,2.845,"Buck, Perry",R
+CO,-2.274,"Buckner, John",D
+CO,1.9,"Carver, Terri L.",R
+CO,1.412,"Conti, Kathleen",R
+CO,1.483,"Coram, Don",R
+CO,-2.192,"Danielson, Jessie",D
+CO,1.648,"DelGrosso, Brian",R
+CO,1.663,"Dore, Timothy",R
+CO,-1.893,"Duran, Crisanta",D
+CO,-2.771,"Esgar, Daneya",D
+CO,3.661,"Everett, Justin",R
+CO,-2.213,"Fields, Rhonda",D
+CO,-1.902,"Foote, Mike",D
+CO,-2.235,"Garnett, Alec",D
+CO,-2.096,"Ginal, Joann",D
+CO,-2.157,"Hamner, Millie",D
+CO,-1.945,"Hullinghorst, Dickey Lee",D
+CO,3.706,"Humphrey, Stephen",R
+CO,2.507,"Joshi, Janak",R
+CO,-1.605,"Kagan, Daniel",D
+CO,2.368,"Keyser, Jon",R
+CO,2.64,"Klingenschmitt, Gordon James",R
+CO,-1.688,"Kraft-Tharp, Tracy",D
+CO,1.736,"Landgraf, Lois",R
+CO,1.875,"Lawrence, Polly",R
+CO,-1.584,"Lebsock, Steve",D
+CO,-2.063,"Lee, Sanford",D
+CO,3.216,"Leonard, Tim",R
+CO,-2.522,"Lontine, Susan",D
+CO,2.182,"Lundeen, Paul",R
+CO,-1.776,"McCann, Elizabeth",D
+CO,-1.954,"Melton, Jovan",D
+CO,-1.701,"Mitsch Bush, Diane",D
+CO,-2.254,"Moreno, Dominick",D
+CO,1.579,"Navarro-Ratzlaff, Clarice",R
+CO,3.658,"Neville, Patrick",R
+CO,2.241,"Nordberg, Dan",R
+CO,-1.809,"Pabon, Daniel",D
+CO,-1.796,"Pettersen, Brittany",D
+CO,-1.513,"Primavera, Dianne",D
+CO,1.343,"Priola, Kevin",R
+CO,1.124,"Rankin, Robert E.",R
+CO,2.955,"Ransom, Kim",R
+CO,-1.741,"Rosenthal, Paul",D
+CO,1.025,"Roupe, Catherine M.",R
+CO,-1.855,"Ryden, Su",D
+CO,3.088,"Saine, Lori",R
+CO,-2.313,"Salazar, Joseph",D
+CO,1.742,"Sias, Lang",R
+CO,-1.687,"Singer, Jonathan",D
+CO,1.166,"Thurlow, Daniel R.",R
+CO,-1.798,"Tyler, Max",D
+CO,2.521,"Van winkle, Kevin",R
+CO,-0.934,"Vigil, Edward",D
+CO,1.821,"Willett, Yeulin",R
+CO,-2.008,"Williams, Angela",D
+CO,1.457,"Wilson, James",R
+CO,1.617,"Windholz, Joann",R
+CO,-2.713,"Winter, Faith",D
+CO,2.214,"Wist, Cole",R
+CO,-1.278,"Young, David",D
+CT,-1.16,"Abercrombie, Catherine F.",D
+CT,0.143,"Ackert, Timothy",R
+CT,-1.17,"Adams, Terry B.",D
+CT,0.039,"Adinolfi, Alfred",R
+CT,0.381,"Alberts, Mike",R
+CT,-1.474,"Albis, James",D
+CT,-1.071,"Alexander, David",D
+CT,-0.919,"Altobello, Emil Jr.",D
+CT,-0.063,"Aman, William",R
+CT,-1.212,"Arce, Angel",D
+CT,-1.029,"Arconti, David Jr.",D
+CT,-1.21,"Aresimowicz, Joe",D
+CT,-1.171,"Baker, Andre F.",D
+CT,-1.337,"Baram, David A.",D
+CT,-0.977,"Becker, Brian",D
+CT,0.732,"Belsito, Sam",R
+CT,-0.946,"Berger, Jeffrey J.",D
+CT,-0.064,"Berthel, Eric C.",R
+CT,0.355,"Betts, Whit",R
+CT,-0.109,"Bocchino, Mike",R
+CT,0.068,"Bolinsky, Mitch",R
+CT,-1.023,"Boukus, Elizabeth",D
+CT,-0.969,"Brycki, Paul J.",D
+CT,0.503,"Buck-Taylor, Cecilia",R
+CT,-0.11,"Bumgardner, Aundré",R
+CT,-1.048,"Butler, Larry B.",D
+CT,-0.152,"Byron, Gary",R
+CT,0.213,"Camillo, Alfred Jr.",R
+CT,-1.188,"Candelaria, Juan R.",D
+CT,0.228,"Candelora, Vincent J.",R
+CT,-0.106,"Carney, Devin R.",R
+CT,0.061,"Carpino, Christie M.",R
+CT,0.049,"Carter, Dan",R
+CT,0.473,"Case, Jay M.",R
+CT,-1.009,"Conroy, Theresa W.",D
+CT,-1.201,"Cook, Michelle L.",D
+CT,-1.153,"Cuevas, Victor",D
+CT,-1.146,"Currey, Jeffrey A.",D
+CT,-1.423,"D'Agostino, Michael",D
+CT,0.084,"D'Amelio, Anthony J.",R
+CT,-1.014,"Dargan, Stephen D.",D
+CT,-0.002,"Davis, Christopher",R
+CT,-1.295,"Demicco, Mike",D
+CT,-0.247,"Devlin, Laura",R
+CT,-1.069,"Dillon, Patricia A.",D
+CT,0.723,"Dubitsky, Douglas",R
+CT,-1.003,"Esposito, Louis Jr.",D
+CT,-0.07,"Ferraro, Charles J.",R
+CT,-1.303,"Fleischmann, Andrew M.",D
+CT,-0.099,"Floren, Livvy R.",R
+CT,-1.12,"Fox, Gerald III",D
+CT,1.207,"France, Mike F.",R
+CT,0.175,"Frey, John H.",R
+CT,-0.863,"Fritz, Mary",D
+CT,-1.149,"Genga, Henry J.",D
+CT,-1.099,"Gentile, Linda M.",D
+CT,0.043,"Giegler, Janice R.",R
+CT,-1.096,"Godfrey, Robert",D
+CT,-1.199,"Gonzalez, Minnie",D
+CT,-1.181,"Gresko, Joseph P.",D
+CT,-0.924,"Guerrera, Antonio",D
+CT,-1.393,"Haddad, Gregory",D
+CT,-0.909,"Hampton, John K.",D
+CT,-0.104,"Harding, Stephen G.",R
+CT,-1.295,"Hennessy, John F.",D
+CT,-1.282,"Hewett, Ernest",D
+CT,-0.011,"Hoydick, Laura R.",R
+CT,-1.013,"Janowski, Claire L.",D
+CT,-1.356,"Johnson, Susan M.",D
+CT,-0.953,"Jutila, Ed",D
+CT,-1.297,"Kiner, David W.",D
+CT,-0.024,"Klarides, Themis",R
+CT,-0.066,"Kokoruda, Noreen S.",R
+CT,-0.099,"Kupchick, Brenda L.",R
+CT,0.015,"Labriola, David K.",R
+CT,-0.007,"Lavielle, Gail",R
+CT,-0.106,"LeGeyt, Timothy B.",R
+CT,-1.593,"Lemar, Roland J.",D
+CT,-1.467,"Lesser, Matthew",D
+CT,-1.244,"Lopes, Rick",D
+CT,-1.34,"Luxenberg, Kelly J.",D
+CT,0.5,"MacLachlan, Jesse D.",R
+CT,-0.926,"McCarthy Vahey, Cristin",D
+CT,-0.199,"McCarty, Kathleen M.",R
+CT,-1.22,"McCrory, Douglas",D
+CT,-1.326,"McGee, Brandon Jr.",D
+CT,-0.084,"McGorty, Ben",R
+CT,-1.303,"Megna, Robert W.",D
+CT,-1.285,"Miller, Patricia",D
+CT,-1.399,"Miller, Philip J.",D
+CT,0.37,"Miner, Craig A.",R
+CT,-1.171,"Morin, Russell A.",D
+CT,-1.26,"Morris, Bruce V.",D
+CT,0.579,"Mulligan, Gayle J.",R
+CT,-1.2,"Mushinsky, Mary M.",D
+CT,-0.752,"Nicastro, Frank Sr.",D
+CT,0.108,"Noujaim, Selim G.",R
+CT,0.101,"O'Dea, Tom",R
+CT,0.062,"O'Neill, Arthur J.",R
+CT,-1.059,"Orange, Linda A.",D
+CT,0.016,"Pavalock, Christine",R
+CT,0.068,"Perillo, Jason",R
+CT,-1.155,"Perone, Chris",D
+CT,0.756,"Piscopo, John E.",R
+CT,-1.349,"Porter, Robyn A.",D
+CT,-1.023,"Randall, Christine",D
+CT,-0.041,"Rebimbas, Rosa C.",R
+CT,-1.106,"Reed, Lonnie",D
+CT,-1.283,"Reyes, Gerald C.",D
+CT,-1.38,"Riley, Melissa M.",D
+CT,-1.258,"Ritter, Matthew",D
+CT,-1.108,"Rojas, Jason",D
+CT,-1.411,"Rosario, Christopher",D
+CT,-0.937,"Rose, Kim",D
+CT,-0.403,"Rovero, Daniel S.",D
+CT,0.011,"Rutigliano, David",R
+CT,-1.087,"Ryan, Kevin",D
+CT,0.813,"Sampson, Robert C.",R
+CT,-1.149,"Sanchez, Robert",D
+CT,-1.328,"Santiago, Ezequiel",D
+CT,-1.226,"Santiago, Hilda E.",D
+CT,-0.937,"Sayers, Peggy",D
+CT,-1.132,"Scanlon, Sean",D
+CT,0.046,"Scott, John F.",R
+CT,-1.059,"Serra, Joseph C.",D
+CT,0.082,"Shaban, John",R
+CT,-1.295,"Sharkey, Brendan",D
+CT,0.106,"Simanski, Bill",R
+CT,-1.081,"Simmons, Caroline",D
+CT,0.076,"Smith, Richard A.",R
+CT,0.568,"Sredzinski, J.P.",R
+CT,-0.057,"Srinivasan, Prasad",R
+CT,-1.21,"Stafstrom, Steven",D
+CT,-1.334,"Stallworth, Charlie L.",D
+CT,-0.006,"Staneski, Pam",R
+CT,-0.992,"Steinberg, Jonathan",D
+CT,-1.579,"Tercyak, Peter A.",D
+CT,-1.131,"Tong, William",D
+CT,0.588,"Tweedie, Mark D.",R
+CT,-1.378,"Urban, Diana S.",D
+CT,0.718,"Vail, Kurt A.",R
+CT,-1.374,"Vargas, Edwin Jr.",D
+CT,-1.003,"Verrengia, Joe",D
+CT,-1.546,"Walker, Toni E.",D
+CT,-1.138,"Willis, Roberta B.",D
+CT,0.446,"Wilms, Fred",R
+CT,-0.045,"Wood, Terrie",R
+CT,-0.078,"Yaccarino, Dave W.",R
+CT,0.596,"Zawistowski, Tami",R
+CT,0.364,"Ziobron, Melissa H.",R
+CT,-1.067,"Zoni, David",D
+CT,0.368,"Zupkus, Lezlye",R
+DE,-1.002,"Barbieri, Michael A.",D
+DE,-1.243,"Baumbach, Paul S.",D
+DE,-0.632,"Bennett, Andria",D
+DE,-1.315,"Bolden, Stephanie",D
+DE,-0.849,"Brady, Gerald",D
+DE,0.735,"Briggs King, Ruth",R
+DE,-0.417,"Carson, William Jr.",D
+DE,1.171,"Collins, Richard",R
+DE,0.514,"Dukes, Timothy D.",R
+DE,0.546,"Gray, Ronald",R
+DE,-0.976,"Heffernan, Debra",D
+DE,-0.012,"Hensley, Kevin S.",R
+DE,0.475,"Hudson, Deborah D.",R
+DE,-0.825,"Jaques, Earl Jr.",D
+DE,-1.046,"Johnson, James",D
+DE,-0.821,"Johnson, S. IV",D
+DE,-0.895,"Keeley, Helene",D
+DE,0.757,"Kenton, Harvey",R
+DE,-0.92,"Kowalko, John Jr.",D
+DE,-0.692,"Longhurst, Valerie",D
+DE,-1.448,"Lynn, Sean M.",D
+DE,-0.908,"Marshall, Melanie George",D
+DE,-1.726,"Matthews, Sean",D
+DE,0.069,"Miro, Joseph",R
+DE,-0.828,"Mitchell, John Jr.",D
+DE,-0.912,"Mulrooney, Michael",D
+DE,-1.036,"Osienski, Edward",D
+DE,0.429,"Outten, William",R
+DE,-0.629,"Paradee, William III",D
+DE,0.764,"Peterman, Harold",R
+DE,-1.228,"Potter, Charles Jr.",D
+DE,0.027,"Ramone, Michael",R
+DE,-0.839,"Schwartzkopf, Peter",D
+DE,-0.789,"Short, Bryon",D
+DE,0.262,"Short, Daniel",R
+DE,0.086,"Smyk, Stephen",R
+DE,0.303,"Spiegelman, Jeffrey",R
+DE,-0.951,"Viola, John",D
+DE,-0.858,"Williams, Kimberly",D
+DE,0.993,"Wilson, David",R
+DE,0.916,"Yearick, Lyndon Dean",R
+FL,0.76,"Adkins, Janet",R
+FL,0.72,"Ahern, Lawrence",R
+FL,0.752,"Albritton, Ben",R
+FL,-0.972,"Antone, Bruce",D
+FL,0.679,"Avila, Bryan",R
+FL,-1.226,"Berman, Lori",D
+FL,0.516,"Beshears, Halsey",R
+FL,0.648,"Bileca, Michael",R
+FL,0.747,"Boyd, Jim",R
+FL,-1.092,"Bracy, Randolph III",D
+FL,0.767,"Brodeur, Jason T",R
+FL,0.762,"Broxson, Douglas",R
+FL,0.651,"Burgess, Daniel",R
+FL,0.698,"Burton, Colleen",R
+FL,0.711,"Caldwell, Matthew",R
+FL,-0.982,"Campbell, Daphne",D
+FL,-1.083,"Clarke-Reed, Gwyndolen",D
+FL,0.986,"Combee, Neil",R
+FL,0.752,"Corcoran, Richard M.",R
+FL,-1.661,"Cortes, John",D
+FL,0.722,"Cortes, Robert",R
+FL,0.45,"Costello, Fredrick",R
+FL,0.772,"Crisafulli, Steve",R
+FL,-1.229,"Cruz, Janet",D
+FL,0.825,"Cummings, W. Travis",R
+FL,0.51,"Diaz, Jose",R
+FL,0.743,"Diaz, Manny Jr.",R
+FL,0.664,"Drake, Brad",R
+FL,-1.083,"Dubose, Bobby",D
+FL,-0.899,"Dudley, Dwight",D
+FL,0.827,"Eagle, Dane",R
+FL,-0.634,"Edwards, Katie",D
+FL,0.787,"Eisnaugle, Eric",R
+FL,0.744,"Fant III, Julian",R
+FL,0.57,"Fitzenhagen, Heather",R
+FL,0.633,"Fresen, Erik",R
+FL,-1.032,"Fullwood, Reginald",D
+FL,1.102,"Gaetz, Matt",R
+FL,-1.303,"Geller, Joseph S.",D
+FL,0.75,"Gonzalez, Julio",R
+FL,0.342,"Goodson, Tom",R
+FL,0.714,"Grant, James",R
+FL,1.198,"Hager, Bill",R
+FL,0.493,"Harrell, Gayle",R
+FL,0.441,"Harrison, Shawn",R
+FL,0.982,"Hill, Walter Byran",R
+FL,0.691,"Hudson, Matt",R
+FL,0.773,"Ingoglia, Blaise",R
+FL,0.785,"Ingram, Clay",R
+FL,-1.278,"Jacobs, Kristin",D
+FL,-1.332,"Jenne, Evan Boyd",D
+FL,-1.069,"Jones, Mia",D
+FL,-0.893,"Jones, Shevrin",D
+FL,-0.917,"Kerner, David",D
+FL,0.77,"LaRosa, Mike",R
+FL,0.04,"Latvala, Chris",R
+FL,-0.939,"Lee, Larry Jr.",D
+FL,0.744,"Magar, MaryLynn",R
+FL,0.712,"McBurney, Charles Jr.",R
+FL,-1.415,"McGhee, Kionne",D
+FL,0.771,"Metz, Larry",R
+FL,0.271,"Miller, Mike",R
+FL,0.49,"Moraitis, George Jr.",R
+FL,-0.782,"Moskowitz, Jared Evan",D
+FL,-0.885,"Murphy, Amanda Hickman",D
+FL,-1.099,"Narain, Edwin Ed",D
+FL,0.577,"Nuñez, Jeanette M",R
+FL,0.802,"O'Toole, H. Marlene",R
+FL,0.641,"Oliva, Jose",R
+FL,-2.225,"Pafford, Mark S.",D
+FL,1.317,"Perry, Warren",R
+FL,0.544,"Peters, Kathleen",R
+FL,0.967,"Pigman, Edwin",R
+FL,0.442,"Pilon, Ray",R
+FL,0.814,"Plakon, Scott",R
+FL,0.239,"Plasencia, Rene",R
+FL,0.795,"Porter, Elizabeth",R
+FL,-1.17,"Pritchett, Sharon",D
+FL,0.73,"Raburn, Jacob",R
+FL,-1.141,"Rader, Kevin J.G.",D
+FL,0.417,"Raschein, Holly",R
+FL,0.762,"Raulerson, Daniel",R
+FL,0.802,"Ray, Lake III",R
+FL,-0.877,"Rehwinkel Vasilinda, Michelle",D
+FL,0.734,"Renner, Paul",R
+FL,-0.997,"Richardson, David",D
+FL,0.693,"Roberson, Kenneth",R
+FL,0.787,"Rodrigues, Ray",R
+FL,-1.135,"Rogers, Hazelle",D
+FL,0.645,"Rooney, Patrick Jr.",R
+FL,-0.891,"Rouson, Darryl",D
+FL,0.651,"Santiago, David",R
+FL,-1.148,"Slosberg, Irving",D
+FL,0.788,"Smith, Jimmie",R
+FL,0.831,"Spano, Ross",R
+FL,0.736,"Sprowls, Chris",R
+FL,-1.791,"Stafford, Cynthia",D
+FL,-1.095,"Stark, Richard",D
+FL,0.671,"Stevenson, Cyndi",R
+FL,0.984,"Stone, Charlie",R
+FL,0.806,"Sullivan, Jennifer",R
+FL,-0.963,"Taylor, Dwayne",D
+FL,1.187,"Tobia, John",R
+FL,-1.187,"Torres, Victor Manuel",D
+FL,0.54,"Trujillo, Carlos",R
+FL,0.466,"Trumbull, Jay",R
+FL,0.547,"Van Zant, Charles",R
+FL,-1.427,"Watson, Barbara",D
+FL,-1.081,"Watson, Clovis Jr.",D
+FL,-0.907,"Williams, Alan",D
+FL,1.312,"Wood, John",R
+FL,0.809,"Workman, Ritch",R
+FL,0.722,"Young, Dana",R
+GA,0.796,"Hawkins, Lee",R
+GA,-0.654,"Oliver, Mary Margaret",D
+GA,-1.403,"Abrams, Stacey",D
+GA,-0.935,"Alexander, Kimberly",D
+GA,1.743,"Allison, Stephen",R
+GA,-1.847,"Anderson, Tonya",D
+GA,1.14,"Atwood, Alex",R
+GA,0.998,"Ballinger, Mandi",R
+GA,1.642,"Barr, Timothy",R
+GA,0.856,"Battles, Paul",R
+GA,-1.352,"Bell, Simone",D
+GA,1.089,"Belton, DC",R
+GA,-1.6,"Bennett, Karen",D
+GA,-0.57,"Bennett, Taylor J",D
+GA,-0.432,"Bentley, Patty",D
+GA,0.651,"Benton, Thomas",R
+GA,0.806,"Beskin, Beth",R
+GA,-0.609,"Beverly, James",D
+GA,1.363,"Blackmon, Shaw",R
+GA,0.76,"Broadrick, Bruce Sr.",R
+GA,1.404,"Brockway, Buzz",R
+GA,-0.818,"Brooks, Tyrone Sr.",D
+GA,-0.907,"Bruce, Roger",D
+GA,-0.254,"Bryant, Bob",D
+GA,-0.584,"Buckner, Debbie",D
+GA,0.834,"Burns, Jon",R
+GA,0.852,"Caldwell, Johnnie Jr.",R
+GA,1.741,"Caldwell, Michael",R
+GA,-0.947,"Cannon, Park",D
+GA,1.437,"Cantrell, Wesley E",R
+GA,0.915,"Carson, John",R
+GA,0.73,"Carter, Amy",R
+GA,-1.122,"Carter, Doreen",D
+GA,1.31,"Casas, David",R
+GA,0.812,"Chandler, Joyce",R
+GA,0.809,"Cheokas, Mike",R
+GA,1.352,"Clark, David T",R
+GA,1.87,"Clark, Heath N",R
+GA,1.344,"Clark, Josh",R
+GA,0.839,"Clark, Valerie",R
+GA,0.668,"Coleman, Jr, Brooks P",R
+GA,1.763,"Cooke, Kevin",R
+GA,1.229,"Coomer, Christian",R
+GA,0.856,"Cooper, Sharon",R
+GA,0.747,"Corbett, John L",R
+GA,-1.218,"Dawkins-Haigler, Dorothea",D
+GA,0.873,"Deffenbaugh, John",R
+GA,0.874,"Dempsey, Katie",R
+GA,-0.64,"Dickerson, Pamela",D
+GA,0.847,"Dickey, Robert",R
+GA,0.738,"Dickson, Tom",R
+GA,1,"Dollar, Matt",R
+GA,-0.638,"Douglas, Demetrius",D
+GA,-0.735,"Drenner, Karla",D
+GA,1.317,"Dudgeon, Mike",R
+GA,-0.676,"Dukes, Winfred",D
+GA,1.471,"Dunahoo, Emory Jr.",R
+GA,1.39,"Duncan, Geoff",R
+GA,-0.115,"Ealum, Darrel B",D
+GA,1.092,"Efstration, Chuck",R
+GA,1.087,"Ehrhart, Earl",R
+GA,0.915,"England, Terry",R
+GA,0.783,"Epps, James",R
+GA,-0.805,"Evans, Stacey",D
+GA,1.005,"Fleming, Barry",R
+GA,-0.442,"Floyd, Hugh",D
+GA,-0.944,"Fludd, Virgil",D
+GA,-0.903,"Frazier, Gloria",D
+GA,-0.363,"Frye, Spencer",D
+GA,-0.687,"Gardner, Pat",D
+GA,1.046,"Gasaway, Dan",R
+GA,0.812,"Geisinger, Harry",R
+GA,1.627,"Gilligan, Sheri Smallwood",R
+GA,-0.18,"Glanton, Mike Sr.",D
+GA,0.65,"Golick, Richard",R
+GA,-0.577,"Gordon, Joseph",D
+GA,1.613,"Gravley, M.",R
+GA,0.521,"Greene, Gerald",R
+GA,1.011,"Hamilton, Mark",R
+GA,0.67,"Harbin, Ben L",R
+GA,0.777,"Harden, Buddy",R
+GA,1.447,"Harrell, Brett",R
+GA,0.814,"Hatchett, Matt",R
+GA,-0.711,"Henson, Michele",D
+GA,1.387,"Hightower, Dustin",R
+GA,0.793,"Hitchens, Bill",R
+GA,-0.646,"Holcomb, Scott",D
+GA,0.851,"Holmes, Susan",R
+GA,0.542,"Houston, Penny",R
+GA,-0.506,"Howard, Earnestine",D
+GA,-0.867,"Hugley, Carolyn Fleming",D
+GA,-0.338,"Jackson, Mack",D
+GA,0.887,"Jacobs, Mike",R
+GA,1.064,"Jasperse, Rick",R
+GA,0.898,"Jones, Jan",R
+GA,0.812,"Jones, Jeff",R
+GA,-0.75,"Jones, LaDawn",D
+GA,-0.84,"Jones, Sheila",D
+GA,-0.811,"Jordan, Darryl",D
+GA,-0.558,"Kaiser, Margaret",D
+GA,1.554,"Kelley, Trey",R
+GA,-1.24,"Kendrick, Dar'shun",D
+GA,1.292,"Kirby, Tom",R
+GA,0.997,"Knight, David",R
+GA,0.773,"Lariccia, Dominic F",R
+GA,1.076,"Lott, Jodi",R
+GA,0.843,"Lumsden, Eddie",R
+GA,-0.658,"Mabra, Ronnie",D
+GA,-0.581,"Marin, Pedro",D
+GA,1.151,"Martin, Charles Jr.",R
+GA,1.02,"Maxwell, Howard",R
+GA,-0.685,"Mayo, Rahn",D
+GA,0.948,"McCall, Tom",R
+GA,-1.369,"McClain, Dewey",D
+GA,0.874,"Meadows, John",R
+GA,-1.067,"Metze, Marie Robinson",D
+GA,-0.871,"Mitchell, Billy",D
+GA,0.938,"Morris, Greg",R
+GA,-1.215,"Mosby, Howard",D
+GA,0.868,"Nimmer, Chad",R
+GA,0.909,"Nix, Randy",R
+GA,0.887,"O'Neal, Larry Jr.",R
+GA,1.292,"Pak, BJ",R
+GA,0.61,"Parrish, Larry",R
+GA,0.59,"Parsons, Don",R
+GA,0.921,"Peake, Allen",R
+GA,0.977,"Petrea, Jesse L",R
+GA,1.799,"Pezold, John",R
+GA,1.454,"Pirkle, Clay",R
+GA,0.761,"Powell, Alan",R
+GA,0.832,"Powell, Alfred Jr.",R
+GA,1.086,"Price, Betty",R
+GA,-0.753,"Prince, Brian",D
+GA,0.957,"Pruett, Jimmy",R
+GA,1.583,"Quick, Regina",R
+GA,1.451,"Raffensperger, Brad",R
+GA,1.395,"Rakestraw-Braddock, Paulette",R
+GA,0.91,"Ramsey, Matthew",R
+GA,-0.8,"Randall, Nikki",D
+GA,0.941,"Reeves, Albert T",R
+GA,1.042,"Rhodes, Trey",R
+GA,1.024,"Rice, Thomas",R
+GA,1.064,"Roberts, Jay",R
+GA,0.725,"Rogers, Carl",R
+GA,1.164,"Rogers, Terry",R
+GA,1.492,"Rutledge, Dale",R
+GA,1.078,"Rynders, Ed",R
+GA,-1.671,"Scott, Sandra",D
+GA,1.113,"Setzler, Ed",R
+GA,-0.806,"Sharper, Dexter",D
+GA,0.841,"Shaw, Jason",R
+GA,0.93,"Sims, Barbara",R
+GA,-0.949,"Smith, Earnest",D
+GA,0.695,"Smith, Lynn",R
+GA,-0.867,"Smith, Michael",D
+GA,0.859,"Smith, Richard",R
+GA,-0.659,"Smyre, Calvin",D
+GA,1.649,"Spencer, Jason",R
+GA,-0.548,"Stephens, Edward",D
+GA,0.684,"Stephens, Ron",R
+GA,-1.421,"Stephenson, Pam",D
+GA,-0.105,"Stovall, Valencia",D
+GA,2.037,"Stover, David J",R
+GA,0.983,"Strickland, Brian",R
+GA,0.809,"Tankersley, Jan",R
+GA,1.151,"Tanner, Kevin",R
+GA,1.797,"Tarvin, Steve",R
+GA,1.047,"Taylor, Darlene",R
+GA,0.936,"Taylor, Tom",R
+GA,-0.885,"Teague, Sharon Beasley",D
+GA,1.589,"Teasley, Sam",R
+GA,-0.883,"Thomas, Erica Renee",D
+GA,-0.795,"Thomas, Mable Able",D
+GA,-0.761,"Trammell Jr, Robert T",D
+GA,1.837,"Turner, Scot",R
+GA,-0.969,"Waites, Keisha",D
+GA,0.732,"Watson, Sam",R
+GA,1.134,"Welch, Andrew III",R
+GA,0.869,"Weldon, Thomas Jr.",R
+GA,1.263,"Werkheiser, William A",R
+GA,-1.038,"Wilkerson, David",D
+GA,0.777,"Wilkinson, Joe",R
+GA,0.726,"Willard, Wendell",R
+GA,-0.737,"Williams, Al",D
+GA,0.606,"Williams, Chuck",R
+GA,-0.953,"Williams, Earnest",D
+GA,1.301,"Williamson III, Hugh B",R
+GA,1.183,"Yates, John P",R
+ID,1.562,"Harris, Steven",R
+ID,1.661,Sims,R
+ID,0.625,"Anderson, Neil",R
+ID,0.865,"Anderst, Robert",R
+ID,1.068,"Andrus, Ken",R
+ID,1.795,"Barbieri, Vito",R
+ID,0.977,"Bateman, Linden",R
+ID,1.296,"Batt, Gayle",R
+ID,0.923,"Bedke, Scott",R
+ID,0.666,"Bell, Maxine",R
+ID,0.64,"Beyeler, Merrill",R
+ID,1.45,"Boyle, Judy",R
+ID,0.559,"Burtenshaw, Van",R
+ID,1.08,"Chaney, Greg",R
+ID,1.322,"Cheatham, Don",R
+ID,-0.966,"Chew, Susan",D
+ID,0.932,"Clow, Lance",R
+ID,0.828,"Collins, Gary",R
+ID,1.224,"Crane, Brent",R
+ID,1.26,"Dayley, Thomas",R
+ID,1.118,"DeMordaunt, Reed",R
+ID,1.514,"Dixon, Sage",R
+ID,-1.115,"Erpelding, Mathew",D
+ID,-0.688,"Gannon, John",D
+ID,1.253,"Gestrin, Terry F.",R
+ID,0.626,"Gibbs, Marc",R
+ID,0.88,"Hartgen, Stephen",R
+ID,1.073,"Hixon, Brandon",R
+ID,1.107,"Holtzclaw, James",R
+ID,0.646,"Horman, Wendy",R
+ID,-0.617,"Jordan, Paulette E.",D
+ID,0.588,"Kauffman, Clark",R
+ID,0.888,"Kerby, Ryan",R
+ID,-0.963,"King, Phylis",D
+ID,-1.061,"Kloc, Hy",D
+ID,1.325,"Loertscher, Thomas",R
+ID,1.127,"Luker, Lynn",R
+ID,0.581,"Malek, Lucas",R
+ID,-1.134,"McCrostie, John",D
+ID,0.657,"McDonald, Patrick",R
+ID,1.829,"McMillan, Shannon",R
+ID,1.474,"Mendive, Ron",R
+ID,0.719,"Miller, Steven",R
+ID,1.308,"Monks, Jason",R
+ID,1.245,"Moyle, Mike",R
+ID,2.106,"Nate, Ronald M.",R
+ID,1.342,"Nielsen, Milton Sr.",R
+ID,-0.465,"Nye, Marcus W.",D
+ID,0.759,"Packer, Kelley",R
+ID,1.366,"Palmer, Joe",R
+ID,-0.668,"Pence, Donna",D
+ID,0.758,"Perry, Christina",R
+ID,0.875,"Raybould, Dell",R
+ID,1.032,"Redman, Eric Michael",R
+ID,0.673,"Romrell, Paul",R
+ID,-1.03,"Rubel, Illana",D
+ID,-0.148,"Rudolph, Dan",D
+ID,-0.799,"Rusche, John",D
+ID,2.055,"Scott, Heather",R
+ID,1.376,"Shepherd, Paul",R
+ID,-0.758,"Smith, Elaine",D
+ID,0.944,"Thompson, Jeffrey",R
+ID,0.78,"Troy, Caroline Nilsson",R
+ID,1.098,"Trujillo, Janet",R
+ID,1.191,"Vander Woude, John",R
+ID,0.658,"VanOrden, Julie",R
+ID,0.587,"Wills, Richard",R
+ID,-1.76,"Wintrow, Melissa",D
+ID,0.56,"Wood, Fred",R
+ID,0.636,"Youngblood, Rick",R
+IL,0.243,"Sandack, Ron",R
+IL,-0.704,"Walsh, Lawrence Sr.",D
+IL,-1.332,"Acevedo, Edward",D
+IL,-1.148,"Ammons, Carol",D
+IL,0.338,"Andersson, Steven A.",R
+IL,-1.545,"Andrade, Jaime M.",D
+IL,0.438,"Anthony, John D.",R
+IL,-1.451,"Arroyo, Luis Sr.",D
+IL,0.682,"Batinick, Mark",R
+IL,-0.511,"Beiser, Daniel",D
+IL,0.304,"Bellock, Patricia",R
+IL,0.557,"Bennett, Thomas M.",R
+IL,0.734,"Bourne, Avery",R
+IL,-0.581,"Bradley, John",D
+IL,-0.162,"Brady, Daniel",R
+IL,0.343,"Brauer, Rich",R
+IL,0.461,"Breen, Peter",R
+IL,0.574,"Brown, Adam",R
+IL,0.667,"Bryant, Terri",R
+IL,-1.408,"Burke, Daniel",D
+IL,-0.829,"Burke, Kelly",D
+IL,0.473,"Butler, Timothy J.",R
+IL,0.432,"Cabello, John",R
+IL,-1.762,"Cassidy, Kelly M.",D
+IL,0.929,"Cavaletto, John",R
+IL,-0.137,"Cloonen, Katherine",D
+IL,-0.269,"Conroy, Deborah Okeefe",D
+IL,-0.177,"Costello, Jerry F.",D
+IL,-0.437,"Crespo, Fred",D
+IL,-1.692,"Currie, Barbara",D
+IL,-1.069,"D'Amico, John",D
+IL,0.817,"Davidsmeyer, Christopher D.",R
+IL,-1.363,"Davis, Monique",D
+IL,-1.619,"Davis, William",D
+IL,-0.649,"DeLuca, Anthony",D
+IL,0.515,"Demmer, Tom",R
+IL,-0.114,"Drury, Scott",D
+IL,-0.906,"Dunkin, Kenneth",D
+IL,0.139,"Durkin, James",R
+IL,-0.833,"Evans, Marcus Jr.",D
+IL,-1.918,"Evans, Paul",D
+IL,-1.463,"Feigenholtz, Sara",D
+IL,-1.532,"Fine, Laura",D
+IL,-1.49,"Flowers, Mary",D
+IL,-1.592,"Ford, La Shawn",D
+IL,0.326,"Fortner, Mike",R
+IL,0.055,"Franks, Jack",D
+IL,0.751,"Frese, Randy E.",R
+IL,-1.762,"Gabel, Robyn",D
+IL,-1.66,"Golar, Esther",D
+IL,-0.624,"Gordon-Booth, Jehan",D
+IL,-1.982,"Guzzardi, Will",D
+IL,0.619,"Hammond, Norine",R
+IL,-1.541,"Harper, Sonya M.",D
+IL,0.21,"Harris, David",R
+IL,-1.887,"Harris, Gregory S.",D
+IL,0.637,"Hays, Chad",R
+IL,-1.556,"Hernandez, Elizabeth",D
+IL,-0.956,"Hoffman, Jay",D
+IL,-0.809,"Hurley, Frances",D
+IL,1.006,"Ives, Jeanne",R
+IL,-1.112,"Jackson, Eddie Lee",D
+IL,0.938,"Jesiel, Sheri L.",R
+IL,0.391,"Jimenez, Sara Wojcicki",R
+IL,-1.635,"Jones, Thaddeus",D
+IL,1.274,"Kay, Dwight",R
+IL,-0.262,"Kifowit, Stephanie",D
+IL,-1.227,"Lang, Louis I.",D
+IL,-0.873,"LaVia, Linda Chapa",D
+IL,0.324,"Leitch, David",R
+IL,-1.702,"Lilly, Camille Y.",D
+IL,-1.377,"Madigan, Michael",D
+IL,-0.436,"Manley, Natalie",D
+IL,-1.19,"Martwick, Robert F.",D
+IL,-0.67,"Mautino, Frank",D
+IL,-0.737,"Mayfield, Rita",D
+IL,-0.552,"McAsey, Emily",D
+IL,-0.19,"McAuliffe, Michael",R
+IL,0.441,"McDermed, Margo",R
+IL,0.307,"McSweeney, David",R
+IL,0.521,"Meier, Charles",R
+IL,-0.146,"Mitchell, Bill",R
+IL,-1.922,"Mitchell, Christian",D
+IL,-0.217,"Moeller, Anna",D
+IL,0.101,"Moffitt, Donald",R
+IL,1.018,"Morrison, Thomas",R
+IL,-0.259,"Moylan, Martin J.",D
+IL,-0.39,"Mussman, Michelle",D
+IL,-0.011,"Nekritz, Elaine",D
+IL,0.501,"Olsen, David S.",R
+IL,-0.003,"Phelps, Brandon",D
+IL,0.749,"Phillips, Reginald",R
+IL,0.231,"Poe, Raymond",R
+IL,0.241,"Pritchard, Robert",R
+IL,-1.827,"Reaves-Harris, Pamela",D
+IL,1.081,"Reis, David",R
+IL,-1.539,"Riley, Al",D
+IL,-0.017,"Rita, Robert",D
+IL,-0.333,"Scherer, Sue",D
+IL,-0.235,"Sente, Carol A.",D
+IL,-1.235,"Sims, Elgie Jr.",D
+IL,-0.211,"Skoog, Andrew F.",D
+IL,-0.475,"Smiddy, Mike",D
+IL,0.767,"Sommer, Keith",R
+IL,0.573,"Sosnowski, Joe",R
+IL,-1.613,"Soto, Cynthia",D
+IL,0.366,"Stewart, Brian W.",R
+IL,0.283,"Sullivan, Ed Jr.",R
+IL,-1.262,"Tabares, Silvana",D
+IL,-0.487,"Thapedi, André",D
+IL,0.285,"Tryon, Michael",R
+IL,-1.274,"Turner, Arthur Sr.",D
+IL,0.706,"Unes, Michael",R
+IL,-0.005,"Verschoore, Patrick",D
+IL,-0.508,"Wallace, Litesa E.",D
+IL,0.432,"Wehrli, Grant",R
+IL,-1.67,"Welch, Emanuel",D
+IL,0.949,"Welter, David A.",R
+IL,0.396,"Wheeler, Barbara",R
+IL,0.571,"Wheeler, Keith R.",R
+IL,-1.539,"Williams, Ann",D
+IL,-0.47,"Willis, Kathleen",D
+IL,0.509,"Winger, Christine Jennifer",R
+IL,-0.163,"Yingling, Sam",D
+IL,-1.209,"Zalewski, Michael",D
+IN,-0.494,"Errington, Sue",D
+IN,0.749,"Arnold, Lloyd",R
+IN,-0.411,"Austin, Terri",D
+IN,0.834,"Aylesworth, Micheal",R
+IN,0.763,"Bacon, Ron",R
+IN,0.924,"Baird, James",R
+IN,-0.912,"Bartlett, John",D
+IN,-0.71,"Bauer, B.",D
+IN,0.993,"Behning, Robert",R
+IN,0.885,"Beumer, Greg",R
+IN,0.696,"Borders, Bruce",R
+IN,0.898,"Bosma, Brian",R
+IN,0.83,"Braun, Mike",R
+IN,0.885,"Braun, Steven",R
+IN,-0.915,"Brown, Charlie",D
+IN,1.168,"Brown, Timothy",R
+IN,0.974,"Burton, Charles",R
+IN,0.759,"Carbaugh, Martin",R
+IN,0.958,"Cherry, Robert",R
+IN,0.874,"Clere, Edward",R
+IN,0.806,"Cook, Gary",R
+IN,0.807,"Cox, Casey",R
+IN,0.967,"Culver, Wes",R
+IN,0.843,"Davisson, Steven",R
+IN,-0.49,"DeLaney, Edward",D
+IN,0.749,"Dermody, Thomas",R
+IN,1.019,"DeVon, Dale",R
+IN,-0.5,"Dvorak, Ryan",D
+IN,0.869,"Eberhart, Sean",R
+IN,0.945,"Ellington, Jeff J.R.",R
+IN,0.903,"Fine, William I.",R
+IN,-0.409,"Forestal, Dan",D
+IN,0.934,"Friend, William",R
+IN,0.973,"Frizzell, David",R
+IN,0.842,"Frye, Randall",R
+IN,-0.377,"GiaQuinta, Philip",D
+IN,-0.234,"Goodin, Terry",D
+IN,0.965,"Gutwein, Douglas",R
+IN,-0.263,"Hale, Christina",D
+IN,0.901,"Hamm, Richard",R
+IN,1.084,"Harman, Timothy P.",R
+IN,-0.76,"Harris, Donna J.",D
+IN,1.013,"Heaton, Bob",R
+IN,1.017,"Huston, Todd",R
+IN,0.795,"Judy, Christopher N.",R
+IN,0.859,"Karickhoff, Mike",R
+IN,-0.509,"Kersey, Clyde",D
+IN,0.944,"Kirchhofer, Cindy",R
+IN,-0.269,"Klinker, Sheila",D
+IN,-0.625,"Lawson, Linda",D
+IN,0.932,"Lehe, Donald",R
+IN,1,"Lehman, Matthew",R
+IN,0.951,"Leonard, Daniel",R
+IN,0.957,"Lucas, Jim",R
+IN,1.096,"Lyness, Randy",R
+IN,-0.4,"Macer, Karlee",D
+IN,0.829,"Mahan, Kevin",R
+IN,0.87,"Mayfield, Peggy",R
+IN,0.917,"McMillin, Jud",R
+IN,0.789,"McNamara, Wendy",R
+IN,1.027,"Miller, Doug",R
+IN,-0.257,"Moed, Justin",D
+IN,0.938,"Morris, Robert",R
+IN,0.981,"Morrison, Alan",R
+IN,-0.54,"Moseley, Charles",D
+IN,0.893,"Negele, Sharon",R
+IN,0.79,"Nisly, Curt",R
+IN,0.878,"Ober, David",R
+IN,0.885,"Olthoff, Julie",R
+IN,-0.552,"Pelath, Scott",D
+IN,-0.646,"Pierce, Matt",D
+IN,-0.974,"Porter, Gregory",D
+IN,0.937,"Price, John",R
+IN,-0.923,"Pryor, Cherrish",D
+IN,1.055,"Rhoads, Rhonda",R
+IN,0.949,"Richardson, Kathy",R
+IN,-0.443,"Riecken, Gail",D
+IN,0.737,"Saunders, Thomas",R
+IN,0.791,"Schaibley, Donna",R
+IN,-0.731,"Shackleford, Robin",D
+IN,0.809,"Slager, Harold",R
+IN,0.917,"Smaltz, Benjamin",R
+IN,0.951,"Smith, Milo",R
+IN,-0.777,"Smith, Vernon",D
+IN,0.725,"Soliday, Edmond",R
+IN,1.07,"Speedy, Mike",R
+IN,-0.162,"Stemler, Steven",D
+IN,0.915,"Steuerwald, Gregory",R
+IN,0.988,"Sullivan, Holli",R
+IN,-0.893,"Summers, Vanessa J.",D
+IN,1.04,"Thompson, Jeffrey",R
+IN,1.114,"Torr, Gerald",R
+IN,0.711,"Truitt, Randolph",R
+IN,0.907,"Ubelhor, Matt",R
+IN,1.099,"VanNatter, Heath",R
+IN,0.838,"Washburne, Thomas",R
+IN,1.069,"Wesco, Timothy",R
+IN,0.986,"Wolkins, David",R
+IN,-0.359,"Wright, Melanie",D
+IN,0.944,"Zent, Dennis",R
+IN,0.903,"Ziemke, Cindy",R
+IA,0.715,"Bacon, Robert",R
+IA,0.632,"Sexton, Mike",R
+IA,-1.207,"Abdul-Samad, Ako",D
+IA,-1.31,"Anderson, Marti",D
+IA,0.411,"Baltimore, Chip",R
+IA,0.551,"Baudler, Clel",R
+IA,0.675,"Baxter, Terry",R
+IA,-0.794,"Bearinger, Bruce",D
+IA,-1.092,"Bennett, Liz",D
+IA,-1.025,"Berry, Deborah L.",D
+IA,0.831,"Best, Brian",R
+IA,0.769,"Branhagen, Darrel",R
+IA,-1.001,"Brown-Powers, Timi",D
+IA,0.411,"Byrnes, Joshua",R
+IA,0.772,"Carlson, Gary",R
+IA,-1.01,"Cohoon, Dennis M.",D
+IA,0.522,"Cownie, Peter",R
+IA,-0.846,"Dawson, David",D
+IA,0.65,"Deyoe, Dave",R
+IA,0.588,"Dolecheck, Cecil",R
+IA,-0.809,"Dunkel, Nancy",D
+IA,-1.141,"Finkenauer, Abby",D
+IA,0.644,"Fisher, Dean",R
+IA,-0.827,"Forbes, John",D
+IA,0.713,"Forristall, Greg",R
+IA,0.936,"Fry, Joel",R
+IA,-1.191,"Gaines, Ruth Ann",D
+IA,-1.003,"Gaskill, Mary",D
+IA,0.948,"Gassman, Tedd",R
+IA,0.692,"Grassley, Patrick",R
+IA,0.683,"Gustafson, Stan",R
+IA,0.648,"Hagenow, Chris",R
+IA,-0.752,"Hall, Christopher",D
+IA,-0.869,"Hanson, Curt",D
+IA,0.61,"Hanusa, Mary Ann",R
+IA,0.852,"Heartsill, Greg",R
+IA,0.461,"Heaton, David E.",R
+IA,-1.119,"Heddens, Lisa",D
+IA,0.608,"Hein, Lee",R
+IA,0.914,"Highfill, Jake",R
+IA,1.153,"Holt, Steven",R
+IA,1.11,"Holz, Chuck",R
+IA,-1.559,"Hunter, Bruce L.",D
+IA,0.69,"Huseman, Daniel A.",R
+IA,-1.198,"Isenhart, Charles",D
+IA,-1.053,"Jacoby, David",D
+IA,0.527,"Jones, Megan",R
+IA,0.539,"Jorgensen, Ronald",R
+IA,0.409,"Kaufmann, Bobby",R
+IA,-1.113,"Kearns, Jerry A.",D
+IA,-1.005,"Kelley, Daniel",D
+IA,0.675,"Klein, Jarad",R
+IA,0.572,"Koester, Kevin",R
+IA,0.568,"Kooiker, John",R
+IA,-0.971,"Kressig, Bob",D
+IA,0.728,"Landon, John",R
+IA,-1.382,"Lensing, Vicki S.",D
+IA,-0.924,"Lykam, Jim",D
+IA,-1.297,"Mascher, Mary",D
+IA,0.721,"Maxwell, David",R
+IA,-0.836,"McConkey, Charlie",D
+IA,-1.022,"Meyer, Brian",D
+IA,-0.956,"Miller, Helen",D
+IA,0.592,"Miller, Linda J.",R
+IA,0.663,"Mommsen, Norlin",R
+IA,0.44,"Moore, Brian",R
+IA,1.008,"Moore, Tom",R
+IA,1.33,"Nunn, Zach",R
+IA,-1.187,"Oldson, Jo",D
+IA,-1.058,"Olson, Rick",D
+IA,-0.811,"Ourth, Scott",D
+IA,0.684,"Paulsen, Kraig",R
+IA,0.622,"Paustian, Ross",R
+IA,0.445,"Pettengill, Dawn E.",R
+IA,-0.888,"Prichard, Todd",D
+IA,0.869,"Rizer, Ken",R
+IA,0.83,"Rogers, Walt",R
+IA,-0.77,"Ruff, Patti",D
+IA,-0.923,"Running-Marquardt, Kirsten",D
+IA,0.773,"Salmon, Sandy",R
+IA,0.935,"Sands, Thomas R.",R
+IA,0.496,"Sheets, Larry",R
+IA,0.876,"Sieck, David",R
+IA,-0.983,"Smith, Mark D.",D
+IA,-1.059,"Staed, Art",D
+IA,0.465,"Stanerson, Quentin",R
+IA,-1.095,"Steckman, Sharon S.",D
+IA,-1.024,"Stutsman, Sally",D
+IA,0.605,"Taylor, Rob",R
+IA,-0.984,"Taylor, Todd E.",D
+IA,-0.956,"Thede, Phyllis",D
+IA,0.716,"Upmeyer, Linda L.",R
+IA,0.707,"Vander Linden, Guy",R
+IA,0.803,"Watts, Ralph C.",R
+IA,-0.984,"Wessel-Kroeschell, Beth",D
+IA,0.925,"Wills, John",R
+IA,-1.356,"Winckler, Cindy",D
+IA,0.863,"Windschitl, Matt W.",R
+IA,-1.077,"Wolfe, Mary",D
+IA,0.693,"Worthan, Gary",R
+KS,-0.338,Helgerson,D
+KS,1.08,"Merrick, Raymond",R
+KS,-0.727,"Alcala, John",D
+KS,0.504,"Alford, Stephen",R
+KS,0.501,"Anthimides, Steven",R
+KS,-0.634,"Ballard, Barbara",D
+KS,0.809,"Barker, John",R
+KS,1.916,"Barton, Tony",R
+KS,0.234,"Becker, Steven",R
+KS,0.601,"Billinger, Richard",R
+KS,0.609,"Boldra, Sue",R
+KS,-0.175,"Bollier, Barbara",R
+KS,0.937,"Bradford, John",R
+KS,-1.088,"Bridges, Carolyn",D
+KS,0.727,"Bruchman, Rob",R
+KS,1.131,"Brunk, Steven",R
+KS,-0.707,"Burroughs, Tom",D
+KS,0.376,"Campbell, Larry",R
+KS,-0.826,"Carlin, Sydney",D
+KS,-0.933,"Carmichael, John",D
+KS,1.637,"Carpenter, Blake",R
+KS,1.052,"Carpenter, Will",R
+KS,1.02,"Claeys, J. R.",R
+KS,-0.038,"Clark, Lonnie G.",R
+KS,-0.184,"Clayton, Stephanie",R
+KS,0.387,"Concannon, Susan",R
+KS,0.971,"Corbet, Ken",R
+KS,1.056,"Couture-Lovelady, Travis",R
+KS,-0.941,"Curtis, Pam",D
+KS,1.028,"Dannebohm, Jeremy",R
+KS,0.975,"Davis, Erin L.",R
+KS,1.204,"DeGraaf, Peter",R
+KS,0.122,"Dierks, Diana",R
+KS,0.051,"Doll, John",R
+KS,0.962,"Dove, Willie",R
+KS,0.675,"Edmonds, John",R
+KS,1.636,"Esau, Keith A.",R
+KS,0.767,"Estes, Bud",R
+KS,0.459,"Ewy, John",R
+KS,0.283,"Finch, Blaine",R
+KS,-0.846,"Finney, Gail",D
+KS,0.297,"Francis, Shannon G.",R
+KS,-0.707,"Frownfelter, Stan",D
+KS,-0.256,"Gallagher, Linda",R
+KS,1.339,"Garber, Randy",R
+KS,0.781,"Goico, Mario",R
+KS,0.471,"Gonzalez, Ramon Jr.",R
+KS,1.497,"Grosserode, Amanda",R
+KS,0.898,"Hawkins, Daniel",R
+KS,1.07,"Hedke, Dennis",R
+KS,0.87,"Hemsley, Lane",R
+KS,-1.108,"Henderson, Broderick",D
+KS,-0.465,"Henry, Jerry",D
+KS,0.197,"Hibbard, Larry Paul",R
+KS,-1.155,"Highberger, Dennis",D
+KS,1.017,"Highland, Ron",R
+KS,1.594,"Hildabrand, Brett",R
+KS,0.028,"Hill, Don",R
+KS,0.221,"Hineman, Don",R
+KS,1.033,"Hoffman, Kyle",R
+KS,1.161,"Houser, Michael",R
+KS,-0.947,"Houston, Roderick",D
+KS,1.17,"Huebert, Steve",R
+KS,0.701,"Hutchins, Becky J.",R
+KS,0.92,"Hutton, Mark",R
+KS,0.328,"Jennings, Russell",R
+KS,0.684,"Johnson, Steven",R
+KS,0.994,"Jones, Dick",R
+KS,1.298,"Jones, Kevin",R
+KS,1.326,"Kahrs, Mark",R
+KS,1.319,"Kelley, Kasha",R
+KS,0.544,"Kelly, Jim",R
+KS,0.923,"Kiegerl, S.",R
+KS,0.717,"Kleeb, Marvin",R
+KS,-1.316,"Kuether, Annie",D
+KS,-0.94,"Lane, Harold",D
+KS,0.013,"Lewis, Greg",R
+KS,1.117,"Lunn, Jerry",R
+KS,-0.592,"Lusk, Nancy",D
+KS,-0.443,"Lusker, Adam J.",D
+KS,1.367,"Macheers, Charles",R
+KS,0.924,"Mason, Les",R
+KS,1.076,"Mast, Peggy",R
+KS,1.884,"McPherson, Craig",R
+KS,0.216,"Moxley, Tom",R
+KS,0.973,"O'Brien, Connie",R
+KS,0.795,"Osterman, Leslie",R
+KS,-0.931,"Ousley, Jarrod",D
+KS,0.238,"Patton, Fred C.",R
+KS,-0.288,"Pauls, Janice",D
+KS,1.035,"Peck, Virgil Jr.",R
+KS,0.243,"Phillips, Tom",R
+KS,1.657,"Powell, Randy",R
+KS,0.32,"Proehl, Richard",R
+KS,0.646,"Rahjes, Ken",R
+KS,0.982,"Read, Marty",R
+KS,1.038,"Rhoades, Marc",R
+KS,-0.166,"Rooker, Melissa",R
+KS,1.086,"Rubin, John",R
+KS,-1.153,"Ruiz, Louis",D
+KS,1.053,"Ryckman, Ron Jr.",R
+KS,0.771,"Ryckman, Ronald Sr.",R
+KS,-0.704,"Sawyer, Tom",D
+KS,1.511,"Scapa, Joseph",R
+KS,0.608,"Schroeder, Don",R
+KS,0.888,"Schwab, Scott",R
+KS,0.827,"Schwartz, Sharon",R
+KS,-0.861,"Scott, Ben",D
+KS,0.762,"Seiwert, Joe",R
+KS,0.131,"Sloan, Thomas",R
+KS,0.319,"Smith, Charles",R
+KS,1.033,"Suellentrop, Gene",R
+KS,1.437,"Sutton, William",R
+KS,0.284,"Swanson, Susie",R
+KS,0.882,"Thimesch, Jack",R
+KS,0.389,"Thompson, Kent L.",R
+KS,-1.21,"Tietze, Annie",D
+KS,0.982,"Todd, James",R
+KS,-0.614,"Trimmer, Ed",D
+KS,0.588,"Vickrey, Jene",R
+KS,-0.9,"Victors, Ponka-We",D
+KS,-0.777,"Ward, Jim",D
+KS,0.605,"Waymaster, Troy",R
+KS,0.958,"Weber, Brian",R
+KS,-0.337,"Whipple, Brandon",D
+KS,2.037,"Whitmer, John",R
+KS,0.885,"Williams, Kristey S.",R
+KS,-0.904,"Wilson, John",D
+KS,-1.289,"Winn, Valdenia",D
+KS,-0.672,"Wolfe Moore, Kathy",D
+LA,0.552,"Amedee, Jody",R
+LA,0.451,"Abraham, Mark",R
+LA,0.18,"Abramson, Neil",D
+LA,0.45,"Adams, Bryan",R
+LA,0.03,"Armes, James III",D
+LA,-0.125,"Armes, James III",D
+LA,0.635,"Bacala, Tony",R
+LA,0.632,"Bagley, Lawrence A.",R
+LA,-0.378,"Bagneris, John",D
+LA,0.538,"Berthelot, John",R
+LA,0.119,"Billiot, Robert",D
+LA,-0.68,"Bouie, Joseph",D
+LA,0.556,"Broadwater, Chris",R
+LA,-0.017,"Brown, Chad",D
+LA,0.681,"Carmody, Thomas Jr.",R
+LA,-0.683,"Carpenter, Barbara West",D
+LA,-0.397,"Carter, Gary M.",D
+LA,-0.009,"Carter, Robert J. ""Robby""",D
+LA,0.656,"Carter, Stephen F.",R
+LA,0.813,"Chaney, Charles",R
+LA,0.495,"Chaney, Charles",R
+LA,0.632,"Connick, Patrick",R
+LA,0.631,"Coussan, Jean-paul",R
+LA,-0.514,"Cox, Kenny R.",D
+LA,0.793,"Cromer, George",R
+LA,0.434,"Danahay, Michael",D
+LA,0.593,"Danahay, Michael",R
+LA,0.457,"Davis, Paula",R
+LA,0.877,"DeVillier, Phillip R.",R
+LA,0.523,"Dwight, Stephen C.",R
+LA,1.023,"Edmonds, Rick",R
+LA,0.808,"Emerson, Julie",R
+LA,0.719,"Falconer, Reid",R
+LA,-0.43,"Franklin, Albert",D
+LA,-0.471,"Gaines, Randal L.",D
+LA,0.979,"Garofalo, Raymond Jr.",R
+LA,0.093,"Gisclair, Jerry",D
+LA,-0.384,"Glover, Cedric B.",D
+LA,0.652,"Guillory, Mickey",R
+LA,-0.642,"Hall, Jeff",D
+LA,-0.452,"Harris, Jimmy",D
+LA,0.795,"Harris, Lance",R
+LA,0.498,"Havard, Kenneth",R
+LA,0.883,"Henry, J. Jr.",R
+LA,0.714,"Hensgens, Bob",R
+LA,0.576,"Hilferty, Stephanie",R
+LA,0.806,"Hodges, Valarie",R
+LA,0.607,"Hoffmann, Frank",R
+LA,0.863,"Hollis, Paul",R
+LA,1.114,"Horton, Dodie",R
+LA,0.525,"Howard, Frank",R
+LA,-0.777,"Hunter, Marcus",D
+LA,0.553,"Huval, Mike",R
+LA,0.996,"Ivey, Barry",R
+LA,-0.652,"Jackson, Katrina",D
+LA,-0.527,"James, Edward II",D
+LA,-0.354,"Jefferson, Patrick O.",D
+LA,-0.65,"Jenkins, Samuel L.",D
+LA,-0.063,"Johnson, Robert",D
+LA,1.235,"Johnson, Robert",R
+LA,-0.362,"Jordan, Edmond",D
+LA,0.679,"Kleckley, Charles",R
+LA,-0.108,"Kleckley, Charles",D
+LA,0.856,"LaBruzzo, John Jr.",R
+LA,-0.601,"Landry, Terry C.",D
+LA,-0.147,"Leger, Walter III",D
+LA,0.599,"Leopold, Christopher",R
+LA,0.108,"Ligi, Anthony Jr.",D
+LA,0.712,"Lopinto, Joseph III",R
+LA,-0.564,"Lyons, Rodney",D
+LA,0.764,"Mack, Sherman",R
+LA,0.38,"Magee, Tanner",R
+LA,-0.936,"Marcelle, Denise C.",D
+LA,0.573,"McFarland, Jack G.",R
+LA,0.97,"Miguez, Blake",R
+LA,-0.435,"Miller, Dustin",D
+LA,0.717,"Miller, Gregory",R
+LA,0.669,"Monica, Nickie",R
+LA,-0.145,"Montoucet, Jack",D
+LA,-0.038,"Moreno, Helena",D
+LA,0.833,"Morris, John III",R
+LA,-0.478,"Norton, Barbara M.",D
+LA,0.526,"Nowlin, Rickey",R
+LA,0.971,"Pearson, Joseph",R
+LA,-0.589,"Pierre, Vincent",D
+LA,-0.52,"Price, Edward",D
+LA,0.71,"Pylant, Steven",R
+LA,-0.014,"Reynolds, Eugene",D
+LA,0.564,"Schexnayder, Clay",R
+LA,0.979,"Schroder, John Sr.",R
+LA,0.794,"Schroder, John Sr.",R
+LA,1.229,"Seabaugh, Alan T.",R
+LA,0.57,"Shadoin, Robert E.",R
+LA,-0.053,"Simon, Scott",D
+LA,1.014,"Simon, Scott",R
+LA,0.521,"Smith, Patricia",R
+LA,-0.744,"Smith, Patricia",D
+LA,0.749,"Stokes, Julie",R
+LA,0.269,"Thibaut, Major Jr.",D
+LA,0.101,"White, Malinda B.",D
+LA,0.463,"Willmott, Thomas",R
+LA,0.452,"Zeringue, Jerome",R
+ME,-0.885,"Hobbins, Barry",D
+ME,-0.769,"Martin, John",D
+ME,-1.115,"Rotundo, Margaret",D
+ME,0.542,"Sherman, Roger",R
+ME,-0.544,"Stanley, Stephen",D
+ME,-0.554,"Alley, Robert W.",D
+ME,0.939,"Austin, Susan",R
+ME,-0.874,"Babbidge, Christopher W",D
+ME,-1.395,"Bates, Dillon",D
+ME,0.18,"Battle, Kevin J.",R
+ME,-0.981,"Beavers, Roberta B",D
+ME,-0.907,"Beck, Henry E. M",D
+ME,-1.765,"Beebe-Center, Pinny",D
+ME,0.465,"Bickford, Bruce",R
+ME,0.789,"Black, Russell J",R
+ME,-1.454,"Blume, Lydia",D
+ME,-2.221,"Brooks, Heidi E.",D
+ME,-1.291,"Bryant, Mark E",D
+ME,0.949,"Buckland, Andrew Russell",R
+ME,-1.755,"Burstein, Christine S.",D
+ME,0.092,"Campbell, James Sr.",R
+ME,0.732,"Campbell, Richard H",R
+ME,0.692,"Chace, Paul",R
+ME,-1.064,"Chapman, Ralph",D
+ME,-0.857,"Chenette, Justin Mark",D
+ME,-1.182,"Cooper, Janice",D
+ME,0.462,"Corey, Patrick W.",R
+ME,1.231,"Crafts, Dale J",R
+ME,-0.878,"Davitt, James E.",D
+ME,-0.818,"DeChant, Jennifer",D
+ME,-1.011,"Devin, Michael Gilbert",D
+ME,0.75,"Dillingham, Kathleen Rose Jackson",R
+ME,-0.984,"Dion, Mark N",D
+ME,-1.271,"Doore, Donna R.",D
+ME,-0.884,"Duchesne, Robert S",D
+ME,0.906,"Dunphy, Larry Charles",R
+ME,-1.016,"Dunphy, Michelle Ann",D
+ME,0.911,"Edgecomb, Anthony J.",R
+ME,0.918,"Espling, Eleanor M",R
+ME,-1.099,"Eves, Mark",D
+ME,-1.227,"Farnsworth, Richard R",D
+ME,1.006,"Farrin, Bradlee Thomas",R
+ME,-1.154,"Fecteau, Ryan M.",D
+ME,0.505,"Foley, Robert A.",R
+ME,-0.873,"Fowle, Lori",D
+ME,0.907,"Fredette, Kenneth Wade",R
+ME,-1.156,"Frey, Aaron M",D
+ME,-1.139,"Gattine, Andrew M",D
+ME,0.684,"Gerrish, Karen A.",R
+ME,-1.264,"Gideon, Sara",D
+ME,-1.01,"Gilbert, Paul",D
+ME,0.688,"Gillway, James S",R
+ME,0.659,"Ginzler, Phyllis A.",R
+ME,-1.344,"Golden, Jared F.",D
+ME,-1.416,"Goode, Adam A",D
+ME,-1.095,"Grant, Gay M",D
+ME,0.863,"Greenwood, Randall Adam",R
+ME,-0.387,"Grohman, Martin J.",D
+ME,0.871,"Guerin, Stacey K",R
+ME,-1.522,"Hamann, Scott M",D
+ME,0.746,"Hanington, Sheldon Mark",R
+ME,1.472,"Hanley, Jeffery P.",R
+ME,-0.892,"Harlow, Denise Patricia",D
+ME,0.547,"Harrington, Matthew",R
+ME,0.77,"Hawke, Stephanie",R
+ME,0.828,"Head, Frances M.",R
+ME,-1.058,"Herbig, Erin",D
+ME,0.556,"Herrick, Lloyd C.",R
+ME,-0.706,"Hickman, Craig V",D
+ME,0.3,"Higgins, Norman E.",R
+ME,0.855,"Hilliard, Gary L.",R
+ME,0.607,"Hobart, Brian D.",R
+ME,-0.771,"Hogan, George W",D
+ME,-1.116,"Hubbell, Brian L",D
+ME,-0.604,"Hymanson, Patricia",D
+ME,-1.244,"Jorgensen, Erik Clark",D
+ME,0.801,"Kinney, Jonathan L",R
+ME,0.944,"Kinney, Maryanne",R
+ME,-1.209,"Kornfield, Victoria P",D
+ME,-1.201,"Kruger, Charles B",D
+ME,-1.036,"Kumiega III, Walter A",D
+ME,-0.913,"Lajoie, Michael",D
+ME,-1.353,"Larsen Daughtry, Matthea E",D
+ME,1.17,"Lockman, Lawrence G",R
+ME,1.361,"Long, Ricky D",R
+ME,-1.003,"Longstaff, Thomas",D
+ME,-1.017,"Luchini Jr, Louis Joseph",D
+ME,1.104,"Lyford, Peter A.",R
+ME,0.472,"Maker, Joyce A",R
+ME,0.768,"Malaby, Richard S",R
+ME,0.605,"Marean, Donald G",R
+ME,-0.724,"Martin, Roland Daniel",D
+ME,-1.179,"Mastraccio, Anne-Marie",D
+ME,-0.969,"McCabe, Jeffrey M",D
+ME,0.927,"McClellan, Michael D",R
+ME,-1.441,"McCreight, Joyce",D
+ME,0.642,"McElwee, Carol A.",R
+ME,-1.187,"McLean, Andrew J",D
+ME,-1.52,"Melaragno, Gina M.",D
+ME,-1.274,"Monaghan-Derrig, Kimberly J",D
+ME,-1.581,"Moonen, Matthew W",D
+ME,-0.942,"Morrison, Terry",D
+ME,-0.784,"Nadeau, Catherine M",D
+ME,-1.169,"Noon, William F",D
+ME,0.674,"Nutting, Robert W",R
+ME,1.132,"O'Connor, Beth A",R
+ME,0.862,"Ordway, Lester",R
+ME,0.817,"Parry, Wayne",R
+ME,-0.601,"Peterson, Matthew John",D
+ME,0.623,"Picchiotti, John J",R
+ME,0.763,"Pickett, Richard A.",R
+ME,0.843,"Pierce, Jeffrey K.",R
+ME,-1.16,"Pierce, Teresa S.",D
+ME,0.272,"Pouliot, Matthew G",R
+ME,-1.064,"Powers, Christine B",D
+ME,0.909,"Prescott, Dwayne W.",R
+ME,1.109,"Reed, Roger E",R
+ME,-1.251,"Russell, Diane M.",D
+ME,-1.389,"Rykerson, Deane",D
+ME,-1.369,"Sanborn, Linda F",D
+ME,0.983,"Sanderson, Deborah J",R
+ME,-0.778,"Saucier, Robert J.",D
+ME,1.078,"Sawicki, David P.",R
+ME,-1.22,"Schneck, John C",D
+ME,0.591,"Seavey, H. Stedman",R
+ME,-0.64,"Shaw, Michael",D
+ME,-0.452,"Short Jr, Stanley Byron",D
+ME,1.131,"Sirocki, Heather",R
+ME,0.84,"Skolfield, Thomas H.",R
+ME,0.436,"Stearns, Paul A.",R
+ME,1.311,"Stetkis, Joel R.",R
+ME,-2.231,"Stuckey, Peter C",D
+ME,-1.178,"Tepler, Denise",D
+ME,0.938,"Theriault, Timothy S.",R
+ME,1.101,"Timberlake, Jeffrey L",R
+ME,0.818,"Timmons, Michael J.",R
+ME,-1.351,"Tipping-Spitz, Ryan D",D
+ME,-1.118,"Tucker, Ralph L.",D
+ME,0.369,"Tuell, William R.",R
+ME,0.902,"Turner, Beth P.",R
+ME,0.586,"Vachon, Karen",R
+ME,-0.546,"Verow, Arthur C",D
+ME,0.794,"Wadsworth, Nathan J.",R
+ME,0.495,"Ward, Karleton S.",R
+ME,-1.115,"Warren, Charlotte May",D
+ME,-1.174,"Welsh, Joan W",D
+ME,0.96,"White, Dustin Michael",R
+ME,0.842,"Winsor, Tom J",R
+ME,0.755,"Wood, Stephen J",R
+MD,1.009,"Adams, Christopher Troy",R
+MD,1.021,"Afzali, Kathy",R
+MD,-0.951,"Anderson, Curtis",D
+MD,0.545,"Anderton Jr, Carl",R
+MD,-0.855,"Angel, Angela",D
+MD,1.065,"Arentz, Steven J.",R
+MD,-0.995,"Atterbeary, Vanessa",D
+MD,0.723,"Aumann, Susan",R
+MD,-0.705,"Barkley, Charles",D
+MD,-1.297,"Barnes, Benjamin",D
+MD,-1.038,"Barnes, Darryl",D
+MD,-1.801,"Barron, Erek",D
+MD,-1.285,"Barve, Kumar",D
+MD,-0.53,"Beidle, Pamela",D
+MD,0.505,"Beitzel, Wendell",R
+MD,-1.127,"Branch, Talmadge",D
+MD,-0.155,"Bromwell, Eric",D
+MD,-1.176,"Brooks, Benjamin T.",D
+MD,0.815,"Buckel, Jason C.",R
+MD,-1.173,"Busch, Michael",D
+MD,-0.2,"Carey, Ned",D
+MD,0.75,"Carozza, Mary Elizabeth",R
+MD,-1.444,"Carr, Alfred Jr.",D
+MD,-0.759,"Carter, Jill",D
+MD,0.838,"Cassilly, Andrew",R
+MD,-0.515,"Chang, Mark",D
+MD,0.802,"Ciliberti, Barrie S.",R
+MD,-1.169,"Clippinger, Luke",D
+MD,0.868,"Cluster, John Jr.",R
+MD,-0.932,"Conaway, Frank Jr.",D
+MD,-1.678,"Cullison, Bonnie",D
+MD,-1.287,"Davis, Dereck",D
+MD,-1.26,"Dumais, Kathleen",D
+MD,-1.76,"Ebersole, Eric D.",D
+MD,-1.665,"Fennell, Diana M.",D
+MD,1.348,"Fisher, Mark",R
+MD,0.708,"Flanagan, Robert",R
+MD,0.732,"Folden, William",R
+MD,-1.145,"Fraser-hidalgo, David Vincent",D
+MD,-1.185,"Frick, C.",D
+MD,-1.175,"Frush, Barbara",D
+MD,-1.324,"Gaines, Tawanna",D
+MD,1.046,"Ghrist, Jeff",R
+MD,-1.441,"Gilchrist, James",D
+MD,0.895,"Glass, Glen",R
+MD,-1.194,"Glenn, Cheryl",D
+MD,1.391,"Grammer, Robin L.",R
+MD,-1.131,"Gutierrez, Ana Sol",D
+MD,-0.941,"Hammen, Peter",D
+MD,-1.074,"Hayes, Antonio",D
+MD,-1.381,"Haynes, Keith",D
+MD,-1.189,"Healey, Anne",D
+MD,-1.811,"Hettleman, Shelly",D
+MD,-0.815,"Hill, Terri",D
+MD,-1.367,"Hixson, Sheila",D
+MD,-1.253,"Holmes, Marvin Jr.",D
+MD,0.683,"Hornberger, Kevin Bailey",R
+MD,-1.298,"Howard, Carolyn",D
+MD,0.979,"Howard, Seth A.",R
+MD,1.21,"Impallaria, Richard",R
+MD,-0.963,"Jackson, Michael A.",D
+MD,0.887,"Jacobs, Jay",R
+MD,-0.736,"Jalisi, Jay",D
+MD,-0.615,"Jameson, Sally",D
+MD,-1.539,"Jones, Adrienne",D
+MD,-1.276,"Kaiser, Anne",D
+MD,-1.127,"Kelly, Ariana",D
+MD,0.551,"Kipke, Nicholaus",R
+MD,1.253,"Kittleman, Trent Mitchell",R
+MD,-0.769,"Knotts, Tony",D
+MD,-1.83,"Korman, Marc Alan",D
+MD,-0.909,"Kramer, Benjamin",D
+MD,0.773,"Krebs, Susan",R
+MD,-1.133,"Krimm, Carol L.",D
+MD,-0.673,"Lafferty, Stephen",D
+MD,-1.639,"Lam, Clarence K.",D
+MD,-1.39,"Lierman, Brooke Elizabeth",D
+MD,-0.265,"Lisanti, Mary Ann",D
+MD,1.016,"Long, Bob",R
+MD,-1.284,"Luedtke, Eric",D
+MD,0.929,"Malone, James Jr.",R
+MD,0.665,"Mautz, Johnny",R
+MD,0.799,"McComas, Susan",R
+MD,0.834,"McConkey, W.",R
+MD,-1.927,"McCray, Cory V.",D
+MD,0.971,"McDonough, Patrick",R
+MD,-1.308,"McIntosh, Maggie",D
+MD,0.915,"Mckay, Mike",R
+MD,0.664,"McMillan, Herbert",R
+MD,0.996,"Metzgar, Ric",R
+MD,0.516,"Miele, Christian",R
+MD,-1.612,"Miller, Aruna",D
+MD,1.629,"Miller, Warren",R
+MD,-1.895,"Moon, David H.",D
+MD,-2.168,"Morales, Marice Ivette",D
+MD,1.223,"Morgan, Matt",R
+MD,-0.85,"Morhaim, Dan",D
+MD,1,"O'Donnell, Anthony Sr.",R
+MD,-0.683,"Oaks, Nathaniel",D
+MD,0.827,"Otto, Charles",R
+MD,1.471,"Parrott, Neil",R
+MD,-0.983,"Patterson, Edith Jerry",D
+MD,-1.211,"Pena-Melnyk, Joseline",D
+MD,-1.029,"Pendergrass, Shane",D
+MD,-2.974,"Platt, Andrew",D
+MD,-1.175,"Proctor, James Jr.",D
+MD,-1.666,"Queen, Pamela",D
+MD,0.908,"Reilly, Teresa E.",R
+MD,1.706,"Rey, Deb",R
+MD,-1.153,"Reznik, Kirill",D
+MD,-1.22,"Robinson, Barbara",D
+MD,-1.754,"Robinson, Shane",D
+MD,1.151,"Rose, April",R
+MD,-1.262,"Rosenberg, Samuel",D
+MD,1.164,"Saab, Sid",R
+MD,-0.307,"Sample-Hughes, Sheree",D
+MD,-1.751,"Sanchez, Carlos",D
+MD,1.013,"Shoemaker, Haven Neely",R
+MD,0.465,"Simonaire, Meagan Christin",R
+MD,-1.824,"Smith, Will",D
+MD,-0.195,"Sophocleus, Theodore",D
+MD,-0.988,"Stein, Dana",D
+MD,-1.508,"Sydnor III, Charles E",D
+MD,0.785,"Szeliga, Kathy",R
+MD,-2.342,"Tarlau, James J.",D
+MD,-0.977,"Turner, Frank",D
+MD,-1.251,"Valderrama, Kriselda",D
+MD,-0.804,"Valentino-Smith, Geraldine",D
+MD,-1.073,"Vallario, Joseph Jr.",D
+MD,-1.217,"Vaughn, Michael",D
+MD,0.596,"Vogt, David E.",R
+MD,-1.552,"Waldstreicher, Jeffrey",D
+MD,-0.777,"Walker, Jay",D
+MD,-1.73,"Washington, Alonzo T.",D
+MD,-1.349,"Washington, Mary",D
+MD,0.487,"West, Chris",R
+MD,0.837,"Wilson, Brett",R
+MD,-0.52,"Wilson, C.",D
+MD,1.068,"Wivell, William",R
+MD,-1.402,"Young, Karen Lewis",D
+MD,-1.39,"Young, Pat",D
+MI,0.673,"Afendoulis, Chris",R
+MI,-1.366,"Banks, Brian R",D
+MI,1.67,"Barrett, Tom",R
+MI,0.082,"Bizon, John",R
+MI,-0.803,"Brinks, Winnie Theresa",D
+MI,-0.777,"Brunner, Charles M",D
+MI,1.072,"Bumstead, Jon",R
+MI,-1.108,"Byrd, Wendell L.",D
+MI,0.54,"Callton, Mike",R
+MI,0.741,"Canfield, Edward",R
+MI,-1.546,"Chang, Stephanie",D
+MI,1.749,"Chatfield, Lee",R
+MI,-0.949,"Chirkun, John",D
+MI,-0.713,"Clemente, Paul",D
+MI,-0.998,"Cochran, Tom",D
+MI,2.085,"Cole, Triston",R
+MI,0.95,"Cotter, Kevin M",R
+MI,0.692,"Cox, Laura",R
+MI,0.697,"Crawford, Hugh D",R
+MI,-0.901,"Darany, George T",D
+MI,-0.507,"Dianda, Scott",D
+MI,-0.786,"Dillon, Brandon C",D
+MI,-1.01,"Driskell, Gretchen D",D
+MI,-1.276,"Durhal, Fred Jr.",D
+MI,-1.14,"Faris, Pam",D
+MI,0.752,"Farrington, Jeffry",R
+MI,0.587,"Forlini, Anthony G",R
+MI,1.129,"Franz, Ray A",R
+MI,1.111,"Garcia, Daniela",R
+MI,-1.626,"Garrett, Latanya",D
+MI,-1.436,"Gay-dagnogo, Sherry",D
+MI,-1.111,"Geiss, Douglas",D
+MI,0.632,"Glardon, Ben",R
+MI,2.343,"Glenn, Gary",R
+MI,0.861,"Goike, Ken",R
+MI,0.75,"Graves, Joseph",R
+MI,-1.296,"Green, Patrick",D
+MI,-1.387,"Greig, Christine E.",D
+MI,-0.846,"Greimel, Timothy A",D
+MI,-1.11,"Guerra, Vanessa",D
+MI,0.618,"Heise, Kurt L",R
+MI,-1.451,"Hoadley, Jon",D
+MI,1.106,"Hooker, Thomas B",R
+MI,-1.26,"Hovey-Wright, Marcia",D
+MI,0.643,"Howell, Gary",R
+MI,-0.081,"Howrylak, Martin",R
+MI,0.631,"Hughes, Holly",R
+MI,0.622,"Iden, Brandt",R
+MI,0.715,"Inman, Larry C.",R
+MI,-1.572,"Irwin, Jeff",D
+MI,0.779,"Jacobsen, Bradford C",R
+MI,0.713,"Jenkins, Nancy E",R
+MI,0.949,"Johnson, Joel",R
+MI,1.493,"Kelly, Tim",R
+MI,0.573,"Kesto, Klint",R
+MI,-0.491,"Kivela, John",D
+MI,-0.619,"Kosowski, Robert L",D
+MI,0.722,"LaFontaine, Andrea",R
+MI,-1.329,"LaGrand, David",D
+MI,-0.638,"Lane, Marilyn",D
+MI,0.967,"Lauwers, Dan",R
+MI,-0.659,"LaVoy, Bill",D
+MI,1.095,"Leonard, Thomas L.",R
+MI,0.788,"Leutheuser, Eric",R
+MI,-1.251,"Liberati, Frank",D
+MI,-1.043,"Love, Leslie",D
+MI,0.247,"Lucido, Peter J.",R
+MI,0.792,"Lyons, Lisa Posthumus",R
+MI,0.754,"Maturen, David C.",R
+MI,0.637,"McBroom, Ed",R
+MI,0.551,"McCready, Michael",R
+MI,1.784,"Miller, Aaron",R
+MI,-0.596,"Miller, Derek E.",D
+MI,0.902,"Moss, Charles J",R
+MI,-1.086,"Moss, Jeremy",D
+MI,0.696,"Muxlow, Paul",R
+MI,-1.167,"Neeley, Sheldon A.",D
+MI,0.837,"Nesbitt, Aric Y",R
+MI,0.734,"Outman, Ricky L",R
+MI,-1.694,"Pagan, Kristy",D
+MI,0.525,"Pagel, Dave",R
+MI,0.733,"Pettalia, Peter",R
+MI,-0.931,"Phelps, Phil",D
+MI,-1.31,"Plawecki, Julie",D
+MI,-1.435,"Plawecki, Lauren",D
+MI,0.739,"Poleski, Earl",R
+MI,0.824,"Potvin, Philip N",R
+MI,0.819,"Price, Amanda",R
+MI,0.818,"Pscholka, Alton",R
+MI,0.788,"Rendon, Bruce R",R
+MI,0.574,"Roberts, Brett",R
+MI,-1.6,"Roberts, Sarah",D
+MI,-1.89,"Robinson, Rose Mary C",D
+MI,1.329,"Runestad, James",R
+MI,-0.928,"Rutledge, David E",D
+MI,-0.975,"Santana, Harvey",D
+MI,-1.034,"Schor, Andy",D
+MI,0.814,"Sheppard, Jason M.",R
+MI,-1.307,"Singh, Samir",D
+MI,-0.877,"Smiley, Charles",D
+MI,1.08,"Somerville, Pat",R
+MI,0.599,"Tedder, James",R
+MI,1.888,"Theis, Lana L.",R
+MI,-1.318,"Tinsley-Talabi, Alberta",D
+MI,-1.121,"Townsend, Jim",D
+MI,1.054,"Vaupel, Henry",R
+MI,0.689,"VerHeulen, Rob",R
+MI,0.782,"Victory, Roger",R
+MI,0.694,"Webber, Michael",R
+MI,0.608,"Whiteford, Mary",R
+MI,-1.842,"Wittenberg, Robert",D
+MI,-0.985,"Yanez, Henry J",D
+MI,0.864,"Yonker, Ken",R
+MI,-1.101,"Zemke, Adam",D
+MN,0.956,"Runbeck, Linda",R
+MN,1.125,"Albright, Tony",R
+MN,-1.697,"Allen, Susan",D
+MN,0.427,"Anderson, Chad",R
+MN,1.305,"Anderson, Mark",R
+MN,0.919,"Anderson, Paul",R
+MN,0.947,"Anderson, Sarah",R
+MN,-0.837,"Anzelc, Tom",D
+MN,-1.208,"Applebaum, Jon",D
+MN,-0.865,"Atkins, Joe",D
+MN,0.874,"Backer, Jeff",R
+MN,0.754,"Baker, Dave",R
+MN,0.97,"Barrett, Bob",R
+MN,0.881,"Bennett, Peggy",R
+MN,-1.297,"Bernardy, Connie",D
+MN,-1.209,"Bly, David",D
+MN,-1.184,"Carlson, Lyndon Sr.",D
+MN,1.471,"Christensen, Drew",R
+MN,-1.85,"Clark, Karen",D
+MN,-1.13,"Considine, Jack",D
+MN,0.623,"Cornish, Tony",R
+MN,0.955,"Daniels, Brian",R
+MN,1.21,"Daudt, Kurt",R
+MN,0.728,"Davids, Gregory",R
+MN,-1.51,"Davnie, Jim",D
+MN,1.154,"Dean, Matt",R
+MN,-1.786,"Dehn, Raymond",D
+MN,1.218,"Dettmer, Robert",R
+MN,-0.636,"Dill, David",D
+MN,1.621,"Drazkowski, Steve",R
+MN,-0.756,"Ecklund, Rob",D
+MN,-0.87,"Erhardt, Ron",D
+MN,1.303,"Erickson, Sondra",R
+MN,1.046,"Fabian, Dan",R
+MN,0.973,"Fenton, Kelly",R
+MN,-1.045,"Fischer, Peter",D
+MN,-1.527,"Flanagan, Peggy",D
+MN,1.071,"Franson, Mary",R
+MN,-1.342,"Freiberg, Mike",D
+MN,0.976,"Garofalo, Pat",R
+MN,1.169,"Green, Steve",R
+MN,1.279,"Gruenhagen, Glenn",R
+MN,0.763,"Gunther, Bob",R
+MN,1.239,"Hackbarth, Tom",R
+MN,-0.963,"Halverson, Laurie",D
+MN,0.741,"Hamilton, Rod",R
+MN,1.248,"Hancock, David",R
+MN,-1.137,"Hansen, Rick",D
+MN,-1.868,"Hausman, Alice",D
+MN,1.172,"Heintzeman, Joshua",R
+MN,1.438,"Hertaus, Jerry",R
+MN,-1.16,"Hilstrom, Debra",D
+MN,1.08,"Hoppe, Joe",R
+MN,-1.901,"Hornstein, Frank",D
+MN,-1.061,"Hortman, Melissa",D
+MN,1.108,"Howe, Jeff",R
+MN,-1.074,"Isaacson, Jason",D
+MN,1.102,"Johnson, Brian",R
+MN,-1.043,"Johnson, Clark",D
+MN,-1.985,"Kahn, Phyllis",D
+MN,-1.776,"Kath, Kory",D
+MN,1.031,"Kelly, Timothy J",R
+MN,1.014,"Kiel, Debra",R
+MN,0.821,"Knoblach, Jim",R
+MN,1.266,"Koznick, Jon",R
+MN,0.947,"Kresha, Ron",R
+MN,-1.327,"Laine, Carolyn",D
+MN,-0.733,"Lenczewski, Ann",D
+MN,-1.174,"Lesch, John",D
+MN,-1.077,"Liebling, Tina",D
+MN,-0.908,"Lien, Ben",D
+MN,-1.045,"Lillie, Leon",D
+MN,-1.461,"Loeffler, Diane",D
+MN,1.259,"Lohmer, Kathy",R
+MN,0.769,"Loon, Jenifer",R
+MN,1.12,"Loonan, Bob",R
+MN,1.468,"Lucero, Eric",R
+MN,0.861,"Lueck, Dale",R
+MN,0.975,"Mack, Tara",R
+MN,-1.201,"Mahoney, Tim",D
+MN,-1.468,"Mariani, Carlos",D
+MN,-0.641,"Marquart, Paul",D
+MN,-0.983,"Masin, Sandra A",D
+MN,1.321,"McDonald, Joe",R
+MN,0.909,"McNamara, Dennis",R
+MN,-0.991,"Melin, Carly",D
+MN,-0.892,"Metsa, Jason",D
+MN,1.017,"Miller, Tim",R
+MN,-1.415,"Moran, Rena",D
+MN,-1.659,"Mullery, Joe",D
+MN,-1.63,"Murphy, Erin",D
+MN,-0.902,"Murphy, Mary",D
+MN,1.36,"Nash, Jim",R
+MN,-1.245,"Nelson, Michael",D
+MN,1.522,"Newberger, Jim",R
+MN,-0.899,"Newton, Jerry",D
+MN,0.9,"Nornes, Bud",R
+MN,-0.801,"Norton, Kim",D
+MN,0.956,"O'Driscoll, Tim",R
+MN,1.185,"O'Neill, Marion",R
+MN,-0.561,"Pelowski, Eugene Jr.",D
+MN,1.537,"Peppin, Joyce",R
+MN,-1.099,"Persell, John",D
+MN,0.88,"Petersburg, John",R
+MN,0.827,"Peterson, Roz",R
+MN,0.905,"Pierson, Nels T.",R
+MN,-1.519,"Pinto, Dave",D
+MN,-0.72,"Poppe, Jeanne",D
+MN,1.393,"Pugh, Cindy",R
+MN,1.432,"Quam, Duane",R
+MN,0.992,"Rarick, Jason",R
+MN,-0.57,"Rosenthal, Paul",D
+MN,1.048,"Sanders, Tim",R
+MN,-1.225,"Schoen, Dan",D
+MN,0.975,"Schomacker, Joe",R
+MN,-1.756,"Schultz, Jennifer",D
+MN,1.265,"Scott, Peggy",R
+MN,-0.979,"Selcer, Yvonne",D
+MN,-1.353,"Simonson, Erik",D
+MN,-1.733,"Slocum, Linda",D
+MN,1.319,"Smith, Dennis J.",R
+MN,-1.24,"Sundin, Mike",D
+MN,0.979,"Swedzinski, Chris",R
+MN,0.913,"Theis, Tama",R
+MN,-1.312,"Thissen, Paul C.",D
+MN,0.931,"Torkelson, Paul",R
+MN,0.714,"Uglem, Mark",R
+MN,0.655,"Urdahl, Dean",R
+MN,0.971,"Vogel, Bruce",R
+MN,-1.642,"Wagenius, Jean",D
+MN,-0.783,"Ward, John",D
+MN,1.451,"Whelan, Abigail",R
+MN,0.693,"Wills, Anna",R
+MN,-1.159,"Winkler, Ryan",D
+MN,-1.302,"Yarusso, Barb",D
+MN,-1.418,"Youakim, Cheryl",D
+MN,1.018,"Zerwas, Nick",R
+MS,-0.29,"Baria, David",D
+MS,-0.579,"Johnson, Robert III",D
+MS,0.818,"Mettetal, Nolan",R
+MS,0.592,"Aguirre, Shane",R
+MS,-0.736,"Anderson, Jeramey",D
+MS,1.216,"Arnold, William Tracy",R
+MS,-0.684,"Bailey, Willie L.",D
+MS,0.246,"Bain, Nick",D
+MS,0.786,"Baker, Larry",R
+MS,-0.799,"Banks, Earle S",D
+MS,0.649,"Barker, Toby",R
+MS,0.807,"Barnett, Shane",R
+MS,0.606,"Barton, Manly",R
+MS,0.931,"Beckett, Charles",R
+MS,-0.8,"Bell, Christopher",D
+MS,0.348,"Bell, Donnie",D
+MS,0.906,"Bennett, Richard",R
+MS,-0.547,"Blackmon, Edward Jr.",D
+MS,1.661,"Bomgar, Joel",R
+MS,0.868,"Bounds, C. Scott",R
+MS,0.903,"Boyd, Randy P.",R
+MS,0.021,"Brown, Cecil C",D
+MS,-0.373,"Burnett, Clara Henderson",D
+MS,0.828,"Busby, Charles",R
+MS,0.046,"Butler Dixon, Deborah",D
+MS,0.821,"Byrd, Larry",R
+MS,-0.501,"Calhoun, Credell",D
+MS,-0.513,"Campbell, Kimberly L.",D
+MS,0.71,"Carpenter, Lester",R
+MS,1.06,"Chism, Gary A.",R
+MS,-1.011,"Clark, Bryant Wandrick",D
+MS,-0.724,"Clarke, Alyce Griffin",D
+MS,-0.205,"Cockerham, Angela",D
+MS,-0.56,"Coleman, Linda F",D
+MS,1.018,"Crawford, Carolyn",R
+MS,2.012,"Criswell, Dana",R
+MS,1.334,"Currie, Becky",R
+MS,0.942,"DeLano, Scott",R
+MS,1.044,"Denny, William C.",R
+MS,-0.695,"Denton, Oscar",D
+MS,-0.695,"Dortch, Jarvis",D
+MS,0.127,"Eaton, Blaine II",D
+MS,-0.506,"Ellis, Tyrone",D
+MS,1.215,"Eubanks, Dan",R
+MS,1.076,"Eure, Casey",R
+MS,0.153,"Evans, Michael T.",D
+MS,-0.397,"Evans, Robert",D
+MS,-0.457,"Faulkner, John Gary",D
+MS,1.466,"Formby, Mark S.",R
+MS,1.535,"Foster, Robert",R
+MS,0.658,"Frierson, Herb",R
+MS,0.95,"Gipson, J. Andrew",R
+MS,0.742,"Guice, Daniel Jr.",R
+MS,0.679,"Hale, Jeff",R
+MS,0.571,"Haney, Greg",R
+MS,0.82,"Henley, Ashley",R
+MS,-0.906,"Hines, John W",D
+MS,-0.125,"Holland, D. Stephen",D
+MS,-0.356,"Holloway, Gregory Sr.",D
+MS,1.156,"Hood, Joey",R
+MS,1.833,"Hopkins, Steve",R
+MS,-0.245,"Horan, Kevin",D
+MS,1.309,"Horne, Stephen A",R
+MS,0.59,"Huddleston, Mac",R
+MS,-0.689,"Huddleston, Robert E",D
+MS,-0.15,"Hughes, Jay",D
+MS,0.855,"Johnson, Chris",R
+MS,-0.947,"Karriem, Kabir",D
+MS,0.95,"Ladner, Timmy",R
+MS,0.519,"Lamar, John Thomas",R
+MS,0.739,"Mangold, Vince",R
+MS,0.57,"Massengill, Steve E",R
+MS,0.105,"McCoy, William",D
+MS,0.701,"McLeod, Doug",R
+MS,0.48,"McNeal, Roun",R
+MS,-0.216,"Mickens, Carl",D
+MS,-0.625,"Middleton, America",D
+MS,0.03,"Miles, Tom",D
+MS,1.111,"Mims V, Sam C",R
+MS,1.061,"Monsour, Alex",R
+MS,1.517,"Moore, John L",R
+MS,0.75,"Morgan, Ken",R
+MS,-0.727,"Myers, David W",D
+MS,0.901,"Oliver, Karl",R
+MS,-0.86,"Paden, Orlando",D
+MS,0.402,"Patterson, Randall H",D
+MS,-0.89,"Perkins, Willie James",D
+MS,0.831,"Pigott, Bill",R
+MS,0.813,"Powell, Brent",R
+MS,0.564,"Read, John O.",R
+MS,0.039,"Reynolds, Thomas II",D
+MS,0.695,"Roberson, Loyd II",R
+MS,0.611,"Rogers, Margaret Ellis",R
+MS,0.67,"Rogers, Nolan",R
+MS,1.098,"Rushing, Randal",R
+MS,0.58,"Sanford, Noah",R
+MS,-0.65,"Scott, Omeria",D
+MS,1.356,"Shirley Jr, William E",R
+MS,0.592,"Shows, Bobby",R
+MS,0.558,"Smith, Jeffrey C.",R
+MS,1.014,"Snowden, Elton",R
+MS,0.917,"Staples, Gary V",R
+MS,0.367,"Steverson, Jody",D
+MS,-0.783,"Straughter, Rufus E",D
+MS,0.188,"Sullivan, Preston E",D
+MS,-0.512,"Sykes, Kathy",D
+MS,-0.684,"Thomas, Sara Richardson",D
+MS,0.704,"Touchstone, Brad",R
+MS,0.642,"Tullos, Mark K.",R
+MS,0.717,"Turner, Jerry R.",R
+MS,-0.685,"Walker, Kenneth",D
+MS,-0.664,"Watson, Percy W.",D
+MS,0.544,"Weathersby, Tom",R
+MS,0.662,"White, Jason",R
+MS,-0.692,"Williams-Barnes, Sonya",D
+MS,0.976,"Wilson, Cory",R
+MS,-0.759,"Wooten, Adrienne",D
+MS,-0.543,"Young, Charles",D
+MS,0.691,"Zuber III, Henry B",R
+MO,0.88,"Engler, Kevin",R
+MO,1.372,"Koenig, Andrew",R
+MO,1.126,"Rowden, Caleb",R
+MO,-1.101,"Adams, Jon",D
+MO,1.871,"Alferman, Justin",R
+MO,1.566,"Allen, Sue",R
+MO,-0.618,"Anders, Ira",D
+MO,1.662,"Anderson, Sonya",R
+MO,1.8,"Andrews, Allen",R
+MO,-0.869,"Arthur, Lauren",D
+MO,1.599,"Austin, Kevin",R
+MO,1.221,"Bahr, Kurt",R
+MO,0.791,"Barnes, Jason",R
+MO,1.756,"Basye, Charles",R
+MO,1.263,"Beard, Nathan",R
+MO,1.707,"Bernskoetter, Mike",R
+MO,0.852,"Berry, TJ",R
+MO,-0.102,"Black, Linda",R
+MO,1.039,"Bondon, Jack",R
+MO,1.149,"Brattin, Rick",R
+MO,1.237,"Brown, Cloria",R
+MO,1.707,"Brown, Wanda",R
+MO,1.317,"Burlison, Eric",R
+MO,-0.798,"Burns, Bob",D
+MO,-1.097,"Butler, Michael",D
+MO,-1.036,"Carpenter, Jon",D
+MO,1.207,"Chipman, Jason",R
+MO,1.758,"Cierpiot, Mike",R
+MO,-1.001,"Colona, Michael",D
+MO,1.159,"Conway, Kathie",R
+MO,-0.428,"Conway, Pat",D
+MO,1.532,"Cookson, Steve",R
+MO,0.984,"Corlew, Kevin",R
+MO,1.389,"Cornejo, Robert",R
+MO,1.753,"Crawford, Sandy",R
+MO,1.521,"Cross, Gary",R
+MO,-0.762,"Curtis, Courtney",D
+MO,1.057,"Curtman, Paul",R
+MO,1.896,"Davis, Charlie",R
+MO,1.215,"Dogan, Shamed",R
+MO,1.725,"Dohrman, Dean",R
+MO,1.43,"Dugger, Tony",R
+MO,-1.101,"Dunn, Randy",D
+MO,1.183,"Eggleston, J",R
+MO,-1.47,"Ellington, Brandon",D
+MO,1.493,"Entlicher, Sue",R
+MO,1.163,"Fitzpatrick, Scott",R
+MO,1.429,"Fitzwater, Paul",R
+MO,1.591,"Fitzwater, Travis",R
+MO,1.54,"Flanigan, Tom",R
+MO,1.643,"Fraker, Lyndall",R
+MO,1.575,"Franklin, Diane",R
+MO,1.367,"Frederick, Keith",R
+MO,0.981,"Gannon, Elaine",R
+MO,-2.514,"Gardner, Kimberly",D
+MO,1.377,"Gosen, Don",R
+MO,-0.804,"Green, Alan",D
+MO,1.16,"Haahr, Elijah",R
+MO,1.505,"Haefner, Marsha",R
+MO,1.432,"Hansen, Jim",R
+MO,-0.362,"Harris, Ben",D
+MO,1.217,"Hicks, Ron",R
+MO,0.897,"Higdon, Galen",R
+MO,1.6,"Hill, Justin S",R
+MO,1.211,"Hinson, Dave",R
+MO,1.406,"Hoskins, Denny L",R
+MO,1.236,"Hough, Lincoln",R
+MO,1.773,"Houghton, Jay",R
+MO,-0.54,"Hubbard, Penny",D
+MO,1.691,"Hubrecht, Tila Rowland",R
+MO,-0.901,"Hummel, Jacob W",D
+MO,0.755,"Hurst, Tom",R
+MO,1.309,"Johnson, Delus",R
+MO,1.508,"Jones, Caleb",R
+MO,1.536,"Justus, Jeffery",R
+MO,1.613,"Keeney Taylor, Shelley",R
+MO,1.572,"Kelley, Mike",R
+MO,-0.74,"Kendrick, Kip",D
+MO,0.626,"Kidd, Bill E",R
+MO,0.875,"King, S Nick",R
+MO,-1.056,"Kirkton, Jeanne",D
+MO,1.985,"Kolkmeyer, Glen",R
+MO,1.056,"Korman, Bart",R
+MO,-0.595,"Kratky, Michele",D
+MO,-0.869,"LaFaver, Jeremy",D
+MO,1.525,"Lair, Mike",R
+MO,1.88,"Lant, Bill",R
+MO,1.266,"Lauer, Jeanie",R
+MO,-1.052,"Lavender, Deb",D
+MO,1.381,"Leara, Mike",R
+MO,1.499,"Lichtenegger, Donna",R
+MO,1.678,"Love, Warren",R
+MO,1.681,"Lynch, Steven",R
+MO,0.22,"Marshall, Nickolas",R
+MO,1.992,"Mathews, Kirk",R
+MO,-1.016,"May, Karla",D
+MO,0.81,"McCaherty, John",R
+MO,-1.023,"McCann Beatty, Gail",D
+MO,-1.282,"McCreery, Tracy",D
+MO,0.612,"McDaniel, Andrew",R
+MO,-0.989,"McDonald, Tom",D
+MO,1.58,"McGaugh, Joe Don",R
+MO,-0.994,"McGee, Daron",D
+MO,-1.159,"McNeil, Margo",D
+MO,-1.147,"Meredith, Sue",D
+MO,1.347,"Messenger, Jeffrey",R
+MO,1.366,"Miller, Rocky",R
+MO,-0.959,"Mims, Bonnaye",D
+MO,-1.371,"Mitten, Gina",D
+MO,-0.989,"Montecillo, Genise",D
+MO,0.532,"Moon, Mike",R
+MO,-1.338,"Morgan, Judy",D
+MO,1.313,"Morris, Lynn",R
+MO,1.738,"Muntzel, Dave",R
+MO,1.308,"Neely, James W",R
+MO,-1.61,"Newman, Stacey",D
+MO,-0.819,"Nichols, Mary",D
+MO,-0.742,"Norr, Charlie",D
+MO,-0.954,"Otto, Bill",D
+MO,-1.233,"Pace, Sharon",D
+MO,1.088,"Parkinson, Mark",R
+MO,-0.913,"Peters, Joshua",D
+MO,1.308,"Pfautsch, Donna",R
+MO,1.251,"Phillips, Donald",R
+MO,-1.076,"Pierson, Tommie Sr.",D
+MO,1.272,"Pietzman, Randy",R
+MO,1.556,"Pike, Patricia",R
+MO,1.347,"Plocher, Dean",R
+MO,0.298,"Pogue, Jeffrey",R
+MO,1.518,"Redmon, Craig",R
+MO,1.359,"Rehder, Holly",R
+MO,1.724,"Reiboldt, Bill",R
+MO,1.497,"Remole, Tim",R
+MO,1.822,"Rhoads, Shawn",R
+MO,1.701,"Richardson, Todd",R
+MO,-0.865,"Rizzo, John",D
+MO,1.429,"Roden, Shane",R
+MO,1.97,"Roeber, Rebecca",R
+MO,1.552,"Rone, Don",R
+MO,1.47,"Ross, Robert",R
+MO,1.523,"Rowland, Lyle",R
+MO,-0.711,"Rowland, Rory",D
+MO,-0.656,"Runions, Joe",D
+MO,1.107,"Ruth, Becky",R
+MO,1.777,"Shaul, Dan",R
+MO,1.414,"Shull, Noel",R
+MO,1.4,"Shumake, Lindell",R
+MO,-1.556,"Smith, Clem",D
+MO,0.868,"Solon, Sheila",R
+MO,1.211,"Sommer, Chrissy",R
+MO,1.251,"Spencer, Bryan",R
+MO,1.602,"Swan, Kathryn",R
+MO,1.334,"Taylor, Jered",R
+MO,1.664,"Vescovo, Rob",R
+MO,1.479,"Walker, Nathan Belt",R
+MO,-1.413,"Walton Gray, Rochelle",D
+MO,-0.772,"Webber, Stephen",D
+MO,0.946,"White, William",R
+MO,1.732,"Wiemann, John D",R
+MO,1.024,"Wilson, Kenneth",R
+MO,1.364,"Wood, David",R
+MO,1.038,"Zerr, Anne",R
+MT,1.09,"Essmann, Jeffrey",R
+MT,-0.871,"Tropila, Mitch",D
+MT,1.575,"Wittich, Art",R
+MT,1.225,"Ballance, Nancy",R
+MT,-1.518,"Bennett, Bryce",D
+MT,1.493,"Bennett, Gerald",R
+MT,1.179,"Berglee, Seth",R
+MT,0.801,"Berry, Tom",R
+MT,1.317,"Brodehl, Randy",R
+MT,1.715,"Brown, Bob",R
+MT,-0.786,"Brown, Zach",D
+MT,1.345,"Burnett, Tom",R
+MT,0.777,"Clark, Christy",R
+MT,0.705,"Cook, Rob",R
+MT,-1.316,"Court, Virginia",D
+MT,1.141,"Cuffe, Mike",R
+MT,-0.979,"Curdy, Willis",D
+MT,0.388,"Custer, Geraldine",R
+MT,1.506,"Doane, Alan",R
+MT,-1.47,"Dudik, Kimberly",D
+MT,-1.15,"Dunwell, Mary Ann",D
+MT,-1.519,"Eck, Jenny",D
+MT,0.882,"Ehli, Ron",R
+MT,-1.413,"Ellis, Janet H",D
+MT,1.126,"Fiscus, Clayton",R
+MT,0.976,"Fitzpatrick, Steve",R
+MT,1.25,"Flynn, Kelly",R
+MT,-1.151,"Funk, Moffie",D
+MT,0.794,"Garner, Frank",R
+MT,1.43,"Glimm, Carl",R
+MT,0.941,"Greef, Edward",R
+MT,0.984,"Hagstrom, Dave",R
+MT,1.274,"Harris, Bill",R
+MT,-1.711,"Hayman, Denise",D
+MT,0.904,"Hertz, Greg",R
+MT,1.479,"Hess, Stephanie",R
+MT,-1.352,"Hill, Ellie",D
+MT,0.761,"Hollandsworth, Roy",R
+MT,0.77,"Holmlund, Kenneth",R
+MT,-0.984,"Hunter, Chuck",D
+MT,-0.561,"Jacobson, Tom",D
+MT,1.189,"Jones, Don",R
+MT,-0.914,"Karjala, Jessica",D
+MT,-1.387,"Kelker, Katherin A",D
+MT,-0.534,"Kipp III, George G",D
+MT,1.172,"Knudsen, Austin",R
+MT,1.578,"Lamm, Debra",R
+MT,1.049,"Lang, Mike",R
+MT,1.147,"Laszloffy, Sarah",R
+MT,0.996,"Lavin, Steve",R
+MT,-1.068,"Lieser, Ed",D
+MT,-1.046,"Lynch, Ryan",D
+MT,-1.392,"MacDonald, Margaret",D
+MT,1.064,"Mandeville, Forrest J",R
+MT,1.583,"Manzella, Theresa",R
+MT,-0.844,"McCarthy, Kelly",D
+MT,-1.126,"McClafferty, Edith",D
+MT,-1.07,"McConnell, Nate",D
+MT,0.944,"McKamey, Wendy",R
+MT,-0.353,"Mehlhoff, Robert",D
+MT,0.822,"Meyers, Gilbert Bruce",R
+MT,1.2,"Miller, Mike",R
+MT,1.535,"Monforton, Matthew",R
+MT,0.645,"Moore, David",R
+MT,1.337,"Mortensen, Dale",R
+MT,1.141,"Noland, Mark R",R
+MT,-1.023,"Noonan, Pat",D
+MT,-1.476,"Olsen, Andrea",D
+MT,0.932,"Olszewski, Albert D",R
+MT,1.247,"Osmundson, Ryan",R
+MT,-1.25,"Pease-Lopez, Carolyn",D
+MT,-0.953,"Peppers, Patricia",D
+MT,-0.735,"Perry, Zac",D
+MT,-0.655,"Person, Andrew",D
+MT,-0.733,"Pierson, Gordon Jr.",D
+MT,1.126,"Pinocci, Randall S",R
+MT,-1.336,"Pope, Christopher",D
+MT,-1.217,"Price, Jean",D
+MT,1.411,"Randall, Lee",R
+MT,1.309,"Redfield, Alan",R
+MT,1.263,"Regier, Keith",R
+MT,0.995,"Ricci, Vince",R
+MT,0.691,"Richmond, Tom",R
+MT,0.858,"Salomon, Daniel",R
+MT,-1.142,"Schreiner, Casey",D
+MT,1.338,"Schwaderer, Nicholas",R
+MT,0.586,"Shaw, Ray",R
+MT,-0.821,"Smith, Bridget",D
+MT,1.299,"Staffanson, Scott",R
+MT,-0.904,"Steenberg, Tom",D
+MT,-1.183,"Swanson, Kathy",D
+MT,1.328,"Tschida, Brad",R
+MT,1.244,"Wagoner, Kirk B",R
+MT,-1.332,"Webber, Susan A",D
+MT,0.837,"Welborn, Jeffrey W",R
+MT,1.274,"White, Kerry E",R
+MT,-1.026,"Williams, Kathleen",D
+MT,-1.78,"Wilson, Nancy",D
+MT,-1.201,"Woods, Tom",D
+MT,1.509,"Zolnikov, Daniel",R
+NE,-0.606,"Baker, Roy",R
+NE,2.398,"Bloomfield, Dave",R
+NE,-0.341,"Bolz, Kate",D
+NE,1.583,"Brasch, Lydia",R
+NE,0.21,"Campbell, Kathy",R
+NE,-0.361,"Chambers, Ernie",D
+NE,0.418,"Coash, Colby",R
+NE,-0.911,"Cook, Tanya",D
+NE,1.251,"Craighead, Joni",R
+NE,-0.487,"Crawford, Sue",D
+NE,0.657,"Davis, Albert",R
+NE,1.395,"Fox, Nicole",R
+NE,0.833,"Friesen, Curt",R
+NE,0.76,"Garrett, Tommy L.",R
+NE,0.536,"Gloor, Mike",R
+NE,4.366,"Groene, Michael",R
+NE,-0.715,"Haar, Ken",D
+NE,0.578,"Hadley, Galen",R
+NE,0.876,"Hansen, Thomas",R
+NE,-0.468,"Harr, Burke",D
+NE,0.898,"Hilkemann, Robert Bob",R
+NE,-0.406,"Howard, Gwen",D
+NE,0.905,"Hughes, Dan",R
+NE,0.6,"Johnson, Jerry",R
+NE,3.521,"Kintner, William",R
+NE,-1.63,"Kolowski, Rick",D
+NE,0.638,"Kolterman, Mark A.",R
+NE,0.211,"Krist, Robert",R
+NE,0.793,"Kuehn, John L.",R
+NE,1.008,"Larson, Tyson",R
+NE,1.197,"Lindstrom, Brett",R
+NE,0.318,"McCollister, John S.",R
+NE,1.502,"McCoy, Beau",R
+NE,-0.304,"Mello, Heath",D
+NE,-0.499,"Morfeld, Adam",D
+NE,1.22,"Murante, John",R
+NE,-0.398,"Nordquist, Jeremy",D
+NE,-1.74,"Pansing Brooks, Patty",D
+NE,1.957,"Riepe, Merv",R
+NE,0.49,"Scheer, Jim",R
+NE,0.875,"Schilz, Ken",R
+NE,1.495,"Schnoor, David",R
+NE,0.463,"Schumacher, Paul",R
+NE,0.12,"Seiler, Lester",R
+NE,0.761,"Smith, Jim",R
+NE,0.275,"Sullivan, Kate",D
+NE,1.34,"Watermeier, Dan",R
+NE,0.743,"Williams, Matt",R
+NV,-0.821,"Carlton, Maggie",D
+NV,-0.863,"Adams, Irene Bustamante",D
+NV,0.513,"Anderson, Dennis",R
+NV,-0.618,"Anderson, Elliot",D
+NV,-0.846,"Araujo, Nelson",D
+NV,0.662,"Armstrong, Derek W.",R
+NV,-0.82,"Benitez-Thompson, Teresa",D
+NV,-0.749,"Carrillo, Richard",D
+NV,-1.042,"Diaz, Olivia",D
+NV,1.282,"Dickman, Jill",R
+NV,1.236,"Dooling, Victoria",R
+NV,0.783,"Edwards, Christopher",R
+NV,1.177,"Ellison, John",R
+NV,1.274,"Fiore, Michele",R
+NV,-0.81,"Flores, Edgar",D
+NV,0.832,"Gardner, David M.",R
+NV,0.76,"Hambrick, John",R
+NV,0.857,"Hansen, Ira",R
+NV,0.561,"Hickey, Pat",R
+NV,-0.85,"Joiner, Amber",D
+NV,1.339,"Jones, Brent A.",R
+NV,-0.52,"Kirkpatrick, Marilyn",D
+NV,0.728,"Kirner, Randy",R
+NV,1.446,"Moore, John",R
+NV,-0.406,"Munford, Harvey J.",D
+NV,-0.819,"Neal, Dina",D
+NV,0.754,"Nelson, Erven",R
+NV,0.746,"O'Neill, Philip",R
+NV,-0.524,"Ohrenschall, James",D
+NV,0.728,"Oscarson, James",D
+NV,1.11,"Seaman, Victoria",R
+NV,1.315,"Shelton, Shelly M.",R
+NV,0.619,"Silberkraus, Stephen",R
+NV,-0.676,"Spiegel, Ellen",D
+NV,-0.811,"Sprinkle, Michael",D
+NV,0.571,"Stewart, Lynn D",R
+NV,-1.114,"Swank, Heidi",D
+NV,-0.766,"Thompson, Tyrone",D
+NV,1.26,"Titus, Robin L.",R
+NV,0.784,"Trowbridge, Glenn",R
+NV,1.135,"Wheeler, Jim",R
+NV,0.567,"Woodbury, Melissa",R
+NH,-0.893,"Cilley, Jacalyn",D
+NH,0.666,"Martel, André",R
+NH,-0.964,"Abbott, Michael D.",D
+NH,-1.449,"Abel, Richard",D
+NH,0.638,"Abrami, Patrick",R
+NH,1.047,"Abramson, Max",R
+NH,1.189,"Adams, Christopher R.",R
+NH,1.635,"Aldrich, Glen C.",R
+NH,-1.574,"Alicea, Caroletta",D
+NH,0.533,"Allen, Mary",R
+NH,-1.08,"Almy, Susan W.",D
+NH,-1.269,"Ames, Richard",D
+NH,1.351,"Ammon, Keith",R
+NH,1.723,"Avellani, Lino M.",R
+NH,0.517,"Azarian, Gary S.",R
+NH,-1.492,"Baber, William S",D
+NH,-1.209,"Backus, Robert A",D
+NH,0.673,"Bailey, Brad",R
+NH,0.478,"Balcom, John",R
+NH,1.545,"Baldasaro, Alfred",R
+NH,0.432,"Barnes, Arthur E.",R
+NH,-0.815,"Baroody, Benjamin",D
+NH,0.614,"Barry, Richard W.",R
+NH,-1.282,"Bartlett, Christy",D
+NH,1.079,"Bates, David",R
+NH,1.358,"Beaudoin, Steven P",R
+NH,-0.783,"Beaulieu, Jane Ellen",D
+NH,0.569,"Belanger, James",R
+NH,0.493,"Belanger, Ronald",R
+NH,-1.001,"Bennett, Travis",D
+NH,-1.309,"Berch, Paul S",D
+NH,-1.424,"Berrien, Skip",D
+NH,-0.385,"Berube, Roger R",D
+NH,0.271,"Bickford, David",R
+NH,0.771,"Biggie, Barbara",R
+NH,-0.903,"Bixby, Peter W",D
+NH,1.091,"Boehm, Ralph G.",R
+NH,-0.998,"Booras, Efstathia",D
+NH,-0.903,"Borden, David",D
+NH,-0.511,"Bordenet, John",D
+NH,0.708,"Bouldin, Amanda",D
+NH,-0.728,"Bradley, Paula E.",D
+NH,1.087,"Brewster, Michael",R
+NH,0.891,"Bridge, Ernest H.",R
+NH,-0.963,"Brown, Chris",D
+NH,1.097,"Brown, Dwayne",R
+NH,-1.284,"Brown, Pamela T",D
+NH,-0.503,"Brown, Rebecca",D
+NH,-0.608,"Buco, Thomas L",D
+NH,1.407,"Burt, John",R
+NH,-1.33,"Burton, Wayne M.",D
+NH,1.009,"Bush, Carol",R
+NH,-0.985,"Butler, Edward A.",D
+NH,0.783,"Byron, Frank",R
+NH,-1.286,"Cahill, Michael",D
+NH,-0.644,"Cali-Pitts, Jacqueline",D
+NH,0.205,"Cardon, Thomas",R
+NH,-0.941,"Carson, Clyde J",D
+NH,0.649,"Chandler, Gene G.",R
+NH,-1.258,"Chase, Cynthia L.",D
+NH,0.603,"Chase, Francis",R
+NH,1.012,"Cheney, Catherine",R
+NH,0.717,"Chirichiello, Brian",R
+NH,0.439,"Christensen, Chris",R
+NH,0.651,"Christiansen, Lars",R
+NH,0.363,"Christie, Andrew Jr.",R
+NH,1.397,"Christie, Rick",R
+NH,-1.085,"Cloutier, John R",D
+NH,0.73,"Coffey, James",R
+NH,-0.58,"Cohen, Alan",D
+NH,1.233,"Comeau, Ed",R
+NH,1.383,"Comtois, Guy",R
+NH,-0.632,"Converse, Larry",D
+NH,0.976,"Cook, Allen W.",R
+NH,-1.139,"Cooney, Mary",D
+NH,1.069,"Cordelli, Glenn",R
+NH,-1.16,"Cornell, Patricia",D
+NH,-0.965,"Cote, David E.",D
+NH,0.209,"Crawford, Karel A.",R
+NH,-1.228,"Cushing, Robert Jr.",D
+NH,0.432,"Danielson, David J.",R
+NH,0.629,"Darrow, Stephen",R
+NH,1.188,"Dean-Bailey, Yvonne",R
+NH,1.339,"DeLemus, Susan",R
+NH,-1.002,"Deloge, Helen",D
+NH,0.617,"DeSimone, Debra L",R
+NH,0.565,"Devine, James E.",R
+NH,-1.034,"Difranco, Debbie",D
+NH,-0.981,"Disesa, Len",D
+NH,-0.813,"DiSilvestro, Linda",D
+NH,-1.514,"Doherty, David",D
+NH,0.762,"Donovan, Daniel",R
+NH,0.423,"Doucette, Fred",R
+NH,1.255,"Duarte, Joe",R
+NH,0.931,"Dumais, Russell",R
+NH,1.334,"Eastman, Eric R.",R
+NH,-0.969,"Eaton, Daniel Adams",D
+NH,-0.672,"Ebel, Karen E",D
+NH,1.098,"Edelblut, Frank",R
+NH,-1.197,"Edgar, Michael",D
+NH,0.195,"Edwards, Elizabeth",D
+NH,0.371,"Elliott, Robert",R
+NH,0.973,"Emerick, Tracy",R
+NH,0.367,"Emerson, Susan",R
+NH,0.993,"Estevez, Eric P.",R
+NH,0.674,"Ferrante, Beverly",R
+NH,1.361,"Ferreira, Elizabeth",R
+NH,0.689,"Fesh, Robert",R
+NH,0.438,"Fields, Dennis",R
+NH,0.826,"Fisher, Robert Z.",R
+NH,0.603,"Flanagan, Natalie",R
+NH,0.469,"Flanders, Donald",R
+NH,-1.195,"Ford, Susan",D
+NH,-0.527,"Forest, Armand D.",D
+NH,0.257,"Fothergill, John",R
+NH,-1.034,"Francese, Paula",D
+NH,1.01,"Fraser, Valerie",R
+NH,-1.338,"Frazer, June Martin",D
+NH,-1.21,"Freitas, Mary C.",D
+NH,-1.357,"French, Barbara",D
+NH,1.041,"French, Harold F.",R
+NH,0.518,"Friel, William",R
+NH,-1.417,"Froburg, Alethea Lincoln",D
+NH,1.114,"Fromuth, Bart",R
+NH,0.791,"Gagne, Larry G",R
+NH,-0.732,"Gagnon, Raymond",D
+NH,0.802,"Gallagher, Brian S.",R
+NH,1.085,"Gannon, William M.",R
+NH,-0.45,"Gardner, Janice S",D
+NH,0.031,"Gargasz, Carolyn",R
+NH,-0.572,"Gidge, Kenneth",D
+NH,-1.352,"Gile, Mary Stuart",D
+NH,0.682,"Gionet, Edmond D",R
+NH,-0.743,"Goley, Jeffrey",D
+NH,0.584,"Gonzalez, Carlos",R
+NH,-1.776,"Gordon, Pamela S.",D
+NH,1.114,"Gordon, Richard E",R
+NH,-0.671,"Gorman, Mary J.",D
+NH,-1.094,"Gottling, Suzanne",D
+NH,1.132,"Gould, Linda",R
+NH,1.204,"Goulette, William",R
+NH,1.303,"Graham, Robert V.",R
+NH,0.53,"Gray, James P",R
+NH,1.218,"Green, Dennis",R
+NH,0.083,"Grenier, James L",R
+NH,0.667,"Griffin, Barbara",R
+NH,0.632,"Griffin, Mary",R
+NH,1.74,"Groen, Warren J",R
+NH,-0.651,"Guerette, Lee",D
+NH,0.417,"Guthrie, Joseph",R
+NH,0.661,"Haefner, Robert",R
+NH,0.749,"Hagan, Joseph",R
+NH,0.96,"Halstead, Carolyn",R
+NH,1.201,"Hannon, Joseph",R
+NH,-0.78,"Hansberry, Daniel",D
+NH,0.957,"Hansen, Peter",R
+NH,1.179,"Harris, Jeffrey",R
+NH,-1.294,"Harvey, Suzanne",D
+NH,-1.205,"Hatch, William",D
+NH,-1.218,"Heath, Mary",D
+NH,-0.908,"Heffron, Frank",D
+NH,-0.884,"Henle, Paul",D
+NH,0.533,"Hennessey, Erin Tapper",R
+NH,-1.515,"Hennessey, Martha",D
+NH,-0.847,"Herbert, Christopher J.",D
+NH,0.445,"Hess, David",R
+NH,-1.146,"Higgins, Patricia",D
+NH,1.268,"Hill, Gregory",R
+NH,0.688,"Hinch, Richard",R
+NH,-1.027,"Hirsch, Geoffrey",D
+NH,1.441,"Hodgdon, Bruce",R
+NH,1.106,"Hoell, JR",R
+NH,0.635,"Hoelzel, Kathleen",R
+NH,1.281,"Hogan, Edith",R
+NH,0.831,"Hopper, Gary S.",R
+NH,1.034,"Horn, Werner D.",R
+NH,-0.722,"Horrigan, Timothy",D
+NH,1.798,"Howard, Raymond",R
+NH,1.081,"Hull, Robert",R
+NH,0.549,"Hunt, John",R
+NH,0.94,"Hurt, George F.",R
+NH,0.589,"Infantine, William",R
+NH,1.257,"Ingbretson, Paul",R
+NH,0.828,"Introne, Robert Jr.",R
+NH,-0.741,"Irwin, Virginia",D
+NH,1.196,"Itse, Daniel",R
+NH,-0.743,"Jack, Martin",D
+NH,0.599,"Jasper, Shawn",R
+NH,-0.624,"Jeudy, Jean Leniol",D
+NH,-0.902,"Johnsen, Gladys",D
+NH,1.5,"Johnson, Eric",R
+NH,0.975,"Jones, Laura M",R
+NH,1.939,"Kaczynski, Thomas L.",R
+NH,-0.807,"Kaen, Naida",D
+NH,1.045,"Kappler, Lawrence M",R
+NH,-0.744,"Karrick, David B.",D
+NH,0.576,"Katsakiores, Phyllis",R
+NH,-0.346,"Katsiantonis, Thomas",D
+NH,1.335,"Kellogg, Shem",R
+NH,-0.931,"Kenison, Linda B.",D
+NH,0.01,"Kidder, David",R
+NH,1.369,"Knowles, Robert",R
+NH,1.03,"Kolodziej, Walter",R
+NH,0.643,"Kotowski, Frank R.",R
+NH,1.09,"Kuch, Bill",R
+NH,0.439,"Kurk, Neal M.",R
+NH,0.996,"Lachance, Joseph",R
+NH,0.418,"Ladd Jr, Roderick M",R
+NH,0.799,"Laware, Thomas",R
+NH,0.981,"LeBreche, Shari",R
+NH,0.746,"LeBrun, Donald",R
+NH,0.933,"Leeman, Don E.",R
+NH,-0.817,"Leishman, Peter R",D
+NH,-1.046,"Ley, Douglas A.",D
+NH,0.791,"Long, Douglas B.",R
+NH,-0.761,"Long, Patrick T.",D
+NH,-0.736,"Lovejoy, Patricia T.",D
+NH,0.715,"Lundgren, David",R
+NH,0.797,"Luther, Robert",R
+NH,-1.326,"MacKay, James",D
+NH,-1.421,"Maes, Kevin G.",D
+NH,0.578,"Major, Norman",R
+NH,-0.927,"Mangipudi, Latha",D
+NH,-0.922,"Manley, Jonathan Sr.",D
+NH,-1.001,"Mann, John",D
+NH,0.571,"Manning, John Jr.",R
+NH,0.774,"Marple, Richard",R
+NH,0.981,"Marston, Richard",R
+NH,1.083,"Martin, John",R
+NH,-0.549,"Massimilla, Linda",D
+NH,0.453,"Matthews, Carolyn L.",R
+NH,-1.119,"Mcbeath, Rebecca",D
+NH,1.001,"McCarthy, Frank H.",R
+NH,0.575,"McCarthy, Peggy",R
+NH,1.053,"McClarren, Donald",R
+NH,0.65,"McConkey, Mark E.",R
+NH,1.042,"McConnell, James",R
+NH,1.24,"McGuire, Carol M",R
+NH,1.343,"McGuire, Dan",R
+NH,0.476,"McKinney, Betsy",R
+NH,1.188,"McLean, Mark",R
+NH,0.664,"McMahon, Charles",R
+NH,-1.137,"McNamara, Richard D.",D
+NH,0.521,"Milz, David",R
+NH,-0.836,"Moffett, Howard M.",D
+NH,-1.214,"Moody, Marcia",D
+NH,0.941,"Moore, Benjamin",R
+NH,-1.119,"Moynihan, Wayne",D
+NH,0.709,"Mullen, John Jr.",R
+NH,0.936,"Murotake, David",R
+NH,1.361,"Murphy, Keith",R
+NH,-1.452,"Myler, Mel",D
+NH,0.615,"Nelson, Bill G",R
+NH,0.395,"Nigrello, Robert",R
+NH,-1.344,"Nordgren, Sharon",D
+NH,1.57,"Notter, Jeanine",R
+NH,-1.102,"O'Brien, Michael Sr.",D
+NH,0.763,"O'Brien, William",R
+NH,0.702,"O'Connor, John",R
+NH,1.32,"O'Connor, William",R
+NH,-1.157,"O'Neil, William  J.",D
+NH,0.621,"Ober, Russell III",R
+NH,-0.876,"Ohearne, Andrew Scott",D
+NH,1.192,"Ohm, Bill",R
+NH,0.875,"Oligny, Jeffrey D",R
+NH,1.508,"Osborne, Jason",R
+NH,-1.281,"Oxenham, Lee Walker",D
+NH,0.669,"Packard, Sherman",R
+NH,0.528,"Palmer, Barry",R
+NH,-1.067,"Pantelakos, Laura",D
+NH,1.092,"Parent, Jason R.",R
+NH,1.264,"Parison, James A",R
+NH,0.419,"Parker, Harold B.",R
+NH,-0.578,"Parkhurst, Henry A. L.",D
+NH,1.02,"Parsons, Robbie L",R
+NH,-0.669,"Patten, Dick",D
+NH,-1.008,"Pearson, William",D
+NH,0.486,"Peckham, Michele",R
+NH,0.758,"Pellegrino, Tony",R
+NH,0.539,"Peterson, Ken",R
+NH,-0.648,"Phillips, Larry Robert",D
+NH,0.31,"Pierce, David W.",R
+NH,-0.4,"Piper, Wendy A",D
+NH,1.126,"Pitre, Joseph A.",R
+NH,-1.194,"Porter, Marjorie",D
+NH,0.798,"Potucek, John",R
+NH,0.471,"Priestley, Anne",R
+NH,0.387,"Proulx, Mark",R
+NH,0.968,"Prudhomme-O'Brien, Katherine",R
+NH,0.78,"Rappaport, Laurence",R
+NH,-0.809,"Ratzki, Mario",D
+NH,0.977,"Rice, Frederick",R
+NH,-1.029,"Rice, Harold",D
+NH,1.122,"Rice, Kimberly",R
+NH,0.444,"Richardson, Herbert D.",R
+NH,1.327,"Rideout, Leon H.",R
+NH,-0.451,"Roberts, Carol R.",D
+NH,-0.857,"Robertson, Timothy",D
+NH,-1.185,"Rogers, Katherine D.",D
+NH,-0.776,"Rokas, Theodoros",D
+NH,0.664,"Rollins, Skip",R
+NH,-1.104,"Rollo, Deanna S",D
+NH,-0.989,"Rosenwald, Cindy",D
+NH,0.642,"Rouillard, Claire",R
+NH,0.574,"Rowe, Robert H",R
+NH,0.516,"Russell, David",R
+NH,-1.338,"Sad, Tara A",D
+NH,1.053,"Sanborn, Laurie",R
+NH,0.63,"Sanders, Elisabeth",R
+NH,-1.059,"Saunderson, George L.",D
+NH,1.206,"Schleien, Eric",R
+NH,-0.722,"Schmidt, Andrew R",D
+NH,-1.294,"Schmidt, Peter B",D
+NH,0.564,"Schmidt, Stephen J",R
+NH,1.06,"Schroadter, Adam R",R
+NH,-1.137,"Schuett, Dianne",D
+NH,0.662,"Scontsas, Lisa E",R
+NH,1.061,"Seaworth, Brian",R
+NH,1.065,"Seidel, Carl",R
+NH,0.419,"Shackett, Jeff",R
+NH,-1.27,"Shattuck, Gilman",D
+NH,-0.514,"Shaw, Barbara",D
+NH,-1.205,"Shepardson, Marjorie",D
+NH,-0.884,"Sherman, Thomas",D
+NH,-1.285,"Shurtleff, Stephen",D
+NH,1.231,"Silva, Peter",R
+NH,1.048,"Simmons, Tammy",R
+NH,-1.019,"Simpson, Alexis",D
+NH,0.689,"Smith, Gregory",R
+NH,-1.269,"Smith, Marjorie",D
+NH,0.581,"Smith, Steven D",R
+NH,-1.192,"Smith, Suzanne",D
+NH,-0.72,"Smith, Timothy",D
+NH,-1.099,"Snow, Kendall A.",D
+NH,-0.541,"Soucy, Timothy",D
+NH,-1.233,"Southworth, Thomas",D
+NH,0.861,"Souza, Kathleen",R
+NH,-0.941,"Spang, Judith",D
+NH,0.898,"Spanos, Peter John",R
+NH,1.852,"Spillane, James",R
+NH,-0.329,"Sprague, Dale",D
+NH,1.046,"Stepanek, Stephen",R
+NH,0.53,"Sterling, Franklin Jr.",R
+NH,-0.866,"Stevens, Audrey",D
+NH,0.784,"Straight, Phillip",R
+NH,-0.617,"Sullivan, Daniel",D
+NH,1.276,"Sullivan, Victoria",R
+NH,0.598,"Sweeney, Joe",R
+NH,0.88,"Sweeney, Shawn P",R
+NH,-1.483,"Sykes, George",D
+NH,1.463,"Sylvia, Michael J",R
+NH,0.455,"Sytek, John",R
+NH,0.172,"Takesian, Charlene",R
+NH,1.347,"Tamburello, Daniel",R
+NH,1.072,"Tasker, Kyle J",R
+NH,-0.859,"Tatro, Bruce L.",D
+NH,-0.626,"Theberge, Robert L.",D
+NH,0.541,"Tholl, John Jr.",R
+NH,0.769,"Thomas, Douglas",R
+NH,-0.692,"Thomas, Yvonne D",D
+NH,-0.698,"Ticehurst, Susan",D
+NH,0.013,"Tilton, Benjamin",D
+NH,0.674,"Tilton, Franklin",R
+NH,0.52,"Tilton, Rio",R
+NH,-1.137,"Townsend, Charles",D
+NH,-1.027,"Treleaven, Susan",D
+NH,1.489,"True, Chris",R
+NH,1.061,"Tucker, Pamela",R
+NH,-0.648,"Turcotte, Alan",D
+NH,1.312,"Turcotte, Leonard",R
+NH,1.206,"Twombly, Timothy",R
+NH,1.151,"Ulery, Jordan G.",R
+NH,0.421,"Umberger, Karen C.",R
+NH,0.971,"Vadney, Herb",R
+NH,-1.021,"Vann, Ivy",D
+NH,0.967,"Varney, Peter",R
+NH,-0.868,"Verschueren, James",D
+NH,1.138,"Vose, Michael",R
+NH,-0.945,"Wall, Janet",D
+NH,-1.552,"Wallner, Mary",D
+NH,-1.124,"Walsh, Robert Jr.",D
+NH,0.673,"Walsh, Thomas C.",R
+NH,-1.305,"Ward, Gerald",D
+NH,0.64,"Ward, Joanne",R
+NH,-1.291,"Ward, Kenneth J",D
+NH,0.602,"Webb, James C.",R
+NH,-1.421,"Weber, Lucy",D
+NH,0.616,"Welch, David",R
+NH,0.825,"Weyler, Kenneth",R
+NH,-0.791,"Wheeler, Deborah",D
+NH,-0.881,"White, Andrew",D
+NH,1.314,"Whitehouse, Joshua",R
+NH,-0.99,"Williams, Kermit",D
+NH,0.419,"Woitkun, Steven J.",R
+NH,0.369,"Wolf, Terry",R
+NH,0.834,"Wood, David",R
+NH,-1.189,"Woodbury, David",D
+NH,0.952,"Wright, Donald",R
+NH,1.037,"Wuelper, Kurt",R
+NH,1.09,"Zaricki, Nick",R
+NJ,-0.035,"Weinberg, Loretta",R
+NJ,-0.496,"Andrzejczak, Robert",D
+NJ,-0.037,"Auth, Robert",R
+NJ,-1.14,"Barclay, Arthur",D
+NJ,-0.898,"Barnes, Peter III",D
+NJ,-1.017,"Benson, Daniel R",D
+NJ,-0.18,"Brown, Chris A",R
+NJ,0.178,"Bucco, Anthony Jr.",R
+NJ,-0.912,"Burzichelli, John J",D
+NJ,-1.001,"Caputo, Ralph R",D
+NJ,-0.902,"Caride, Marlene",D
+NJ,0.278,"Carroll, Michael Patrick",R
+NJ,-1.117,"Chaparro, Annette",D
+NJ,-1.01,"Chiappone, Anthony",D
+NJ,-1.086,"Chiaravalloti, Nicholas",D
+NJ,-0.01,"Ciattarelli, Jack M.",R
+NJ,-0.054,"Clifton, Robert D",R
+NJ,-0.945,"Conaway Jr, Herbert C",D
+NJ,-0.985,"Coughlin, Craig J",D
+NJ,0.01,"Cruz-Perez, Nilsa",R
+NJ,-0.107,"Dancer, Ronald S.",R
+NJ,-0.954,"DeAngelo, Wayne P",D
+NJ,-0.021,"DeCroce, BettyLou",R
+NJ,-1.003,"Diegnan, Patrick Jr.",D
+NJ,0.278,"DiMaio, John",R
+NJ,-0.408,"Downey, Joann",D
+NJ,-1.18,"Eustace, Timothy J",D
+NJ,-0.998,"Giblin, Thomas P",D
+NJ,0.062,"Gove, DiAnne C",R
+NJ,-0.908,"Green, Gerald",D
+NJ,-0.928,"Greenwald, Louis D",D
+NJ,-1.098,"Gusciora, Reed",D
+NJ,-0.019,"Handlin, Amy H",R
+NJ,-1.119,"Holley, Jamel C.",D
+NJ,-0.396,"Houghtaling, Eric",D
+NJ,-0.04,"Howarth, Joe",R
+NJ,-1.223,"Jasey, Mila M",D
+NJ,-1.051,"Jimenez, Angelica M",D
+NJ,-1.121,"Johnson, Gordon M",D
+NJ,-1.203,"Jones, Patricia Egan",D
+NJ,-0.899,"Karabinchak, Robert J.",D
+NJ,-0.984,"Kennedy, James J.",D
+NJ,-0.897,"Lagana, Joseph A.",D
+NJ,-1.032,"Lampitt, Pamela Rosen",D
+NJ,-0.478,"Land, R. Bruce",D
+NJ,-1.218,"Maher Smith, Elizabeth",D
+NJ,-1.271,"Marin, Eliana Pintor",D
+NJ,0.1,"McGuckin, Gregory P",R
+NJ,-1.12,"McKeon, John F",D
+NJ,-1.074,"Mcknight, Angela V.",D
+NJ,-0.855,"Moriarty, Paul D",D
+NJ,-1.058,"Mosquera, Gabriela M",D
+NJ,-0.81,"Mukherji, Raj",D
+NJ,0.034,"Munoz, Nancy F",R
+NJ,0.016,"O'Scanlon, Declan Jr.",R
+NJ,-0.957,"Oliver, Sheila",D
+NJ,0.256,"Peterson, Erik",R
+NJ,0.298,"Phoebus, Gail",R
+NJ,-0.995,"Pinkin, Nancy J",D
+NJ,-0.994,"Prieto, Vincent",D
+NJ,-1.095,"Quijano, Annette",D
+NJ,0.071,"Ramos, Ruben Jr.",R
+NJ,-0.003,"Rible, David P",R
+NJ,-0.189,"Rodriguez-Gregg, Maria",R
+NJ,0.143,"Rooney, John",R
+NJ,0.074,"Rumana, Scott T",R
+NJ,0.063,"Rumpf, Brian E.",R
+NJ,-0.964,"Schaer, Gary S",D
+NJ,0.008,"Schepisi, Holly",R
+NJ,-1.081,"Singleton, Troy",D
+NJ,0.264,"Space, Parker",R
+NJ,-1.009,"Sumter, Shavonda E",D
+NJ,-0.661,"Taliaferro, Adam J.",D
+NJ,-0.983,"Tucker, Cleopatra G",D
+NJ,-1.172,"Vainieri Huttle, Valerie",D
+NJ,-0.866,"Watson, Blonnie R.",D
+NJ,0.201,"Webber, Jay",R
+NJ,-1.056,"Wimberly, Benjie E",D
+NJ,-1.017,"Wisniewski, John S.",D
+NJ,-0.002,"Wolfe, David W.",R
+NJ,-0.537,"Zwicker, Andrew",D
+NM,0.726,"Adkins, David Edward",R
+NM,-1.453,"Alcon, Eliseo Lee",D
+NM,-1.559,"Armstrong, Deborah A.",D
+NM,1.093,"Baldonado, Alonzo",R
+NM,1.049,"Bandy, Paul C.",R
+NM,1.143,"Brown, Cathrynn",R
+NM,-1.507,"Chasey, Gail",D
+NM,0.819,"Clahchischilliage, Sharon",R
+NM,0.663,"Cook, Zachary",R
+NM,0.966,"Crowder, Randal S.",R
+NM,0.699,"Dines, James Mitchell",R
+NM,-0.786,"Dodge, George Jr.",D
+NM,-1.421,"Egolf, Brian Jr.",D
+NM,1.513,"Espinoza, Nora",R
+NM,1.488,"Ezzell, Candy",R
+NM,0.638,"Fajardo, Kelly K.",R
+NM,1.252,"Gallegos, David",R
+NM,-1.257,"Gallegos, Doreen",D
+NM,-0.969,"Garcia Richard, Stephanie",D
+NM,-1.67,"Garcia, Miguel",D
+NM,0.595,"Gentry, Nathaniel",R
+NM,-1.145,"Gomez, Bealquin Bill",D
+NM,-1.033,"Gonzales, Roberto J (Bobby)",D
+NM,0.884,"Hall, Jimmie",R
+NM,1.046,"Hamilton, Dianne",R
+NM,0.658,"Harper, Jason",R
+NM,1.254,"Herrell, Yvette",R
+NM,-0.415,"Irwin, Dona G.",D
+NM,1.157,"James, Conrad D.",R
+NM,-1.699,"Johnson, Doreen W.",D
+NM,0.969,"Larrañaga, Larry A.",R
+NM,0.788,"Lewis, Timothy",R
+NM,1.944,"Little, Rick",R
+NM,-1.809,"Louis, Georgene",D
+NM,-0.858,"Lundstrom, Patricia",D
+NM,-1.144,"Madalena, James Jr.",D
+NM,0.286,"Maestas Barnes, Sarah",R
+NM,-1.266,"Maestas, Antonio",D
+NM,-1.295,"Maez, Stephanie",D
+NM,-1.814,"Martinez, Javier I.",D
+NM,-1.122,"Martinez, Walter Ken",D
+NM,-1.23,"McCamley, Bill",D
+NM,0.444,"McMillan, Terry H.",R
+NM,-1.285,"McQueen, Matthew",D
+NM,1.295,"Montoya, Rodney D.",R
+NM,0.946,"Nunez, Andrew",R
+NM,0.54,"Pacheco, Paul",R
+NM,1.002,"Powdrell-Culbert, Jane",R
+NM,0.556,"Rehm, William",R
+NM,0.91,"Roch, Dennis",R
+NM,-0.933,"Rodella, Debbie A.",D
+NM,-2.86,"Romero, Andres",D
+NM,-2.903,"Roybal Cabellero, Patricia A.",D
+NM,-1.127,"Ruiloba, Patricio R.",D
+NM,-0.973,"Salazar, Nick L.",D
+NM,-1.339,"Salazar, Tomas",D
+NM,1.7,"Scott, Larry R.",R
+NM,0.726,"Smith, James",R
+NM,-1.118,"Steinborn, Jeff",D
+NM,1.395,"Strickler, James",R
+NM,1.838,"Townsend, James G.",R
+NM,0.611,"Tripp, Don L.",R
+NM,-0.814,"Trujillo, Carl",D
+NM,-1.777,"Trujillo, Christine",D
+NM,-1.061,"Trujillo, Jim",D
+NM,-1.069,"Varela, Luciano",D
+NM,-1.258,"Williams-Stapleton, Sheryl",D
+NM,1.026,"Wooley, Bob",R
+NM,0.86,"Youngblood, Monica",R
+NM,1.024,"Zimmerman, John L.",R
+NY,-1.381,"Abbate, Peter J., Jr.",D
+NY,-1.298,"Abinanti, Thomas J.",D
+NY,-1.54,"Arroyo, Carmen E",D
+NY,-1.665,"Aubry, Jeffrion L.",D
+NY,-0.028,"Barclay, William",R
+NY,-0.881,"Barrett, Didi",D
+NY,-1.298,"Barron, Inez",D
+NY,-1.535,"Benedetto, Michael",D
+NY,-1.963,"Bichotte, Rodneyse",D
+NY,-1.867,"Blake, Michael A.",D
+NY,0.1,"Blankenbush, Kenneth D.",R
+NY,0.138,"Borrelli, Joe",R
+NY,-0.025,"Brabenec, Karl A.",R
+NY,-1.292,"Braunstein, Edward C.",D
+NY,-1.346,"Brennan, James F.",D
+NY,-0.791,"Brindisi, Anthony",D
+NY,-1.077,"Bronson, Harry B.",D
+NY,-1.592,"Brook-Krasny, Alec",D
+NY,-0.993,"Buchwald, David",D
+NY,-0.068,"Butler, Marc",R
+NY,-1.005,"Cahill, Kevin",D
+NY,-0.381,"Ceretto, John D.",R
+NY,-1.57,"Clark, Barbara M.",D
+NY,-1.585,"Colton, William",D
+NY,-1.669,"Cook, Vivian E.",D
+NY,0.179,"Corwin, Jane L.",R
+NY,-1.412,"Crespo, Marcos",D
+NY,-0.071,"Crouch, Clifford",R
+NY,-0.263,"Curran, Brian",R
+NY,-0.748,"Cusick, Michael",D
+NY,-1.491,"Cymbrowitz, Steven",D
+NY,-1.629,"Davila, Maritza",D
+NY,-1.387,"DenDekker, Michael",D
+NY,-1.992,"Dilan, Erik Martin",D
+NY,-1.855,"Dinowitz, Jeffrey",D
+NY,0.848,"DiPietro, David",R
+NY,-0.163,"Duprey, Janet",R
+NY,-0.989,"Englebright, Steven",D
+NY,-1.077,"Fahy, Patricia",D
+NY,-1.688,"Farrell, Herman D., Jr.",D
+NY,-0.018,"Finch, Gary",R
+NY,0.333,"Fitzpatrick, Michael",R
+NY,0.835,"Friend, Christopher",R
+NY,-0.904,"Galef, Sandra R.",D
+NY,-1.022,"Gantt, David F.",D
+NY,-0.123,"Garbarino, Andrew",R
+NY,-0.077,"Giglio, Joseph M.",R
+NY,-0.794,"Gjonaj, Mark",D
+NY,-2.624,"Glick, Deborah J.",D
+NY,-1.034,"Goldfeder, Phillip",D
+NY,0.106,"Goodell, Andrew",R
+NY,-1.513,"Gottfried, Richard N.",D
+NY,0.036,"Graf, Alfred",R
+NY,-0.583,"Gunther, Aileen",D
+NY,-0.958,"Harris, Pamela",D
+NY,0.245,"Hawley, Stephen M.",R
+NY,-1.931,"Heastie, Carl",D
+NY,-1.425,"Hevesi, Andrew",D
+NY,-1.176,"Hikind, Dov",D
+NY,-1.644,"Hill, Earlene H.",D
+NY,-1.761,"Hunter, Pamela J.",D
+NY,-1.858,"Hyndman, Alicia L.",D
+NY,-1.852,"Jaffee, Ellen C.",D
+NY,-2.225,"Jean-Pierre, Kimberly",D
+NY,-0.35,"Johns, Mark C",R
+NY,-2.318,"Joyner, Latoya",D
+NY,0.434,"Katz, Steve",R
+NY,-1.188,"Kavanagh, Brian",D
+NY,-0.79,"Kearns, Michael",D
+NY,-1.461,"Kim, Ron",D
+NY,0.064,"Kolb, Brian",R
+NY,0.582,"Lalor, Kieran Michael",R
+NY,-1.535,"Lavine, Charles",D
+NY,0.335,"Lawrence, Peter A.",R
+NY,-1.452,"Lentol, Joseph R.",D
+NY,-1.142,"Lifton, Barbara",D
+NY,-1.493,"Linares, Guillermo",D
+NY,-0.003,"Lopez, Peter",R
+NY,-0.964,"Lupardo, Donna",D
+NY,-0.276,"Lupinacci, Chad",R
+NY,-0.605,"Magee, William",D
+NY,-0.906,"Magnarelli, William",D
+NY,-0.033,"Malliotakis, Nicole",R
+NY,-1.567,"Markey, Margaret",D
+NY,-1.508,"Mayer, Shelley B.",D
+NY,-0.931,"McDonald, John III",D
+NY,-0.282,"McDonough, David",R
+NY,-0.374,"McKevitt, Tom",R
+NY,0.08,"McLaughlin, Steven F",R
+NY,-0.905,"Miller, Michael",D
+NY,-0.089,"Montesano, Michael",R
+NY,-1.232,"Morelle, Joseph D.",D
+NY,-1.629,"Mosley, Walter III",D
+NY,-1.769,"Moya, Francisco P.",D
+NY,-0.023,"Murray, Dean",R
+NY,1.127,"Nojay, William",R
+NY,-1.648,"Nolan, Catherine T.",D
+NY,-1.507,"O'Donnell, Daniel",D
+NY,0.01,"Oaks, Robert C.",R
+NY,-1.616,"Ortiz, Felix Jr.",D
+NY,-1.522,"Otis, Steven",D
+NY,0.212,"Palmesano, Philip A.",R
+NY,-0.159,"Palumbo, Anthony H.",R
+NY,-1.143,"Paulin, Amy R.",D
+NY,-1.016,"Peoples-Stokes, Crystal",D
+NY,-1.676,"Perry, Nick N.",D
+NY,-1.588,"Pichardo, Victor M.",D
+NY,-1.53,"Pretlow, James Gary",D
+NY,-1.002,"Quart, Dan",D
+NY,-0.229,"Ra, Edward",R
+NY,-0.259,"Raia, Andrew",R
+NY,-0.923,"Ramos, Philip",D
+NY,-1.954,"Richardson, Diane",D
+NY,-1.709,"Rivera, José",D
+NY,-1.046,"Roberts, Samuel",D
+NY,-1.914,"Robinson, Annette",D
+NY,-1.397,"Rodriguez, Robert J.",D
+NY,-2.621,"Rosenthal, Linda",D
+NY,-1.814,"Rozic, Nily D.",D
+NY,-1.098,"Russell, Addie",D
+NY,-1.098,"Ryan, Sean M.",D
+NY,-0.328,"Saladino, Joseph",R
+NY,-0.739,"Santabarbara, Angelo",D
+NY,-1.713,"Scarborough, William",D
+NY,-1.616,"Schimel, Michelle",D
+NY,-0.505,"Schimminger, Robin L.",D
+NY,-2.684,"Seawright, Rebecca A.",D
+NY,-1.571,"Sepúlveda, Luis Sepulveda",D
+NY,-1.57,"Silver, Sheldon",D
+NY,-0.821,"Simanowitz, Michael",D
+NY,-2.351,"Simon, Jo Anne",D
+NY,-1.37,"Simotas, Aravella",D
+NY,-0.72,"Skartados, Frank",D
+NY,-0.91,"Skoufis, James G.",D
+NY,-1.148,"Solages, Michaelle",D
+NY,-0.035,"Stec, Daniel",R
+NY,-1.352,"Steck, Phillip",D
+NY,-0.748,"Stirpe, Albert",D
+NY,-0.281,"Tedisco, James N.",R
+NY,0.479,"Tenney, Claudia",R
+NY,-0.962,"Thiele, Fred Jr.",D
+NY,-1.133,"Titone, Matthew",D
+NY,-1.689,"Titus, Michele",D
+NY,-0.569,"Walker, Robert",R
+NY,0.012,"Walter, Raymond W.",R
+NY,-2.659,"Weinstein, Helene E.",D
+NY,-1.675,"Weprin, Mark",D
+NY,-0.639,"Woerner, Carrie",D
+NY,-0.105,"Wozniak, Angela M.",R
+NY,-1.737,"Wright, Keith L.",D
+NY,-1.02,"Zebrowski Jr, Kenneth P",D
+NC,0.986,"Blust, John",R
+NC,-0.613,"Queen, Joe",D
+NC,1.097,"Adams, James Cecil",R
+NC,-0.475,"Adcock, Gale Brown",D
+NC,-0.606,"Ager, John Curtis",D
+NC,-0.512,"Alexander Jr, Kelly M",D
+NC,0.984,"Arp, Larry Dean",R
+NC,1.033,"Avila, Marilyn",R
+NC,-0.855,"Baskerville, Nathan",D
+NC,1.039,"Bell IV, John Richard",R
+NC,-0.642,"Bell, Larry Moseley",D
+NC,1.695,"Bishop, James Daniel",R
+NC,0.656,"Blackwell, Hugh",R
+NC,1.04,"Boles, James Larry",R
+NC,0.984,"Bradford, John Ray",R
+NC,1.011,"Brawley, William M.",R
+NC,0.139,"Brisson, William D",D
+NC,-0.541,"Brockman, Cecil Antonio",D
+NC,1.029,"Brody, Mark Allen",R
+NC,0.958,"Brown, Alicia",R
+NC,0.945,"Brown, Brian Mathew",R
+NC,0.941,"Bryan III, Robert P",R
+NC,1.209,"Bumgardner, Dana",R
+NC,1.042,"Burr, Justin P",R
+NC,-0.649,"Carney, Becky",D
+NC,0.682,"Catlin, Richard Glyndon",R
+NC,1.332,"Cleveland, George G",R
+NC,1.428,"Collins, Jeffrey Lynn",R
+NC,1.03,"Conrad, Debra L",R
+NC,-0.643,"Cotham, Patricia Ann",D
+NC,-0.868,"Cunningham, Carla D",D
+NC,0.734,"Daughtry, N. Leo",R
+NC,0.828,"Davis Jr, Robert Theodore",R
+NC,0.988,"Dixon, James William",R
+NC,0.603,"Dobson, Joshua Robert",R
+NC,1.034,"Dollar, Nelson",R
+NC,-0.727,"Earle, Beverly M",D
+NC,0.97,"Elmore, Jeffrey Carter",R
+NC,0.867,"Faircloth, John",R
+NC,-0.931,"Farmer-Butterfield, Jean",D
+NC,-1.197,"Fisher, Susan C.",D
+NC,-0.453,"Floyd, Elmer",D
+NC,1.141,"Ford, Carl Lindsey",R
+NC,0.76,"Fraley, John Alfred",R
+NC,-0.996,"Gill, Rosa U",D
+NC,-0.72,"Glazier, Richard B",D
+NC,-0.256,"Goodman, Kenneth Leigh",D
+NC,-0.598,"Graham, Charles",D
+NC,-0.675,"Graham, George Jr.",D
+NC,1.285,"Hager, Michael Dean",R
+NC,-0.787,"Hall II, Duane R",D
+NC,0.71,"Hall, Kyle",R
+NC,-1.159,"Hall, Larry D",D
+NC,-0.679,"Hamilton, Susan Holladay",D
+NC,-0.602,"Hanes Jr, Edward Francis",D
+NC,0.885,"Hardister, Jonathan Yates",R
+NC,-1.363,"Harrison, Mary Price",D
+NC,1.196,"Hastings, Kelly E",R
+NC,-0.822,"Holley, Yvonne Lewis",D
+NC,1.176,"Holloway, Bryan R",R
+NC,0.809,"Horn, Dwight Craig",R
+NC,0.662,"Howard, Julia C",R
+NC,-0.568,"Hunter, Howard Jacque",D
+NC,0.894,"Hurley, Patricia Britt",R
+NC,0.912,"Iler, Frank",R
+NC,-1.143,"Insko, Verla C",D
+NC,-0.75,"Jackson, Darren G",D
+NC,0.547,"Jeter Jr, Charles Roper",R
+NC,0.644,"Johnson, Linda P",R
+NC,0.847,"Jones, Bert",R
+NC,-0.516,"Jones, Earl Frederick",D
+NC,0.763,"Jordan, Jonathan Christian",R
+NC,0.915,"Lambeth, Donny Carr",R
+NC,0.722,"Langdon Jr, James H",R
+NC,0.786,"Lewis, David Sr.",R
+NC,-0.588,"Lucas, Marvin Jr.",D
+NC,-1.083,"Luebke, Paul T",D
+NC,0.665,"Malone, Christopher III",R
+NC,-0.856,"Martin III, David",D
+NC,0.918,"Martin, Susan Lynn",R
+NC,0.758,"McElraft, Patricia Earlene",R
+NC,0.469,"McGrady, Charles Worden",R
+NC,1,"McNeill, Allen Ray",R
+NC,-0.991,"Meyer, Graig R.",D
+NC,-0.747,"Michaux Jr, Henry M",D
+NC,1.277,"Millis, Christopher Wayne",R
+NC,-0.566,"Moore, Rodney Wayne",D
+NC,1.119,"Moore, Timothy Keith",R
+NC,0.563,"Murphy, Gregory F.",R
+NC,0.744,"Pendleton, Gary H.",R
+NC,-0.723,"Pierce, Garland E",D
+NC,0.914,"Pittman, Larry G",R
+NC,1.133,"Presnell, Michele D",R
+NC,-0.764,"Reives, Robert Tyrone",D
+NC,-0.918,"Richardson, Bobbie J.",D
+NC,-0.685,"Richardson, William O.",D
+NC,0.965,"Riddell, Dennis Patrick",R
+NC,0.883,"Robinson, Gladys",R
+NC,0.753,"Ross, Stephen",R
+NC,0.995,"Saine, Jason",R
+NC,-0.324,"Salmon, Brad Andrew",D
+NC,1.03,"Schaffer, Jacqueline M",R
+NC,1.1,"Setzer, Mitchell Smith",R
+NC,-1,"Sgro, Christopher",D
+NC,0.871,"Shepard, Phillip R",R
+NC,0.647,"Speciale, Michael David",R
+NC,0.762,"Stam, Paul Jr.",R
+NC,0.681,"Steinburg, Robert Charles",R
+NC,0.939,"Stevens, Sarah S",R
+NC,0.854,"Stone, Scott",R
+NC,0.866,"Szoka, John David",R
+NC,-0.864,"Terry, Evelyn A",D
+NC,-0.145,"Tine, Paul Newton",D
+NC,1.013,"Torbett, John A",R
+NC,-0.473,"Turner, Brian Mills",D
+NC,0.871,"Turner, Rena W",R
+NC,-0.218,"Waddell, Kenneth",D
+NC,0.963,"Warren, Harry",R
+NC,0.917,"Watford, Samuel Lee",R
+NC,0.828,"West, Roger",R
+NC,0.9,"Whitmire, James Christopher",R
+NC,-1.017,"Willingham, Shelly",D
+NC,-0.498,"Wray, Michael H",D
+NC,0.778,"Yarborough, Lawrence",R
+NC,0.542,"Zachary, Walter Lee",R
+ND,-0.413,"Kelsh, Jerome",D
+ND,-0.364,"Amerman, Bill",D
+ND,0.544,"Anderson, Dick",R
+ND,-0.391,"Anderson, Pamela",D
+ND,0.352,"Beadle, Thomas",R
+ND,0.595,"Becker, Richard S",R
+ND,1.232,"Becker, Rick",R
+ND,1.173,"Bellew, Larry",R
+ND,0.959,"Belter, Wesley",R
+ND,-0.063,"Boe, Tracy",D
+ND,0.837,"Boehning, Randy",R
+ND,-0.418,"Boschee, Joshua",D
+ND,1.103,"Brabandt, Roger",R
+ND,0.678,"Brandenburg, Michael Don",R
+ND,1.168,"Carlson, Al",R
+ND,0.742,"Damschen, Charles",R
+ND,-0.177,"Delmore, Lois",D
+ND,1.388,"Delzer, Jeff",R
+ND,0.765,"Devlin, William",R
+ND,0.779,"Dockter, Jason",R
+ND,0.877,"Dosch, Mark",R
+ND,0.545,"Fehr, Alan",R
+ND,0.498,"Frantsvog, Robert",R
+ND,0.75,"Froseth, Glen",R
+ND,-0.269,"Glassheim, Eliot",D
+ND,-0.577,"Guggisberg, Ron",D
+ND,-0.243,"Haak, Jessica",D
+ND,-0.27,"Hanson, Ben",D
+ND,0.496,"Hatlestad, Patrick",R
+ND,0.309,"Hawken, Kathy",R
+ND,0.941,"Headland, Craig",R
+ND,0.616,"Hofstad, Curt",R
+ND,-0.41,"Hogan, Kathy",D
+ND,-0.425,"Holman, Richard",D
+ND,-0.176,"Hunskor, Bob",D
+ND,0.517,"Johnson, Dennis",R
+ND,0.25,"Johnson, Mary C",R
+ND,0.912,"Kading, Tom",R
+ND,0.719,"Karls, Karen",R
+ND,0.991,"Kasper, James",R
+ND,0.556,"Keiser, George",R
+ND,0.828,"Kempenich, Keith",R
+ND,0.562,"Kiefert, Dwight",R
+ND,0.737,"Klein, Matthew",R
+ND,0.561,"Klemin, Lawrence",R
+ND,1.108,"Koppelman, Ben",R
+ND,0.787,"Koppelman, Kim",R
+ND,0.747,"Kreidt, Gary",R
+ND,0.37,"Kretschmar, William",R
+ND,0.78,"Laning, Vernon",R
+ND,0.616,"Larson, Diane",R
+ND,0.577,"Lefor, Mike",R
+ND,0.755,"Looysen, Alex",R
+ND,0.946,"Louser, Scott",R
+ND,0.223,"Maragos, Andrew",R
+ND,0.479,"Martinson, Bob",R
+ND,0.681,"Meier, Lisa",R
+ND,-0.372,"Mitskog, Alisa",D
+ND,-0.434,"Mock, Corey",D
+ND,0.664,"Monson, David",R
+ND,-0.555,"Mooney, Gail",D
+ND,-0.395,"Muscha, Naomi",D
+ND,0.773,"Nathe, Mike",R
+ND,0.488,"Nelson, Jon",R
+ND,-0.176,"Nelson, Marvin",D
+ND,1.07,"Olson, Christopher",R
+ND,-0.449,"Onstad, Kenton",D
+ND,-0.634,"Oversen, Kylie",D
+ND,0.565,"Owens, Mark",R
+ND,0.705,"Paur, Gary",R
+ND,0.914,"Pollert, Chet",R
+ND,0.723,"Porter, Todd",R
+ND,1.06,"Rohr, Karen",R
+ND,1.159,"Ruby, Dan",R
+ND,0.435,"Sanford, Mark",R
+ND,1.006,"Schatz, Mike",R
+ND,0.987,"Schmidt, James",R
+ND,-0.467,"Schneider, Jasper",D
+ND,0.642,"Schreiber-Beck, Cindy",R
+ND,0.634,"Seibel, Jay R",R
+ND,0.624,"Silbernagel, Peter",R
+ND,1.104,"Skarphol, Robert",R
+ND,0.698,"Steiner, Vicky",R
+ND,1.203,"Streyle, Roscoe",R
+ND,-0.419,"Strinden, Marie",D
+ND,0.563,"Sukut, Gary",R
+ND,0.9,"Thoreson, Blair",R
+ND,1.017,"Toman, Nathan",R
+ND,0.767,"Trottier, Wayne",R
+ND,0.806,"Vigesaa, Don",R
+ND,-0.524,"Wallman, Kris",D
+ND,0.846,"Weisz, Robin",R
+ND,0.489,"Zubke, Denton B",R
+OH,1.205,Amstutz,R
+OH,-0.552,"Boccieri, John",D
+OH,1.022,"Cupp, Robert",R
+OH,-0.815,"Fedor, Teresa",D
+OH,1.204,"Schaffer, Tim",R
+OH,0.695,"Schuring, Kirk",R
+OH,-0.929,"Strahorn, Frederick",D
+OH,0.712,"Anielski, Marlene",R
+OH,1.26,"Antani, Niraj J.",R
+OH,-1.019,"Antonio, Nickie J.",D
+OH,0.587,"Arndt, Steven",R
+OH,-0.864,"Ashford, Michael",D
+OH,0.822,"Baker, Nan",R
+OH,-0.449,"Barnes Jr, John E",D
+OH,1.051,"Becker, John",R
+OH,-0.466,"Bishoff, Heather",D
+OH,0.817,"Blessing, Louis III",R
+OH,-1.084,"Boggs, Kristin",D
+OH,0.872,"Boose, Terry",R
+OH,-0.784,"Boyce, Kevin L.",D
+OH,-0.813,"Boyd, Janine R.",D
+OH,1.118,"Brenner, Andrew",R
+OH,0.067,"Brinkman, Thomas Jr.",R
+OH,0.716,"Brown, Tim",R
+OH,-1.02,"Bryant Kuhns, Christie",D
+OH,1.237,"Buchy, Jim",R
+OH,0.781,"Burkley, Tony",R
+OH,0.984,"Butler, James",R
+OH,-0.769,"Celebrezze, Nicholas John",D
+OH,-0.5,"Cera, Jack",D
+OH,-0.927,"Clyde, Kathleen",D
+OH,0.941,"Conditt, Margaret",R
+OH,-0.793,"Craig, Hearcel F.",D
+OH,-0.573,"Curtin, Mike",D
+OH,1.981,"Dean, Bill",R
+OH,0.991,"Derickson, Timothy",R
+OH,0.694,"Dever, Jonathan",R
+OH,0.989,"DeVitis, Anthony",R
+OH,0.912,"Dovilla, Michael",R
+OH,-0.692,"Driehaus, Denise",D
+OH,0.67,"Duffey, Michael",R
+OH,1.07,"Gavarone, Theresa",R
+OH,-0.718,"Gerberry, Ronald",D
+OH,0.462,"Ginter, Timothy E.",R
+OH,0.905,"Gonzales, Anne H.",R
+OH,1.865,"Goodman, Wesley A.",R
+OH,0.799,"Green, Doug",R
+OH,0.852,"Grossman, Cheryl",R
+OH,1.037,"Hagan, Christina M.",R
+OH,1.062,"Hall, David",R
+OH,0.469,"Hambley, Stephen D.",R
+OH,1.034,"Hayes, William",R
+OH,0.995,"Henne, Michael",R
+OH,1.072,"Hill, Brian D.",R
+OH,0.729,"Hood, Ron",R
+OH,-1.52,"Howse, Stephanie D.",D
+OH,0.989,"Huffman, Stephen A.",R
+OH,-1.695,"Johnson, Greta",D
+OH,0.772,"Johnson, Terry",R
+OH,2.239,"Keller, Candice R.",R
+OH,0.934,"Koehler, Kyle",R
+OH,0.857,"Kunze, Stephanie L.",R
+OH,1.103,"Landis, Al",R
+OH,0.747,"LaTourette, Sarah",R
+OH,-0.644,"Leland, David",D
+OH,-1.601,"Lepore-Hagan, Michele",D
+OH,1.137,"Maag, Ron",R
+OH,0.677,"Manning, Nathan H.",R
+OH,0.977,"McClain, Jeffrey",R
+OH,1.004,"Mccolley, Robert",R
+OH,1.35,"Merrin, Derek",R
+OH,-0.502,"O'Brien, Michael J.",D
+OH,-0.54,"O'Brien, Sean",D
+OH,-0.366,"Patmon, Bill",D
+OH,-0.635,"Patterson, John",D
+OH,0.967,"Pelanda, Dorothy",R
+OH,1.018,"Perales, Rick",R
+OH,-0.948,"Phillips, Debbie",D
+OH,-1.456,"Ramos, Dan",D
+OH,-0.811,"Reece, Alicia",D
+OH,0.568,"Reineke, Bill",R
+OH,1.203,"Retherford, Wes",R
+OH,0.554,"Rezabek, Jeffrey S.",R
+OH,0.845,"Roegner, Kristina Daley",R
+OH,-0.502,"Rogers, John M.",D
+OH,0.841,"Romanchuk, Mark",R
+OH,1.045,"Rosenberger, Cliff",R
+OH,0.87,"Ruhl, Margaret",R
+OH,0.887,"Ryan, Scott K.",R
+OH,0.962,"Scherer, Gary",R
+OH,1.03,"Sears, Barbara",R
+OH,-0.811,"Sheehy, Michael P.",D
+OH,1.088,"Slaby, Marilyn",R
+OH,-0.539,"Slesnick, Stephen",D
+OH,-1.024,"Smith, Kent",D
+OH,0.976,"Smith, Ryan",R
+OH,0.903,"Sprague, Robert",R
+OH,-0.608,"Stinziano, Michael",D
+OH,-1.101,"Strong Sykes, Emilia",D
+OH,-0.622,"Sweeney, Martin J.",D
+OH,1.01,"Terhar, Louis",R
+OH,1.249,"Thompson, Andrew",R
+OH,2.738,"Vitale, Nino",R
+OH,0.843,"Young, Ronald",R
+OH,2.566,"Zeltwanger, Paul E.",R
+OK,1.243,"Banz, Gary W",R
+OK,0.794,"Bennett, John R",R
+OK,1.222,"Biggs, Scott R",R
+OK,1.127,"Billy, Lisa J",R
+OK,-0.062,"Brown, Mike",D
+OK,1.356,"Brumbaugh, David",R
+OK,1.353,"Caldwell, Chad",R
+OK,1.228,"Calvey, Kevin J.",R
+OK,-0.07,"Cannaday, Ed",D
+OK,1.204,"Casey, Dennis",R
+OK,0.848,"Christian, Mike William",R
+OK,1.404,"Cleveland, Bobby",R
+OK,1.384,"Cockroft, Josh",R
+OK,0.148,"Condit, Donnie",D
+OK,1.202,"Coody, Ann",R
+OK,1.351,"Coody, Jeff",R
+OK,1.318,"Cooksey, Marian",R
+OK,1.013,"Cox, Doug",R
+OK,1.234,"Dank, David M",R
+OK,1.122,"Denney, Lee",R
+OK,1.296,"Derby, David",R
+OK,1.543,"Dunlap, Travis",R
+OK,-0.042,"Dunnington, Jason",D
+OK,1.348,"Echols, Jon",R
+OK,1.2,"Enns, John T",R
+OK,1.295,"Faught, George E",R
+OK,1.153,"Fisher, Dan",R
+OK,-0.213,"Fourkiller, William T",D
+OK,-0.262,"Goodwin, Regina",D
+OK,1.152,"Grau, Randon",R
+OK,-0.015,"Griffith, Claudia",D
+OK,1.499,"Hall, Elise",R
+OK,1.064,"Hardin, Tommy C",R
+OK,1.107,"Henke, Katie",R
+OK,1.159,"Hickman, Jeffrey W",R
+OK,-0.19,"Hoskin, Chuck",D
+OK,-0.009,"Inman, Scott Michael",D
+OK,1.272,"Jordan, John Paul",R
+OK,1.192,"Joyner, Charles C",R
+OK,1.297,"Kannady, Chris",R
+OK,1.456,"Kern, Sally",R
+OK,1.111,"Kirby, Dan",R
+OK,-0.045,"Kouplen, Steve",D
+OK,1.472,"Leewright, James",R
+OK,1.32,"Lepak, Mark Paul",R
+OK,0.082,"Lockhart, James",D
+OK,0.159,"Loring, Ben",D
+OK,1.241,"Martin, Scott C",R
+OK,1.369,"McBride, Mark",R
+OK,1.308,"McCall, Charles A",R
+OK,1.307,"McCullough, Mark Everett",R
+OK,-0.022,"McDaniel, Jeannie",D
+OK,1.339,"McDaniel, Randy",R
+OK,-0.259,"McPeak, Jerry",D
+OK,1.091,"Montgomery, John Michael",R
+OK,1.308,"Moore, Lewis H",R
+OK,-0.511,"Morrissette, Richard D",D
+OK,1.4,"Mulready, Glen",R
+OK,0.025,"Munson, Cyndi",D
+OK,1.357,"Murdock, William Casey",R
+OK,1.499,"Murphey, Jason W",R
+OK,1.285,"Nelson, Jason",R
+OK,1.424,"Newell, Tom",R
+OK,1.202,"Nollan, Jadine",R
+OK,1.395,"O'Donnell, Terry",R
+OK,1.247,"Ortega, Charles Larry",R
+OK,1.278,"Osborn, Leslie",R
+OK,1.245,"Ownbey, Pat",R
+OK,1.218,"Park, Scooter",R
+OK,0.1,"Perryman, David L.",D
+OK,1.296,"Peterson, Pam",R
+OK,1.381,"Pfeiffer, John",R
+OK,0.059,"Proctor, Eric Dean",D
+OK,0.357,"Pruett, Raymond C",D
+OK,-0.042,"Renegar, Brian",D
+OK,0.888,"Ritze, Mike",R
+OK,1.057,"Roberts, Dustin",R
+OK,1.267,"Roberts, Kevin",R
+OK,1.456,"Rogers, Michael",R
+OK,0.074,"Rousselot, Wade",D
+OK,1.192,"Russ, Todd D",R
+OK,1.285,"Sanders, Mike",R
+OK,0.027,"Scott, Seneca D",D
+OK,1.2,"Sears, Earl",R
+OK,-0.616,"Shelton, Mike",D
+OK,-0.051,"Sherrer, Ben",D
+OK,0.089,"Shoemake, Jerry Ray",D
+OK,-0.191,"Stone, Shane",D
+OK,1.281,"Strohm, Chuck",R
+OK,0.115,"Tadlock, Johnny",D
+OK,1.147,"Thomsen, Todd Mark",R
+OK,1.304,"Vaughan, Steve",R
+OK,-0.132,"Virgin, Emily",D
+OK,1.253,"Walker, Ken",R
+OK,1.182,"Wallace, Kevin",R
+OK,1.196,"Watson, Weldon",R
+OK,1.39,"Wesselhoft, Paul",R
+OK,-0.286,"Williams, Cory T",D
+OK,1.241,"Wood, Justin Freeland",R
+OK,1.273,"Wright, Harold",R
+OK,-0.345,"Young, George E.",D
+OR,-0.774,"Barker, Jeff",D
+OR,-1.452,"Barnhart, Philip N.",D
+OR,0.992,"Barreto, Gregory L.",R
+OR,-0.634,"Barton, Brent",D
+OR,0.626,"Bentz, Cliff",R
+OR,-0.688,"Boone, Deborah",D
+OR,-1.37,"Buckley, Peter",D
+OR,0.56,"Buehler, Knute",R
+OR,-0.828,"Clem, Brian",D
+OR,0.513,"Davis, John",R
+OR,-0.993,"Doherty, Margaret",D
+OR,0.739,"Esquivel, Sal C",R
+OR,-0.294,"Evans, Paul",D
+OR,-0.697,"Fagan, Shemia",D
+OR,-1.243,"Frederick, Lew",D
+OR,-0.788,"Gallegos, Joe",D
+OR,0.723,"Gilliam, Vic",R
+OR,-1.206,"Gomberg, David",D
+OR,-0.919,"Gorsek, Chris",D
+OR,-1.276,"Greenlick, Mitch",D
+OR,0.747,"Hack, Jodi L.",R
+OR,0.756,"Hayden, Cedric Ross",R
+OR,0.908,"Heard, Dallas",R
+OR,-1.596,"Helm, Ken",D
+OR,-1.406,"Holvey, Paul R.",D
+OR,-0.97,"Hoyle, Val",D
+OR,0.447,"Huffman, John",R
+OR,0.505,"Johnson, Mark",R
+OR,0.443,"Kennemer, Bill",R
+OR,-1.491,"Keny-Guyer, Alissa",D
+OR,-0.817,"Komp, Betty",D
+OR,-1.16,"Kotek, Tina",D
+OR,0.678,"Krieger, Wayne",R
+OR,-1.555,"Lininger, Ann",D
+OR,-1.024,"Lively, John D.",D
+OR,-0.663,"McKeown, Caddy",D
+OR,-0.364,"McLain, Susan",D
+OR,0.686,"McLane, Michael",R
+OR,-1.257,"Nathanson, Nancy",D
+OR,0.945,"Nearman, Mike",R
+OR,-1.555,"Nosse, Robert A.",D
+OR,0.55,"Olson, Andy",R
+OR,0.614,"Parrish, Julie N.",R
+OR,-1.361,"Pederson, Jessica Vega",D
+OR,-0.402,"Piluso, Carla C.",D
+OR,1.232,"Post, Bill",R
+OR,-1.158,"Rayfield, Dan",D
+OR,-1.178,"Read, Tobias",D
+OR,-1.218,"Reardon, Jeff",D
+OR,0.817,"Sprenger, Sherrie",R
+OR,0.768,"Stark, Duane A.",R
+OR,-1.581,"Taylor, Kathleen",D
+OR,0.503,"Thompson, Jim",R
+OR,-1.474,"Warner, Barbara Smith",D
+OR,1.269,"Weidner, Jim",R
+OR,0.611,"Whisnant, C.",R
+OR,1.155,"Whitsett, Gail",R
+OR,-1.194,"Williamson, Jennifer",D
+OR,0.87,"Wilson, Carl",R
+OR,-0.93,"Witt, Bradley",D
+PA,-0.538,"Smith, Matthew",D
+PA,-0.842,"Acosta, Leslie",D
+PA,0.41,"Adolph, William Jr.",R
+PA,0.59,"Baker, Matthew",R
+PA,-0.358,"Barbin, Bryan",D
+PA,0.472,"Barrar, Stephen",R
+PA,0.858,"Benninghoff, Kerry",R
+PA,-0.872,"Bishop, Louise Williams",D
+PA,-0.484,"Bizzarro, Ryan",D
+PA,1.079,"Bloom, Stephen",R
+PA,0.414,"Boback, Karen",R
+PA,-0.71,"Boyle, Brendan",D
+PA,-0.74,"Bradford, Matthew",D
+PA,-0.85,"Briggs, Tim",D
+PA,0.483,"Brown, Rosemary M",R
+PA,-0.94,"Brown, Vanessa",D
+PA,-0.978,"Brownlee, Michelle",D
+PA,-1.15,"Bullock, Donna",D
+PA,-0.396,"Burns, Frank",D
+PA,-0.549,"Caltagirone, Thomas",D
+PA,-0.496,"Carroll, Mike",D
+PA,0.69,"Causer, Martin",R
+PA,0.654,"Christiana, Jim III",R
+PA,-0.95,"Cohen, Mark",D
+PA,-0.554,"Conklin, H.",D
+PA,-1.153,"Cook-Artis, Tonyelle W.",D
+PA,0.659,"Corbin, Becky",R
+PA,-0.467,"Costa, Dominic",D
+PA,-0.564,"Costa, Paul",D
+PA,0.943,"Cox, Jim",R
+PA,-0.751,"Cruz, Angel",D
+PA,0.663,"Culver Schlegel, Lynda",R
+PA,0.842,"Cutler, Bryan",R
+PA,-1.023,"Daley, Mary Jo",D
+PA,-0.548,"Daley, Peter II",D
+PA,-0.632,"Davidson, Margo",D
+PA,-0.655,"Davis, Tina",D
+PA,-1.119,"Dawkins, Jason",D
+PA,0.635,"Day, Gary",R
+PA,-0.896,"Dean, Madeleine",D
+PA,-0.528,"Deasy, Daniel Jr.",D
+PA,-0.78,"Delissio, Pamela",D
+PA,0.721,"Delozier, Sheryl",R
+PA,-0.499,"DeLuca, Anthony Jr.",D
+PA,-0.694,"Dermody, Frank",D
+PA,0.689,"Diamond, Russ",R
+PA,0.24,"DiGirolamo, Gene",R
+PA,-0.773,"Donatucci, Maria",D
+PA,-0.771,"Driscoll, Michael J.",D
+PA,0.854,"Dunbar, George",R
+PA,1.119,"Dush, Cris",R
+PA,0.829,"Ellis, Brian",R
+PA,0.881,"Emrick, Joe",R
+PA,0.429,"English, Harold",R
+PA,0.904,"Evankovich, Eli",R
+PA,-0.803,"Evans, Dwight",D
+PA,0.69,"Everett, Garth",R
+PA,-0.665,"Fabrizio, Florindo",D
+PA,-0.509,"Farina, Frank",D
+PA,0.396,"Farry, Frank",R
+PA,0.832,"Fee, Mindy",R
+PA,-0.556,"Flynn, Martin",D
+PA,-0.786,"Frankel, Dan",D
+PA,-0.716,"Freeman, Robert",D
+PA,0.889,"Gabler, Matt",R
+PA,-0.952,"Gainey, Edward",D
+PA,-0.506,"Galloway, John",D
+PA,-0.492,"Gergely, Marc",D
+PA,-0.363,"Gibbons, Jaret",D
+PA,0.727,"Gillen, Mark",R
+PA,0.892,"Gillespie, Keith",R
+PA,0.63,"Gingrich, Mauree",R
+PA,0.376,"Godshall, Robert",R
+PA,-0.475,"Goodman, Neal",D
+PA,0.816,"Greiner, Keith",R
+PA,0.764,"Grell, Glen",R
+PA,0.831,"Grove, Seth",R
+PA,0.494,"Hackett, Joseph",R
+PA,0.68,"Hahn, Marcia M",R
+PA,-0.453,"Hanna, Michael Sr.",D
+PA,-0.417,"Harhai, Ted",D
+PA,0.552,"Harhart, Julie",R
+PA,-0.61,"Harkins, Patrick",D
+PA,0.318,"Harper, Catherine",R
+PA,0.556,"Harris, C. Adam",R
+PA,-0.904,"Harris, Jordan",D
+PA,0.646,"Heffley, Doyle",R
+PA,0.586,"Helm, Susan",R
+PA,0.437,"Hennessey, Timothy",R
+PA,0.809,"Hickernell, David",R
+PA,0.758,"Irvin, Rich",R
+PA,-0.38,"James, Harold",D
+PA,0.676,"James, R.",R
+PA,0.814,"Jozwiak, Barry J.",R
+PA,0.532,"Kampf, Warren",R
+PA,0.476,"Kaufer, Aaron",R
+PA,0.991,"Kauffman, Rob",R
+PA,-0.537,"Kavulich, Sid",D
+PA,1.052,"Keller, Frederick",R
+PA,0.91,"Keller, Mark",R
+PA,-0.644,"Keller, William",D
+PA,-0.872,"Kim, Patty",D
+PA,-1.101,"Kinsey, Stephen",D
+PA,-0.892,"Kirkland, Thaddeus",D
+PA,0.841,"Klunk, Kate Anne",R
+PA,-0.481,"Kortz, William II",D
+PA,-0.409,"Kotik, Nick",D
+PA,0.883,"Krieger, Tim",R
+PA,-0.736,"Krueger-Braneky, Leanne",D
+PA,0.982,"Lawrence, John",R
+PA,0.609,"Lewis, Harry",R
+PA,0.868,"Mackenzie, Ryan E.",R
+PA,0.571,"Maher, John",R
+PA,-0.54,"Mahoney, Tim",D
+PA,0.602,"Major, Sandra",R
+PA,0.939,"Maloney, David",R
+PA,-0.516,"Markosek, Joseph",D
+PA,0.75,"Marsico, Ronald",R
+PA,0.545,"Masser, Kurt",R
+PA,-0.502,"Matzie, Robert",D
+PA,-1.167,"McCarter, Steve",D
+PA,-1.095,"McClinton, Joanna E.",D
+PA,1.055,"McGinnis, John",R
+PA,-0.771,"McNeill, Daniel",D
+PA,0.773,"Mentzer, Steven",R
+PA,1.402,"Metcalfe, Daryl",R
+PA,0.338,"Miccarelli, Nicholas III",R
+PA,0.552,"Millard, David",R
+PA,0.975,"Miller, Brett R.",R
+PA,-0.526,"Miller, Daniel",D
+PA,0.52,"Milne, Duane",R
+PA,0.784,"Moul, Dan",R
+PA,-0.358,"Mullery, Gerald",D
+PA,0.311,"Murt, Thomas",R
+PA,0.516,"Mustio, Mark",R
+PA,-0.602,"Neilson, Ed",D
+PA,0.772,"Nelson, Eric R.",R
+PA,0.605,"Nesbit, Tedd C.",R
+PA,-0.398,"Neuman, Brandon",D
+PA,-0.806,"O'Brien, Michael",D
+PA,0.376,"O'Neill, Bernard",R
+PA,0.893,"Oberlander, Donna",R
+PA,0.829,"Ortitay, Jason A.",R
+PA,-0.951,"Parker, Cherelle",D
+PA,0.481,"Parker, David C.",R
+PA,-0.699,"Pashinski, Eddie Day",D
+PA,0.576,"Payne, John",R
+PA,0.613,"Peifer, Michael",R
+PA,-0.337,"Petrarca, Joseph Jr.",D
+PA,0.351,"Petri, Scott",R
+PA,0.841,"Phillips-Hill, Kristin Lee",R
+PA,0.624,"Pickett, Tina",R
+PA,0.757,"Pyle, Jeffrey",R
+PA,0.678,"Quigley, Thomas",R
+PA,0.577,"Quinn, Christopher B.",R
+PA,0.386,"Quinn, Marguerite",R
+PA,0.454,"Rader, Jack B.",R
+PA,0.862,"Rapp, Kathy",R
+PA,-0.571,"Ravenstahl, Adam",D
+PA,-0.461,"Readshaw, Harry III",D
+PA,0.571,"Reed, Dave",R
+PA,0.777,"Reese, Mike",R
+PA,0.622,"Regan, Mike",R
+PA,1.047,"Roae, Bradley",R
+PA,-0.933,"Roebuck, James Jr.",D
+PA,0.373,"Ross, Chris",R
+PA,1.015,"Rothman, Greg",R
+PA,-0.595,"Rozzi, Mark",D
+PA,0.83,"Saccone, Richard",R
+PA,-0.372,"Sainato, Chris",D
+PA,-0.482,"Samuelson, Steve",D
+PA,0.8,"Sankey, Thomas III",R
+PA,-0.722,"Santarsiero, Steven",D
+PA,0.36,"Santora, James",R
+PA,-1.123,"Savage, Lynwood W.",D
+PA,0.837,"Saylor, Stanley",R
+PA,0.827,"Schemel, Paul",R
+PA,-0.691,"Schlossberg, Mike",D
+PA,-0.674,"Schreiber, Kevin",D
+PA,-0.647,"Schweyer, Peter G.",D
+PA,0.745,"Simmons, Justin",R
+PA,-0.857,"Sims, Brian",D
+PA,-0.448,"Snyder, Pam",D
+PA,0.781,"Sonney, Curtis",R
+PA,0.723,"Staats, Craig T.",R
+PA,0.408,"Stephens, Todd",R
+PA,-0.8,"Sturla, P. Michael",D
+PA,1.009,"Tallman, Will",R
+PA,0.257,"Taylor, John",R
+PA,-0.857,"Thomas, W.",D
+PA,0.679,"Tobash, Mike",R
+PA,0.618,"Toepel, Marcy",R
+PA,0.877,"Topper, Jesse W.",R
+PA,0.836,"Truitt, Dan",R
+PA,0.713,"Turzai, Mike",R
+PA,0.4,"Vereb, Mike",R
+PA,-0.692,"Vitali, Gregory",D
+PA,0.88,"Ward, Judith F.",R
+PA,0.691,"Warner, Ryan",R
+PA,-0.868,"Waters, Ronald",D
+PA,0.419,"Watson, Katharine",R
+PA,0.85,"Wentling, Parke",R
+PA,-0.776,"Wheatley, Jake Jr.",D
+PA,0.717,"Wheeland, Jeff C.",R
+PA,-0.352,"White, Jesse",D
+PA,0.08,"White, Martina",R
+PA,-0.777,"Youngblood, Rosita",D
+PA,0.873,"Zimmerman, David H.",R
+RI,-0.682,"Abney, Marvin L.",D
+RI,-0.685,"Ackerman, Mia A.",D
+RI,-0.506,"Ajello, Edith H.",D
+RI,-0.595,"Almeida Jr, Joseph S",D
+RI,-0.582,"Amore, Gregg",D
+RI,-0.462,"Azzinaro, Samuel A.",D
+RI,-0.709,"Barros, Jean Philippe",D
+RI,-0.595,"Bennett, David A.",D
+RI,-0.938,"Blazejewski, Christopher R",D
+RI,-0.497,"Canario, Dennis M.",D
+RI,-0.567,"Carnevale, John M.",D
+RI,-0.553,"Carson, Lauren H.",D
+RI,-0.455,"Casey, Stephen M.",D
+RI,0.163,"Chippendale, Michael W.",R
+RI,-0.488,"Corvese, Arthur J.",D
+RI,0.231,"Costa, Doreen Marie",R
+RI,-0.32,"Costantino, Gregory J",D
+RI,-0.603,"Coughlin, David A.",D
+RI,-0.583,"Craven, Robert E.",D
+RI,-0.416,"Desimone, John J",D
+RI,-0.657,"Diaz, Grace",D
+RI,-0.428,"Edwards, John G.",D
+RI,-0.461,"Fellela, Deborah A.",D
+RI,-0.542,"Fogarty, Kathleen A.",D
+RI,-0.691,"Gallison, Raymond E.",D
+RI,0.117,"Giarrusso, Antonio",R
+RI,-0.614,"Handy, Arthur",D
+RI,-0.458,"Hearn, Joy",D
+RI,-0.365,"Hull, Raymond A",D
+RI,-0.447,"Jacquard, Robert B.",D
+RI,-0.626,"Johnston Jr, Raymond H",D
+RI,-0.769,"Kazarian, Katherine S.",D
+RI,-0.523,"Keable, Cale P.",D
+RI,-0.564,"Kennedy, Brian Patrick",D
+RI,0.052,"Lancia, Robert B.",R
+RI,-0.414,"Lima, Charlene M.",D
+RI,-0.296,"Lombardi, John Joseph",D
+RI,-0.087,"Macbeth, Karen L",D
+RI,-0.701,"Maldonado, Shelby",D
+RI,-0.482,"Malik, Jan P",D
+RI,-0.391,"Marcello, Michael J",D
+RI,-0.713,"Marshall, Kenneth A.",D
+RI,-0.763,"Mattiello, Nicholas Anthony",D
+RI,-0.629,"McEntee, Carol Hagan",D
+RI,-0.865,"McKiernan, Daniel P.",D
+RI,-0.273,"McLaughlin, James N",D
+RI,-0.661,"McNamara, Joseph M",D
+RI,-0.591,"Melo, Helio",D
+RI,-0.421,"Messier, Mary Duffy",D
+RI,0.017,"Morgan, Patricia L",R
+RI,-0.726,"Morin, Michael A.",D
+RI,-0.014,"Nardolillo, Robert A.",R
+RI,-0.625,"Naughton, Eileen Slattery",D
+RI,0.138,"Newberry, Brian C.",R
+RI,-0.225,"Nunes, Jared R",D
+RI,-0.612,"O'Brien, William W.",D
+RI,-0.392,"O'Grady, Jeremiah T.",D
+RI,-0.464,"Palangio, Thomas A",D
+RI,-0.287,"Phillips, Robert D.",D
+RI,0.386,"Price, Justin",R
+RI,-0.811,"Regunberg, Aaron",D
+RI,-0.026,"Reilly, Daniel Patrick",R
+RI,0.695,"Roberts, Sherry",R
+RI,-0.482,"Ruggiero, Deborah L.",D
+RI,-0.6,"Serpa, Patricia A.",D
+RI,-0.694,"Shekarchi, K. Joseph",D
+RI,-0.599,"Slater, Scott A",D
+RI,-0.527,"Solomon, Joseph J.",D
+RI,-0.448,"Tanzi, Teresa Ann",D
+RI,-0.889,"Tobon, Carlos E.",D
+RI,0.078,"Trillo, Joseph A",R
+RI,-0.377,"Ucci, Stephen R",D
+RI,-0.586,"Williams, Anastasia P",D
+RI,-0.317,"Winfield, Thomas J.",D
+SC,1.753,"Corbin, Thomas D.",R
+SC,-0.682,"Alexander, Terry",D
+SC,1.115,"Allison, Merita A.",R
+SC,-0.627,"Anderson, Carl L",D
+SC,-0.151,"Anthony, Michael A.",D
+SC,1.245,"Atwater, Todd K",R
+SC,-0.214,"Bales, Jimmy C.",D
+SC,1.171,"Ballentine, Nathan",R
+SC,-1.153,"Bamberg, Justin T.",D
+SC,0.775,"Bannister, Bruce W.",R
+SC,1.732,"Bedingfield, Eric M",R
+SC,-0.373,"Bernstein, Beth E.",D
+SC,1.032,"Bingham, Kenneth A.",R
+SC,-0.263,"Bowers, William K.",D
+SC,0.877,"Bradley, Jeffrey A.",R
+SC,0.51,"Brannon, Norman D",R
+SC,-0.384,"Brown, Grady A",D
+SC,-0.536,"Brown, Robert L.",D
+SC,1.075,"Burns, James Mikell",R
+SC,1.467,"Chumley, William M.",R
+SC,0.441,"Clary, Gary E.",R
+SC,0.865,"Clemmons, Alan D",R
+SC,-0.505,"Clyburn, William Sr.",D
+SC,-0.843,"Cobb-Hunter, Gilda",D
+SC,1.034,"Cole Jr, J. Derham",R
+SC,0.925,"Collins, Neal A.",R
+SC,1.267,"Corley, Christopher A.",R
+SC,0.945,"Crawford, Heather Ammons",R
+SC,0.94,"Crawford, Kristopher R.",R
+SC,0.884,"Crosby, William E",R
+SC,0.929,"Daning, Joseph S",R
+SC,0.853,"Davis, Sylleste H.",R
+SC,0.88,"Delleney Jr, F. Gregory",R
+SC,-0.709,"Dillard, Chandra E.",D
+SC,-0.295,"Douglas, MaryGail K",D
+SC,0.95,"Duckworth, Gregory A.",R
+SC,0.92,"Erickson, Shannon S",R
+SC,1.122,"Felder, Raye",R
+SC,0.799,"Finlay, Kirkman",R
+SC,1.148,"Forrester, P. Michael",R
+SC,1.085,"Fry, Russell W.",R
+SC,-0.206,"Funderburk, Laurie Slade",D
+SC,0.808,"Gagnon, Craig A.",R
+SC,-0.2,"George, J. Wayne",D
+SC,-0.805,"Gilliard, Wendell G.",D
+SC,-0.498,"Govan, Jerry N.",D
+SC,1.358,"Hamilton, Daniel P.",R
+SC,0.772,"Hardee, Kevin",R
+SC,0.722,"Hardwick, Nelson L.",R
+SC,-0.751,"Hart, Christopher R.",D
+SC,-0.222,"Hayes, Jackie E.",D
+SC,0.703,"Henderson, Phyllis J.",R
+SC,-0.678,"Henegan, Patricia Moore",D
+SC,0.731,"Herbkersman, William G",R
+SC,1.775,"Hill, Jonathon D.",R
+SC,0.828,"Hiott, David R.",R
+SC,0.971,"Hixon, William M",R
+SC,-0.718,"Hodges, Kenneth F",D
+SC,0.704,"Horne, Jenny Anderson",R
+SC,-0.75,"Hosey, Lonnie",D
+SC,-0.79,"Howard, Leon",D
+SC,1.035,"Huggins, Chip",R
+SC,-0.78,"Jefferson Jr, Joseph H",D
+SC,1.053,"Johnson, Jeffrey E.",R
+SC,0.964,"Jordan, Wallace H.",R
+SC,1.047,"Kennedy Jr, Ralph Shealy",R
+SC,-0.932,"King, John Richard C.",D
+SC,-0.499,"Kirby, Roger K.",D
+SC,-0.12,"Knight, Patsy G.",D
+SC,0.831,"Limehouse III, Harry B",R
+SC,1.019,"Loftis, Dwight A",R
+SC,1.054,"Long, Deborah A",R
+SC,0.928,"Lowe, Phillip D",R
+SC,0.721,"Lucas, James H",R
+SC,-1.099,"Mack III, David J",D
+SC,0.963,"McCoy, Peter M.",R
+SC,-0.463,"McEachern, Joseph A",D
+SC,-0.855,"McKnight, Cezar E",D
+SC,-0.357,"McLeod III, Walton J",D
+SC,-0.915,"McLeod, Mia S.",D
+SC,0.996,"Merrill, James H.",R
+SC,-0.603,"Mitchell, Harold Jr.",D
+SC,0.913,"Moss, Dennis Carroll",R
+SC,0.694,"Moss, V. Stephen",R
+SC,0.697,"Murphy, Christopher J.",R
+SC,1.644,"Nanney, Wendy K.",R
+SC,-0.818,"Neal, Joseph H.",D
+SC,0.924,"Newton, Weston",R
+SC,1.472,"Norman, Ralph Jr.",R
+SC,-0.337,"Norrell, Mandy Powers",D
+SC,-0.228,"Ott, Russell L.",D
+SC,-0.638,"Parks, Anne",D
+SC,0.788,"Pitts, Michael A",R
+SC,0.89,"Pope, Thomas E",R
+SC,1.485,"Putnam, Joshua A.",R
+SC,0.857,"Quinn, Richard Jr.",R
+SC,-0.335,"Ridgeway III, Robert L",D
+SC,0.734,"Riley, Robert Shannon",R
+SC,1.195,"Rivers, Samuel",R
+SC,-0.919,"Robinson-Simpson, Leola C",D
+SC,-0.814,"Rutherford, J. Todd",D
+SC,0.813,"Ryhal, Mike",R
+SC,0.824,"Sandifer, William E.",R
+SC,0.883,"Simrill, J. Gary",R
+SC,-0.416,"Smith Jr, James E",D
+SC,1.252,"Smith, Garry R.",R
+SC,0.826,"Smith, Murrell",R
+SC,0.778,"Sottile, F. Michael",R
+SC,1.084,"Southard, Edward L",R
+SC,0.595,"Spires, L. Kit",R
+SC,0.085,"Stavrinakis, Leonidas E",D
+SC,1.265,"Stringer, Tommy M.",R
+SC,1.074,"Tallon Sr, Edward R",R
+SC,1.144,"Taylor, Bill",R
+SC,1.261,"Thayer, Anne J.",R
+SC,-0.481,"Tinkler, Mary E.",D
+SC,1.126,"Toole, McLain R",R
+SC,-0.508,"Weeks, J. David",D
+SC,0.955,"Wells, Don L",R
+SC,-0.602,"Whipper, Jackson S",D
+SC,0.772,"White, W. Brian",R
+SC,0.761,"Whitmire, William R.",R
+SC,-0.784,"Williams, Robert Q",D
+SC,1.169,"Willis, Mark N.",R
+SC,1.102,"Wood, Donna H.",R
+SC,1.176,"Yow, Richard L.",R
+SD,-0.251,"Bartling, Julie",D
+SD,1.028,"Greenfield, Brock L",R
+SD,0.636,"Hunhoff, Jean M",R
+SD,0.754,"Schoenbeck, Lee Anton",R
+SD,0.67,"Anderson, David L.",R
+SD,0.772,"Beal, Arch",R
+SD,0.73,"Bolin, James",R
+SD,-0.778,"Bordeaux, Shawn L.",D
+SD,0.867,"Brunner, Thomas J",R
+SD,1.023,"Campbell, Blaine B",R
+SD,0.666,"Conzet, Kristin A",R
+SD,0.88,"Craig, Scott W",R
+SD,0.727,"Cronin, Justin R",R
+SD,0.564,"Deutsch, Fred",R
+SD,1.047,"Disanto, Lynn",R
+SD,0.442,"Dryden, Dan",R
+SD,0.5,"Duvall, Mary",R
+SD,-0.115,"Feickert, Dennis",D
+SD,-0.599,"Gibson, Peggy Anne",D
+SD,0.788,"Gosch, Brian G",R
+SD,0.895,"Haggar, Don",R
+SD,0.719,"Harrison, Michele",R
+SD,1.246,"Haugaard, Steven",R
+SD,-0.725,"Hawks, Paula",D
+SD,-0.389,"Hawley, Spencer",D
+SD,0.712,"Heinemann, Leslie",R
+SD,0.333,"Holmes, Tom",R
+SD,0.868,"Hunt, Roger W",R
+SD,0.48,"Jensen, Alex",R
+SD,0.327,"Johns, Timothy R",R
+SD,1.419,"Kaiser, Dan",R
+SD,-0.487,"Killer, Kevin",D
+SD,-0.356,"Kirschman, Patrick A",D
+SD,0.929,"Klumb, Joshua M.",R
+SD,0.715,"Langer, Kris",R
+SD,1.245,"Latterell, Isaac",R
+SD,1.386,"Marty, Sam",R
+SD,1.164,"May, Elizabeth",R
+SD,-0.314,"McCleerey, Steven D.",D
+SD,0.58,"Mickelson, G. Mark",R
+SD,0.529,"Munsterman, Scott",R
+SD,0.77,"Novstrup, Al",R
+SD,0.604,"Otten, Ernest Jr.",R
+SD,0.655,"Partridge, Jeff",R
+SD,0.498,"Peterson, Kent S.",R
+SD,0.846,"Qualm, Lee",R
+SD,0.606,"Rasmussen, Nancy",R
+SD,-0.429,"Ring, Ray",D
+SD,0.489,"Romkema, Fred W",R
+SD,0.779,"Rounds, Tim G",R
+SD,0.381,"Rozum, Tona",R
+SD,1.182,"Russell, Lance S",R
+SD,0.805,"Schaefer, James G",R
+SD,0.483,"Schoenfish, Kyle",R
+SD,-0.298,"Schrempp, Dean",D
+SD,0.486,"Sly, Jacqueline",R
+SD,-0.675,"Soli, Karen L.",D
+SD,0.62,"Solum, Roger D",R
+SD,0.917,"Stalzer, Jim",R
+SD,0.61,"Steinhauer, Wayne",R
+SD,0.45,"Stevens, Mike",R
+SD,0.623,"Tulson, Burton",R
+SD,1.099,"Verchio, Mike",R
+SD,0.517,"Werner, Dick",R
+SD,0.646,"Westra, Steven",R
+SD,0.873,"Wiik, John",R
+SD,0.75,"Willadsen, Mark K",R
+SD,0.676,"Wink, Dean",R
+SD,0.478,"Wollmann, Matthew",R
+SD,0.623,"Zikmund, Larry P.",R
+TN,-0.765,"Akbari, Raumesh A.",D
+TN,0.683,"Alexander, David",R
+TN,-0.648,"Armstrong, Joe",D
+TN,-0.482,"Beck, Bill",D
+TN,0.98,"Brooks, Harry",R
+TN,1.16,"Brooks, Kevin D",R
+TN,1.377,"Butt, Sheila",R
+TN,0.803,"Byrd, David",R
+TN,1.031,"Calfee, Kent",R
+TN,-0.693,"Camper, Karen D.",D
+TN,0.833,"Carr, Dale",R
+TN,1.113,"Carr, Joe",R
+TN,1.21,"Carter, Mike",R
+TN,1.148,"Casada, Glen",R
+TN,-1.06,"Clemmons, John Ray",D
+TN,0.693,"Coley, Jim",R
+TN,-0.765,"Cooper, Barbara W.",D
+TN,0.899,"Daniel, Martin B.",R
+TN,-0.086,"DeBerry, John J.",D
+TN,1.013,"Doss, Barry",R
+TN,-0.024,"Dunlap, Kevin",D
+TN,0.795,"Dunn, Bill",R
+TN,1.088,"Durham, Jeremy",R
+TN,0.914,"Eldridge, Jimmy",R
+TN,0.974,"Faison, Jeremy",R
+TN,1.064,"Farmer, Andrew E",R
+TN,-0.644,"Favors, JoAnne",D
+TN,-0.549,"Fitzhugh, Craig",D
+TN,0.913,"Forgety, John W",R
+TN,-0.63,"Gilmore, Brenda",D
+TN,1.066,"Goins, Tilman",R
+TN,1.059,"Gravitt, Marc",R
+TN,1.034,"Halford, Curtis",R
+TN,-0.751,"Hardaway, G A.",D
+TN,0.719,"Harrison, Michael",R
+TN,0.955,"Harwell, Beth Halteman",R
+TN,0.899,"Hawk, David B",R
+TN,0.709,"Haynes, Ryan",R
+TN,0.815,"Hazlewood, Patsy",R
+TN,0.98,"Hicks, Gary",R
+TN,0.841,"Hill, Matthew",R
+TN,0.833,"Hill, Timothy",R
+TN,1.271,"Holsclaw, John B.",R
+TN,0.962,"Holt, Andy",R
+TN,1.551,"Howell, Dan",R
+TN,0.866,"Hulsey, Bud",R
+TN,0.965,"Jenkins, Jamie",R
+TN,-0.368,"Jernigan, Darren",D
+TN,1.005,"Johnson, Curtis",R
+TN,-0.706,"Jones, Sherry",D
+TN,1.11,"Kane, Roger",R
+TN,0.744,"Keisling, Kelly",R
+TN,0.998,"Kumar, Sabi",R
+TN,0.851,"Lamberth, William G",R
+TN,1.318,"Littleton, Mary",R
+TN,0.815,"Lollar, Ron",R
+TN,-0.513,"Love, Harold M.",D
+TN,0.796,"Lundberg, Jon C",R
+TN,1.223,"Lynn, Susan",R
+TN,1.158,"Marsh, Pat",R
+TN,0.946,"Matheny, Judd",R
+TN,1.198,"Matlock, Jimmy",R
+TN,0.96,"McCormick, Gerald",R
+TN,0.735,"McDaniel, Steve K",R
+TN,0.891,"McManus, Stephen",R
+TN,-0.559,"Miller, Larry J.",D
+TN,-0.592,"Mitchell, Bo",D
+TN,1.214,"Moody, Debra",R
+TN,-0.709,"Parkinson, Antonio",D
+TN,-0.296,"Pitts, Joe",D
+TN,0.858,"Pody, Mark",R
+TN,-0.559,"Powell, Jason",D
+TN,1.258,"Powers, Dennis",R
+TN,1.071,"Ragan, John Jr.",R
+TN,0.818,"Ramsey, Robert",R
+TN,1.142,"Reedy, Jay D.",R
+TN,0.859,"Rogers, Courtney",R
+TN,0.691,"Sanderson, Charles III",R
+TN,0.889,"Sargent Jr, Charles M",R
+TN,1.067,"Sexton, Cameron",R
+TN,1.363,"Sexton, Jerry",R
+TN,-0.534,"Shaw, Johnny W",D
+TN,-0.24,"Shepard, David A",D
+TN,0.503,"Smith, Eddie",R
+TN,0.915,"Sparks, Mike",R
+TN,0.977,"Spivey, Billy",R
+TN,-1.004,"Stewart, Mike",D
+TN,0.775,"Swann, Art",R
+TN,1.057,"Terry, Gregory Bryan",R
+TN,0.836,"Todd, Curry",R
+TN,-0.807,"Towns, Joe E.",D
+TN,1.102,"Travis, Ron",R
+TN,-0.803,"Turner, Johnnie R.",D
+TN,0.677,"Van Huss, James",R
+TN,0.959,"Weaver, Terri Lynn",R
+TN,1.191,"White, Dawn",R
+TN,1.079,"White, Mark",R
+TN,1.062,"Williams, Ryan",R
+TN,0.01,"Windle, John Mark",D
+TN,0.896,"Wirgau, Timothy",R
+TN,0.774,"Womick, Rick",R
+TN,1.426,"Zachary, Jason",R
+TX,-0.892,"Menéndez, José",D
+TX,-1.364,"Allen, Alma",D
+TX,-1.363,"Alonzo, Roberto",D
+TX,-1.223,"Alvarado, Carol",D
+TX,-1.006,"Anchía, Rafael",D
+TX,1.479,"Anderson, Charles",R
+TX,1.288,"Anderson, Rodney",R
+TX,1.256,"Ashby, Trent",R
+TX,1.392,"Aycock, Jimmie Don",R
+TX,1.705,"Bell, Cecil Jr.",R
+TX,-3.183,"Bernal, Diego",D
+TX,-2.836,"Blanco, Cesar",D
+TX,1.178,"Bohac, Dwayne",R
+TX,1.306,"Bonnen, Dennis",R
+TX,1.643,"Bonnen, Greg",R
+TX,1.431,"Burkett, Cindy",R
+TX,1.736,"Burns, Dewayne C",R
+TX,1.794,"Burrows, Dustin",R
+TX,1.508,"Button, Angie Chen",R
+TX,-1.22,"Canales, Terry",D
+TX,2.017,"Capriglione, Giovanni",R
+TX,1.305,"Clardy, Travis",R
+TX,-1.417,"Coleman, Garnet",D
+TX,-2.119,"Collier, Nicole",D
+TX,1.151,"Cook, Byron",R
+TX,1.442,"Craddick, Thomas",R
+TX,1.233,"Crownover, Myra",R
+TX,3.124,"Cyrier, John",R
+TX,1.34,"Dale, Tony",R
+TX,1.179,"Darby, Drew",R
+TX,0.176,"Davis, Sarah",R
+TX,-1.346,"Davis, Yvonne",D
+TX,-0.52,"Deshotel, Joe",D
+TX,-0.901,"Dukes, Dawnna",D
+TX,-0.819,"Dutton, Harold Jr.",D
+TX,1.297,"Elkins, Gary",R
+TX,1.177,"Faircloth, Wayne",R
+TX,2.012,"Fallon, Pat",R
+TX,-1.392,"Farias, Joe",D
+TX,0.981,"Farney, Marsha",R
+TX,-1.586,"Farrar, Jessica",D
+TX,1.537,"Fletcher, Allen",R
+TX,1.824,"Flynn, Dan",R
+TX,1.544,"Frank, James",R
+TX,1.314,"Frullo, John",R
+TX,1.082,"Galindo, Rick",R
+TX,0.693,"Geren, Charlie",R
+TX,-0.78,"Giddings, Helen",D
+TX,1.862,"Goldman, Craig",R
+TX,1.148,"Gonzales, Larry",R
+TX,-2.217,"Gonzalez, Mary",D
+TX,-0.641,"Guerra, Robert",D
+TX,-0.446,"Guillén, Ryan",D
+TX,-1.639,"Gutierrez, Roland",D
+TX,1.256,"Harless, Patricia",R
+TX,-1.558,"Hernandez, Ana",D
+TX,-1.388,"Herrero, Abel",D
+TX,-0.913,"Howard, Donna",D
+TX,1.149,"Huberty, Daniel",R
+TX,1.173,"Hughes, Bryan",R
+TX,0.616,"Hunter, Todd",R
+TX,1.582,"Isaac, Jason",R
+TX,-2.986,"Israel, Celia",D
+TX,-1.136,"Johnson, Eric",D
+TX,0.946,"Kacal, Kyle",R
+TX,0.996,"Keffer, James",R
+TX,1.804,"Keough, Mark",R
+TX,0.992,"King, Ken",R
+TX,1.341,"King, Phil",R
+TX,0.842,"King, Susan",R
+TX,-0.181,"King, Tracy",D
+TX,1.433,"Kleinschmidt, Tim",R
+TX,1.945,"Klick, Stephanie",R
+TX,0.958,"Koop, Linda",R
+TX,2.288,"Krause, Matt",R
+TX,1.046,"Kuempel, Edmund",R
+TX,1.722,"Landgraf, Brooks",R
+TX,1.034,"Larson, Lyle",R
+TX,1.767,"Laubenberg, Jodie",R
+TX,1.836,"Leach, Jeff",R
+TX,-0.629,"Longoria, Oscar",D
+TX,0.692,"Lozano, Jose",R
+TX,-0.694,"Lucio, Eduardo III",D
+TX,-1.131,"Márquez, Marisa Marquez",D
+TX,-1.309,"Martinez Fischer, Trey",D
+TX,-0.927,"Martinez, Armando",D
+TX,-0.656,"McClendon, Ruth Jones",D
+TX,1.064,"Metcalf, William",R
+TX,1.064,"Meyer, Morgan",R
+TX,-1.29,"Miles, Borris",D
+TX,1.499,"Miller, DF",R
+TX,1.25,"Miller, Doug",R
+TX,-0.737,"Moody, Joseph E",D
+TX,1.223,"Morrison, Geanie",R
+TX,-0.714,"Munoz, Sergio Jr.",D
+TX,1.15,"Murphy, Jim",R
+TX,1.772,"Murr, Andrew S",R
+TX,-1.375,"Naishtat, Elliott",D
+TX,-1.776,"Nevárez, Poncho",D
+TX,-0.575,"Oliveira, René",D
+TX,0.967,"Otto, John",R
+TX,1.306,"Paddie, Christopher",R
+TX,1.594,"Parker, Tan",R
+TX,1.087,"Paul, Dennis R",R
+TX,1.1,"Pena, Gilbert",R
+TX,1.842,"Phelan, Dade",R
+TX,1.592,"Phillips, Larry",R
+TX,-0.212,"Pickett, Joe",D
+TX,1.11,"Price, Walter IV",R
+TX,0.924,"Raney, John",R
+TX,-0.73,"Raymond, Richard",D
+TX,-0.925,"Reynolds, Ronald",D
+TX,1.484,"Riddle, Debbie",R
+TX,3.745,"Rinaldi, Matt",R
+TX,-1.637,"Rodríguez, Eddie",D
+TX,-2.171,"Rodriguez, Justin",D
+TX,-1.283,"Romero Jr, Ramon",D
+TX,-1.404,"Rose, Toni",D
+TX,1.873,"Sanford, Scott",R
+TX,2.33,"Schaefer, Matt",R
+TX,2.188,"Schofield, Mike",R
+TX,3.189,"Schubert, Leighton",R
+TX,2.425,"Shaheen, Matthew F",R
+TX,1.463,"Sheets, Kenneth",R
+TX,0.299,"Sheffield, JD",R
+TX,1.715,"Simmons, Ron",R
+TX,1.942,"Simpson, David",R
+TX,1.134,"Smith, Wayne",R
+TX,1.161,"Smithee, John",R
+TX,2.011,"Spitzer, Stuart",R
+TX,1.998,"Springer, Drew",R
+TX,1.321,"Stephenson, Phil",R
+TX,2.623,"Stickland, Jonathan",R
+TX,1.746,"Thompson, Ed",R
+TX,-1.034,"Thompson, Senfronia",D
+TX,2.34,"Tinderholt, Tony",R
+TX,-1.355,"Turner, Chris",D
+TX,2.06,"Turner, Scott",R
+TX,-0.68,"Turner, Sylvester",D
+TX,1.12,"Vandeaver, Gary",R
+TX,1.035,"Villalba, Jason",R
+TX,-0.876,"Vo, Hubert",D
+TX,-1.714,"Walle, Armando",D
+TX,1.881,"White, James",R
+TX,2.98,"White, Molly S",R
+TX,1.111,"Workman, Paul",R
+TX,1.36,"Wray, John",R
+TX,-1.258,"Wu, Eugene",D
+TX,1.891,"Zedler, William",R
+TX,0.941,"Zerwas, John",R
+UT,-1.106,"Arent, Patrice",D
+UT,1.489,"Anderegg, Jacob L.",R
+UT,0.888,"Anderson, Johnny",R
+UT,0.841,"Barlow, Stewart E.",R
+UT,-1.486,"Briscoe, Joel K",D
+UT,0.782,"Brown, Melvin R",R
+UT,-1.346,"Chavez-Houck, Rebecca",D
+UT,0.796,"Chew, Scott H.",R
+UT,1.013,"Christensen, LaVar",R
+UT,1.112,"Christofferson, Kay J.",R
+UT,1.293,"Coleman, Kim F.",R
+UT,0.848,"Cox, Fred",R
+UT,0.882,"Cunningham, Rich",R
+UT,0.58,"Cutler, Bruce R.",R
+UT,1.236,"Daw, Bradley",R
+UT,0.748,"Dee, Brad L",R
+UT,0.524,"DiCaro, Sophia M.",R
+UT,0.612,"Draxler, Jack R",R
+UT,-0.582,"Duckworth, Susan",D
+UT,0.698,"Dunnigan, James A",R
+UT,0.169,"Edwards, Rebecca P",R
+UT,0.606,"Eliason, Steven",R
+UT,1.017,"Fawson, Justin L.",R
+UT,0.762,"Froerer, Gage",R
+UT,1.154,"Gibson, Francis D",R
+UT,1.699,"Greene, Brian M.",R
+UT,1.191,"Grover, Keith",R
+UT,0.388,"Hall, Craig",R
+UT,0.527,"Handy, Stephen G",R
+UT,0.897,"Hawkes, Timothy D.",R
+UT,-0.947,"Hemingway, Lynn",D
+UT,-1.56,"Hollins, Sandra",D
+UT,1.164,"Hughes, Gregory H",R
+UT,0.664,"Hutchings, Eric K",R
+UT,1.191,"Ivory, Ken",R
+UT,1.114,"Kennedy, Michael S.",R
+UT,-0.429,"King, Brad",D
+UT,-1.168,"King, Brian S",D
+UT,1.625,"Knotwell, John",R
+UT,0.806,"Last, Bradley G",R
+UT,1.109,"Lifferth, David E.",R
+UT,1.568,"McCay, Daniel",R
+UT,0.386,"McIff, Kay L",R
+UT,0.958,"McKell, Mike K.",R
+UT,-1.084,"Moss, Carol Spackman",D
+UT,0.595,"Nelson, Merrill",R
+UT,0.996,"Noel, Michael E",R
+UT,1.244,"Oda, Curtis",R
+UT,0.92,"Owens, Derrin R.",R
+UT,0.612,"Perry, Lee B",R
+UT,0.717,"Peterson, Jeremy A",R
+UT,1.262,"Peterson, Val L",R
+UT,0.502,"Pitcher, Dixon M",R
+UT,-0.808,"Poulson, Marie H",D
+UT,0.285,"Powell, Kraig",R
+UT,0.699,"Ray, Paul",R
+UT,0.661,"Redd, Edward H.",R
+UT,1.742,"Roberts, Marc K.",R
+UT,-1.614,"Romero, Angela",D
+UT,0.622,"Sagers, Douglas",R
+UT,0.873,"Sandall, Scott D.",R
+UT,0.925,"Sanpei, Dean",R
+UT,1.017,"Schultz, Mike",R
+UT,0.597,"Snow, V. Lowry",R
+UT,0.54,"Spendlove, Robert M.",R
+UT,1.16,"Stanard, Jon E.",R
+UT,1.201,"Stratton, Keven J.",R
+UT,0.633,"Tanner, Earl D.",R
+UT,1.177,"Thurston, Norman K.",R
+UT,0.327,"Ward, Raymond P.",R
+UT,0.732,"Webb, Richard C.",R
+UT,0.63,"Westwood, John R.",R
+UT,-0.82,"Wheatley, Mark A",D
+UT,0.84,"Wilson, Bradley",R
+VA,-0.436,"Lewis Jr, Lynwood W",D
+VA,1.066,"Adams, Les R",R
+VA,-0.885,"Aird, Lashrecse D.",D
+VA,0.463,"Albo, David B",R
+VA,0.651,"Anderson, Richard L",R
+VA,0.573,"Austin, Terry Lee",R
+VA,-0.955,"Bagby, Lamont",D
+VA,-0.929,"Bell, John",D
+VA,1.038,"Bell, Richard P",R
+VA,1.028,"Bell, Robert Bernard",R
+VA,0.082,"Bloxom, Robert S.",R
+VA,-1.188,"Boysko, Jennifer",D
+VA,-0.718,"Bulova, David L",D
+VA,1.029,"Byron, Kathy J",R
+VA,0.608,"Campbell, Jeffrey L",R
+VA,-1.167,"Carr, Betsy B",D
+VA,1.233,"Cline, Benjamin L",R
+VA,1.191,"Cole, Mark L",R
+VA,0.724,"Collins, Christopher E.",R
+VA,0.892,"Cox, M. Kirkland",R
+VA,0.517,"Davis Jr, Glenn R",R
+VA,0.648,"Dudenhefer, L.",R
+VA,0.626,"Edmunds II, James E",R
+VA,0.908,"Fariss, C. Matt",R
+VA,0.756,"Farrell, Peter F",R
+VA,-0.869,"Filler-Corn, Eileen",D
+VA,0.708,"Fowler Jr, Hyland F",R
+VA,1.559,"Freitas, Nicholas J.",R
+VA,0.681,"Garrett, T. Scott",R
+VA,1.272,"Gilbert, C. Todd",R
+VA,0.638,"Greason, Thomas A",R
+VA,0.879,"Habeeb, Gregory D",R
+VA,0.819,"Head, Christopher",R
+VA,0.503,"Helsel Jr, Gordon C",R
+VA,-0.599,"Heretick, Steve",D
+VA,-1.122,"Herring, Charniele L",D
+VA,0.607,"Hodges, M. Keith",R
+VA,-1.629,"Hope, Patrick A",D
+VA,0.64,"Howell, William J",R
+VA,0.762,"Hugo, Timothy D",R
+VA,0.543,"Ingram, Riley Edward",R
+VA,-0.773,"James, Matthew",D
+VA,0.674,"Jones, S. Chris",R
+VA,-0.774,"Keam, Mark L",D
+VA,0.713,"Kilgore, Terry G",R
+VA,0.633,"Knight, Barry D",R
+VA,-1.3,"Kory, L. Kaye",D
+VA,-1.173,"Krizek, Paul E.",D
+VA,1.071,"Landes, R. Steven",R
+VA,0.913,"LaRock, Dave A",R
+VA,0.64,"Leftwich, James A.",R
+VA,0.425,"LeMunyon, James M",R
+VA,-1.21,"Levine, Mark H.",D
+VA,-0.756,"Lindsey, Joesph C.",D
+VA,0.814,"Lingamfelter, L. Scott",R
+VA,-1.22,"Lopez, Alfonso H",D
+VA,0.574,"Loupassi, George M",R
+VA,0.674,"Marshall III, Daniel W",R
+VA,0.655,"Marshall, Robert G",R
+VA,0.655,"Massie III, James P",R
+VA,-1.234,"McClellan, Jennifer L",D
+VA,-1.048,"McQuinn, Delores L",D
+VA,0.67,"Miller, Jackson Hunter",R
+VA,0.588,"Minchew, J. Randall",R
+VA,0.653,"Miyares, Jason S.",R
+VA,0.648,"Morefield, James W",R
+VA,1.293,"Morris, Rick L",R
+VA,0.583,"O'Bannon III, John M",R
+VA,0.774,"O'Quinn, Israel D",R
+VA,0.544,"Orrock, Robert Sr.",R
+VA,0.754,"Peace, Christopher K",R
+VA,0.55,"Pillion, Todd E.",R
+VA,-1.228,"Plum, Kenneth R",D
+VA,1.026,"Pogge, Brenda L",R
+VA,0.882,"Poindexter, Charles D",R
+VA,-1.087,"Price, Marcia S.",D
+VA,0.939,"Ransone, Margaret Bevans",R
+VA,-0.853,"Rasoul, Sam",D
+VA,0.682,"Robinson, Roxann L",R
+VA,0.814,"Rush, Larry N",R
+VA,-0.684,"Sessoms Hester, Daun",D
+VA,-0.85,"Sickles, Mark D",D
+VA,-1.493,"Simon, Marcus B",D
+VA,0.533,"Stolle, Christopher P",R
+VA,-1.377,"Sullivan, Richard C.",D
+VA,0.786,"Taylor, Scott W",R
+VA,-0.644,"Torian, Luke E",D
+VA,-1.158,"Toscano, David Joseph",D
+VA,-0.888,"Tyler, Roslyn C",D
+VA,0.509,"Villanueva, Ron A",R
+VA,-0.97,"Ward, Jeion A",D
+VA,0.969,"Ware, Robert Jr.",R
+VA,-0.784,"Watts, Vivian E",D
+VA,1.054,"Webert, Michael J",R
+VA,0.8,"Wilt, Tony O",R
+VA,0.846,"Wright, Thomas Jr.",R
+VA,0.554,"Yancey, David E",R
+VA,0.293,"Yost, Joseph R",R
+WA,1.239,"McCaslin, Robert Sr.",R
+WA,-1.162,"Appleton, Sherry",D
+WA,0.694,"Barkis, Andrew",R
+WA,-1.305,"Bergquist, Steve",D
+WA,-0.766,"Blake, Brian",D
+WA,1.227,"Buys, Vincent",R
+WA,0.586,"Caldier, Michelle D.",R
+WA,1.236,"Chandler, Bruce",R
+WA,-1.496,"Chopp, Frank",D
+WA,-1.04,"Clibborn, Judith R.",D
+WA,-1.229,"Cody, Eileen L.",D
+WA,1.569,"Condotta, Cary",R
+WA,1.092,"DeBolt, Richard",R
+WA,0.981,"DeBolt, Richard",R
+WA,1.095,"Dent, Tom",R
+WA,-2.252,"Dunshee, Hans M.",D
+WA,1.379,"Dye, Mary",R
+WA,0.622,"Fagan, Susan K.",R
+WA,-1.352,"Farrell, Jessyn",D
+WA,-1.494,"Fey, Jake",D
+WA,-1.399,"Fitzgibbon, Joe",D
+WA,-1.166,"Frame, Noel",D
+WA,-1.214,"Goodman, Roger E.",D
+WA,-1.277,"Gregerson, Mia Su-ling",D
+WA,-0.488,"Gregory, Carol",D
+WA,0.785,"Griffey, Daniel",R
+WA,0.829,"Haler, Larry",R
+WA,1.002,"Hargrove, Mark D.",R
+WA,0.98,"Harmsworth, Mark",R
+WA,0.903,"Harris, Paul L.",R
+WA,0.878,"Hawkins, Brad",R
+WA,0.881,"Hayes, Dave",R
+WA,0.245,"Hickel, Teri",R
+WA,1.285,"Holy, Jeff",R
+WA,-1.432,"Hudgins, Zachary",D
+WA,1.738,"Hunt, Graham",R
+WA,-0.996,"Hunter, Ross",D
+WA,-1.394,"Jinkins, Laurie",D
+WA,0.733,"Johnson, Norm",R
+WA,-1.274,"Kagi, Ruth L.",D
+WA,-0.901,"Killduff, Christine",D
+WA,-1.052,"Kirby, Steve",D
+WA,1.109,"Klippert, Bradley A.",R
+WA,0.313,"Kochmar, Linda",R
+WA,1.304,"Kretz, Joel",R
+WA,1.213,"Kristiansen, Dan",R
+WA,-1.234,"Kuderer, Patty",D
+WA,-1.757,"Lytton, Kristine",D
+WA,0.746,"MacEwen, Drew",R
+WA,0.621,"Magendanz, Chad",R
+WA,0.802,"Manweller, Matt",R
+WA,-1.319,"Mcbride, Joan",D
+WA,0.768,"McCabe, Gina R.",R
+WA,-1.289,"Moeller, James",D
+WA,-1.935,"Morris, Jeff",D
+WA,-1.344,"Moscoso, Luis",D
+WA,0.473,"Muri, Richard",R
+WA,0.842,"Nealey, Terry R.",R
+WA,-1.434,"Ormsby, Timm S.",D
+WA,-1.251,"Ortiz-Self, Lillian",D
+WA,-1.134,"Orwall, Tina",D
+WA,0.964,"Parker, Kevin",R
+WA,-1.252,"Peterson, Strom",D
+WA,-1.149,"Pettigrew, Eric",D
+WA,1.044,"Pike, Liz",R
+WA,-2.252,"Pollet, Gerry",D
+WA,-0.929,"Reykdal, Chris P.",D
+WA,-1.405,"Riccelli, Marcus",D
+WA,-1.32,"Robinson, June",D
+WA,0.771,"Rodne, Jay R.",R
+WA,-1.318,"Rolfes, Christine",D
+WA,-0.892,"Rossetti, JD",D
+WA,-1.446,"Ryu, Cindy",D
+WA,-1.192,"Santos, Sharon Tomiko",D
+WA,-1.016,"Sawyer, David",D
+WA,1.291,"Schmick, Joe",R
+WA,2.019,"Scott, Elizabeth",R
+WA,-1.198,"Sells, Michael S.",D
+WA,-1.514,"Senn, Tana",D
+WA,2.458,"Shea, Matt",R
+WA,1.263,"Short, Shelly",R
+WA,0.889,"Smith, Norma C.",R
+WA,-1.069,"Springer, Lawrence Stanley",D
+WA,0.415,"Stambaugh, Melanie",R
+WA,-1.183,"Stanford, Derek",D
+WA,0.524,"Stokesbary, Drew",R
+WA,-1.055,"Sullivan, Pat",D
+WA,-2.427,"Tarleton, Gael",D
+WA,2.856,"Taylor, David V.",R
+WA,-1.272,"Tharinger, Steve",D
+WA,1.177,"Van Werven, Luanne",R
+WA,1.147,"Vick, Brandon",R
+WA,-1.878,"Walkinshaw, Brady",D
+WA,0.476,"Walsh, Maureen",R
+WA,0.748,"Wilcox, JT",R
+WA,-1.216,"Wylie, Sharon L.",D
+WA,1.351,"Young, Jesse L.",R
+WA,0.529,"Zeiger, Hans",R
+WV,0.423,"Deem, J.",R
+WV,-0.05,"Rowe, Larry",D
+WV,0.686,"Ambler, George",R
+WV,0.582,"Anderson, William",R
+WV,1.078,"Armstead, Timothy",R
+WV,0.911,"Arvon, Karen",R
+WV,0.92,"Atkinson, Martin",R
+WV,0.504,"Azinger, Thomas",R
+WV,-0.165,"Bates, Mick",D
+WV,-0.111,"Blackwell, Frank L.",D
+WV,0.968,"Blair, Saira",R
+WV,-0.168,"Boggs, Brent",D
+WV,0.97,"Border-Sheppard, Anna Lois",R
+WV,0.933,"Butler, James",R
+WV,-0.318,"Byrd, Andrew D.",D
+WV,1.056,"Cadle, Scott",R
+WV,-0.169,"Campbell, Denise L.",D
+WV,0.599,"Canterbury, Denny Ray",R
+WV,-0.707,"Caputo, Michael",D
+WV,0.834,"Cooper, Roy G.",R
+WV,1.098,"Cowles, Daryl",R
+WV,0.795,"Duke, Walter",R
+WV,-0.212,"Eldridge, Jeff",D
+WV,0.871,"Ellington, Joe C.",R
+WV,1.03,"Espinosa, Paul",R
+WV,0.578,"Evans, Allen V.",R
+WV,0.793,"Evans, David",R
+WV,1.063,"Faircloth, Larry W.",R
+WV,0.766,"Fast, Tom",R
+WV,-0.41,"Ferro, Michael T",D
+WV,0.485,"Flanigan, Richard",R
+WV,-0.561,"Fleischauer, Barbara Evans",D
+WV,-0.674,"Fluharty, Shawn Lucas",D
+WV,1.093,"Folk, Michael",R
+WV,1.199,"Foster, Geoff B.",R
+WV,0.816,"Frich, Cindy",R
+WV,1.249,"Gearheart, Gary",R
+WV,0.482,"Hamilton, William",R
+WV,0.968,"Hamrick, Daniel",R
+WV,0.634,"Hanshaw, Roger",R
+WV,-0.099,"Hartman, William",D
+WV,-0.203,"Hicks, Kenneth Paul",D
+WV,1.103,"Hill, Jordan",R
+WV,-0.513,"Hornbuckle, Sean",D
+WV,1.294,"Householder, Eric Lee",R
+WV,1.388,"Howell, Gary",R
+WV,0.598,"Ihle, Michael",R
+WV,0.782,"Ireland, Lynwood",R
+WV,0.636,"Kelly, John R.",R
+WV,1.153,"Kessinger, Kayla",R
+WV,0.894,"Kurcaba, Brian C.",R
+WV,0.978,"Lane, Patrick",R
+WV,-0.544,"Longstreth, Linda",D
+WV,-0.393,"Lynch, Dana",D
+WV,-0.649,"Manchin, Timothy J.",D
+WV,-0.214,"Marcum, Justin J.",D
+WV,0.762,"McCuskey, John",R
+WV,0.614,"McGeehan, Patrick",R
+WV,-0.452,"Miley, Tim",D
+WV,0.786,"Miller, Carol",R
+WV,1.003,"Moffatt, Michel",R
+WV,-0.605,"Moore, Clif",D
+WV,-0.437,"Morgan, James",D
+WV,-0.006,"Moye, Ricky",D
+WV,0.815,"Nelson, Fredrik Jr.",R
+WV,0.653,"Nelson, Joshua",R
+WV,0.827,"O'Neal, John David",R
+WV,0.92,"Overington, John",R
+WV,-0.556,"Peoples Guthrie, Nancy Lee",D
+WV,-0.471,"Perdue, Don",D
+WV,-0.234,"Perry, David",D
+WV,-0.295,"Pethtel, David Lee",D
+WV,0.033,"Phillips, Rupert W.",D
+WV,-0.747,"Pushkin, Mike",D
+WV,-0.205,"Reynolds, Douglas",D
+WV,-0.145,"Rodighiero, Ralph",D
+WV,0.608,"Rohrbach, Matthew",R
+WV,0.577,"Romine, William",R
+WV,0.653,"Rowan, Ruth",R
+WV,-0.23,"Shaffer, Steven",D
+WV,0.815,"Shott, John H.",R
+WV,-0.839,"Skinner, Stephen",D
+WV,-0.052,"Smith, Magaret Donaldson",D
+WV,1.133,"Smith, Randy E.",R
+WV,0.968,"Sobonya, Kelli",R
+WV,-0.431,"Sponaugle, George",D
+WV,1.037,"Stansbury, Christopher A.",R
+WV,0.828,"Statler, Joseph C.",R
+WV,0.645,"Storch, Erikka",R
+WV,0.872,"Summers, Amy",R
+WV,-0.036,"Trecost, Patsy Samuel",D
+WV,0.754,"Upson, Jill",R
+WV,0.621,"Wagner, Danny",R
+WV,0.996,"Walters, Ron",R
+WV,1.347,"Waxman, Theresa",R
+WV,0.789,"Weld, Ryan W.",R
+WV,0.865,"Westfall, Steve",R
+WV,1.024,"White, Brad",R
+WV,-0.232,"White, Harry Keith",D
+WV,0.953,"Zatezalo, Mark",R
+WI,0.581,"Allen, Scott E.",R
+WI,1.169,"August, Tyler",R
+WI,0.843,"Ballweg, Joan",R
+WI,-1.084,"Barca, Peter",D
+WI,-1.594,"Barnes, Mandela",D
+WI,-1.512,"Berceau, Terese",D
+WI,0.597,"Bernier, Kathleen",R
+WI,-1.179,"Billings, Jill",D
+WI,0.838,"Born, Mark",R
+WI,-1.515,"Bowen, David",D
+WI,0.72,"Brandtjen, Janel",R
+WI,0.713,"Brooks, Edward",R
+WI,0.609,"Brooks, Robert",R
+WI,-1.587,"Brostoff, Jonathan",D
+WI,-1.831,"Considine, Dave",D
+WI,1.335,"Craig, David",R
+WI,0.984,"Czaja, Mary",R
+WI,-1.014,"Danou, Chris",D
+WI,-1.009,"Doyle, Steve",D
+WI,0.848,"Duchow, Cindi",R
+WI,0.934,"Edming, James W.",R
+WI,0.972,"Fitzgerald, Jeff",R
+WI,0.882,"Gannon, Bob",R
+WI,-1.159,"Genrich, Eric",D
+WI,-1.569,"Goyke, Evan",D
+WI,0.679,"Heaton, Dave",R
+WI,-1.458,"Hebl, Gary",D
+WI,-1.577,"Hesselbein, Dianne Helen",D
+WI,-1.08,"Hintz, Gordon",D
+WI,0.739,"Horlacher, Cody",R
+WI,1.347,"Hutton, Robert",R
+WI,0.773,"Jacque, Andre",R
+WI,0.848,"Jagler, John",R
+WI,0.636,"Jarchow, Adam",R
+WI,-1.552,"Johnson, LaTonya",D
+WI,-0.99,"Jorgensen, Andy",D
+WI,-1.006,"Kahl, Robb",D
+WI,0.913,"Katsma, Terry",R
+WI,0.856,"Kerkman, Samantha",R
+WI,-1.356,"Kessler, Frederick",D
+WI,0.571,"Kitchens, Joel Coulombe",R
+WI,1.254,"Kleefisch, Joel",R
+WI,1.07,"Knodl, Daniel",R
+WI,0.794,"Knudson, Dean",R
+WI,-1.16,"Kolste, Debra",D
+WI,1.151,"Kooyenga, Dale",R
+WI,0.78,"Kremer, Jesse",R
+WI,0.74,"Krug, Scott",R
+WI,0.851,"Kuglitsch, Mike",R
+WI,0.871,"Kulp, Robert Allen",R
+WI,0.732,"Larson, Tom",R
+WI,0.817,"Loudenbeck, Amy",R
+WI,1.075,"Macco, John",R
+WI,-1.046,"Mason, Cory",D
+WI,-1.162,"Meyers, Beth",D
+WI,-1.145,"Milroy, Nick",D
+WI,0.847,"Murphy, David",R
+WI,0.761,"Mursau, Jeffrey",R
+WI,0.74,"Murtha, John",R
+WI,0.69,"Nerison, Lee",R
+WI,1.182,"Neylon, Adam",R
+WI,0.383,"Novak, Todd",R
+WI,0.893,"Nygren, John",R
+WI,-1.218,"Ohnstad, Tod O.",D
+WI,0.486,"Ott, Alvin",R
+WI,1.025,"Ott, Jim",R
+WI,0.916,"Petersen, Kevin",R
+WI,0.715,"Petryk, Warren",R
+WI,-1.403,"Pope, Sondy",D
+WI,0.821,"Quinn, Romaine Robert",R
+WI,-1.175,"Riemer, Daniel",D
+WI,0.568,"Ripp, Keith",R
+WI,0.783,"Rodriguez, Jessie",R
+WI,0.897,"Rohrkaste, Michael Karl",R
+WI,1.242,"Sanfelippo, Joe",R
+WI,-2.229,"Sargent, Melissa",D
+WI,0.832,"Schraa, Michael",R
+WI,-1.265,"Shankland, Katrina",D
+WI,-1.164,"Sinicki, Christine",D
+WI,0.809,"Skowronski, Kenneth P.",R
+WI,0.565,"Spiros, John",R
+WI,-1.537,"Spreitzer, Mark",D
+WI,0.656,"Steffen, David",R
+WI,0.816,"Steineke, Jim",R
+WI,-1.764,"Stuck, Amanda",D
+WI,-1.265,"Subeck, Lisa",D
+WI,0.822,"Swearingen, Rob",R
+WI,0.824,"Tauchen, Gary",R
+WI,-1.697,"Taylor, Chris",D
+WI,0.804,"Thiesfeldt, Jeremy",R
+WI,0.896,"Tittl, Paul R",R
+WI,0.579,"Tranel, Travis",R
+WI,0.618,"Vander Meer, Nancy Lynn",R
+WI,0.782,"Vorpagel, Tyler",R
+WI,-1.134,"Wachs, Dana",D
+WI,0.88,"Weatherston, Thomas",R
+WI,-1.355,"Young, Leon",D
+WI,-1.379,"Zamarripa, JoCasta",D
+WI,-1.111,"Zepnick, Josh",D
+WY,0.587,"Allen, Jim",R
+WY,0.85,"Baker, Mark",R
+WY,0.198,"Barlow, Eric",R
+WY,0.103,"Berger, Rosie",R
+WY,0.682,"Blackburn, Theodore",R
+WY,-0.96,"Blake, Stan",D
+WY,0.134,"Brown, Kermit C.",R
+WY,0.686,"Burkhart Jr, Donald Edgar",R
+WY,-1.052,"Byrd, James W",D
+WY,0.051,"Campbell, Rita",R
+WY,0.187,"Cannady, Richard L",R
+WY,0.968,"Clem, Scott",R
+WY,-1.534,"Connolly, Cathy",D
+WY,-1.332,"Dayton, Joann",D
+WY,1.11,"Edmonds, Amy L",R
+WY,1.155,"Edwards, Roy",R
+WY,0.477,"Eklund Jr, John",R
+WY,-0.738,"Esquibel, Ken A.",D
+WY,-0.6,"Freeman, John L",D
+WY,1.143,"Gay, Gerald S.",R
+WY,0.666,"Greear, Mike",R
+WY,1.179,"Halverson, Marti",R
+WY,0.385,"Harshman, Steve",R
+WY,0.279,"Harvey, Elaine D.",R
+WY,0.622,"Hunt, Hans",R
+WY,0.879,"Jaggi, Allen M.",R
+WY,1.125,"Jennings, Mark",R
+WY,0.336,"Kasperik, Norine A.",R
+WY,0.149,"Kinner, Mark S.",R
+WY,0,"Kirkbride, Dan R.",R
+WY,1.22,"Kroeker, Kendell",R
+WY,0.267,"Krone, Samuel",R
+WY,0.475,"Larsen, Lloyd Charles",R
+WY,0.788,"Laursen, Dan",R
+WY,0.732,"Lindholm, Tyler",R
+WY,0.424,"Lockhart, Thomas",R
+WY,0.943,"Loucks, Carl R",R
+WY,0.473,"Madden, Michael",R
+WY,0.894,"McKim, Robert",R
+WY,1.094,"Miller, David R.",R
+WY,0.371,"Nicholas, Bob",R
+WY,0.298,"Northrup, David",R
+WY,0.125,"Paxton, Jerry",R
+WY,-1.199,"Pelkey, Charles F.",D
+WY,-0.214,"Petroff, Ruth Ann",R
+WY,0.809,"Piiparinen, Garry C",R
+WY,0.425,"Pownall, William",R
+WY,1.269,"Reeder, Tom Jr.",R
+WY,-1.134,"Schwartz, Andy",D
+WY,0.08,"Sommers, Albert",R
+WY,1.231,"Steinmetz, Cheri",R
+WY,0.477,"Stubson, Tim",R
+WY,-1.049,"Throne, Mary A.",D
+WY,0.533,"Walters, Tom",R
+WY,0.24,"Wilson, Sue",R
+WY,0.815,"Winters, Nathan",R
+WY,-0.085,"Zwonitzer, Daniel",R
+WY,0.198,"Zwonitzer, David L",R

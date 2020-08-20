@@ -1,0 +1,19 @@
+name: "pos3713.github.io"
+navbar:
+  title: "POS 3713"
+  left:
+    - text: "Schedule"
+      href: index.html
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Data"
+      href: data.html
+    - text: "Notes"
+      href: http://pos5737.github.io/concepts-and-computation
+output:
+  html_document:
+    include:
+      after_body: license.html
+      
+output_dir: "."  # rather than _site, to work with GitHub Pages
+                 # see https://rmarkdown.rstudio.com/rmarkdown_websites.htm#publishing_websites

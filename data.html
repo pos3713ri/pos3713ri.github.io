@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Data</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">POS 3713</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Schedule</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="data.html">Data</a>
+</li>
+<li>
+  <a href="http://pos5737.github.io/concepts-and-computation">Notes</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Data</h1>
+
+</div>
+
+
+<div id="clean-tidy-data-sets" class="section level2">
+<h2>Clean, Tidy Data Sets</h2>
+<p>The data sets below are ready to visualize and model. They are <a href="https://vita.had.co.nz/papers/tidy-data.pdf">tidy</a>. I filtered out useful subsets. I selected and descriptively renamed the most important variables. I meaningfully reordered factors.</p>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="31%" />
+<col width="8%" />
+<col width="43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Data Files</th>
+<th>Codebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>gamson</code></td>
+<td>[<a href="data/gamson.csv"><code>.csv</code></a>] [<a href="data/gamson.dta"><code>.dta</code></a>] [<a href="data/gamson.rds"><code>.rds</code></a>] [<a href="data/gamson.xlsx"><code>.xlsx</code></a>]</td>
+<td>[<a href="data/gamson-codebook.html">html</a>]</td>
+<td>From Warwick and Druckman (2006)</td>
+</tr>
+<tr class="even">
+<td><code>health</code></td>
+<td>[<a href="data/health.csv"><code>.csv</code></a>] [<a href="data/health.dta"><code>.dta</code></a>] [<a href="data/health.rds"><code>.rds</code></a>] [<a href="data/health.xlsx"><code>.xlsx</code></a>]</td>
+<td>[<a href="data/health-codebook.html">html</a>]</td>
+<td>From Barrilleaux and Rainey (2014).</td>
+</tr>
+<tr class="odd">
+<td><code>nominate</code></td>
+<td>[<a href="data/nominate.csv"><code>.csv</code></a>] [<a href="data/nominate.dta"><code>.dta</code></a>] [<a href="data/nominate.rds"><code>.rds</code></a>] [<a href="data/nominate.xlsx"><code>.xlsx</code></a>]</td>
+<td>[<a href="data/nominate-codebook.html">html</a>]</td>
+<td>Ideology scores for members of the U.S. House.</td>
+</tr>
+<tr class="even">
+<td><code>parties</code></td>
+<td>[<a href="data/parties.csv"><code>.csv</code></a>] [<a href="data/parties.dta"><code>.dta</code></a>] [<a href="data/parties.rds"><code>.rds</code></a>] [<a href="data/parties.xlsx"><code>.xlsx</code></a>]</td>
+<td>[<a href="data/parties-codebook.html">html</a>]</td>
+<td>From Clark and Golder (2006) .</td>
+</tr>
+<tr class="odd">
+<td><code>state-legislators</code></td>
+<td>[<a href="data/state-legislators.csv"><code>.csv</code></a>] [<a href="data/state-legislators.dta"><code>.dta</code></a>] [<a href="data/state-legislators.rds"><code>.rds</code></a>] [<a href="data/state-legislators.xlsx"><code>.xlsx</code></a>]</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="original-data-sources" class="section level2">
+<h2>Original Data Sources</h2>
+<ul>
+<li>For <strong>replication data sets</strong>, I recommend starting with the Dataverse archives for <em>AJPS</em> [<a href="https://dataverse.harvard.edu/dataverse/ajps">web</a> and <em>PSRM</em>.</li>
+<li>For <strong><em>really</em> raw data</strong> for wrangling practice, I recommend (ordered from least to most difficult) Donald Trump’s tweets [<a href="https://github.com/pos5737/tweets">GitHub</a>], the World Bank’s World Development Indicators [<a href="https://github.com/pos5737/wdi">GitHub</a>], Google political ads data [<a href="https://transparencyreport.google.com/political-ads/library">web</a>, <a href="https://www.dropbox.com/sh/mp1w295gg0os5qg/AAAfVGjoYe6dEB7-nn0ucpWaa?dl=0">Dropbox</a>], or 10 million dyadic events [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/FYXLAWZRIA">Dataverse</a>].</li>
+<li>For data on <strong>international politics</strong>, I recommend COW [<a href="http://www.correlatesofwar.org/data-sets">web</a>], DESTA [<a href="https://www.designoftradeagreements.org/downloads/">web</a>], and Matt Fuhrmann’s data on nuclear weapons [<a href="http://www.matthewfuhrmann.com/datasets.html">web</a>].</li>
+<li>For data on <strong>political institutions</strong>, I recommend Polity IV [<a href="http://www.systemicpeace.org/inscrdata.html">web</a>], DD [<a href="https://sites.google.com/site/joseantoniocheibub/datasets/democracy-and-dictatorship-revisited">web</a>], Freedom House [<a href="https://freedomhouse.org/report-types/freedom-world">web</a>], and DES [<a href="http://mattgolder.com/elections">web</a>].</li>
+<li>For <strong>US state politics</strong>, I recommend the Correlates of State Policy data set [<a href="http://ippsr.msu.edu/public-policy/correlates-state-policy">web</a>], which combines variables from many projects in single, enormous collection.</li>
+<li>For data on <strong>legislator ideology</strong>, I recommend NOMINATE [<a href="https://voteview.com/data">web</a>] and the American Legislatures Project [<a href="https://americanlegislatures.com/data/">web</a>].</li>
+<li>For data on <strong>human rights</strong>, I recommend Human Rights Scores [<a href="http://humanrightsscores.org">web</a>], PTS [<a href="http://www.politicalterrorscale.org/Data/">web</a>], CIRI [<a href="http://www.humanrightsdata.com/p/data-documentation.html">web</a>], and ITT [<a href="http://faculty.ucmerced.edu/cconrad2/Academic/ITT_Data_Collection.html">web</a>].</li>
+<li>For <strong>survey data</strong>, I recommend the ANES [<a href="https://electionstudies.org/data-center/">web</a>], CCES [<a href="https://cces.gov.harvard.edu">web</a>], CSES [<a href="http://www.cses.org/verify.htm">web</a>], and the World Values Survey [<a href="http://www.worldvaluessurvey.org/WVSContents.jsp">web</a>].</li>
+<li>For data from <strong>randomized experiments</strong>, I recommend TESS [<a href="http://www.tessexperiments.org/previousstudies.html">web</a>].</li>
+<li>Google now has a <a href="https://toolbox.google.com/datasetsearch">search for data sets</a>.</li>
+<li>Let’s go meta: <a href="https://github.com/erikgahner/PolData">PolData</a> is a data set of data sets.</li>
+</ul>
+</div>
+
+<hr>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a rel="license" href="http://www.carlislerainey.com/">Carlisle Rainey</a>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

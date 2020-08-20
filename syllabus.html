@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Syllabus</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">POS 3713</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Schedule</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="data.html">Data</a>
+</li>
+<li>
+  <a href="http://pos5737.github.io/concepts-and-computation">Notes</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Syllabus</h1>
+
+</div>
+
+
+<p>There are two versions of this file: an <a href="syllabus.html">html</a> and a <a href="syllabus.pdf">pdf</a>.</p>
+<div id="introduction-to-political-science-research-research-intensive" class="section level3">
+<h3>Introduction to Political Science Research (Research Intensive)</h3>
+<p>This course introduces students to the basic methods of political science. It focuses on both statistical concepts (e.g., sample surveys) and computation (e.g., tidyverse).</p>
+</div>
+<div id="staff" class="section level3">
+<h3>Staff</h3>
+<p><strong>Instructor</strong></p>
+<p>Name: Carlisle Rainey<br />
+E-Mail: <a href="mailto:crainey@fsu.edu">crainey@fsu.edu</a> Office: Bellamy 540<br />
+GitHub: <a href="https://github.com/carlislerainey">carlislerainey</a><br />
+Office Hours: Tuesday, 9am-11am, Zoom (see link on Canvas), recommend signing up <a href="https://calendly.com/carlislerainey/15-minute-meeting">here</a></p>
+<p><strong>Teaching Assistant</strong></p>
+<p>Rob Lytle<br />
+<a href="mailto:rlytle2@fsu.edu">rlytle2@fsu.edu</a> Office Hours: TBD, Zoom (see link on Canvas), recommend signing up <a href="https://calendly.com/pos3713-ta">here</a></p>
+</div>
+<div id="course-website" class="section level3">
+<h3>Course Website</h3>
+<p>I post all the materials for this course to <a href="http://pos3713ri.github.io">pos3713ri.github.io</a>. I recommend bookmarking this page.</p>
+</div>
+<div id="important-dates" class="section level3">
+<h3>Important Dates</h3>
+<table>
+<colgroup>
+<col width="13%" />
+<col width="11%" />
+<col width="25%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Day</th>
+<th>Assignment</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Varies</td>
+<td>Thursday</td>
+<td>Weekly Assessment</td>
+<td>Due by 11:59pm.</td>
+</tr>
+<tr class="even">
+<td>Varies</td>
+<td>Friday</td>
+<td>Weekly Assessment</td>
+<td>Due by 11:59pm.</td>
+</tr>
+<tr class="odd">
+<td>October 2</td>
+<td>Friday</td>
+<td>Computing Assignment 1</td>
+<td>Due by 11:59pm.</td>
+</tr>
+<tr class="even">
+<td>November 6</td>
+<td>Friday</td>
+<td>Computing Assignment 2</td>
+<td>Due by 11:59pm.</td>
+</tr>
+<tr class="odd">
+<td>November 23</td>
+<td>Monday</td>
+<td>Research Project - Initial Submission</td>
+<td>Due by 11:59pm. Will push back two days if requested.</td>
+</tr>
+<tr class="even">
+<td>December 9</td>
+<td>Wednesday</td>
+<td>Research Project - Final Submission</td>
+<td>Due by 11:59pm.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outcomes" class="section level3">
+<h3>Outcomes</h3>
+<p>In taking this course seriously, you will:</p>
+<ul>
+<li>Acquire and/or further develop knowledge of…
+<ul>
+<li>basic statistical tools, such as the histograms, average, standard deviation, normal approximation, scatterplot, correlation, simple and multiple regression, sample survey, and hypothesis tests.</li>
+<li>basic concepts in probability theory, such as conditional probability, the law of averages, the expected value, and the standard error.</li>
+</ul></li>
+<li>Acquire and/or further develop the ability to…
+<ul>
+<li>evaluate empirical arguments.</li>
+<li>use R to implement basic statistical tools.</li>
+<li>clearly explain data and analysis in an honest and compelling manner.</li>
+</ul></li>
+</ul>
+</div>
+<div id="textbook" class="section level3">
+<h3>Textbook</h3>
+<p>You need to obtain the following items for this class:</p>
+<ul>
+<li>Freedman, David, Robert Pisani, and Roger Purves. 2007. <em>Statistics.</em> 4th Edition. W. W. Norton and Company. New York. ISBN: 0393929728.
+<ul>
+<li>It is important to get the 4th Edition, and I recommend a hard copy rather than an eTexbook.</li>
+<li>This book is expensive, but in past semesters, students have found good copies online for around $20.</li>
+<li>You should have the textbook by January 21.</li>
+</ul></li>
+<li>A pocket calculator. I’m not going to be picky about the kind (your iPhone might work fine for you), but I like a designated, easy-to-use, simple calculator on my desk.</li>
+</ul>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Weekly Assessment (13; 2 pts each)</td>
+<td>26%</td>
+</tr>
+<tr class="even">
+<td>Weekly Letter (13; 1 pt each)</td>
+<td>13%</td>
+</tr>
+<tr class="odd">
+<td>Computing Assignment 1 (Avg, SD, and Histogram)</td>
+<td>10%</td>
+</tr>
+<tr class="even">
+<td>Computing Assignment 2 (Sample Surveys)</td>
+<td>10%</td>
+</tr>
+<tr class="odd">
+<td>Research Project - Initial Submission</td>
+<td>11%</td>
+</tr>
+<tr class="even">
+<td>Research Project - Final Submission</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+<p>Above is a summary of the graded assignments in the course, their due dates, and their weights.</p>
+<ul>
+<li><strong>Weekly Assessments.</strong> To encourage you to keep up with the material and help us assess your progress, we have weekly assessments. These are only two points, but these points add up quickly. The questions will vary in format and difficult, but will assess your understanding of the material assigned that week and occasionally revisit important ideas from prior weeks.</li>
+<li><strong>Weekly Letters.</strong> To offer you a open-ended, low-pressure avenue to engage the material, you write a short letter at the end of the week to a classmate.</li>
+<li><strong>Computing Assignments.</strong> As part of the class, we’ll learn about statistical computing in R. To demonstrate your ability with R, you’ll submit two short reports. I’ll provide detailed instructions at the appropriate time.</li>
+<li><strong>Research Project.</strong> The course builds toward a research paper you submit at the end of the semester. I’ll provide detailed instructions at the appropriate time.</li>
+</ul>
+<p>Your points in the course will translate into a letter grade using the table below:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Letter Grade</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>at least 93</td>
+</tr>
+<tr class="even">
+<td>A-</td>
+<td>at least 90</td>
+</tr>
+<tr class="odd">
+<td>B+</td>
+<td>at least 87</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>at least 83</td>
+</tr>
+<tr class="odd">
+<td>B-</td>
+<td>at least 80</td>
+</tr>
+<tr class="even">
+<td>C+</td>
+<td>at least 77</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>at least 73</td>
+</tr>
+<tr class="even">
+<td>C-</td>
+<td>at least 70</td>
+</tr>
+<tr class="odd">
+<td>D+</td>
+<td>at least 67</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>at least 63</td>
+</tr>
+<tr class="odd">
+<td>D-</td>
+<td>at least 60</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>if less than 60</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="workload" class="section level3">
+<h3>Workload</h3>
+<p>Federal guidelines define a single semester credit hour as “one hour of classroom or direct faculty instruction and a minimum of two hours of out of class student work each week for approximately fifteen weeks.” While the Covid-19 pandemic blurs the line between inside and outside of class, I have made an effort to design this class following this definition. All students are different, but as a rough starting point: <strong>you should plan to spend about 9 hours per week on course material.</strong></p>
+<p>To help you with planning, here are my rough estimates for how much time to set aside for various assignments. The time required will vary across weeks and students. I make an effort to balance the workload across the semester.</p>
+<ul>
+<li><strong>Reading and doing the exercises:</strong> The reading and exercises after each class should take about <strong>four hours</strong> per week. Some will be much shorter. A few might take longer. <em>All of the following time estimates assume you are keeping up with the review exercises.</em> If you don’t keep up with the review exercises, then the computing assignments, for example, will be basically impossible.</li>
+<li><strong>Weekly Assessment.</strong> Once you have prepared, you should complete the assessment in about <strong>30 minutes</strong>.</li>
+<li><strong>Weekly Letter.</strong> The weekly letter should take <strong>15 minutes</strong>.</li>
+<li><strong>Computing assignments.</strong> Assuming you have kept up with the material, the computing assignments should take about <strong>two hours</strong> to complete and submit.</li>
+<li><strong>Research project.</strong> Once assigned, the research project should take about <strong>four hours</strong> per week to complete.</li>
+</ul>
+</div>
+<div id="late-assignments" class="section level3">
+<h3>Late Assignments</h3>
+<p>I begin with the assumption that each student works hard, wants to learn, and operates in good faith. I will work with you if you confront unexpected hurdles, but you need to let me know that you’re facing a hurdle.</p>
+<p>If you have a commitment on the day the assignment is due (e.g., you’re traveling for a wedding), I usually expect you to submit the assignment early unless you have made prior arrangements with me.</p>
+<p>In case of an unexpected circumstance (e.g., medical emergency), simply submit the assignment as soon as reasonable and notify me by e-mail. (I don’t want you to worry about submitting the assignment during a medical emergency, for example.) Your e-mail should explain and document why you submitted the assignment late, and why you could not have simply submitted it early. Feel free to keep any private details private. I can follow up with a request for more documentation if needed.</p>
+<p>If we did not have a prior arrangement and there’s not unexpected circumstance, then I penalize late assignments 20 percentage points per day.</p>
+</div>
+<div id="academic-honor-policy" class="section level1">
+<h1>Academic Honor Policy</h1>
+<p>The Florida State University Academic Honor Policy outlines the University’s expectations for the integrity of students’ academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process. Students are responsible for reading the Academic Honor Policy and for living up to their pledge to “…be honest and truthful and…[to] strive for personal and institutional integrity at Florida State University.” (Florida State University Academic Honor Policy, found at <a href="http://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy">http://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy</a>.)</p>
+</div>
+<div id="americans-with-disabilities-act" class="section level1">
+<h1>American’s with Disabilities Act</h1>
+<p>Students with disabilities needing academic accommodation should:</p>
+<ol style="list-style-type: decimal">
+<li>Register with and provide documentation to the Student Disability Resource Center; and</li>
+<li>Bring a letter to the instructor indicating the need for accommodation and what type.</li>
+</ol>
+<p>Please note that instructors are not allowed to provide classroom accommodation to a student until appropriate verification from the Student Disability Resource Center has been provided.</p>
+<p>This syllabus and other class materials are available in alternative format upon request.</p>
+<p>For more information about services available to FSU students with disabilities, contact the:</p>
+<p>Student Disability Resource Center<br />
+874 Traditions Way<br />
+108 Student Services Building<br />
+Florida State University<br />
+Tallahassee, FL 32306-4167<br />
+(850) 644-9566 (voice)<br />
+(850) 644-8504 (TDD)<br />
+<a href="mailto:sdrc@admin.fsu.edu" class="email">sdrc@admin.fsu.edu</a><br />
+<a href="http://www.disabilitycenter.fsu.edu/" class="uri">http://www.disabilitycenter.fsu.edu/</a></p>
+</div>
+<div id="syllabus-change-policy" class="section level1">
+<h1>Syllabus Change Policy</h1>
+<p>Except for changes that substantially affect implementation of the evaluation (grading) statement, this syllabus is a guide for the course and is subject to change with advance notice.</p>
+<p><strong>Changes</strong></p>
+<p>None so far.</p>
+</div>
+
+<hr>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a rel="license" href="http://www.carlislerainey.com/">Carlisle Rainey</a>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

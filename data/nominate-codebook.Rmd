@@ -1,0 +1,83 @@
+---
+title: "nominate Codebook"
+geometry: margin=.5in
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    fig_height: 2
+    fig_width: 3
+template: default
+fontsize: 10pt
+---
+
+This data contain Kieth's Poole DW-NOMINATE measure of legislator ideology. Keith worked with various coauthors through the years, but Jeff Lewis now maintains the data, which you can find [here](https://voteview.com/data).
+
+These data contain the first dimmensions of the DW-NOMINATE scores from Republican and Democrat members of the House from the 100th to the most recent Congress.
+
+The data set is at the **member-Congress level**, so that each row of the data set represents one election in a particular Congress (e.g., Nancy Pelosi in the 110th Congress).
+
+For details on the raw data, see the [codebook](https://voteview.com/articles/data_help_members) for the raw data.
+
+
+## Load Data
+
+```{r message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+
+# load data
+nominate_df <- read_rds("nominate.rds")
+
+# quick look at data
+glimpse(nominate_df)
+```
+
+## Variable Descriptions
+
+### `congress`
+
+- Coding: The number of the Congress
+- Range: 100th to 114th
+- Type: integer
+
+### `state`
+
+- Coding: The two-letter abbreviation of name of the member's state.
+- Type: character
+
+### `congressional_district`
+
+- Coding: The number of the member's Congressional district. 
+- Type: integer
+
+### `party`
+
+- Coding: The member's partisan affiliation. Members not affiliated with the Democratic or Republican Party are dropped from this data set.
+- Type: character
+- Values: 
+  - `"Republican"`
+  - `"Democrat"`
+
+### `ideology`
+
+- Coding: The first dimmension of the two-dimmenisonal DW-NOMINATE score. It is static over a member's career in Congress. Values near zero indicate a moderate. More negative values indicate a more liberal representative. More positive values indicate a more conservative representative. 
+- Type: double
+
+````{r}
+# create a df with only the 114th congress
+nominate114_df <- filter(nominate_df, congress == 114) 
+
+# a histogram of the 114th congress
+ggplot(nominate114_df, aes(x = ideology, fill = party)) + 
+  geom_histogram(alpha = 0.5, position = "identity") + 
+  scale_fill_manual(values = c("blue", "red")) + 
+  labs(title = "Ideology in the 114th Congress")
+
+# 5 most conservative members from 114th congress
+top_n(nominate114_df, 5, ideology)
+
+# 5 most liberal members from 114th congress
+top_n(nominate114_df, 5, -ideology)
+
+```
