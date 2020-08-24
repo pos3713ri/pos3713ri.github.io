@@ -35,6 +35,10 @@ Here are some great things about a group Slack channel, rather than e-mail:
 1. If you have a question and I take the time to answer, others can learn from our exchange.
 1. If someone asks a question, another student can respond, follow-up, and/or clarify.
 
+Slack as similar advantages over office hours--you can get a quick response and the discussion will be captured for everyone to learn from.
+
+**When you get stuck, Slack is the first place you should seek help.**
+
 Slack discussions have proven really valuable for my graduate classes during normal semesters, I expect it will work well for us during this digital semester.
 
 Use the steps below to set up your Slack account.
@@ -58,7 +62,7 @@ Use the steps below to set up your Slack account.
 Read the following:
 
 * [syllabus](syllabus.html)
-* [syllabus](honesty.html)
+* [academic honesty policy](honesty.html)
 
 ---
 
