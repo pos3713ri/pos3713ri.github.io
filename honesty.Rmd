@@ -1,24 +1,86 @@
-# Academic Honesty for Computing Assignments
+# Academic Honesty In POS 3713
 
-I want your time at FSU to be a wonderful educational experience. I want to help you learn the skills you need to succeed and earn a degree that opens doors for you. I want to ensure that FSU remains a successful community. As such, I must ensure that uphold the standard of academic honesty (including sanctioning dishonest students) and clearly communicate those standards.
+I want your time at FSU to be a wonderful educational experience. I want to help you learn the skills you need to succeed and earn a degree that opens doors for you. I want to ensure that FSU remains a successful community. As such, I must uphold the standard of academic honesty (including sanctioning dishonest students) and clearly communicate those standards.
 
 ## Academic Dishonesty in General
 
-Unless clearly stated in the assignment itself, when you present work as your own, I expect it to be your own.
+Unless clearly stated in the assignment itself, **when you present work as your own, I expect it to be your own**.
 
 If you are unsure how this standard applies to a particular situation, ask.
 
 You should read FSU's [Values and Morals](https://dsst.fsu.edu/resources/the-seminole-creed) statement. Also, familiarize yourself with the [Academic Honor Policy](https://fda.fsu.edu/sites/g/files/imported/storage/original/application/0ab8e9de6a98c1377d68de9717988bda.pdf) and use the [associated resources](https://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy).
 
-## Academic Dishonesty on the Computing Assignments
+If you become aware of potential violations of the honor code, you are obligated to report those potential violations. 
 
-What constitutes academic dishonest or cheating on computing assignments?
+## General Guidelines
 
-While you should feel free to collaborate with classmates on the ungraded review exercises, you should complete the graded computing assignments on your own. You may use the textbook, my notes, your notes (from class, review sessions, office hours), and your solutions to the review exercises (perhaps developed in collaboration with classmates). You may not collaborate with other students on the computing assignments. You may not share completed or partially completed assignments and may not discuss your approach. You may not offer help to or request help from other students.  
+Work that you present as your own, must be your own.
 
-If you are unsure, ask. If you'd like to use a resource that isn't explicitly allowed, I'm probably okay with it--but ask first!
+To complete the computing assignments and quizzes, you may use the textbook, my notes, your notes (from readings, office hours, group study session), and your solutions to the review exercises (perhaps developed in collaboration with classmates).
 
-## Examples of Academic Dishonesty:
+When you are ready to begin working on the computing assignment or quiz, organize the resources you want to use, and work alone. 
+
+## Group Chats
+
+In my experience group chats are unsafe if you value academic honesty. While most members might want to procede honestly, these chats quickly denegrate into academic dishonesty.
+
+I strongly recommend that you avoid large group chats. 
+
+As an alternative, I have created a Slack channel for the class where you can communicate with other students, me, and the TA. 
+
+## Quizzes
+
+### Academic Dishonesty
+
+*What constitutes academic dishonesty or cheating on the quizzes?*
+
+While you should feel free to collaborate with classmates on the ungraded review exercises, including writing solution guides, making study guides, and giving each other practice quizzes, you should work alone once you begin the quiz.
+
+You **may** use the textbook, my notes, your notes (from class, review sessions, office hours), and your solutions to the review exercises (perhaps developed in collaboration with classmates).
+
+You **may not** discuss the quiz with other students who have already completed it. You should avoid studying with someone who has completed the quiz. 
+
+Once you have taken the quiz, decline invitation to study with a group. Just kindly reply, "I've already done the quiz, so I can't talk about it."
+
+### Examples
+
+Here are several examples (i.e., a non-exhaustive list) of activities that are cheating:
+
+1. Sharing questions and/or solutions from the quiz with another student (or anyone else).
+1. Receiving questions and/or solutions from the quiz with another student (or anyone else).
+1. Seeking questions and/or solutions from another student.
+1. Offering to share questions and/or solutions from another student.
+1. Completing the quiz as a group.
+1. Having another student complete the quiz for you.
+1. Asking another student to complete the quiz for you.
+1. Offering to complete the quiz for another student.
+
+### An Honest Workflow
+
+1. Use the ungraded review exercises to develop your skills. Consult with your classmates as little or as often as you like to develop those skills. If it helps you to work on the review exercises in collaboration with others, then do that. If it helps you to work alone, then do that. If you need to mix it up, then do that. Take advantage of office hours and group study sessions. 
+1. When you are ready to take the quiz, organize your notes for easy access.
+   a. my electronic notes posted to the course website
+   a. the assigned course readings
+   a. your notes from class and group study sessions
+   a. your solutions to the assigned review exercises, potentially developed in collaboration with other students (it's fine to copy-and-paste from these solutions, as long as you contributed)
+1. Do the quiz alone.
+1. Once you complete the quiz, decline to discuss the quiz with your classmates who haven't completed it yet. "Sorry! I already did the quiz."
+
+## Computing Assignments
+
+### Academic Dishonesty
+
+*What constitutes academic dishonesty or cheating on computing assignments?*
+
+While you should feel free to collaborate with classmates on the ungraded review exercises, you should complete the graded computing assignments on your own. 
+
+You may use the textbook, my notes, your notes (from class, review sessions, office hours), and your solutions to the review exercises (perhaps developed in collaboration with classmates). 
+
+You may not collaborate with other students on the computing assignments. You may not share completed or partially completed assignments and may not discuss your approach. You may not offer help to or request help from other students.  
+
+**If you are unsure, ask.** If you'd like to use a resource that isn't explicitly allowed, I'm probably okay with it--but ask first!
+
+### Examples 
 
 Here are several examples (i.e., a non-exhaustive list) of activities that are cheating:
 
@@ -33,23 +95,19 @@ Here are several examples (i.e., a non-exhaustive list) of activities that are c
 1. Helping another student with their assignment.
 1. Using code you found on the internet.
 
-If you become aware of potential violations of the honor code, you are obligated to report those potential violations. 
-
 Here's a specific, difficult example: You are sitting in class one day, having struggled all night to load a particular data set--you just can't get the code to work. You're minding your own business, but the student sitting in front of you opens their laptop. You see their work. They quickly close the assignment, but you saw how they loaded the dataset. You realize the simple mistake you were making the night before. How should you proceed? On the one hand, you didn't try to cheat. On the other hand, you saw another student's submission. To proceed with integrity, you should let the TA or me know what happened. We can advise you how to proceed.
 
 Here's another specific, difficult example: You are sitting at home one day, reading CNN. You get an e-mail notification from a classmate. The e-mail is titled "here's my first try at computing assignment 1." How do you proceed? As before, you didn't try to cheat. Instead, someone tried to help you. But they've put you in a bad spot: you now have another student's submission in your possession. You should report this to me or the TA. We will advise you how to proceed.
 
-## An Honest Workflow
+### An Honest Workflow
 
 1. Use the ungraded review exercises to develop your skills. Consult with your classmates as little or as often as you like to develop those skills. If it helps you to work on the review exercises in collaboration with others, then do that. If it helps you to work alone, then do that. If you need to mix it up, then do that. Also, take advantage of office hours and group study sessions. With regard to computing, I do not expect your to memorize every function, package, workflow that we use, but you should be able to complete the review exercises using the my notes as a guide.
 1. Do the graded computing assignment alone, using only the following resources: 
    a. my electronic notes posted to the course website (it's fine to copy-and-paste code from the notes)
    a. the assigned course readings
    a. your notes from class and group study sessions
-   a. your solutions to the assigned review exercises, potentially developed in collaboration with other students (it's fine to copy-and-paste from these sollutions, as long as you contributed)
+   a. your solutions to the assigned review exercises, potentially developed in collaboration with other students (it's fine to copy-and-paste from these solutions, as long as you contributed)
 1. No matter how well you prepare, you might run into a bug that you simply cannot seem to fix. Or there might be some part of the assignment that you don't quite understand. In that case, take advantage of office hours. 
-
-While I've tried to coommunicate the standard precisely and concretely, some confusion might remain. If you are not sure if some action consistutes academic dishonesty, then either avoid that action or ask first.
 
 ## Penalties
 

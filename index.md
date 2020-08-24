@@ -5,7 +5,7 @@ title: "Schedule"
 Note: Complete the homework *after* the associated class, but *before* the next class.
 
 
-**Aug 24**: Getting Set Up [HW]  
+**Aug 24**: Getting Set Up [[HW](01-hw-tools.html)]  
 
 **Aug 31**: Questions + Statistical Computing with R  
 

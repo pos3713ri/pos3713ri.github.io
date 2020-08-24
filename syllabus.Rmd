@@ -17,16 +17,15 @@ This course introduces students to the basic methods of political science. It fo
 **Instructor**
 
 Name: Carlisle Rainey  
-E-Mail: [crainey@fsu.edu](mailto:crainey@fsu.edu)
-Office: Bellamy 540  
-GitHub: [carlislerainey](https://github.com/carlislerainey)  
-Office Hours: Tuesday, 9am-11am, Zoom (see link on Canvas), recommend signing up [here](https://calendly.com/carlislerainey/15-minute-meeting)
+E-Mail: [crainey@fsu.edu](mailto:crainey@fsu.edu), but use Slack for many questions and discussion.
+Office: Not in the office this semester, we'll use Zoom instead.
+Office Hours: Tuesday, 9-11am,  and Friday, 11am-1pm. Zoom (see link on Canvas). I recommend signing up [here](https://calendly.com/carlislerainey/15-minute-meeting).
 
 **Teaching Assistant**
 
 Rob Lytle  
 [rlytle2@fsu.edu](mailto:rlytle2@fsu.edu)
-Office Hours: TBD, Zoom (see link on Canvas), recommend signing up [here](https://calendly.com/pos3713-ta)
+Office Hours: Monday, 3-5pm, and Friday, 9-11am. Zoom (see link on Canvas). I recommend signing up [here](https://calendly.com/pos3713-ta).
 
 ### Course Website
 
@@ -34,14 +33,17 @@ I post all the materials for this course to [pos3713ri.github.io](http://pos3713
 
 ### Important Dates
 
+All assignments are due by 11:59pm.
+
 | Date        | Day       | Assignment             | Notes                                          |
 |-------------|-----------|------------------------|------------------------------------------------|
-| Varies        | Thursday  | Weekly Assessment      | Due by 11:59pm. |
-| Varies        | Friday  | Weekly Assessment      | Due by 11:59pm. |
-| October 2 | Friday    | Computing Assignment 1 | Due by 11:59pm.                                    |
-| November 6    | Friday    | Computing Assignment 2 | Due by 11:59pm.                                    |
-| November 23  | Monday | Research Project - Initial Submission             | Due by 11:59pm. Will push back two days if requested.   |
-| December 9   | Wednesday | Research Project - Final Submission             | Due by 11:59pm.  |
+| Weekly        | Friday  | HW Questionaire      |  |
+| Weekly        | Friday  | Quiz      |  By default, this quiz is available on Friday at 11am.  I will make it available to you earlier if requested. |
+| Weekly        | Friday  | Letter      |  You should complete this letter once you've done all the other assignments for the week. |
+| October 2 | Friday    | Computing Assignment 1 |                                    |
+| November 6    | Friday    | Computing Assignment 2 |                                     |
+| November 23  | Monday | Research Project - Initial Submission             |  I will push back two days if requested.   |
+| December 9   | Wednesday | Research Project - Final Submission             |   |
 
 ### Outcomes
 
@@ -69,17 +71,19 @@ You need to obtain the following items for this class:
 
 | Item                      | Weight |
 |---------------------------|--------|
-| Weekly Assessment (13; 2 pts each)    | 26%    |
+| Weekly HW Questionaire (13; 1 pt each)    | 13%    |
+| Weekly Quiz (13; 2 pts each)    | 26%    |
 | Weekly Letter (13; 1 pt each)  | 13%
 | Computing Assignment 1 (Avg, SD, and Histogram)    | 10%     |
 | Computing Assignment 2 (Sample Surveys) | 10%     |
-| Research Project - Initial Submission | 11%    |
-| Research Project - Final Submission | 30%    |
+| Research Project - Initial Submission | 8%    |
+| Research Project - Final Submission | 20%    |
 
 
 Above is a summary of the graded assignments in the course, their due dates, and their weights.
 
-- **Weekly Assessments.** To encourage you to keep up with the material and help us assess your progress, we have weekly assessments. These are only two points, but these points add up quickly. The questions will vary in format and difficult, but will assess your understanding of the material assigned that week and occasionally revisit important ideas from prior weeks.
+- **Weekly HW Questionaires.** To encourage you to make progress consistently throughout the semester, you'll let me know how you did on the homework each week via a short questionaire. If teaching in-person, I would quickly look through your physical work before class and give you a check if you made "reasonable progress." Since my usual approach is not an option and I want you focused on learning (not scanning and uploading your homework), we're going to start by allowing students to self-assess. You'll receive 0.5 points for filling out the questionaire and up to 0.5 points for completing the homework. 
+- **Weekly Quizzes.** To encourage you to keep up with the material and help us assess your progress, we have weekly assessments. These are only two points, but these points add up quickly. The questions will vary in format and difficult, but will assess your understanding of the material assigned that week and occasionally revisit important ideas from prior weeks.
 - **Weekly Letters.** To offer you a open-ended, low-pressure avenue to engage the material, you write a short letter at the end of the week to a classmate. 
 - **Computing Assignments.** As part of the class, we'll learn about statistical computing in R. To demonstrate your ability with R, you'll submit two short reports. I'll provide detailed instructions at the appropriate time.
 - **Research Project.** The course builds toward a research paper you submit at the end of the semester. I'll provide detailed instructions at the appropriate time.
@@ -108,6 +112,7 @@ Federal guidelines define a single semester credit hour as "one hour of classroo
 To help you with planning, here are my rough estimates for how much time to set aside for various assignments. The time required will vary across weeks and students. I make an effort to balance the workload across the semester. 
 
 - **Reading and doing the exercises:** The reading and exercises after each class should take about **four hours** per week. Some will be much shorter. A few might take longer. *All of the following time estimates assume you are keeping up with the review exercises.* If you don't keep up with the review exercises, then the computing assignments, for example, will be basically impossible.
+- **Weekly HW Questionaire.** The weekly HW Questionaire should only take about **5 minutes**.
 - **Weekly Assessment.** Once you have prepared, you should complete the assessment in about **30 minutes**.
 - **Weekly Letter.** The weekly letter should take **15 minutes**.
 - **Computing assignments.** Assuming you have kept up with the material, the computing assignments should take about **two hours** to complete and submit.
@@ -127,6 +132,8 @@ If we did not have a prior arrangement and there's not unexpected circumstance, 
 # Academic Honor Policy
 
 The Florida State University Academic Honor Policy outlines the University's expectations for the integrity of students' academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process. Students are responsible for reading the Academic Honor Policy and for living up to their pledge to "...be honest and truthful and...[to] strive for personal and institutional integrity at Florida State University." (Florida State University Academic Honor Policy, found at [http://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy](http://fda.fsu.edu/academic-resources/academic-integrity-and-grievances/academic-honor-policy).)
+
+The Academic Honor Policies applies across all classes, but I have written a separate, specific document that details how the University policy applies to this specific class. Please read [this document](honesty.html) carefully.
 
 # American's with Disabilities Act
 
