@@ -1,0 +1,43 @@
+---
+title: "Week 1: Tools"
+output:
+  pdf_document: default
+  html_document:
+    toc: false
+---
+
+## Questions
+
+Read and review your notes and [my notes](02-notes-questions.html) over questions in political science. Answer the review questions at the end.
+
+Note that the review exercises form the basis of the quiz questions. If you can answer the review exercises, you can probably answer the exam questions.
+
+Also, note that these review exercises won’t take long, but take them seriously. As we settle into the semester, the assignments will become more difficult and take longer. As I mentioned on the first day, keeping up is key.
+
+
+## R
+
+Read my notes on "Statistical Computing with R" (ch. 2 at the moment) and "Loading Data into R" (ch. 3 at the moment). Answer the review questions **th4oughout** the document as you work.
+
+- This is a tedious assignment--you'll need to work carefully. I suggesting spreading the exercise over several different sessions to give you time to digest the ideas. Don't rush it. **These ideas are not particularly difficult, but they require you to work slowly and carefully.** 
+- Remember that Rob and I have extensive office hours and are available on Slack. If it seems like a simple error, we can sometimes offer a suggestion if you just share a screen shot.
+- I try to write quiz questions that students who can do the review exercises will answer correctly and quickly (and that others will answer incorrectly and/or slowly).
+- When you can't get your code to work, it's usually just a missing parenthesis, missing quotation mark, or something like that. It's not that you're making a huge mistake. Huamns can sitll mkae snese wehn tehre are tpyos, but not computers! Check your code for typos carefully. Run your script one line at a time, from top to bottom, to find mistakes. As examples, most mistakes are like the following:
+
+```
+b <- c("Male", "Female)  # missing the second " after "Female"
+exp(23  # forgot to close a parentheses
+log(10 base = 2)  # missing comma between arguments
+
+a <- c(1, 2, 3)
+mean(A)  # R is case-sensitive--there's an object "a", but no object "A" 
+mena(a)  # misspelled function name, it should be "mean," not "mena"
+Mean(a)  # R is case-senstive--"Mean" and "mean" are different things. 
+```
+
+---
+
+## Textbook and Calculator
+
+Don't forget about your textbook and calculator (see the syllabus for the details). I think you should be able to find a copy for $40 or less. A rental works just fine. I recommend a hard/physical copy rather than an e-book.
+

@@ -7,7 +7,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Aug 24**: Getting Set Up [[HW](01-hw-tools.html)]  
 
-**Aug 31**: Questions + Statistical Computing with R  
+**Aug 31**: Questions + Statistical Computing with R [[HW](02-hw-questions-computing.html)]    
 
 **Sep 7**: Models + Causality + Loading Data in R  
 
