@@ -1,5 +1,5 @@
 ---
-title: "Week 1: Tools"
+title: "Week 2: Questions + R"
 output:
   pdf_document: default
   html_document:
@@ -40,4 +40,10 @@ Mean(a)  # R is case-senstive--"Mean" and "mean" are different things.
 ## Textbook and Calculator
 
 Don't forget about your textbook and calculator (see the syllabus for the details). I think you should be able to find a copy for $40 or less. A rental works just fine. I recommend a hard/physical copy rather than an e-book.
+
+---
+
+# Finishing Up
+
+Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz, and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of [academic honesty](honesty.html) as you complete the graded assignments.
 
