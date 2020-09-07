@@ -9,7 +9,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Aug 31**: Questions + Statistical Computing with R [[HW](02-hw-questions-computing.html)]    
 
-**Sep 7**: Models + Causality + Loading Data in R  
+**Sep 7**: Models + Causality [[HW](03-hw-models-causality.html)]   
 
 **Sep 14**: Histograms + Histograms in R + RMarkdown  
 

@@ -1,0 +1,37 @@
+---
+title: "Week 1: Tools"
+output:
+  pdf_document: default
+  html_document:
+    toc: false
+---
+
+## Models
+
+Watch my lecture "Models" [[slides](03-slides-models.pdf)] and/or review [my notes](03-notes-models.html) on models.  Complete the review exercises throughout.
+
+Read the following: 
+
+- Lave and March. 1993. *An Introduction to Models in the Social Sciences*. Chs. 1 and 2, pp. 1-42.  [[pdf](http://www.sas.rochester.edu/psc/clarke/214/LaveMarch.pdf)]. Do the exercises throughout.
+- Healy. 2017. "Fuck Nuance." [[pdf](https://kieranhealy.org/files/papers/fuck-nuance.pdf)]
+
+
+# Causal Inference
+
+You might find it helpful to review the [my notes](02-notes-questions.html) on questions at this point.
+
+Watch my lecture "A Partial Solution to the Fundamental Problem of Causal Inference." (There are not complementary written notes--sorry!). Review your notes and [my slides](03-slides-causality.pdf). Complete the exercises throughout.
+
+Read the following:
+
+- FPP. Read chs. 1-2, pp. 3-28. Do the exercises (for chs. 1-2 only) [here](fpp-exercises.pdf).
+
+While most political science research published today focuses on *causal* claims, descriptive research remains useful (and undervalued, in my opinion). Gerring (2012) defends "mere" description.
+
+- Gerring. 2012. "Mere Description." [[pdf](readings/gerring-2012.pdf)]. 
+
+# Finishing Up
+
+Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz, and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of [academic honesty](honesty.html) as you complete the graded assignments.
+
+
