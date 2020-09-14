@@ -11,7 +11,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 7**: Models + Causality [[HW](03-hw-models-causality.html)]   
 
-**Sep 14**: Histograms + Histograms in R + RMarkdown  
+**Sep 14**: Histograms + Histograms in R [[HW](04-hw-histograms.html)]   
 
 **Sep 28**: Avg. and SD + Avg. and SD in R + Normal Approximation  
 
