@@ -1,0 +1,23 @@
+---
+title: "Week 4: Histograms"
+output:
+  pdf_document: default
+  html_document:
+    toc: false
+---
+
+This week, we're learning histograms. In my view, histograms are the most fundamental tool for understanding statistics. At their core, they emphasize the concept of **density**, which is critical for higher-level theoretical statistics. You can find "density" discussed on pp. 38-41 of FPP. You can think of "density" as "how crowded the data are within the bin."
+
+#### Histograms, Conceptually
+
+Read ch. 3 of FPP and do the [exercises](fpp-exercises.pdf).
+
+#### Histograms, in R
+
+Review the chapter "Histograms" from the [notes](https://pos5737.github.io/concepts-and-computation/) (currently ch. 4) and do the review exercises throughout. If you find the videos helpful, there's one where I work through the notes.
+
+#### Finishing Up
+
+Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz, and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of [academic honesty](honesty.html) as you complete the graded assignments.
+
+
