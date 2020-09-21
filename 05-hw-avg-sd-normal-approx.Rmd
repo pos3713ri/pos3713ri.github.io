@@ -1,0 +1,29 @@
+---
+title: "Week 5: Average and SD"
+output:
+  pdf_document: default
+  html_document:
+    toc: false
+---
+
+#### Average and SD, Conceptually
+
+Read ch. 4 of FPP (the textbook; see the syllabus) and do the assigned review exercises [here](fpp-exercises.html). 
+
+Read ch. 5 of the [notes](https://pos3713ri.github.io/notes/), titled "Average and SD." Do the exercises throughout. (Feel to skip any exercises you find duplicative from above.) This chapter reviews and extends slightly the ideas from ch. 4 of FPP. It also presents the ideas somewhat more technically. 
+
+> **Importantly**, notice that the link to the notes has changed. Before this chapter, we were following directly along with a graduate class I'm teaching. Now the material has diverged slightly, so I created a separate set of notes for this class. The new notes url is: https://pos3713ri.github.io/notes/. 
+
+#### Average and SD, in R
+
+Read ch. 6 of the [notes](https://pos3713ri.github.io/notes/), titled "Average and SD in R". Do the exercises throughout.
+
+#### Normal Approximation, Conceptually
+
+Read ch. 5 of FPP and do the assigned review exercises [here](fpp-exercises.html). 
+
+#### Finishing Up
+
+Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz, and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of [academic honesty](honesty.html) as you complete the graded assignments.
+
+

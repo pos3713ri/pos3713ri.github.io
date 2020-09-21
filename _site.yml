@@ -9,7 +9,7 @@ navbar:
     - text: "Data"
       href: data.html
     - text: "Notes"
-      href: http://pos5737.github.io/concepts-and-computation
+      href: https://pos3713ri.github.io/notes/
 output:
   html_document:
     include:
