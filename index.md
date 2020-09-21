@@ -13,7 +13,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 14**: Histograms + Histograms in R [[HW](04-hw-histograms.html)]   
 
-**Sep 23**: Avg. and SD + Avg. and SD in R + Normal Approximation [[HW](05-hw-avg-sd-normal-approx.html)]     
+**Sep 21**: Avg. and SD + Avg. and SD in R + Normal Approximation [[HW](05-hw-avg-sd-normal-approx.html)]     
 
 **Sep 28**: TBD
 
