@@ -22,7 +22,7 @@ Read ch. 6 of the [notes](https://pos3713ri.github.io/notes/), titled "Average a
 
 Read ch. 5 of FPP and do the assigned review exercises [here](fpp-exercises.html). 
 
-Read ch. 7 of the [notes](https://pos3713ri.github.io/notes/), titled "The Normal Model." Do the exercises throughout. (Feel to skip any exercises you find duplicative from above.) This chapter reviews and extends slightly the ideas from ch. 5 of FPP. It also presents the ideas somewhat more technically. There are some especially helpful exercises using the NOMINATE data set.
+Read ch. 7 of the [notes](https://pos3713ri.github.io/notes/), titled "The Normal Model." Do the exercises throughout. I suspect section 7.6 will be especially helpful. (Feel to skip any exercises you find duplicative from above.) This chapter reviews and extends slightly the ideas from ch. 5 of FPP. It also presents the ideas somewhat more technically. There are some especially helpful exercises using the NOMINATE data set.
 
 #### Finishing Up
 
