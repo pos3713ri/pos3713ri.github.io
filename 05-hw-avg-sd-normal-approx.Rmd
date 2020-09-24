@@ -18,6 +18,8 @@ Read ch. 5 of the [notes](https://pos3713ri.github.io/notes/), titled "Average a
 
 Read ch. 6 of the [notes](https://pos3713ri.github.io/notes/), titled "Average and SD in R". Do the exercises throughout.
 
+I made two videos to help you through this section. You should watch both *after* reading section 6.4 of the notes. There's no new content in the videos, but they present the material slightly differently. The first (`wk05a-*`) describes conceptually how the `group_by()`/`summarize()` workflow operates. The second (`wk05b-*`) provides some live coding of me using the workflow. You can find the videos in the [Dropbox folder](https://www.dropbox.com/sh/rjhnj6jvj02xhl4/AADFlkcnG4wOF4I6-MCLuHuUa?dl=0).
+
 #### Normal Approximation, Conceptually
 
 Read ch. 5 of FPP and do the assigned review exercises [here](fpp-exercises.html). 
