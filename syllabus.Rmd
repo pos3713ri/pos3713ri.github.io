@@ -36,7 +36,7 @@ All assignments are due by 11:59pm.
 
 | Date        | Day       | Assignment             | Notes                                          |
 |-------------|-----------|------------------------|------------------------------------------------|
-| Weekly        | Friday  | HW Questionaire      |  |
+| Weekly        | Friday  | HW Questionnaire      |  |
 | Weekly        | Friday  | Quiz      |  By default, this quiz is available on Friday at 11am.  I will make it available to you earlier if requested. |
 | Weekly        | Friday  | Letter      |  You should complete this letter once you've done all the other assignments for the week. |
 | October 2 | Friday    | Computing Assignment 1 |                                    |
@@ -81,7 +81,7 @@ You need to obtain the following items for this class:
 
 Above is a summary of the graded assignments in the course, their due dates, and their weights.
 
-- **Weekly HW Questionaires.** To encourage you to make progress consistently throughout the semester, you'll let me know how you did on the homework each week via a short questionaire. If teaching in-person, I would quickly look through your physical work before class and give you a check if you made "reasonable progress." Since my usual approach is not an option and I want you focused on learning (not scanning and uploading your homework), we're going to start by allowing students to self-assess. You'll receive 0.5 points for filling out the questionaire and up to 0.5 points for completing the homework. 
+- **Weekly HW Questionnaires.** To encourage you to make progress consistently throughout the semester, you'll let me know how you did on the homework each week via a short questionaire. If teaching in-person, I would quickly look through your physical work before class and give you a check if you made "reasonable progress." Since my usual approach is not an option and I want you focused on learning (not scanning and uploading your homework), we're going to start by allowing students to self-assess. You'll receive 0.5 points for filling out the questionnaire and up to 0.5 points for completing the homework. 
 - **Weekly Quizzes.** To encourage you to keep up with the material and help us assess your progress, we have weekly assessments. These are only two points, but these points add up quickly. The questions will vary in format and difficult, but will assess your understanding of the material assigned that week and occasionally revisit important ideas from prior weeks.
 - **Weekly Letters.** To offer you a open-ended, low-pressure avenue to engage the material, you write a short letter at the end of the week to a classmate. 
 - **Computing Assignments.** As part of the class, we'll learn about statistical computing in R. To demonstrate your ability with R, you'll submit two short reports. I'll provide detailed instructions at the appropriate time.

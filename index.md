@@ -15,11 +15,11 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 21**: Avg. and SD + Avg. and SD in R + Normal Approximation [[HW](05-hw-avg-sd-normal-approx.html)]     
 
-**Sep 28**: TBD
+**Sep 28**: Probability [[HW](06-hw-probability.html)]  
 
-**Oct 05**: Probability  
+**Oct 05**: Large Samples
 
-**Oct 12**: Large Samples  
+**Oct 12**: TBD
 
 **Oct 19**: Sample Surveys + Measurement  
 

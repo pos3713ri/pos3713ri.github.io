@@ -1,0 +1,31 @@
+---
+title: "Computing Assignment 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Do the following:
+
+1. Start a new project in RStudio. 
+1. Install the package tidyverse.
+1. Download the `.rds` version of the `state-legislators` data set from the [data page](../data.html). Save it to the `data/` subdirectory of your project. This data set contains ideology scores for legislators in the lower house of the 50 U.S. states similar to the NOMINATE scores for the U.S. House of Representatives that we've been using.
+1. Start a new R script. Save the script as `analysis.R`.
+1. In the script, do the following (include comments!):
+   a. Load the tidyverse package.
+   a. Load the data file `state-legislators.rds`.
+   a. Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names.
+   a. Create a density plot where the `x` aesthetic corresponds to `ideology` and the `color` aesthetic corresponds to `party`. Facet by state. Improve the plot using the `labs()` functions. Use a theme that you like. 
+   a. Use a `group_by()`/`summarize()` workflow to compute the average for each party in each state. Plot the averages using `geom_point()` and mapping the average to the `x` aesthetic, the state to the `y` aesthetic, and the party to the `color` aesthetic.
+1. At the bottom of your script, in three separate comments, jot down three observations about the data. For example, "Party 1 in State A is more conservative than Party 1 in State B." Feel free to briefly elaborate why those observations might be true. For example, "... perhaps because the voters in State A are more conservative than in State B." Hint: to break your comments into equally-sized lines, you can highly the comment and click *Code > Reflow Comment*.
+1. Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the *Run* button). When prompted, select *PDF* (PDF tends to work better, in my experience) or *MS Word*. Submit the `.pdf` or `.docx` file via Canvas.
+
+Examples: 
+
+The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.
+
+- R script [[R](../ca/example.R)]
+- MS Word Output [[docx](../ca/example.docx)]
+- PDF Output [[pdf](../ca/example.pdf)]

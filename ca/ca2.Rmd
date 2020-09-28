@@ -1,0 +1,47 @@
+---
+title: "Computing Assignment 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Due Monday, April 8, at 3pm.
+
+# Do the following:
+
+Start a new project in RStudio Cloud. 
+
+Install the package tidyverse.
+
+Upload the `.rds` version of the `health` data set from the [data page](../data.html). This data set contains measures of approval for the ACA and measure of health at the state level from about 2013.
+
+Start a new R script. Save the script as `analysis.R`.
+
+In the script, do the following (include comments!):
+
+   a. Load the tidyverse package.
+   a. Load the data file `health.rds`.
+   a. Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names. Compare to the [codebook](data/health-codebook.html) if you need more information.
+   a. **Create a scatterplot** with the following features:
+       1. the level of uninsurance (`percent_uninsured`) along the x-axis.
+       1. the percent favorable to the ACA (`percent_favorable_aca`) along the y-axis.
+       1. rather than use `geom_point()` use `geom_label()` where the states' two-letter code (`state_abbr`) corresponds to the `label` aesthetic. 
+       1. the regression line through the data.
+       1. the life expectancy in the state (`life_expectancy`) corresponds to the `color` aesthetic.
+       1. a nice title, subtitle, axis labels, etc.
+   a. At the bottom of your script, in a single comment, **explain the scatterplot**. 
+       1. Explain the pattern you observe. 
+       1. Note whether there's anything unexpected. 
+       1. Speculate about why we obtain that particular pattern.
+
+Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the *Run* button). When prompted, select *PDF* (PDF tends to work better, in my experience) or *MS Word*. You may be prompted to download the document--do it! If not, then select the *Files* tab in the lower-right, check the box for the document you want to download (it should be `analysis.docx` or `analysis.pdf`), and click *More > Export...*, and follow the instructions Submit this `docx` or `.pdf` file to Canvas. Do not submit the `.R` script itself.
+
+Examples: 
+
+The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook.
+
+- R script [[R](../ca/example.R)]
+- MS Word Output [[docx](../ca/example.docx)]
+- PDF Output [[pdf](../ca/example.pdf)]
