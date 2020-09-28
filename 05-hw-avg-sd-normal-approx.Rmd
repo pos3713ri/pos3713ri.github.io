@@ -6,13 +6,13 @@ output:
     toc: false
 ---
 
-#### Probability Theory
-
-Make sure you read **chs. 13 and 14** of FPP and do the assigned review exercises [here](fpp-exercises.html). 
-
 #### Computing Assignment 1
 
 Complete [Computing Assignment 1](ca/ca1.html).
+
+#### Probability Theory
+
+Make sure you read **chs. 13 and 14** of FPP and do the assigned review exercises [here](fpp-exercises.html). 
 
 #### Finishing Up
 
