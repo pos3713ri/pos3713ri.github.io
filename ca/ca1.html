@@ -384,8 +384,20 @@ summary {
 <li>At the bottom of your script, in three separate comments, jot down three observations about the data. For example, “Party 1 in State A is more conservative than Party 1 in State B.” Feel free to briefly elaborate why those observations might be true. For example, “… perhaps because the voters in State A are more conservative than in State B.” Hint: to break your comments into equally-sized lines, you can highly the comment and click <em>Code &gt; Reflow Comment</em>.</li>
 <li>Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the <em>Run</em> button). When prompted, select <em>PDF</em> (PDF tends to work better, in my experience) or <em>MS Word</em>. Submit the <code>.pdf</code> or <code>.docx</code> file via Canvas.</li>
 </ol>
-<p>Examples:</p>
-<p>The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.</p>
+</div>
+<div id="avoid-a-potential-bug" class="section level1">
+<h1>Avoid a Potential Bug</h1>
+<p>William F. kindly pointed out a potential problem that I did not anticipate. If you save the R script to a subdirectory of the project directory, then the steps above will fail when you try to create the PDF.</p>
+<p>Here’s how to solve:</p>
+<ul>
+<li>In RStudio, go to <em>Tools</em> &gt; <em>Global Options…</em>.</li>
+<li>Then select the <em>R Markdown</em> menu. Then change the dropdown menu for <em>Evaluate chunks in directory:</em> from Document to <em>Project</em>.</li>
+</ul>
+<p>These steps ensure that the paths are relative to the project directory, not the directory where the R script is saved.</p>
+</div>
+<div id="examples" class="section level1">
+<h1>Examples</h1>
+<p>The following shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.</p>
 <ul>
 <li>R script [<a href="../ca/example.R">R</a>]</li>
 <li>MS Word Output [<a href="../ca/example.docx">docx</a>]</li>

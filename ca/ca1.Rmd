@@ -22,9 +22,20 @@ knitr::opts_chunk$set(echo = TRUE)
 1. At the bottom of your script, in three separate comments, jot down three observations about the data. For example, "Party 1 in State A is more conservative than Party 1 in State B." Feel free to briefly elaborate why those observations might be true. For example, "... perhaps because the voters in State A are more conservative than in State B." Hint: to break your comments into equally-sized lines, you can highly the comment and click *Code > Reflow Comment*.
 1. Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the *Run* button). When prompted, select *PDF* (PDF tends to work better, in my experience) or *MS Word*. Submit the `.pdf` or `.docx` file via Canvas.
 
-Examples: 
+# Avoid a Potential Bug
 
-The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.
+William F. kindly pointed out a potential problem that I did not anticipate. If you save the R script to a subdirectory of the project directory, then the steps above will fail when you try to create the PDF. 
+
+Here's how to solve: 
+
+- In RStudio, go to *Tools* > *Global Options...*. 
+- Then select the *R Markdown* menu. Then change the dropdown menu for *Evaluate chunks in directory:* from Document to *Project*.
+
+These steps ensure that the paths are relative to the project directory, not the directory where the R script is saved.
+
+# Examples
+
+The following shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.
 
 - R script [[R](../ca/example.R)]
 - MS Word Output [[docx](../ca/example.docx)]
