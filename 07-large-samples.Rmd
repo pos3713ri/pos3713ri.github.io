@@ -1,0 +1,23 @@
+---
+title: "Week 6: Large Samples"
+output:
+  pdf_document: default
+  html_document:
+    toc: false
+---
+
+#### Large Samples
+
+This week, we're laying a foundation for modeling sample surveys like [this one](https://www.nbcnews.com/politics/meet-the-press/biden-s-national-lead-over-trump-jumps-14-points-after-n1242018) (poll details [here](https://assets.documentcloud.org/documents/7221894/200781-NBCWSJ-October-Post-Debate-Poll-1b.pdf)). To lay this foundation, we're studying what happens when we sum a large number of random numbers. In particular, we're imagining a box of known, numbered tickets. We draw several times (with replacement) from this box and add up the numbers shown on the tickets. We want to fill in the following blanks: "The sum will be about ______, give or take _______ or so."
+
+It turns out that filling in these blanks is key to understanding sample surveys.
+
+Make sure you read **chs. 16, 17, and 18** of FPP and do the assigned review exercises [here](fpp-exercises.html). 
+
+#### Finishing Up
+
+Remember that both the TA and I have [office hours](https://canvas.fsu.edu/courses/133680/pages/zoom-office-hours) during the week. We're also available on Slack to chat. 
+
+Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz, and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of [academic honesty](honesty.html) as you complete the graded assignments.
+
+

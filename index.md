@@ -17,7 +17,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 28**: Probability [[HW](06-hw-probability.html)]  
 
-**Oct 05**: Large Samples
+**Oct 05**: Large Samples [[HW](07-hw-large-samples.html)]  
 
 **Oct 12**: TBD
 
