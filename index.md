@@ -19,7 +19,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 05**: Large Samples [[HW](07-hw-large-samples.html)]  
 
-**Oct 12**: Sample Surveys [HW](08-hw-sample-surveys.html)]      
+**Oct 12**: Sample Surveys [[HW](08-hw-sample-surveys.html)]      
 
 **Oct 19**: TBD
 
