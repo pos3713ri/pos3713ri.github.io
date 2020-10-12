@@ -1,5 +1,5 @@
 ---
-title: "Week 6: Large Samples"
+title: "Week 7: Large Samples"
 output:
   pdf_document: default
   html_document:
