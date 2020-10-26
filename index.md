@@ -19,13 +19,13 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 05**: Large Samples [[HW](07-hw-large-samples.html)]  
 
-**Oct 12**: Sample Surveys    
+**Oct 12**: Sample Surveys [[HW](08-hw-sample-surveys.html)]      
 
 **Oct 19**: Confidence Intervals [[HW](09-hw-ci.html)]  
 
-**Oct 26**:  TBD
+**Oct 26**: Hypothesis Tests [[HW](10-hw-p.html)]    
 
-**Nov 03**: Hypothesis Tests  
+**Nov 03**: TBD 
 
 **Nov 10**: Correlation  
 

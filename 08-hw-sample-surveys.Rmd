@@ -6,7 +6,7 @@ output:
     toc: false
 ---
 
-#### Large Samples
+#### Sample Surveys
 
 This week, we start to extend the box model to sample surveys. 
 
