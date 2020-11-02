@@ -25,15 +25,15 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 26**: Hypothesis Tests [[HW](10-hw-p.html)]    
 
-**Nov 03**: TBD 
+**Nov 03**: Correlation [[HW](11-hw-correlation.html)]    
 
-**Nov 10**: Correlation  
+**Nov 10**: Linear Regression, One Explanatory Variable 
 
-**Nov 17**: Linear Regression, One Explanatory Variable  
+**Nov 17**: Linear Regression, Multiple Explanatory Variables  
 
 **Nov. 23**: Partial Week, Use to Catch Up  
 
-**Nov 30**: Linear Regression, Multiple Explanatory Variables + Generalizing
+**Nov 30**: Generalizing Regression Even Further  
 
 **Dec 7-11**: Final Exam Week  
 
