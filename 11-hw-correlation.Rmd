@@ -15,6 +15,8 @@ I've decided to make one change. First, I'm going to push the due date for Compu
 
 As a preliminary topic, we look first at the "correlation coefficient." **Read chs. 8 and 9 of FPP and do the assigned review exercises [here](fpp-exercises.html).**
 
+Hopefully, this is a bit less material than usual. It's a stressful/exciting week for many of us.
+
 
 #### Finishing Up
 

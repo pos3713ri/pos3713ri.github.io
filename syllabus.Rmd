@@ -18,7 +18,7 @@ This course introduces students to the basic methods of political science. It fo
 
 Name: Carlisle Rainey  
 E-Mail: [crainey@fsu.edu](mailto:crainey@fsu.edu), but use Slack for many questions and discussion.  
-Office Hours: Tuesday, 9-11am,  and Friday, 11am-1pm. Zoom (see [page on Canvas](https://canvas.fsu.edu/courses/133680/pages/zoom-office-hours)). I recommend signing up [here](https://calendly.com/carlislerainey/15-minute-meeting).  
+Office Hours: Wednesday, 9-11am,  and Friday, 11am-1pm. Zoom (see [page on Canvas](https://canvas.fsu.edu/courses/133680/pages/zoom-office-hours)). I recommend signing up [here](https://calendly.com/carlislerainey/15-minute-meeting).  
 
 **Teaching Assistant**
 
@@ -164,4 +164,4 @@ Except for changes that substantially affect implementation of the evaluation (g
 
 **Changes**
 
-None so far.
+- Updated office hours.
