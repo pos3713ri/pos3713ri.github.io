@@ -1,0 +1,34 @@
+---
+title: "Week 12: Simple Regression"
+output:
+  pdf_document: default
+  html_document:
+    toc: false
+---
+
+
+This week, we continue working on regression. In particular, we extend the correlation coefficient *r* to a linear model for a scatterplot. We refer to this linear model as "regression."
+
+I've settled on new dates for two important assignments as we near the end of the semester:
+
+- Computing Assignment 2 will be due Tuesday, Nov. 24 (by midnight). This is Thanksgiving week, so you can set aside those two days to finish the computing assignment. That will be your only assignment for this class for Thanksgiving week. 
+- The research project will be due on Dec. 11 (by midnight), which is the last day of final exam week. I'll share more details about that later. The assignment will give you a data set and ask you to do an open-ended data analysis and draw a conclusion.
+
+#### Regression
+
+Read ch. 8 from [the notes](https://pos3713ri.github.io/notes/the-x-y-space.html) ("The X-Y Space") and do the exercises.
+
+Fill out [this worksheet](exercises/line-fitting.pdf). (I'm going to add a short video about this on Tuesday.) Make a note of the RMS error for your line.
+
+Read chs. 10, 11, and 12 of FPP and do the assigned review exercises [here](fpp-exercises.html). (Chapter 10 is helpful for understanding chapters 11 and 12. But feel free to skip through the exercises from chapter 10 once you understand the basic ideas. Chapters 11 and 12 are the really important ones.)
+
+Read ch. 11 from [the notes](https://pos3713ri.github.io/notes/regression.html) ("Regression") and do the exercises. (I plan to add a video about this on Wednesday).
+
+
+#### Finishing Up
+
+Remember that both the TA and I have [office hours](https://canvas.fsu.edu/courses/133680/pages/zoom-office-hours) during the week. We're also available on Slack to chat. 
+
+Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz, and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of [academic honesty](honesty.html) as you complete the graded assignments.
+
+
