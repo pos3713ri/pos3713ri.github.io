@@ -25,11 +25,11 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 26**: Hypothesis Tests [[HW](10-hw-p.html)]    
 
-**Nov 03**: Correlation [[HW](11-hw-correlation.html)]    
+**Nov 02**: Correlation [[HW](11-hw-correlation.html)]    
 
-**Nov 10**: Linear Regression, One Explanatory Variable 
+**Nov 09**: Linear Regression, One Explanatory Variable [[HW](12-hw-regression.html)]   
 
-**Nov 17**: Linear Regression, Multiple Explanatory Variables  
+**Nov 16**: Linear Regression, Multiple Explanatory Variables  
 
 **Nov. 23**: Partial Week, Use to Catch Up  
 
