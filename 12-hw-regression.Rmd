@@ -18,7 +18,7 @@ I've settled on new dates for two important assignments as we near the end of th
 
 Read ch. 8 from [the notes](https://pos3713ri.github.io/notes/the-x-y-space.html) ("The X-Y Space") and do the exercises.
 
-Fill out [this worksheet](exercises/line-fitting.pdf). (~~I'm going to add a short video about this on Tuesday.~~) **Video [here](https://www.dropbox.com/s/98e44cahuix9wed/wk12-line-fitting.mov?dl=0)**. Make a note of the RMS error for your line.
+Fill out [this worksheet](exercises/line-fitting.pdf). (~~I'm going to add a short video about this on Tuesday.~~) **Video [here](https://www.dropbox.com/s/3lcldql6p8bubel/wk12-line-fitting.mov?dl=0)**. Make a note of the RMS error for your line.
 
 Read chs. 10, 11, and 12 of FPP and do the assigned review exercises [here](fpp-exercises.html). (Chapter 10 is helpful for understanding chapters 11 and 12. But feel free to skip through the exercises from chapter 10 once you understand the basic ideas. Chapters 11 and 12 are the really important ones.)
 
