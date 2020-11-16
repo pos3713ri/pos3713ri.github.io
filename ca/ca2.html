@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -254,9 +254,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -270,7 +268,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -287,8 +284,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -334,6 +329,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -346,20 +342,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -373,39 +366,42 @@ $(document).ready(function () {
 </div>
 
 
-<div id="due-monday-april-8-at-3pm." class="section level3">
-<h3>Due Monday, April 8, at 3pm.</h3>
-</div>
 <div id="do-the-following" class="section level1">
 <h1>Do the following:</h1>
-<p>Start a new project in RStudio Cloud.</p>
-<p>Install the package tidyverse.</p>
-<p>Upload the <code>.rds</code> version of the <code>health</code> data set from the <a href="../data.html">data page</a>. This data set contains measures of approval for the ACA and measure of health at the state level from about 2013.</p>
-<p>Start a new R script. Save the script as <code>analysis.R</code>.</p>
-<p>In the script, do the following (include comments!):</p>
+<ol style="list-style-type: decimal">
+<li>Start a new project in RStudio.</li>
+<li>Get the <a href="https://raw.githubusercontent.com/pos5737/economic-models/master/data/economic-models.csv"><code>.csv version</code></a> of the economic models data set from GitHub. Save it to the <code>data/</code> subdirectory of your project as <code>economic-models.csv</code>. You can find out more about the data set and the variables in the <a href="https://github.com/pos5737/economic-models/blob/master/README.md#the-dataset">README</a> on GitHub. The data set contains three variables that we might use to predict the incumbent margin of victory in presidential elections: % change in RDI, % change in GDP, and unemployment rate.</li>
+<li>Start a new R script. Save the script as <code>analysis.R</code>.</li>
+<li>In the script, do the following (include comments!):
 <ol style="list-style-type: lower-alpha">
 <li>Load the tidyverse package.</li>
-<li>Load the data file <code>health.rds</code>.</li>
-<li>Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names. Compare to the <a href="data/health-codebook.html">codebook</a> if you need more information.</li>
-<li><strong>Create a scatterplot</strong> with the following features:
-<ol style="list-style-type: decimal">
-<li>the level of uninsurance (<code>percent_uninsured</code>) along the x-axis.</li>
-<li>the percent favorable to the ACA (<code>percent_favorable_aca</code>) along the y-axis.</li>
-<li>rather than use <code>geom_point()</code> use <code>geom_label()</code> where the states’ two-letter code (<code>state_abbr</code>) corresponds to the <code>label</code> aesthetic.</li>
-<li>the regression line through the data.</li>
-<li>the life expectancy in the state (<code>life_expectancy</code>) corresponds to the <code>color</code> aesthetic.</li>
-<li>a nice title, subtitle, axis labels, etc.</li>
-</ol></li>
-<li>At the bottom of your script, in a single comment, <strong>explain the scatterplot</strong>.
-<ol style="list-style-type: decimal">
-<li>Explain the pattern you observe.</li>
-<li>Note whether there’s anything unexpected.</li>
-<li>Speculate about why we obtain that particular pattern.</li>
+<li>Load the data file <code>economic-models.csv</code>.</li>
+<li>Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names.</li>
+<li>Create three scatterplots, one for each predictor (% change in RDI, % change in GDP, and unemployment rate). In each scatterplot, put the incumbent margin of victory along the y-axis and the predictor along the x-axis. Add a regression line.</li>
+<li>In a comment, assess how well you think each of the three predictors explains the variation in the incumbent margin of victory.</li>
+<li>For each of the three predictors, fit a simple regression model using <code>lm()</code>.</li>
+<li>In a comment, interpret the slope. “A one [unit] increase in [the predictor] leads to a ____ percentage point [increase/decrease] in the incumbent’s margin of victory.”</li>
+<li>In anther comment, use the simple regressions to assess how well you think each of the three predictors explains the variation in the incumbent margin of victory. Hint: <code>arm::display()</code> gives you both the RMS of the residuals (<code>residual sd</code>) and the R-squared.</li>
+<li>Now fit a single model that includes all three predictors. You can easily do this with the syntax <code>lm(y ~ x1 + x2 + x3, ...)</code> (rather than just <code>lm(y ~ x, ...)</code>).</li>
+<li>In a comment, interpret the slopes from the multiple regression model. “Holding [the other two predictors] constant, a one [unit] increase in [this predictor] leads to a ____ percentage point [increase/decrease] in the incumbent’s margin of victory.”</li>
+<li>In another comment, explain how well this multiple regression model explains the variation in the incumbent margin of victory compared to each of the three simple regression models. Hint: <code>arm::display()</code> gives you both the RMS of the residuals and the R-squared for multiple regression models, too.</li>
 </ol></li>
 </ol>
-<p>Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the <em>Run</em> button). When prompted, select <em>PDF</em> (PDF tends to work better, in my experience) or <em>MS Word</em>. You may be prompted to download the document–do it! If not, then select the <em>Files</em> tab in the lower-right, check the box for the document you want to download (it should be <code>analysis.docx</code> or <code>analysis.pdf</code>), and click <em>More &gt; Export…</em>, and follow the instructions Submit this <code>docx</code> or <code>.pdf</code> file to Canvas. Do not submit the <code>.R</code> script itself.</p>
-<p>Examples:</p>
-<p>The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook.</p>
+<p>Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the <em>Run</em> button). When prompted, select <em>PDF</em> (PDF tends to work better, in my experience) or <em>MS Word</em>. Submit the <code>.pdf</code> or <code>.docx</code> file via Canvas.</p>
+</div>
+<div id="avoid-a-potential-bug" class="section level1">
+<h1>Avoid a Potential Bug</h1>
+<p>William F. kindly pointed out a potential problem that I did not anticipate. If you save the R script to a subdirectory of the project directory, then the steps above will fail when you try to create the PDF.</p>
+<p>Here’s how to solve:</p>
+<ul>
+<li>In RStudio, go to <em>Tools</em> &gt; <em>Global Options…</em>.</li>
+<li>Then select the <em>R Markdown</em> menu. Then change the dropdown menu for <em>Evaluate chunks in directory:</em> from Document to <em>Project</em>.</li>
+</ul>
+<p>These steps ensure that the paths are relative to the project directory, not the directory where the R script is saved.</p>
+</div>
+<div id="examples" class="section level1">
+<h1>Examples</h1>
+<p>The following shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.</p>
 <ul>
 <li>R script [<a href="../ca/example.R">R</a>]</li>
 <li>MS Word Output [<a href="../ca/example.docx">docx</a>]</li>
@@ -430,6 +426,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -11,7 +11,7 @@
 
 
 
-<title>Schedule</title>
+<title>Week 1: Simple Regression</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -295,28 +295,48 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Schedule</h1>
+<h1 class="title toc-ignore">Week 1: Simple Regression</h1>
 
 </div>
 
 
-<p>Note: Complete the homework <em>after</em> the associated class, but <em>before</em> the next class.</p>
-<p><strong>Aug 24</strong>: Getting Set Up [<a href="01-hw-tools.html">HW</a>]</p>
-<p><strong>Aug 31</strong>: Questions + Statistical Computing with R [<a href="02-hw-questions-computing.html">HW</a>]</p>
-<p><strong>Sep 7</strong>: Models + Causality [<a href="03-hw-models-causality.html">HW</a>]</p>
-<p><strong>Sep 14</strong>: Histograms + Histograms in R [<a href="04-hw-histograms.html">HW</a>]</p>
-<p><strong>Sep 21</strong>: Avg. and SD + Avg. and SD in R + Normal Approximation [<a href="05-hw-avg-sd-normal-approx.html">HW</a>]</p>
-<p><strong>Sep 28</strong>: Probability [<a href="06-hw-probability.html">HW</a>]</p>
-<p><strong>Oct 05</strong>: Large Samples [<a href="07-hw-large-samples.html">HW</a>]</p>
-<p><strong>Oct 12</strong>: Sample Surveys [<a href="08-hw-sample-surveys.html">HW</a>]</p>
-<p><strong>Oct 19</strong>: Confidence Intervals [<a href="09-hw-ci.html">HW</a>]</p>
-<p><strong>Oct 26</strong>: Hypothesis Tests [<a href="10-hw-p.html">HW</a>]</p>
-<p><strong>Nov 02</strong>: Correlation [<a href="11-hw-correlation.html">HW</a>]</p>
-<p><strong>Nov 09</strong>: Linear Regression, One Explanatory Variable [<a href="12-hw-regression.html">HW</a>]</p>
-<p><strong>Nov 16</strong>: Linear Regression, Multiple Explanatory Variables [<a href="13-hw-multiple-regression.html">HW</a>]</p>
-<p><strong>Nov. 23</strong>: Thanksgiving Week</p>
-<p><strong>Nov 30</strong>: Generalizing Regression Even Further</p>
-<p><strong>Dec 7-11</strong>: Final Exam Week</p>
+<p>This week, we continue working on regression. In particular, we extend the simple regression model to the <strong>multiple</strong> regression model. While the simple regression model uses a single explanatory variable <span class="math inline">\(x\)</span> to predict the outcome <span class="math inline">\(y\)</span>, the multiple regression model uses <em>multiple</em> explanatory variables <span class="math inline">\(x_1, x_2, ..., x_k\)</span> to predict <span class="math inline">\(y\)</span>.</p>
+<p>Remember the two non-weekly assignments we have remaining this semester.</p>
+<ul>
+<li>Computing Assignment 2 is due Tuesday, Nov. 24 (by midnight). That will be your only assignment for this class for Thanksgiving week.</li>
+<li>The research project is due on Dec. 11 (by midnight), which is the last day of final exam week. I’ll share more details about that after Thanksgiving, so you’ll have two weeks to complete the assignment, which will give you a data set and ask you to do an open-ended data analysis and draw a conclusion.</li>
+</ul>
+<p>There will be no quiz this week. Instead, you will upload a document with your answers to the assigned exercises below. For simplicity, it’s still called “Quiz 13” in Canvas, but <strong>Quiz 13 just asks you to upload a file with your answers to the exercises.</strong> A PDF works best. You can either type your answers in Word or scan your handwritten answers using an app such as Scannable.</p>
+<div id="multiple-regression" class="section level4">
+<h4>Multiple Regression</h4>
+<p>Write your solutions to the exercises below either neatly by hand or in Word. You’ll upload a PDF of your answers instead of a Quiz this week. You can find Quiz 13 on Canvas, but it just asks you to upload your answers.</p>
+<p><strong>Part 1</strong></p>
+<p>Read ch. 2 of Wooldridge (2016). There’s a link on the Canvas announcement for this week. (I plan to add a video discussion ch. 2 on Tuesday.)</p>
+<p>Do Exercises 1-4 on pp. 53-54.</p>
+<p>Do the following exercises as well:</p>
+<ol style="list-style-type: decimal">
+<li>Combining the mathematical notation with your own words, define the following terms: simple linear regression, dependent variable (which I call the “outcome variable”), independent variable (which I call the “explanatory variable”), error term, slope parameter, intercept parameter, PRF, fitted value, residual, OLS regression line, SRF, R-squared. SER, standard error of <span class="math inline">\(\hat{\beta}_1\)</span>.</li>
+<li>If the long-run average estimate of <span class="math inline">\(\hat{\beta}_1\)</span> equals the population value of <span class="math inline">\(\beta_1\)</span>, then we say that the estimate <span class="math inline">\(\hat{\beta}_1\)</span> is “unbiased.” Combining mathematical notation with your own words, describe the conditions under which the least-squares estimate <span class="math inline">\(\hat{\beta}_1\)</span> is unbiased. See Wooldridge (2016), section 2-5a, pp. 40-45.</li>
+</ol>
+<p><strong>Part 2</strong></p>
+<p>Read ch. 3 of Wooldridge (2016).</p>
+<p>Do Exercises 1-2 on pp. 93.</p>
+<p>Do the following exercises as well:</p>
+<ol style="list-style-type: decimal">
+<li>Combining the mathematical notation with your own words, define the following terms: certeris paribus interpretation,perfect collinearity, exogenous and endogenous explanatory variable, omitted variable bias, Gauss-Markov assumptions, multicollinearity (contract with perfect collinearity), Gauss-Markov Theorem.</li>
+<li>Combining mathematical notation with your own words, describe the conditions under which the least-squares estimate <span class="math inline">\(\hat{\beta}_j\)</span> is unbiased for <span class="math inline">\(j \in {0, 1, 2, ... k}\)</span>. See Wooldridge (2016), section 3-3, pp. 73-77, esp Theorem 3.1.</li>
+</ol>
+</div>
+<div id="computing-assignment-2" class="section level4">
+<h4>Computing Assignment 2</h4>
+<p>Complete <a href="ca/ca2.html">Computing Assigment 2</a>. It’s due Tuesday, Nov. 24, by midnight. As I respond to student questions, I occasionally update the assignment. If you see things that I can clarify, please let me know.</p>
+</div>
+<div id="finishing-up" class="section level4">
+<h4>Finishing Up</h4>
+<p>Remember that both the TA and I have <a href="https://canvas.fsu.edu/courses/133680/pages/zoom-office-hours">office hours</a> during the week. We’re also available on Slack to chat.</p>
+<p>Make sure you have completed the entire assignment. Then complete the HW questionnaire, quiz (a file upload, see above), and letter on Canvas. These are due by Friday at 11:59pm. Please remind yourself of the standards of <a href="honesty.html">academic honesty</a> as you complete the graded assignments.</p>
+<p><strong>Thanksgiving week extensions.</strong> Thanksgiving can be a difficult time. Some of us will be away from our families, and that will be hard. Others might be with our families and that might be hard, for different reasons. I expect that you’ll have lots of assignments due this week. While the usual assignments are due on Friday and the Computing Assignment is due on Tuesday, I’ll be generous with extensions if you need them. I’ll give anyone who asks until Sunday, Nov. 29. That said, if you can, I strongly encourage you to finish this assignment on time (or early) and enjoy the break.</p>
+</div>
 
 <hr>
 

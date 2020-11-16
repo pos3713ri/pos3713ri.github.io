@@ -29,9 +29,9 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov 09**: Linear Regression, One Explanatory Variable [[HW](12-hw-regression.html)]   
 
-**Nov 16**: Linear Regression, Multiple Explanatory Variables  
+**Nov 16**: Linear Regression, Multiple Explanatory Variables [[HW](13-hw-multiple-regression.html)]    
 
-**Nov. 23**: Partial Week, Use to Catch Up  
+**Nov. 23**: Thanksgiving Week 
 
 **Nov 30**: Generalizing Regression Even Further  
 

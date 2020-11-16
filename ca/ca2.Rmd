@@ -7,40 +7,40 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Due Monday, April 8, at 3pm.
-
 # Do the following:
 
-Start a new project in RStudio Cloud. 
-
-Install the package tidyverse.
-
-Upload the `.rds` version of the `health` data set from the [data page](../data.html). This data set contains measures of approval for the ACA and measure of health at the state level from about 2013.
-
-Start a new R script. Save the script as `analysis.R`.
-
-In the script, do the following (include comments!):
-
+1. Start a new project in RStudio. 
+1. Get the [`.csv version`](https://raw.githubusercontent.com/pos5737/economic-models/master/data/economic-models.csv) of the economic models data set from GitHub. Save it to the `data/` subdirectory of your project as `economic-models.csv`. You can find out more about the data set and the variables in the [README](https://github.com/pos5737/economic-models/blob/master/README.md#the-dataset) on GitHub. The data set contains three variables that we might use to predict the incumbent margin of victory in presidential elections: % change in RDI, % change in GDP, and unemployment rate.
+1. Start a new R script. Save the script as `analysis.R`.
+1. In the script, do the following (include comments!):
    a. Load the tidyverse package.
-   a. Load the data file `health.rds`.
-   a. Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names. Compare to the [codebook](data/health-codebook.html) if you need more information.
-   a. **Create a scatterplot** with the following features:
-       1. the level of uninsurance (`percent_uninsured`) along the x-axis.
-       1. the percent favorable to the ACA (`percent_favorable_aca`) along the y-axis.
-       1. rather than use `geom_point()` use `geom_label()` where the states' two-letter code (`state_abbr`) corresponds to the `label` aesthetic. 
-       1. the regression line through the data.
-       1. the life expectancy in the state (`life_expectancy`) corresponds to the `color` aesthetic.
-       1. a nice title, subtitle, axis labels, etc.
-   a. At the bottom of your script, in a single comment, **explain the scatterplot**. 
-       1. Explain the pattern you observe. 
-       1. Note whether there's anything unexpected. 
-       1. Speculate about why we obtain that particular pattern.
+   a. Load the data file `economic-models.csv`.
+   a. Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names.
+   a. Create three scatterplots, one for each predictor (% change in RDI, % change in GDP, and unemployment rate). In each scatterplot, put the incumbent margin of victory along the y-axis and the predictor along the x-axis. Add a regression line.
+   a. In a comment, assess how well you think each of the three predictors explains the variation in the incumbent margin of victory.
+   a. For each of the three predictors, fit a simple regression model using `lm()`. 
+   a. In a comment, interpret the slope. "A one [unit] increase in [the predictor] leads to a ____ percentage point [increase/decrease] in the incumbent's margin of victory." 
+   a. In anther comment, use the simple regressions to assess how well you think each of the three predictors explains the variation in the incumbent margin of victory. Hint: `arm::display()` gives you both the RMS of the residuals (`residual sd`) and the R-squared.
+   a. Now fit a single model that includes all three predictors. You can easily do this with the syntax `lm(y ~ x1 + x2 + x3, ...)` (rather than just `lm(y ~ x, ...)`). 
+   a. In a comment, interpret the slopes from the multiple regression model. "Holding [the other two predictors] constant, a one [unit] increase in [this predictor] leads to a ____ percentage point [increase/decrease] in the incumbent's margin of victory." 
+   a. In another comment, explain how well this multiple regression model explains the variation in the incumbent margin of victory compared to each of the three simple regression models. Hint: `arm::display()` gives you both the RMS of the residuals and the R-squared for multiple regression models, too.
+   
+Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the *Run* button). When prompted, select *PDF* (PDF tends to work better, in my experience) or *MS Word*. Submit the `.pdf` or `.docx` file via Canvas.
 
-Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the *Run* button). When prompted, select *PDF* (PDF tends to work better, in my experience) or *MS Word*. You may be prompted to download the document--do it! If not, then select the *Files* tab in the lower-right, check the box for the document you want to download (it should be `analysis.docx` or `analysis.pdf`), and click *More > Export...*, and follow the instructions Submit this `docx` or `.pdf` file to Canvas. Do not submit the `.R` script itself.
+# Avoid a Potential Bug
 
-Examples: 
+William F. kindly pointed out a potential problem that I did not anticipate. If you save the R script to a subdirectory of the project directory, then the steps above will fail when you try to create the PDF. 
 
-The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook.
+Here's how to solve: 
+
+- In RStudio, go to *Tools* > *Global Options...*. 
+- Then select the *R Markdown* menu. Then change the dropdown menu for *Evaluate chunks in directory:* from Document to *Project*.
+
+These steps ensure that the paths are relative to the project directory, not the directory where the R script is saved.
+
+# Examples
+
+The following shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. The plots will look different, these simply show the formatting.
 
 - R script [[R](../ca/example.R)]
 - MS Word Output [[docx](../ca/example.docx)]
