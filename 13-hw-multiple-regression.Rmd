@@ -1,5 +1,5 @@
 ---
-title: "Week 1: Simple Regression"
+title: "Week 13: Multiple Regression"
 output:
   pdf_document: default
   html_document:
