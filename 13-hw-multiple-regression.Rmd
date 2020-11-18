@@ -22,7 +22,7 @@ Write your solutions to the exercises below either neatly by hand or in Word. Yo
 
 **Part 1**
 
-Read ch. 2 of Wooldridge (2016). There's a link on the Canvas announcement for this week. (I plan to add a video discussion ch. 2 on Tuesday.)
+Read ch. 2 of Wooldridge (2016). There's a link on the Canvas announcement for this week. Video discussion [here](https://www.dropbox.com/s/rlrvvru2w371qz2/wk13-ch2-terms.mp4?dl=0).
 
 Do Exercises 1-4 on pp. 53-54.
 
@@ -33,7 +33,7 @@ Do the following exercises as well:
 
 **Part 2**
 
-Read ch. 3 of Wooldridge (2016). 
+Read ch. 3 of Wooldridge (2016). Video discussion [here](https://www.dropbox.com/s/nazdmrs16f5pgp5/wk13-ch3-terms.mp4?dl=0).
 
 Do Exercises 1-2 on pp. 93.
 
