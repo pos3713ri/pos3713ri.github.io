@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
    a. Load the tidyverse package.
    a. Load the data file `economic-models.csv`.
    a. Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names.
-   a. Create three scatterplots, one for each predictor (% change in RDI, % change in GDP, and unemployment rate). In each scatterplot, put the incumbent margin of victory along the y-axis and the predictor along the x-axis. Add a regression line.
+   a. Create three scatterplots, one for each predictor (% change in GNI, % change in GDP, and unemployment rate). In each scatterplot, put the incumbent margin of victory along the y-axis and the predictor along the x-axis. Add a regression line.
    a. In a comment, assess how well you think each of the three predictors explains the variation in the incumbent margin of victory.
    a. For each of the three predictors, fit a simple regression model using `lm()`. 
    a. In a comment, interpret the slope. "A one [unit] increase in [the predictor] leads to a ____ percentage point [increase/decrease] in the incumbent's margin of victory." 
