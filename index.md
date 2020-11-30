@@ -33,7 +33,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov. 23**: Thanksgiving Week 
 
-**Nov 30**: Generalizing Regression Even Further  
+**Nov 30**: Regression Extensions [[HW](14-hw-regression-extensions.html)]    
 
 **Dec 7-11**: Final Exam Week  
 
