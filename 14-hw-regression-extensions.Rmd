@@ -17,7 +17,7 @@ We're going to extend the multiple regression model in three ways.
 1. Interactions [[video](https://www.dropbox.com/s/939ay43gbslqliq/wk14-02-interactions.mp4?dl=0)]
 1. Qualitative Outcomes [[video](https://www.dropbox.com/s/le32raq2h1muoku/wk14-03-qualitative-outcomes.mp4?dl=0)]
 
-There are no readings. atch the video, take a good notes, and the quiz should be straightforward.
+There are no readings. Watch the video, take a good notes, and the quiz should be straightforward.
 
 #### Research Project
 
