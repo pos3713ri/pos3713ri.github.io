@@ -1,0 +1,74 @@
+---
+title: "Schedule"
+---
+
+Note: Complete the homework *after* the associated class, but *before* the next class.
+
+
+**Aug 26**: Questions and Models 
+
+- [[slides](files/02-slides-questions.pdf) on questions] 
+- [[notes](files/02-notes-questions.html) on questions]
+- [[slides](files/03-notes-models.html) on models]
+- [[notes](files/03-notes-models.html) on models] 
+- [[hw](hw/01-hw.html)]
+
+**Aug 28**: R  
+
+**Sep 2**: Data  
+
+**Sep 4**: Histograms  
+
+**Sep 9**: Histograms in R  
+
+**Sep 11**: Avg and SD  
+
+**Sep 16**: Avg and SD in R  
+
+**Sep 18**: Normal Model  
+
+**Sep 23**: Review  
+
+**Sep 25**: Exam 1  
+
+**Sep 30**: Wrangling 1  
+
+**Oct 2**: Wrangling 2  
+
+**Oct 7**: Probability Basics  
+
+**Oct 9**: Numbered-Ticket Model  
+
+**Oct 14**: Sample Surveys  
+
+**Oct 16**: Randomized Experiments  
+
+**Oct 21**: Confidence Intervals  
+
+**Oct 23**: Hypothesis Tests  
+
+**Oct 28**: Review  
+
+**Oct 30**: Exam 2  
+
+**Nov 4**: Scatterplots  
+
+**Nov 6**: Correlation  
+
+**Nov 11**: Veterans Day - No Classes  
+
+**Nov 13**: Regression  
+
+**Nov 18**: Regression in R  
+
+**Nov 20**: Multiple Regression  
+
+**Nov 25**: Extentions to Multiple Regression  
+
+**Nov 27**: Thanksgiving - No Classes  
+
+**Dec 2**: Wrap  
+
+**Dec 4**: Review  
+
+**Final Exam Week**  

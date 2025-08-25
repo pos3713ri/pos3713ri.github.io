@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - syllabus.pdf
+    - exr/
+    - files/
+    - hw/
+
+website:
+  title: "POS 3713"
+  navbar:
+    left:
+      - text: "Schedule"
+        href: index.qmd
+      - text: "Syllabus"
+        href: syllabus.pdf
+
+format:
+  html:
+    include-after-body: license.html

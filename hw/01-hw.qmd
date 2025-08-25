@@ -1,0 +1,14 @@
+---
+title: "Assignment for Class 1"
+---
+
+### Homework
+
+Please complete before the next class.
+
+- Review my slides, your notes from class, and my notes.
+- Complete the exercises in my notes. You'll find some at the bottom of both sets.
+- Read the [syllabus](syllabus.pdf) carefully. If I've missed anything or failed to clearly explain any policy, please let me know. Come prepared to the next class with any questions or comments.
+- I recommend bookmarking the course webpage for easy access. It's [https://pos3713ri.github.io](https://pos3713ri.github.io). I'll add material here throughout the semester.
+- Make sure you have an up-to-date profile picture on Canvas. 
+- Create an account on [rstudio.cloud](https://rstudio.cloud). You may use your Google or GitHub account if you like.
