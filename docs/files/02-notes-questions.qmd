@@ -6,25 +6,13 @@ title: 'Questions'
 
 See also a relevant xkcd [comic](https://xkcd.com/242/).
 
-In political science, we ask a lot of questions about politics, such as these questions about marriage equality:
-
-- Should gay and lesbian couples have the same opportunity to marry as straight couples?
-- What percent of the public supports marriage equality for gay and lesbian couples?
-- What explains the recent increase in support for marriage equality?
-
-Or these questions about income inequality:
+In political science, we ask a lot of questions about politics, such as these questions about income inequality:
 
 - Should the government redistribute wealth?
 - Is income inequality higher or lower in the U.S. than France?
 - What are the consequences of income inequality?
 
-In answering these questions, we might make *claims* about politics. Claims are just answers to questions. We might make the following claims about marriage equality:
-
-- Gay and lesbian couples should have the same right to marry as straight couples.
-- 68% of the public supports marriage equality in the U.S. [[poll](https://gssdataexplorer.norc.org/trends/Gender%20&%20Marriage?measure=marhomo)]
-- Court decisions explain the recent increase in support for marriage equality.
-
-Or we might make these claims about income inequality:
+In answering these questions, we might make *claims* about politics. Claims are just answers to questions. We might make the following claims about income inequality:
 
 - The government should not redistribute wealth.
 - Income inequality is higher in the U.S. than France.
@@ -34,11 +22,12 @@ Political science is all about *asking* and *answering* questions. But the best 
 
 I break the questions we might ask (or claims we might make) about politics into three types: normative, descriptive, and causal. Answering each type question requires a different approach.
 
-Type  | Description | Marriage Example | Inequality Example | Approach
-------------- | ------------- | ----------- | ----------------- | ---------
-normative  | How *should* the world look? Asks for a moral judgement. | Should gay and lesbian couples have the same right to marry as heterosexual couples? | Should the government redistribute wealth? | logic and reasoning
-descriptive  | How *does* the world look? Asks for an empirical observation. | What percent of the public supports marriage equality for gays and lesbians? | Is income inequality higher or lower in the U.S. than France? | observation and measurement
-causal | *Why* does the world look the way it does? What *influences* X? Asks for a *cause*-and-*effect* relationship or an *explanation*. | What explains the recent increase in support for marriage equality? | What are the consequences of income inequality? | observation and measurement, plus clever design
+Type  | Description | Inequality Example | Approach
+------------- | ------------- | ----------------- | ---------
+normative  | How *should* the world look? Asks for a moral judgement. | Should the government redistribute wealth? | logic and reasoning
+descriptive  | How *does* the world look? Asks for an empirical observation. | Is income inequality higher or lower in the U.S. than France? | observation and measurement
+causal | *Why* does the world look the way it does? What *influences* X? Asks for a *cause*-and-*effect* relationship or an *explanation*. | What are the consequences of income inequality? | observation and measurement, plus clever design
+
 
 ## Normative Questions
 
@@ -63,7 +52,7 @@ We will not focus on these types of questions.
 
 However, we all bring normative views with us, and these views are helpful. Normative views can motivate us to focus on certain descriptive and causal questions. For example, perhaps you believe that democracy is the most normatively desirable form of government. This might lead you to describe how well democracy works in the U.S. (descriptive) or explain why some countries remain authoritarian (causal). Perhaps you believe that governments should not torture. This might lead you to describe the extent to which certain states use torture (descriptive) or the types of institutional arrangements (independent courts?) that reduce torture (causal).
 
-Reversing the cycle, answers to descriptive and causal questions might inform our normative views. For example, if you know that a majority of the U.S. public supports marriage equality, then you might think the U.S. should allow gays and lesbians to marry. If you know that income equality reduces economic growth, then perhaps you think the U.S. should adopt a more redistributive economic policy.
+Reversing the cycle, answers to descriptive and causal questions might inform our normative views. For example, if you know that income equality reduces economic growth, then perhaps you think the U.S. should adopt a more redistributive economic policy.
 
 Normative questions can motivate descriptive and causal questions. Descriptive and causal questions can inform normative debates. But it is important to draw a sharp distinction between normative questions and descriptive/causal questions, because the two require completely different approaches. 
 

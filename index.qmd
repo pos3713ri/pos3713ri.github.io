@@ -5,14 +5,7 @@ title: "Schedule"
 Note: Complete the homework *after* the associated class, but *before* the next class.
 
 
-**Aug 26**: Questions and Models 
-
-- [Gapminder tool](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v2)
-- [[slides](files/02-slides-questions.pdf) on questions] 
-- [[notes](files/02-notes-questions.html) on questions]
-- [[slides](files/03-notes-models.html) on models]
-- [[notes](files/03-notes-models.html) on models] 
-- [[hw](hw/01-hw.html)]
+**Aug 26**: Questions and Models [[hw](hw/01-hw.html)] [👈 links moved into hw]{.text-muted}
 
 **Aug 28**: R  
 
