@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Research Project – POS 3713</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F57WQLHH67"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-F57WQLHH67', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">POS 3713</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research-project.html" aria-current="page"> 
+<span class="menu-text">Research Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./syllabus.pdf"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <ul class="collapse">
+  <li><a href="#a-recent-debate-about-moderates" id="toc-a-recent-debate-about-moderates" class="nav-link" data-scroll-target="#a-recent-debate-about-moderates">A Recent Debate About Moderates</a></li>
+  <li><a href="#a-recent-debate-about-backsliding" id="toc-a-recent-debate-about-backsliding" class="nav-link" data-scroll-target="#a-recent-debate-about-backsliding">A Recent Debate About Backsliding</a></li>
+  </ul></li>
+  <li><a href="#scaffolding" id="toc-scaffolding" class="nav-link" data-scroll-target="#scaffolding">Scaffolding</a>
+  <ul class="collapse">
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
+  </ul></li>
+  <li><a href="#format" id="toc-format" class="nav-link" data-scroll-target="#format">Format</a></li>
+  <li><a href="#style" id="toc-style" class="nav-link" data-scroll-target="#style">Style</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research Project</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Your task this semester: <em>write a paper of modest ambition and exceptional quality that makes a descriptive argument about politics.</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This project is a <em>slightly</em> thinned variant of a project I ask my PhD students to complete. See <a href="https://pos5747.github.io/research-project.html">here</a> for their variant.</p>
+</div>
+</div>
+<section id="overview" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>We’ll borrow Gerring’s <span class="citation" data-cites="gerring2012">(<a href="#ref-gerring2012" role="doc-biblioref">2012, 722</a>)</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> definition of a <em>descriptive argument</em>:</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;See also Part II of Gerring’s <em>Social Science Methodology</em> for a supplement to Gerrying (2012).</p></div></div><blockquote class="blockquote">
+<p>A descriptive argument describes some aspect of the world. In doing so, it aims to answer what questions (e.g., when, whom, out of what, in what manner) about a phenomenon or a set of phenomena. Descriptive arguments are about what is/was. For example: ‘Over the course of the past two centuries there have been three major waves of democratization.’</p>
+</blockquote>
+<p>You might feel confused. After all, Gerring writes that description “has come to be employed as a euphemism for a failed, or not yet proven, causal inference.” At best, we might think that description only serves to support the primary task of causal inference. Indeed, <span class="citation" data-cites="kkv">King, Keohane, and Verba (<a href="#ref-kkv" role="doc-biblioref">1994, 34</a>)</span> write that “description, in turn, <em>loses most of its interest</em> unless linked to some causal relationships.”</p>
+<p>However, description is an essential component of social science. <span class="citation" data-cites="dekadt2025">de Kadt and Grzymala-Busse (<a href="#ref-dekadt2025" role="doc-biblioref">2025</a>)</span> argue that description is “a fundamental component of the social scientific enterprise” (2) that “engages theory by invoking existing theories, motivating new theoretical models and their refinement, and in some cases even evaluating theory” (24). Gerring writes that “description can be written out of the discipline only at great cost to our understandings of the world” (744). And <span class="citation" data-cites="holmes2024">Holmes et al. (<a href="#ref-holmes2024" role="doc-biblioref">2024</a>)</span> write that “answering questions of ‘who,’ ‘what,’ ‘when,’ ‘where,’ and ‘how’—in concert with but also independent from causal inquiry—is vital to the continued relevance and coherence of our discipline in both scholarly and public-facing work” (54).</p>
+<p>As a whole, I suggest that social science asks: <em>how can we intervene to make the world a better place?</em> This implies three parts.</p>
+<ol type="1">
+<li>First, what does the world look like now?</li>
+<li>Second, what worlds would be better?</li>
+<li>And third, what are the effects of potential interventions?</li>
+</ol>
+<p>I view answers the the first question—a description of the world as it exists—as a difficult and worthwhile challenge. It seems difficult to even entertain the second and third questions without a thorough understanding of the world as it exists.</p>
+<p>And you may think that description is easy, and establishing causality is hard. I think you’ll find that description is easier <em>statistically,</em> but a more difficult struggle overall.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;My thinking is something like this. When you randomly assign <span class="math inline">\(T\)</span> and you measure <span class="math inline">\(Y\)</span> afterward, you’ve established that <span class="math inline">\(T\)</span> causes <span class="math inline">\(X\)</span>. But suppose that you just measure <span class="math inline">\(Y\)</span>. It isn’t clear what you’ve just measured or whether it’s meaningful. Of course, these same questions lay hiding in the shadows in the randomized experiment. But the randomization guarantees a “causal inference” that is sufficient to strike our fancy. The descriptive argument brings the subtler questions of measures and their meanings into the broad daylight. Fuzzy concepts and measurements can’t hide behind a “compelling identification strategy” when you are making a descriptive argument.</p></div></div><p>Examples of the struggle to describe are easy to find. Consider two ideas that are central to political science: “democracy” or “political ideology.” If a reporter from the New York Times asked whether democracy was in decline around the world, the answer isn’t easy or obvious. Political scientists are not in agreement. If that reporter asked you whether there are many or few moderate voters in the US, the answer isn’t obvious or easy. Again, political scientists are not in agreement.</p>
+</section>
+<section id="topics" class="level1">
+<h1>Topics</h1>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Why it’s tempting to pursue a particular hypothesis that you care deeply about, you’ll have a smoother experience if you start by perusing the readily-available data.</p>
+</div>
+</div>
+<p>You have the freedom to choose a topic of your choice, but I recommend seeking advice early and often. The topic you choose affects the difficulty of the task in ways that you might not anticipate.</p>
+<p>I can enthusiastically recommend a study of patterns of <a href="https://www.ipr.northwestern.edu/documents/working-papers/2021/wp-21-27.pdf">affective polarization</a> using the <a href="https://electionstudies.org">ANES</a>.</p>
+<p>More broadly, examining public opinion or behavior across places, times, or groups is a suitable project. You might find the ANES, Cooperative Election Study, General Social Survey, Comparative Study of Electoral Systems, or World Values Survey promising.</p>
+<p>Political scientists have also collected a wealth of data on national and international institutions that might work well. You might find V-Dem, the Correlates of War, or the Correlates of State Policy Project data sets helpful.</p>
+</section>
+<section id="examples" class="level1">
+<h1>Examples</h1>
+<section id="a-recent-debate-about-moderates" class="level2">
+<h2 class="anchored" data-anchor-id="a-recent-debate-about-moderates">A Recent Debate About Moderates</h2>
+<p>A recent exchange in the <em>American Political Science Review</em> centers on how best to characterize ideological moderation in the American public. In the original article, <span class="citation" data-cites="fowler2023moderates">Fowler et al. (<a href="#ref-fowler2023moderates" role="doc-biblioref">2023</a>)</span> develop a statistical model to distinguish among types of moderates, finding that while a single ideological dimension captures most Americans’ policy views, moderates—especially those not neatly aligned—remain central to electoral accountability. In response, <span class="citation" data-cites="broockman2025moderates">Broockman and Lauderdale (<a href="#ref-broockman2025moderates" role="doc-biblioref">2025</a>)</span> critique this approach, arguing that it overestimates the number of genuinely one-dimensional voters and fails to account for individuals with cross-pressured or multidimensional views. Finally, <span class="citation" data-cites="fowler2024assessing">Fowler et al. (<a href="#ref-fowler2024assessing" role="doc-biblioref">2024</a>)</span> reply by showing that Broockman and Lauderdale’s visual and simulation-based critiques do not invalidate their main conclusions, reaffirming that most Americans’ policy preferences are well summarized by a single ideological dimension and that most such individuals are ideologically moderate.</p>
+</section>
+<section id="a-recent-debate-about-backsliding" class="level2">
+<h2 class="anchored" data-anchor-id="a-recent-debate-about-backsliding">A Recent Debate About Backsliding</h2>
+<ul>
+<li><span class="citation" data-cites="little2024a">Little and Meng (<a href="#ref-little2024a" role="doc-biblioref">2024a</a>)</span> argue that objective indicators (e.g., electoral outcomes) show little evidence of global democratic decline over the past decade, challenging findings based on subjective expert assessments.</li>
+</ul>
+<p>Numerous authors offered responses published in the same issue of <em>PS</em>. For example:</p>
+<ol type="1">
+<li><span class="citation" data-cites="knutsen2024">Knutsen et al. (<a href="#ref-knutsen2024" role="doc-biblioref">2024</a>)</span> critique Little and Meng’s reliance on objective measures, highlighting issues in conceptualization, indicator selection, and aggregation that may overlook nuanced democratic erosion.</li>
+<li><span class="citation" data-cites="gorokhovskaia2024">Gorokhovskaia (<a href="#ref-gorokhovskaia2024" role="doc-biblioref">2024</a>)</span> emphasizes the importance of disaggregating data, noting that while electoral indicators may remain stable, other areas like media freedom show signs of backsliding.</li>
+<li><span class="citation" data-cites="miller2024">Miller (<a href="#ref-miller2024" role="doc-biblioref">2024</a>)</span> contends that objective indicators fail to detect democratic erosion within established democracies, missing subtle but significant declines.</li>
+</ol>
+<p>In a reply, <span class="citation" data-cites="little2024b">Little and Meng (<a href="#ref-little2024b" role="doc-biblioref">2024b</a>)</span> acknowledge the critiques and emphasize the need for improved measurement tools to better understand democratic backsliding.</p>
+</section>
+</section>
+<section id="scaffolding" class="level1">
+<h1>Scaffolding</h1>
+<p>I use scaffolding to help you manage a complex project. This paper is an <em>important</em> component of our work this semester; intermediate assignments make progress <em>urgent</em> before the end of the semester.</p>
+<p>The several assignments do not increase the amount of work. Instead, they help you <em>distribute the work</em> more evenly across the semester. These assignments give you time to reflect, revise, and improve each part of your project. They make the final result is stronger and less stressful to produce. It also gives me time to give you feedback early and often.</p>
+<section id="assignments" class="level2">
+<h2 class="anchored" data-anchor-id="assignments">Assignments</h2>
+<ul>
+<li><strong>Prospectus</strong> <em>(<span class="text-warning">due by Oct.&nbsp;21</span>)</em> A memo describing your project in as much detail as possible. This should resemble the structure of a paper, though it will still be an early, developing version. <em>Instructor comments, ASAP.</em></li>
+<li><strong>First Draft</strong> <em>(<span class="text-warning">due by Nov.&nbsp;6</span>)</em> Submit the first full draft of your paper. This should include a working version of all major sections, figures, and tables. <em>Feedback from 2 peers, ASAP</em>.</li>
+<li><strong>Poster Presentation</strong> <em>(<span class="text-warning">done around week of Dec.&nbsp;2, but TBD</span>)</em> Present your research in a short, conference-style poster session. This is a low-stakes chance to get feedback and practice communicating your work.</li>
+<li><strong>Final Draft</strong> <em>(<span class="text-warning">due by Dec.&nbsp;9</span>)</em> Submit the final version of your research paper. You must submit a PDF of the final version of the paper and the data and computer code to reproduce your work. This version should reflect feedback from both the poster session and instructor comments. This version should be <em>polished</em>.</li>
+</ul>
+</section>
+</section>
+<section id="format" class="level1 page-columns page-full">
+<h1>Format</h1>
+<p>Your paper should be formatted as if preparing to submit to a political science journal or post a preprint online.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<div class="no-row-height column-margin column-container"><div id="fn3"><p><sup>3</sup>&nbsp;You can find requirements for various journals on their websites (e.g., <a href="https://www.cambridge.org/core/journals/american-political-science-review/information/author-instructions/preparing-your-materials"><em>APSR</em></a>, <a href="https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/"><em>AJPS</em></a>, <a href="https://www.cambridge.org/core/journals/political-science-research-and-methods/information/author-instructions/preparing-your-materials"><em>PSRM</em></a>). Some journals have idiosyncratic requirements, like endnotes or double-spaced footnotes, but most working papers have a standard format and look like <a href="https://osf.io/preprints/osf/5am9q_v">this one</a> of mine.</p></div></div><ul>
+<li>No page or word count limit. I suggest 3,000 words as a target.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
+<li>Title, author, abstract, and date on first page.</li>
+<li>Page numbers on every page.</li>
+<li>Appendices allowed, but only include materials needed to make your argument. Do not use the appendix as a dumping ground for results or ideas only loosely related to your point.</li>
+<li>References in <a href="https://connect.apsanet.org/stylemanual/">APSA style</a> (e.g., like the references in <a href="https://osf.io/preprints/osf/5am9q_v2">this working paper</a>)</li>
+</ul>
+<div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;You should initially think of this project as a “research note” (i.e., “moderate ambition”). Even if you have a clear vision for a larger project, focus on a small, manageable piece. A “typical” research note might have a limit of about 4,000 words. As the paper progresses, it’s fine for it to grow into a longer paper. However, please present your arguments compactly and efficiently (i.e., “exceptional quality”).</p></div><div id="fn5"><p><sup>5</sup>&nbsp;Some folks Overleaf’s implementation.</p></div></div><p>I recommend LaTeX,<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> but any software is fine.</p>
+</section>
+<section id="style" class="level1">
+<h1>Style</h1>
+<p>Focus narrowly on a single descriptive claim. Establish the normative and/or theoretical importance of the claim. Clearly describe your precise claim and the evidence. Avoid fluff. Make your paper easy to read.</p>
+<p>Weingast’s <span class="citation" data-cites="caltech_rules">(<a href="#ref-caltech_rules" role="doc-biblioref">2014</a>)</span> advice applies.</p>
+<blockquote class="blockquote">
+<p>Papers must focus on one main point. Do not attempt to enrich your paper with many asides. Avoid comments that suggest implications not essential for the development of the central point. It is far better to have a narrow, focused, and useful paper than a rich one that readers find confusing and therefore ignore.</p>
+</blockquote>
+<p>That’s worth saying again: write a “narrow, focused, and useful paper.”</p>
+<p>Related, there are two temptations worth avoiding:</p>
+<ul>
+<li>It can be tempting to overcome a deficiency in the quality of an argument through quantity. Do not fall for this temptation. Make one point clearly.</li>
+<li>It can be tempting to show off data analytic skills. A few averages over time or a simple scatterplot might be sufficient to make the point clearly.</li>
+</ul>
+<p>Zach Elkins has a wonderful <a href="https://sites.google.com/site/zachelkinstexas/me-write-pretty-some-day">collection</a> of resources about writing. I particularly like the following:</p>
+<ul>
+<li>Collier’s “Notes on Writing and Editing” [<a href="https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/collier%20Notes%20on%20Writing.pdf">pdf</a>]</li>
+<li>Loehle’s “A Guide to Increased Creativity in Research—Inspiration or Perspiration?” [<a href="https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/loehle90.pdf">pdf</a>]</li>
+<li>Luskin’s “Robert’s Rules: Suggestions for Writing” [<a href="https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/Robert's%20Rules%20January%2008.pdf">pdf</a>]</li>
+<li>Stimson’s “Professional Writing in Political Science: A Highly Opinionated Essay” [<a href="https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/stimson%20writing.pdf">pdf</a>]</li>
+<li>Weingast’s “Structuring Your Papers (CalTech Rules)” [<a href="https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/caltech_rules.pdf">pdf</a>]</li>
+</ul>
+<p>Writing <em>as a process</em> can be challenging. I strongly recommend Silva’s <em>How to Write a Lot.</em> I wrote a <a href="https://www.carlislerainey.com/blog/2023-08-15-daily-writing/">summary</a> of what I learned from that book.</p>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-broockman2025moderates" class="csl-entry" role="listitem">
+Broockman, David E., and Benjamin E. Lauderdale. 2025. <span>“<span>’Moderates’</span>.”</span> <em>American Political Science Review</em> 119 (1): 1–10. <a href="https://doi.org/10.1017/S0003055424001333">https://doi.org/10.1017/S0003055424001333</a>.
+</div>
+<div id="ref-dekadt2025" class="csl-entry" role="listitem">
+de Kadt, Daniel, and Anna Grzymala-Busse. 2025. <span>“Good Description.”</span> <a href="https://github.com/ddekadt/good_description/">https://github.com/ddekadt/good_description/</a>.
+</div>
+<div id="ref-fowler2023moderates" class="csl-entry" role="listitem">
+Fowler, Anthony, Seth J. Hill, Jeffrey B. Lewis, Chris Tausanovitch, Lynn Vavreck, and Christopher Warshaw. 2023. <span>“Moderates.”</span> <em>American Political Science Review</em> 117 (2): 643–60. <a href="https://doi.org/10.1017/S0003055422000818">https://doi.org/10.1017/S0003055422000818</a>.
+</div>
+<div id="ref-fowler2024assessing" class="csl-entry" role="listitem">
+———. 2024. <span>“Assessing Moderation and Multidimensionality with Mixture Models: A Reply to Broockman and Lauderdale.”</span> <a href="https://drive.google.com/file/d/1ijBH8y-ZA-iDtBoi1XZP37xfzwPbM32y/view">https://drive.google.com/file/d/1ijBH8y-ZA-iDtBoi1XZP37xfzwPbM32y/view</a>.
+</div>
+<div id="ref-gerring2012" class="csl-entry" role="listitem">
+Gerring, John. 2012. <span>“Mere Description.”</span> <em>British Journal of Political Science</em> 42 (4): 721–46. <a href="https://doi.org/10.1017/s0007123412000130">https://doi.org/10.1017/s0007123412000130</a>.
+</div>
+<div id="ref-gorokhovskaia2024" class="csl-entry" role="listitem">
+Gorokhovskaia, Yana. 2024. <span>“Difficult to Count, Important to Measure: Assessing Democratic Backsliding.”</span> <em>PS: Political Science &amp; Politics</em> 57 (2): 178–83. <a href="https://doi.org/10.1017/S1049096523000653">https://doi.org/10.1017/S1049096523000653</a>.
+</div>
+<div id="ref-holmes2024" class="csl-entry" role="listitem">
+Holmes, Carolyn E., Meg K. Guliford, Mary Anne S. Mendoza-Davé, and Michelle Jurkovich. 2024. <span>“A Case for Description.”</span> <em>PS: Political Science &amp; Politics</em> 57 (1): 51–56. <a href="https://doi.org/10.1017/S1049096523000720">https://doi.org/10.1017/S1049096523000720</a>.
+</div>
+<div id="ref-kkv" class="csl-entry" role="listitem">
+King, Gary, Robert O. Keohane, and Sidney Verba. 1994. <em>Designing Social Inquiry: Scientific Inference in Qualitative Research</em>. Princeton, NJ: Princeton University Press.
+</div>
+<div id="ref-knutsen2024" class="csl-entry" role="listitem">
+Knutsen, Carl Henrik, Kyle L. Marquardt, Brigitte Seim, Michael Coppedge, Amanda B. Edgell, Juraj Medzihorsky, Daniel Pemstein, Jan Teorell, John Gerring, and Staffan I. Lindberg. 2024. <span>“Conceptual and Measurement Issues in Assessing Democratic Backsliding.”</span> <em>PS: Political Science &amp; Politics</em> 57 (2): 162–77. <a href="https://doi.org/10.1017/S1049096523000641">https://doi.org/10.1017/S1049096523000641</a>.
+</div>
+<div id="ref-little2024a" class="csl-entry" role="listitem">
+Little, Andrew T., and Anne Meng. 2024a. <span>“Measuring Democratic Backsliding.”</span> <em>PS: Political Science &amp; Politics</em> 57 (2): 149–61. <a href="https://doi.org/10.1017/S104909652300063X">https://doi.org/10.1017/S104909652300063X</a>.
+</div>
+<div id="ref-little2024b" class="csl-entry" role="listitem">
+———. 2024b. <span>“What We Do and Do Not Know about Democratic Backsliding.”</span> <em>PS: Political Science &amp; Politics</em> 57 (2): 224–29. <a href="https://doi.org/10.1017/S1049096523000707">https://doi.org/10.1017/S1049096523000707</a>.
+</div>
+<div id="ref-miller2024" class="csl-entry" role="listitem">
+Miller, Michael K. 2024. <span>“How Little and Meng’s Objective Approach Fails in Democracies.”</span> <em>PS: Political Science &amp; Politics</em> 57 (2): 202–7. <a href="https://doi.org/10.1017/S1049096523001063">https://doi.org/10.1017/S1049096523001063</a>.
+</div>
+<div id="ref-caltech_rules" class="csl-entry" role="listitem">
+Weingast, Barry R. 2014. <span>“Caltech Rules for Writing Papers: How to Structure Your Paper and Write an Introduction.”</span> <a href="https://weingast.people.stanford.edu/caltech-rules-writing" class="uri">https://weingast.people.stanford.edu/caltech-rules-writing</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/pos3713ri\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

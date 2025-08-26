@@ -7,6 +7,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Aug 26**: Questions and Models 
 
+- [Gapminder tool](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v2)
 - [[slides](files/02-slides-questions.pdf) on questions] 
 - [[notes](files/02-notes-questions.html) on questions]
 - [[slides](files/03-notes-models.html) on models]
@@ -28,47 +29,54 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 **Sep 18**: Normal Model  
 
 **Sep 23**: Review  
+[Computing Assignment 1 due.]{.remarks}
 
-**Sep 25**: Exam 1  
+**Sep 25**: [**Exam 1**]{.text-warning}  
 
 **Sep 30**: Wrangling 1  
 
 **Oct 2**: Wrangling 2  
 
-**Oct 7**: Probability Basics  
+**Oct 7**: Scatterplots  
 
-**Oct 9**: Numbered-Ticket Model  
+**Oct 9**: Correlation  
 
-**Oct 14**: Sample Surveys  
+**Oct 14**: Regression  
 
-**Oct 16**: Randomized Experiments  
+**Oct 16**: Regression in R  
 
-**Oct 21**: Confidence Intervals  
+**Oct 21**: Multiple Regression  
+[RP prospectus due.]{.remarks}
 
-**Oct 23**: Hypothesis Tests  
+**Oct 23**: Extensions to Multiple Regression  
 
 **Oct 28**: Review  
 
-**Oct 30**: Exam 2  
+**Oct 30**: [**Exam 2**]{.text-warning}
 
-**Nov 4**: Scatterplots  
+**Nov 4**: Probability Basics  
 
-**Nov 6**: Correlation  
+**Nov 6**: Numbered-Ticket Model  
+[RP 1st draft due.]{.remarks}
 
-**Nov 11**: Veterans Day - No Classes  
+**Nov 11**: [Veterans Day - No Classes]{.text-success}
 
-**Nov 13**: Regression  
+**Nov 13**: Sample Surveys  
+[RP peer review due.]{.remarks}
 
-**Nov 18**: Regression in R  
+**Nov 18**: Randomized Experiments  
 
-**Nov 20**: Multiple Regression  
+**Nov 20**: Confidence Intervals  
 
-**Nov 25**: Extentions to Multiple Regression  
+**Nov 25**: Hypothesis Tests  
 
-**Nov 27**: Thanksgiving - No Classes  
+**Nov 27**: [Thanksgiving - No Classes]{.text-success} 
 
 **Dec 2**: Wrap  
+[RP poster presentation around here.]{.remarks}
 
 **Dec 4**: Review  
+[Computing Assignment 2 due.]{.remarks}
 
-**Final Exam Week**  
+**Dec 9**: [**Final Exam**]{.text-warning}, 7:30 a.m.– 9:30 a.m.  
+[RP final draft due.]{.remarks}

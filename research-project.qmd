@@ -1,0 +1,128 @@
+---
+title: "Research Project"
+bibliography: references.bib
+#citation-location: margin
+reference-location: margin
+---
+
+Your task this semester: *write a paper of modest ambition and exceptional quality that makes a descriptive argument about politics.*
+
+::: callout-note
+This project is a *slightly* thinned variant of a project I ask my PhD students to complete. See [here](https://pos5747.github.io/research-project.html) for their variant.
+:::
+
+## Overview
+
+We'll borrow Gerring's [-@gerring2012, p. 722][^1] definition of a *descriptive argument*:
+
+[^1]: See also Part II of Gerring's *Social Science Methodology* for a supplement to Gerrying (2012).
+
+> A descriptive argument describes some aspect of the world. In doing so, it aims to answer what questions (e.g., when, whom, out of what, in what manner) about a phenomenon or a set of phenomena. Descriptive arguments are about what is/was. For example: 'Over the course of the past two centuries there have been three major waves of democratization.'
+
+You might feel confused. After all, Gerring writes that description "has come to be employed as a euphemism for a failed, or not yet proven, causal inference." At best, we might think that description only serves to support the primary task of causal inference. Indeed, @kkv [p. 34] write that "description, in turn, *loses most of its interest* unless linked to some causal relationships."
+
+However, description is an essential component of social science. @dekadt2025 argue that description is "a fundamental component of the social scientific enterprise" (2) that "engages theory by invoking existing theories, motivating new theoretical models and their refinement, and in some cases even evaluating theory" (24). Gerring writes that "description can be written out of the discipline only at great cost to our understandings of the world" (744). And @holmes2024 write that "answering questions of 'who,' 'what,' 'when,' 'where,' and 'how'---in concert with but also independent from causal inquiry---is vital to the continued relevance and coherence of our discipline in both scholarly and public-facing work" (54).
+
+As a whole, I suggest that social science asks: *how can we intervene to make the world a better place?* This implies three parts.
+
+1.  First, what does the world look like now?
+2.  Second, what worlds would be better?
+3.  And third, what are the effects of potential interventions?
+
+I view answers the the first question---a description of the world as it exists---as a difficult and worthwhile challenge. It seems difficult to even entertain the second and third questions without a thorough understanding of the world as it exists.
+
+And you may think that description is easy, and establishing causality is hard. I think you'll find that description is easier *statistically,* but a more difficult struggle overall.[^2]
+
+[^2]: My thinking is something like this. When you randomly assign $T$ and you measure $Y$ afterward, you've established that $T$ causes $X$. But suppose that you just measure $Y$. It isn't clear what you've just measured or whether it's meaningful. Of course, these same questions lay hiding in the shadows in the randomized experiment. But the randomization guarantees a "causal inference" that is sufficient to strike our fancy. The descriptive argument brings the subtler questions of measures and their meanings into the broad daylight. Fuzzy concepts and measurements can't hide behind a "compelling identification strategy" when you are making a descriptive argument.
+
+Examples of the struggle to describe are easy to find. Consider two ideas that are central to political science: "democracy" or "political ideology." If a reporter from the New York Times asked whether democracy was in decline around the world, the answer isn't easy or obvious. Political scientists are not in agreement. If that reporter asked you whether there are many or few moderate voters in the US, the answer isn't obvious or easy. Again, political scientists are not in agreement.
+
+# Topics
+
+::: callout-warning
+## A Caution
+
+Why it's tempting to pursue a particular hypothesis that you care deeply about, you'll have a smoother experience if you start by perusing the readily-available data.
+:::
+
+You have the freedom to choose a topic of your choice, but I recommend seeking advice early and often. The topic you choose affects the difficulty of the task in ways that you might not anticipate.
+
+I can enthusiastically recommend a study of patterns of [affective polarization](https://www.ipr.northwestern.edu/documents/working-papers/2021/wp-21-27.pdf) using the [ANES](https://electionstudies.org).
+
+More broadly, examining public opinion or behavior across places, times, or groups is a suitable project. You might find the ANES, Cooperative Election Study, General Social Survey, Comparative Study of Electoral Systems, or World Values Survey promising.
+
+Political scientists have also collected a wealth of data on national and international institutions that might work well. You might find V-Dem, the Correlates of War, or the Correlates of State Policy Project data sets helpful.
+
+# Examples
+
+## A Recent Debate About Moderates
+
+A recent exchange in the *American Political Science Review* centers on how best to characterize ideological moderation in the American public. In the original article, @fowler2023moderates develop a statistical model to distinguish among types of moderates, finding that while a single ideological dimension captures most Americans’ policy views, moderates—especially those not neatly aligned—remain central to electoral accountability. In response, @broockman2025moderates critique this approach, arguing that it overestimates the number of genuinely one-dimensional voters and fails to account for individuals with cross-pressured or multidimensional views. Finally, @fowler2024assessing reply by showing that Broockman and Lauderdale’s visual and simulation-based critiques do not invalidate their main conclusions, reaffirming that most Americans’ policy preferences are well summarized by a single ideological dimension and that most such individuals are ideologically moderate.
+
+## A Recent Debate About Backsliding
+
+-   @little2024a argue that objective indicators (e.g., electoral outcomes) show little evidence of global democratic decline over the past decade, challenging findings based on subjective expert assessments.
+
+Numerous authors offered responses published in the same issue of *PS*. For example:
+
+1.  @knutsen2024 critique Little and Meng's reliance on objective measures, highlighting issues in conceptualization, indicator selection, and aggregation that may overlook nuanced democratic erosion.
+2.  @gorokhovskaia2024 emphasizes the importance of disaggregating data, noting that while electoral indicators may remain stable, other areas like media freedom show signs of backsliding.
+3.  @miller2024 contends that objective indicators fail to detect democratic erosion within established democracies, missing subtle but significant declines.
+
+In a reply, @little2024b acknowledge the critiques and emphasize the need for improved measurement tools to better understand democratic backsliding.
+
+# Scaffolding
+
+I use scaffolding to help you manage a complex project. This paper is an *important* component of our work this semester; intermediate assignments make progress *urgent* before the end of the semester.
+
+The several assignments do not increase the amount of work. Instead, they help you *distribute the work* more evenly across the semester. These assignments give you time to reflect, revise, and improve each part of your project. They make the final result is stronger and less stressful to produce. It also gives me time to give you feedback early and often.
+
+## Assignments
+
+-   **Prospectus** *([due by Oct. 21]{.text-warning})* A memo describing your project in as much detail as possible. This should resemble the structure of a paper, though it will still be an early, developing version. *Instructor comments, ASAP.*
+-   **First Draft** *([due by Nov. 6]{.text-warning})* Submit the first full draft of your paper. This should include a working version of all major sections, figures, and tables. *Feedback from 2 peers, ASAP*.
+-   **Poster Presentation** *([done around week of Dec. 2, but TBD]{.text-warning})* Present your research in a short, conference-style poster session. This is a low-stakes chance to get feedback and practice communicating your work.
+-   **Final Draft** *([due by Dec. 9]{.text-warning})* Submit the final version of your research paper. You must submit a PDF of the final version of the paper and the data and computer code to reproduce your work. This version should reflect feedback from both the poster session and instructor comments. This version should be *polished*.
+
+# Format
+
+Your paper should be formatted as if preparing to submit to a political science journal or post a preprint online.[^3]
+
+[^3]: You can find requirements for various journals on their websites (e.g., [*APSR*](https://www.cambridge.org/core/journals/american-political-science-review/information/author-instructions/preparing-your-materials), [*AJPS*](https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/), [*PSRM*](https://www.cambridge.org/core/journals/political-science-research-and-methods/information/author-instructions/preparing-your-materials)). Some journals have idiosyncratic requirements, like endnotes or double-spaced footnotes, but most working papers have a standard format and look like [this one](https://osf.io/preprints/osf/5am9q_v) of mine.
+
+-   No page or word count limit. I suggest 3,000 words as a target.[^4]
+-   Title, author, abstract, and date on first page.
+-   Page numbers on every page.
+-   Appendices allowed, but only include materials needed to make your argument. Do not use the appendix as a dumping ground for results or ideas only loosely related to your point.
+-   References in [APSA style](https://connect.apsanet.org/stylemanual/) (e.g., like the references in [this working paper](https://osf.io/preprints/osf/5am9q_v2))
+
+[^4]: You should initially think of this project as a "research note" (i.e., "moderate ambition"). Even if you have a clear vision for a larger project, focus on a small, manageable piece. A "typical" research note might have a limit of about 4,000 words. As the paper progresses, it's fine for it to grow into a longer paper. However, please present your arguments compactly and efficiently (i.e., "exceptional quality").
+
+I recommend LaTeX,[^5] but any software is fine.
+
+[^5]: Some folks Overleaf's implementation.
+
+# Style
+
+Focus narrowly on a single descriptive claim. Establish the normative and/or theoretical importance of the claim. Clearly describe your precise claim and the evidence. Avoid fluff. Make your paper easy to read.
+
+Weingast's [-@caltech_rules] advice applies.
+
+> Papers must focus on one main point. Do not attempt to enrich your paper with many asides. Avoid comments that suggest implications not essential for the development of the central point. It is far better to have a narrow, focused, and useful paper than a rich one that readers find confusing and therefore ignore.
+
+That's worth saying again: write a "narrow, focused, and useful paper."
+
+Related, there are two temptations worth avoiding:
+
+-   It can be tempting to overcome a deficiency in the quality of an argument through quantity. Do not fall for this temptation. Make one point clearly.
+-   It can be tempting to show off data analytic skills. A few averages over time or a simple scatterplot might be sufficient to make the point clearly.
+
+Zach Elkins has a wonderful [collection](https://sites.google.com/site/zachelkinstexas/me-write-pretty-some-day) of resources about writing. I particularly like the following:
+
+-   Collier's "Notes on Writing and Editing" \[[pdf](https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/collier%20Notes%20on%20Writing.pdf)\]
+-   Loehle's “A Guide to Increased Creativity in Research---Inspiration or Perspiration?" \[[pdf](https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/loehle90.pdf)\]
+-   Luskin's "Robert's Rules: Suggestions for Writing" \[[pdf](https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/Robert's%20Rules%20January%2008.pdf)\]
+-   Stimson's "Professional Writing in Political Science: A Highly Opinionated Essay" \[[pdf](https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/stimson%20writing.pdf)\]
+-   Weingast's "Structuring Your Papers (CalTech Rules)" \[[pdf](https://github.com/carlislerainey/elkins-writing-resources/blob/main/original-documents/caltech_rules.pdf)\]
+
+Writing *as a process* can be challenging. I strongly recommend Silva's *How to Write a Lot.* I wrote a [summary](https://www.carlislerainey.com/blog/2023-08-15-daily-writing/) of what I learned from that book.

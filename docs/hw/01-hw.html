@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,11 +66,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F57WQLHH67"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-F57WQLHH67', { 'anonymize_ip': true});
+</script>
 
 
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../research-project.html"> 
+<span class="menu-text">Research Project</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../syllabus.pdf"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
@@ -106,7 +120,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#homework" id="toc-homework" class="nav-link active" data-scroll-target="#homework">Homework</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -133,21 +155,19 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="homework">Homework</h3>
 <p>Please complete before the next class.</p>
 <ul>
+<li>Read the <a href="syllabus.pdf">syllabus</a> carefully. If I’ve missed anything or failed to clearly explain any policy, please let me know. Come prepared to the next class with any questions or comments.</li>
+<li>Order the <a href="https://www.amazon.com/gp/aw/d/B003822IRA/">simple pocket calculator</a> that you’ll need for homework and exams, or make a plan to buy one (e.g., Walmart or other stores). Any “pocket” calculator works fine (not your phone or a graphing calculator). If you have questions about whether a calculator counts as “pocket,” just ask.</li>
 <li>Review my slides, your notes from class, and my notes.</li>
 <li>Complete the exercises in my notes. You’ll find some at the bottom of both sets.</li>
-<li>Read the <a href="syllabus.pdf">syllabus</a> carefully. If I’ve missed anything or failed to clearly explain any policy, please let me know. Come prepared to the next class with any questions or comments.</li>
-<li>I recommend bookmarking the course webpage for easy access. It’s <a href="https://pos3713ri.github.io">https://pos3713ri.github.io</a>. I’ll add material here throughout the semester.</li>
+<li>Bookmark the course webpage for easy access. It’s <a href="https://pos3713ri.github.io">https://pos3713ri.github.io</a>. I’ll add material here throughout the semester.</li>
 <li>Make sure you have an up-to-date profile picture on Canvas.</li>
-<li>Create an account on <a href="https://rstudio.cloud">rstudio.cloud</a>. You may use your Google or GitHub account if you like.</li>
+<li>Create an account on <a href="https://posit.cloud">Posit Cloud</a>. You can sign up directly or use an existing Google or GitHub account.</li>
 </ul>
 
 
 </section>
 
 </main> <!-- /main -->
-<hr>
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br><a rel="license" href="http://www.carlislerainey.com/">Carlisle Rainey</a>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -238,7 +258,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/pos3713ri\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

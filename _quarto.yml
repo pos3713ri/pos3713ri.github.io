@@ -9,13 +9,20 @@ project:
 
 website:
   title: "POS 3713"
+  site-url: https://pos3713ri.github.io/
+  google-analytics: "G-F57WQLHH67"
   navbar:
     left:
       - text: "Schedule"
         href: index.qmd
+      - text: "Research Project"  
+        href: research-project.qmd
       - text: "Syllabus"
         href: syllabus.pdf
-
+        
 format:
   html:
-    include-after-body: license.html
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true        

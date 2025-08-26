@@ -1,0 +1,12 @@
+/* Inline-to-block trick */
+.topics, .remarks {
+  display: block;      /* force onto its own line */
+  margin: 0;           /* kill paragraph spacing */
+  line-height: 1.3;    /* compact but readable */
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* Distinct look for topics vs remarks */
+.topics  { color: var(--bs-muted); }   /* subtle gray */
+.remarks { color: var(--bs-info); }      /* stands out */

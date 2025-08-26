@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,11 +66,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F57WQLHH67"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-F57WQLHH67', { 'anonymize_ip': true});
+</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./research-project.html"> 
+<span class="menu-text">Research Project</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./syllabus.pdf"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
@@ -106,7 +120,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -132,6 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Note: Complete the homework <em>after</em> the associated class, but <em>before</em> the next class.</p>
 <p><strong>Aug 26</strong>: Questions and Models</p>
 <ul>
+<li><a href="https://www.gapminder.org/tools/#$chart-type=bubbles&amp;url=v2">Gapminder tool</a></li>
 <li>[<a href="files/02-slides-questions.pdf">slides</a> on questions]</li>
 <li>[<a href="files/02-notes-questions.html">notes</a> on questions]</li>
 <li>[<a href="files/03-notes-models.html">slides</a> on models]</li>
@@ -145,36 +162,40 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Sep 11</strong>: Avg and SD</p>
 <p><strong>Sep 16</strong>: Avg and SD in R</p>
 <p><strong>Sep 18</strong>: Normal Model</p>
-<p><strong>Sep 23</strong>: Review</p>
-<p><strong>Sep 25</strong>: Exam 1</p>
+<p><strong>Sep 23</strong>: Review<br>
+<span class="remarks">Computing Assignment 1 due.</span></p>
+<p><strong>Sep 25</strong>: <span class="text-warning"><strong>Exam 1</strong></span></p>
 <p><strong>Sep 30</strong>: Wrangling 1</p>
 <p><strong>Oct 2</strong>: Wrangling 2</p>
-<p><strong>Oct 7</strong>: Probability Basics</p>
-<p><strong>Oct 9</strong>: Numbered-Ticket Model</p>
-<p><strong>Oct 14</strong>: Sample Surveys</p>
-<p><strong>Oct 16</strong>: Randomized Experiments</p>
-<p><strong>Oct 21</strong>: Confidence Intervals</p>
-<p><strong>Oct 23</strong>: Hypothesis Tests</p>
+<p><strong>Oct 7</strong>: Scatterplots</p>
+<p><strong>Oct 9</strong>: Correlation</p>
+<p><strong>Oct 14</strong>: Regression</p>
+<p><strong>Oct 16</strong>: Regression in R</p>
+<p><strong>Oct 21</strong>: Multiple Regression<br>
+<span class="remarks">RP prospectus due.</span></p>
+<p><strong>Oct 23</strong>: Extensions to Multiple Regression</p>
 <p><strong>Oct 28</strong>: Review</p>
-<p><strong>Oct 30</strong>: Exam 2</p>
-<p><strong>Nov 4</strong>: Scatterplots</p>
-<p><strong>Nov 6</strong>: Correlation</p>
-<p><strong>Nov 11</strong>: Veterans Day - No Classes</p>
-<p><strong>Nov 13</strong>: Regression</p>
-<p><strong>Nov 18</strong>: Regression in R</p>
-<p><strong>Nov 20</strong>: Multiple Regression</p>
-<p><strong>Nov 25</strong>: Extentions to Multiple Regression</p>
-<p><strong>Nov 27</strong>: Thanksgiving - No Classes</p>
-<p><strong>Dec 2</strong>: Wrap</p>
-<p><strong>Dec 4</strong>: Review</p>
-<p><strong>Final Exam Week</strong></p>
+<p><strong>Oct 30</strong>: <span class="text-warning"><strong>Exam 2</strong></span></p>
+<p><strong>Nov 4</strong>: Probability Basics</p>
+<p><strong>Nov 6</strong>: Numbered-Ticket Model<br>
+<span class="remarks">RP 1st draft due.</span></p>
+<p><strong>Nov 11</strong>: <span class="text-success">Veterans Day - No Classes</span></p>
+<p><strong>Nov 13</strong>: Sample Surveys<br>
+<span class="remarks">RP peer review due.</span></p>
+<p><strong>Nov 18</strong>: Randomized Experiments</p>
+<p><strong>Nov 20</strong>: Confidence Intervals</p>
+<p><strong>Nov 25</strong>: Hypothesis Tests</p>
+<p><strong>Nov 27</strong>: <span class="text-success">Thanksgiving - No Classes</span></p>
+<p><strong>Dec 2</strong>: Wrap<br>
+<span class="remarks">RP poster presentation around here.</span></p>
+<p><strong>Dec 4</strong>: Review<br>
+<span class="remarks">Computing Assignment 2 due.</span></p>
+<p><strong>Dec 9</strong>: <span class="text-warning"><strong>Final Exam</strong></span>, 7:30 a.m.– 9:30 a.m.<br>
+<span class="remarks">RP final draft due.</span></p>
 
 
 
 </main> <!-- /main -->
-<hr>
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br><a rel="license" href="http://www.carlislerainey.com/">Carlisle Rainey</a>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -265,7 +286,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/pos3713ri\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
