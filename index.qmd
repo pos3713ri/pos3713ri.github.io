@@ -5,7 +5,7 @@ title: "Schedule"
 Note: Complete the homework *after* the associated class, but *before* the next class.
 
 
-**Aug 26**: Questions and Models [[hw](hw/01-hw.html)] [👈 links moved into hw]{.text-muted}
+**Aug 26**: Questions and Models [[hw](01-hw.html)] [👈 links moved into hw]{.text-muted}
 
 **Aug 28**: R  
 
