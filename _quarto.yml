@@ -6,6 +6,11 @@ project:
     - exr/
     - files/
     - hw/
+  render:
+    - "*.qmd"
+    - "!drafts/*.qmd"
+    - "!scratchpad.qmd"
+
 
 website:
   title: "POS 3713"

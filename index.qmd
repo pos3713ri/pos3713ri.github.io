@@ -7,7 +7,10 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Aug 26**: Questions and Models [[hw](01-hw.html)] [👈 links moved into hw]{.text-muted}
 
-**Aug 28**: R  
+**Aug 28**: R [[hw](02-hw.html)] 
+
+- Make sure you have a Posit Cloud account (see last hw)!
+- [notes](files/02-notes-computing.html)
 
 **Sep 2**: Data  
 
