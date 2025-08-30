@@ -1,0 +1,45 @@
+---
+title: "Assignment 3"
+---
+
+Please complete before the next class. Make sure that you've completed all previous HW first.
+
+## FPP
+
+Read chs. 1 and 2 of FPP (the textbook; I sent a pdf via email) and do the assigned review exercises [here](fpp-exercises.pdf). 
+
+Notes: 
+
+1. *You only need to do the review exercises for chs. 1 and 2---not every single chapter.* We'll get to the rest over the course of the semester. And yes, there is a reason I include this note.
+1. If you want to print this PDF for convenience, that's a great idea. It's unlikely to change during the semester.
+
+
+
+## R
+
+Read and review your notes, [my notes](03-notes-dfs.html), and [my slides](03-slides-dfs.pdf) over the basics of loading data into R. Answer the review questions **throughout** the document. Remember to practice!
+
+
+::: callout-warning
+## Debugging
+
+When you can't get your code to work, it's usually just a missing parenthesis or quotation mark. It's not that you're making a huge mistake. Huamns can sitll mkae snese wehn tehre are tpyos, but not computers! Check your code for typos carefully. Run your script one line at a time, from top to bottom, to find mistakes. As examples, most mistakes are like the following:
+
+```         
+b <- c("Male", "Female)  # missing the second " after "Female"
+exp(23  # forgot to close a parentheses
+log(10 base = 2)  # missing comma between arguments
+
+a <- c(1, 2, 3)
+mean(A)  # R is case-sensitive--there's an object "a", but no object "A" 
+mena(a)  # misspelled function name
+Mean(a)  # R is case-senstive
+mean(a   # missing parentheses
+mean("a")# using quotes when you shouldn't (or vice versa)
+```
+
+:::
+
+
+
+

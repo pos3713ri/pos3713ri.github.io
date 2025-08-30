@@ -1,0 +1,2 @@
+load("/Users/carlislerainey/Dropbox/classes/pols-209/data/health.rds")
+load("/Users/carlislerainey/Dropbox/classes/pols-209/data/taxes-training.rds")

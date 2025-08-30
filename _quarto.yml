@@ -5,7 +5,9 @@ project:
     - syllabus.pdf
     - exr/
     - files/
-    - hw/
+    - data/
+  execute-dir: project  
+    
   render:
     - "*.qmd"
     - "!drafts/*.qmd"
@@ -24,6 +26,8 @@ website:
         href: research-project.qmd
       - text: "Syllabus"
         href: syllabus.pdf
+      - text: "Data"
+        href: data.qmd
         
 format:
   html:

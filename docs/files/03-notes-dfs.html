@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Loading Data into R – POS 3713</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F57WQLHH67"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-F57WQLHH67', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">POS 3713</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research-project.html"> 
+<span class="menu-text">Research Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.pdf"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../data.html"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#packages" id="toc-packages" class="nav-link active" data-scroll-target="#packages">Packages</a>
+  <ul class="collapse">
+  <li><a href="#installing-packages" id="toc-installing-packages" class="nav-link" data-scroll-target="#installing-packages">Installing Packages</a></li>
+  <li><a href="#loading-packages" id="toc-loading-packages" class="nav-link" data-scroll-target="#loading-packages">Loading Packages</a></li>
+  </ul></li>
+  <li><a href="#loading-data-into-r" id="toc-loading-data-into-r" class="nav-link" data-scroll-target="#loading-data-into-r">Loading Data into R</a>
+  <ul class="collapse">
+  <li><a href="#comma-separated-value-format-.csv" id="toc-comma-separated-value-format-.csv" class="nav-link" data-scroll-target="#comma-separated-value-format-.csv">Comma-Separated Value Format (<code>.csv</code>)</a></li>
+  <li><a href="#reading-the-data" id="toc-reading-the-data" class="nav-link" data-scroll-target="#reading-the-data">Reading the Data</a></li>
+  </ul></li>
+  <li><a href="#data-frames" id="toc-data-frames" class="nav-link" data-scroll-target="#data-frames">Data Frames</a>
+  <ul class="collapse">
+  <li><a href="#working-with-variables-in-data-frames" id="toc-working-with-variables-in-data-frames" class="nav-link" data-scroll-target="#working-with-variables-in-data-frames">Working with Variables in Data Frames</a></li>
+  </ul></li>
+  <li><a href="#how-well-always-use-r" id="toc-how-well-always-use-r" class="nav-link" data-scroll-target="#how-well-always-use-r">How We’ll Always Use R</a>
+  <ul class="collapse">
+  <li><a href="#in-the-cloud" id="toc-in-the-cloud" class="nav-link" data-scroll-target="#in-the-cloud">In the Cloud</a></li>
+  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Loading Data into R</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Before we can get into the details of loading pre-existing data sets into R, we need to cover a prerequisite: pacakges.</p>
+<section id="packages" class="level1">
+<h1>Packages</h1>
+<p>Because R is an open-source program, it is easy to write extensions, and thousands of people have. These extensions come in the form of “packages,” and these packages contain mostly functions that do stuff with data.</p>
+<p>For example, I’ve written an R package that does plotting. (I’ve since deferred to ggplot2.) I’ve written another package that estimates a statistical model.</p>
+<p>Hadley Wickam has written many R packages, some of which we’ll use. He’s written haven, which we can use to read proprietary data formats, such as Stata (<code>.dta</code>) files. He’s also written readr, which we can use to <em>quickly</em> read in better formats, such as comma-separated values (<code>.csv</code>), which I’ll encourage you to use throughout the course. He’s also written a package that is helpful for creating plots called ggplot2. We see that later.</p>
+<p>In order to use a package, it must be installed once <em>per workspace</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and then loaded in each session (i.e., after each restart). Some packages come pre-installed in R (e.g., stats, MASS). Some of these pre-installed packages are automatically loaded in each session (e.g., stats), while others must be loaded manually in each session (e.g., MASS) if you want to use them. Other packages that do not come pre-installed with R need to be installed manually and loaded in each session. You can do this easily by adding a line to load each needed package at the top of your scripts.</p>
+<section id="installing-packages" class="level2">
+<h2 class="anchored" data-anchor-id="installing-packages">Installing Packages</h2>
+<p>If you click the “Packages” tab in RStudio (positioned in the lower-right panel by default), it will show you a list packages that are currently installed. I’ve attached a screenshot of my installed packages below, but your’s might look slightly different–I’ve probably installed a lot more than you.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="diagrams/rstudio-packages-list.png" class="img-fluid figure-img"></p>
+<figcaption>List of packages in RStudio</figcaption>
+</figure>
+</div>
+<p>If you want to use a function from a package and it is <strong>not installed</strong>, you must first install it.</p>
+<p>You only need to install a package once per workspace. Once you’ve installed it, you have it in that workspace forever.</p>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>Use the Packages interface to install the tidyverse, haven, readxl, and ggthemes packages. You need to install these packages for each workspace (in which you want to use them).</li>
+</ol>
+</section>
+<section id="loading-packages" class="level2">
+<h2 class="anchored" data-anchor-id="loading-packages">Loading Packages</h2>
+<p>In order to use a function from a package, though, the package must be installed <em>and</em> loaded. In the packages list, the check box (beside the package name) indicates whether the package is loaded. In the screenshot above, you can see that I only had one package loaded at the time I took the screenshot–blme, a package useful for estimating Bayesian linear mixed-effects models.</p>
+<p>Let’s see how to access functions that are in packages. First, let’s create some data to plot.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">4</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Now let’s try to use the <code>qplot()</code> function in the ggplot2 package to create a scatterplot of <code>x</code> and <code>y</code>. I’m assuming that you’ve already installed the ggplot2 package (it’s included in the tidyverse package).</p>
+<p>Now, let’s try to use <code>qplot()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qplot</span>(x, y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error in qplot(x, y): could not find function "qplot"</code></pre>
+</div>
+</div>
+<p>You’ll notice that the <code>qplot()</code> function cannot be found. That’s because while ggplot2 is <em>installed</em> (i.e., present in the library), it is not loaded (i.e., off the shelf). If you want to use a function from the ggplot2 package, you need to load the package using the <code>library()</code> function. You need to load the package each time you start a new session (e.g., restart RStudio), so be sure to include this in your script. Notice that you do not need to use quotes around the name of the package when using the <code>library()</code> function.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qplot</span>(x, y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: `qplot()` was deprecated in ggplot2 3.4.0.</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03-notes-dfs_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When we use <code>library()</code>, it loads the entire set of functions in the package into our workspace, making them all accessible to us. There are hundreds of functions in the ggplot2 package. If we prefer to avoid loading all the functions, we can use the syntax <code>package::function()</code> to tell R where to find the function in the library without loading all the functions into the workspace.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ggplot2<span class="sc">::</span><span class="fu">qplot</span>(x, y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03-notes-dfs_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><code>ggplot2::qplot(x, y)</code> will work whether or not ggplot2 is loaded.</p>
+<p>I don’t have strong feelings about which approach is better–it depends on the context. If you only need to use one function from package one time, then perhaps it makes more sense to use the <code>package::function()</code> approach. If you’ll be using many functions many times, then it makes sense to use <code>library()</code>. Use whichever makes most sense to you. However, I’ll tend to use <code>package::function()</code> a lot, because it makes it clear where the function is coming from. For example, if I write <code>readr::read_csv()</code>, you know that I’m referring to the <code>read_csv()</code> function in the <code>readr</code> package.</p>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>Write a script that uses the <code>library()</code> function to load the tidyverse, haven, and readxl packages.</li>
+</ol>
+</section>
+</section>
+<section id="loading-data-into-r" class="level1">
+<h1>Loading Data into R</h1>
+<p>Rather than manually entering data using <code>c()</code> or something else, we’ll want to load data in stored in a data file. For this class, these will usually be one of three types:</p>
+<ol type="1">
+<li>R data or <code>.rds</code> files. This is the easiest format because it stores factors as factors and all the related information. Read with <code>readr::read_rds()</code>. When you load the tidyverse package, it automatically loads readr as well.</li>
+<li>comma-separated value or <code>.csv</code> files. This is a common data format. However, it stores factors as character strings, so the data file does not contain the information about factors. Read with <code>readr::read_csv()</code>.</li>
+<li>Stata or <code>.dta</code> files. Another common data format because many political scientists use Stata. Read these files into R with <code>haven::read_dta()</code>.</li>
+<li>Excel or <code>.xlsx</code> files. Read these files into R with <code>readxl::read_excel()</code>.</li>
+</ol>
+<section id="comma-separated-value-format-.csv" class="level2">
+<h2 class="anchored" data-anchor-id="comma-separated-value-format-.csv">Comma-Separated Value Format (<code>.csv</code>)</h2>
+<p>Data can be stored in a wide range of formats. One popular format, for example, is Stata’s proprietary <code>.dta</code> format. I typically use (and encourage you to use) the comma-separated values <code>.csv</code> format. The <code>.csv</code> format is excellent because it is open and simple. This means that anyone can use it without acess to proprietary software. It will also be useble by anyone into the foreseeable future. We can see why <code>.csv</code> files are easy to work with if we open it up the file <code>nominate.csv</code> with a text editor. You’ll see that you can read the file directly. You don’t really need software, you can do it with your eyes!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="diagrams/csv-text-editor.png" class="img-fluid figure-img"></p>
+<figcaption><code>.csv</code> in a Text Editor</figcaption>
+</figure>
+</div>
+<p>I tried the same thing for a similar <code>.dta</code> file. You can see that it looks like nonsense. You’ll definitely need Stata (or other speciallized software) to work with this file.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="diagrams/dta-text-editor.png" class="img-fluid figure-img"></p>
+<figcaption><code>.dta</code> in a Text Editor</figcaption>
+</figure>
+</div>
+<p>Also, <code>.csv</code> files are easy to support, so they work in almost all data analysis software. For example, we can open up <code>nominate.csv</code> in Excel. You can see that we have six variables in the columns and many cases in the rows (we don’t know how many because they overflow the screen). In this case, each row represents a particular Congressperson from a particular Congress (and Presidents are also included). The second row, for example, is for Rep.&nbsp;Callahan (R) from the 1st Congressional District of Alabama. During the 100th Congress, Rep.&nbsp;Calahan has a ideology score of 0.358, which means he’s conservative, but not as conservative as Pres.&nbsp;Reagan, who has a score of 0.747. We’ll work with these data a lot thoughout the semester, so we’ll have plenty of time for closer examination.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="diagrams/csv-excel.png" class="img-fluid figure-img"></p>
+<figcaption><code>.csv</code> in Excel</figcaption>
+</figure>
+</div>
+</section>
+<section id="reading-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="reading-the-data">Reading the Data</h2>
+<p>First, you must get your data file into the project directory. First, download the data from the <a href="data.html">data page</a>. Notice where your computer saves the file. Since you are using the cloud, then select the <em>Files</em> tab in the lower-right panel of the Rstudio window. Then click <em>Upload</em> &gt; <em>Choose file</em>. Navigate to and select the data file. Click <em>Choose</em>. Click <em>Okay</em>. Notice that the data file appears in your list of files.</p>
+<p>Now we simply need to run <code>readr::read_csv("cool-data.csv")</code> to load the data set (<code>cool-data.csv</code> is just a placeholder for the actual name of the data set).</p>
+<p><strong>Review Exercises</strong></p>
+<p>To practice, download the data set <code>nominate.rds</code> from the <a href="data.html">data page</a>. Open RStudio and set the working directory to your class folder. Read those data into R. Now try it with the other file formats. See the code below for examples. Note that these datasets contain the same information, so you only need to choose one of the four formats. I show you how to load all four formats here for examples.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Before this will work, upload the data files. </span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages (install if needed)</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)  <span class="co"># for read_csv() and read_rds() functions</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ lubridate 1.9.4     ✔ tibble    3.3.0
+✔ purrr     1.1.0     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(haven)      <span class="co"># for read_dta() function</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)     <span class="co"># for read_excel() function</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># read data</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>nominate <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"nominate.csv"</span>)     <span class="co"># read csv file</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 7992 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): chamber, state, party, name
+dbl (3): congress, district, ideology
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>nominate2 <span class="ot">&lt;-</span> <span class="fu">read_dta</span>(<span class="st">"nominate.dta"</span>)    <span class="co"># read dta file</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>nominate3 <span class="ot">&lt;-</span> <span class="fu">read_rds</span>(<span class="st">"nominate.rds"</span>)    <span class="co"># read rds file</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>nominate4 <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(<span class="st">"nominate.xlsx"</span>)  <span class="co"># read xlsx file</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co"># check that data read properly</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(nominate)  <span class="co"># quick look at the data</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 7,992
+Columns: 7
+$ congress &lt;dbl&gt; 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1…
+$ chamber  &lt;chr&gt; "House", "House", "House", "House", "House", "House", "House"…
+$ state    &lt;chr&gt; "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AK", "AZ", "AZ", "…
+$ district &lt;dbl&gt; 2, 4, 3, 5, 6, 1, 7, 1, 2, 3, 5, 4, 1, 3, 1, 4, 2, 36, 10, 29…
+$ party    &lt;chr&gt; "Republican", "Democrat", "Democrat", "Democrat", "Democrat",…
+$ name     &lt;chr&gt; "DICKINSON, William Louis", "BEVILL, Tom", "NICHOLS, William …
+$ ideology &lt;dbl&gt; 0.398, -0.213, -0.042, -0.175, -0.060, 0.373, -0.085, 0.283, …</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="data-frames" class="level1">
+<h1>Data Frames</h1>
+<p>Almost the statistical computation we do in this class revolves around datasets. In R, it usually makes sense to store data sets as specific objects known as <em>data frames</em>. Data frames are simply a collection of vectors that all contain the same number of elements. These might be numeric, character, factor, or logical vectors, or some mixture of types.</p>
+<p>When you read a data set into R using <code>readr::read_csv</code>, <code>readr::read_rds()</code>, <code>haven::read_dta()</code>, or some other method, it creates a data frame. A data frame is a special R object that holds a set of vectors that all have the name number of elements. If you think of the dataset as an Excel spreadsheet, then you can think of the columns of the spreadsheet as the vectors held by the data frame. These vectors (or “variables”) can be numeric, character, factor, or logical. As a reminder, here are the variable types:</p>
+<ul>
+<li><code>numeric</code>: numbers, such as 1.1, 2.4, and 3.4. Sometimes numeric variables are subdivided into <code>integer</code> (whole numbers, e.g., 1, 2, 3, etc.) and <code>double</code> (fractions, e.g., 1.47, 3.35462, etc.).</li>
+<li><code>character</code>: text strings, such as <code>"Republican"</code> or <code>"Argentina (2001)"</code>.</li>
+<li><code>factor</code>: cateogories, such as <code>"Very Liberal"</code>, <code>"Weak Republican"</code>, or <code>"Female"</code>. Similar to <code>character</code>, except the entire set of possible levels is defined. A <code>factor</code> variable may be ordered or unordered.</li>
+<li><code>logical</code>: true or false, such as <code>TRUE</code> or <code>FALSE</code>.</li>
+</ul>
+<p>For the <code>.csv</code> files we will sometimes use, R cannot distinguish between <code>character</code> and <code>factor</code> variables. By default, <code>readr::read_csv()</code> will load these as <code>character</code> variables–there’s no way for R to know the entire set of levels from the <code>.csv</code> file anyway. Sometimes, though, it will be useful to work with <code>factor</code> variables. This is straightforward to change. To save you a bit of frustration, we will usually use the <code>.rds</code> format, where the factors are already set up properly.</p>
+<section id="working-with-variables-in-data-frames" class="level2">
+<h2 class="anchored" data-anchor-id="working-with-variables-in-data-frames">Working with Variables in Data Frames</h2>
+<p>A data frame holds the variables, but it also hides the vectors. For example, the data frame <code>nominate</code>, which we loaded above, has a numeric variable <code>ideology</code>, but if we try to sum it, we get an error.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(ideology)  <span class="co"># fails because the variable ideology is hidden in a data frame</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error: object 'ideology' not found</code></pre>
+</div>
+</div>
+<p>We’ve loaded the data set, but R can’t seem to find the variable. That’s because the variable <code>ideology</code> is hidden in the data frame <code>nominate</code>.</p>
+<p>In order to access variables in data frames, we need to do one of two things.</p>
+<ol type="1">
+<li>Use the <code>$</code> operator.</li>
+<li>Use the <code>data</code> argument.</li>
+</ol>
+<p>Some functions, such as <code>exp()</code> are designed to work with <em>vectors</em>, not data frames. This will be the case for most functions we use (with the notable exceptions of plotting in with <code>ggplot()</code> and estimating liner model with <code>lm()</code>). To use the functions on variables stored in data frames, we need to use the <code>$</code> operator.</p>
+<p>Suppose we have a data set loaded and given to the object <code>my_data</code>. If <code>my_data</code> contains the variable of interest <code>my_variable</code>, then we can access <code>my_variable</code> using the syntax <code>my_data$my_varible</code>. That is, the syntax <code>data$var</code> means “get the variable <code>var</code> from the data set <code>data</code>.” We’ll use this often, so make sure it’s clear.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(nominate<span class="sc">$</span>ideology) <span class="co"># example of the $ operator</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] NA</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(nominate<span class="sc">$</span>ideology, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="co"># example of the $ operator</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 202.209</code></pre>
+</div>
+</div>
+<p>But some functions are designed to work with data frames. For example, the <code>qplot()</code> function in the ggplot2 package is designed to work with data sets. If you open the help file for <code>qplot()</code> (i.e., <code>help(qplot)</code> after <code>library(ggplot2)</code>), you’ll see that one of the arguments is <code>data</code>. If you use this argument to point <code>qplot()</code> to the data frame, it will know where to find your variables.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load ggplot2 package, which contains the qplot() function</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># example of a function with a data argument</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">qplot</span>(ideology, <span class="at">data =</span> nominate)  <span class="co"># using the data argument</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 25 rows containing non-finite outside the scale range
+(`stat_bin()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03-notes-dfs_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Many of the functions we use take a data argument. If they do not, though, we’ll need to use the <code>$</code> operator. Because we’ll almost always use data stored in data frames, you need to be sure to use one approach or the other. If the function has a data argument, use it. In other cases, use the <code>$</code> operator.</p>
+</section>
+</section>
+<section id="how-well-always-use-r" class="level1">
+<h1>How We’ll Always Use R</h1>
+<section id="in-the-cloud" class="level2">
+<h2 class="anchored" data-anchor-id="in-the-cloud">In the Cloud</h2>
+<ol type="1">
+<li>Go to rstudio.cloud.</li>
+<li>Open a previously created project <em>OR</em> start a new project.</li>
+<li>Open a new R script to do something new <em>OR, if previously created,</em> open a previously saved script to continue making progress.</li>
+</ol>
+</section>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>To load a data set in R, you must…</p>
+<ol type="1">
+<li>Get the data file from somewhere (usually the web).</li>
+<li>Open RStudio Cloud.</li>
+<li>Open an existing project or start a new one.</li>
+<li>Make the data accessible to RStudio. Simply upload the data file to the files for that project.</li>
+<li>Load the data by giving the appropriate function the name of the data file (e.g., <code>read_csv("nominate.csv")</code>). Be sure to load any necessary packages. Be sure to assigned the data to a well-named object (i.e., using <code>&lt;-</code>) so you can use it later in your script.</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A note about paths
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You might usually save your data sets to the home directory. But if you want, you can create a sub-folder–you might call it <code>data/</code> for example–and save your data set(s) there. If you upload your data set(s) into a sub-folder, then you’ll need to add that to your path. For example, you would need to use <code>read_csv("data/nominate.csv")</code>.</p>
+</div>
+</div>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>Explain the difference between “installing” and “loading” an R package. How do you do each? When do you need to do each?</li>
+<li>Download the nominate data sets from the <a href="data.html">data page</a> to a known location on your computer.</li>
+<li>Make the data available to R. Since you are working in the cloud, start a new project (perhaps name it “Loading Data HW”) and upload the data into the project (see details in the notes above). In this new project, install the tidyverse, haven, and readxl packages.</li>
+<li>Start a new R script that loads the tidyverse, haven, and readxl packages.</li>
+<li>In the same script, load the each version of the nominate data set using the appropriate function. Assign each data set to a different object name.</li>
+<li>Use <code>glimpse()</code> (part of tidyverse) to get a quick look at each data set. Do the data sets seem identical?</li>
+<li>Try to use three different functions (<code>mean()</code>, <code>sum()</code>, etc.) on the data frames or variables in the data frames. Using <code>#</code> comments, explain what each function is doing, if you can. Just experiment a bit.</li>
+</ol>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I’m assuming you are using Posit Cloud. If you are using RStudio installed locally, then you only need to install a package once <em>per computer</em>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/pos3713ri\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

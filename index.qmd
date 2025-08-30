@@ -5,16 +5,13 @@ title: "Schedule"
 Note: Complete the homework *after* the associated class, but *before* the next class.
 
 
-**Aug 26**: Questions and Models [[hw](01-hw.html)] [👈 links moved into hw]{.text-muted}
+**Aug 26**: Questions and Models [[hw](01-hw.html)]
 
-**Aug 28**: R [[hw](02-hw.html)] 
+**Aug 28**: R [[hw](02-hw.html)] [[notes](files/02-notes-computing.html)]
 
-- Make sure you have a Posit Cloud account (see last hw)!
-- [notes](files/02-notes-computing.html)
+**Sep 2**: Data [[hw](03-hw.html)] [[slides](files/03-slides-dfs.pdf)] [[notes](files/03-notes-dfs.html)]
 
-**Sep 2**: Data  
-
-**Sep 4**: Histograms  
+**Sep 4**: Causality and Histograms [[hw](04-hw.html)] [[slides](04-slides-causality.pdf)]
 
 **Sep 9**: Histograms in R  
 

@@ -1,0 +1,22 @@
+---
+title: "Assignment 4"
+---
+
+Please complete before the next class. Make sure that you've completed all previous HW first.
+
+## 1. Causality
+
+Review my [slides](04-slides-causality.pdf) on causality. Answer the following questions:
+
+1. Describe the four ways to obtain a correlation.
+1. Describe the other, fifth way you can get a correlation (i.e., by tricking yourself).
+1. I write that, under randomization, $R^{obs}_T - R^{obs}_C \approx R^{hyp}_T - R^{hyp}_C$. 
+    a. What do each of these four quantities refer to? What do we call the left-hand side? The right-hand side?
+    a. Notice that the equality is not exact. Instead, it is approximate. What is the only reason it is not exact.
+    a. Explain why randomization allows us to rule out spuriousness and reverse causation.
+    a. Describe the design of Gerber and Green’s turnout experiment. Describe the results (i.e., what percent of each group voted?). Discuss whether and how you can rule out any of the four possible ways to obtain a correlation.
+1. Was Gerber, Green, and Larimer's study ethical? 
+
+## 2. FPP
+
+Read ch 3. of FPP (the textbook; I sent a pdf via email) and do the assigned review exercises [here](fpp-exercises.pdf). 

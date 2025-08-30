@@ -1,0 +1,18 @@
+---
+title: "Data"
+output:
+  html_document
+---
+
+## Clean, Tidy Data Sets
+
+The data sets below are ready to visualize and model. They are [tidy](https://vita.had.co.nz/papers/tidy-data.pdf). I filtered out useful subsets. I selected and descriptively renamed the most important variables. I meaningfully reordered factors.
+
+| Name                	| Data Files                           	| Codebook 	| Description                                         	|
+|---------------------	|--------------------------------------	|----------	|-----------------------------------------------------	|
+| `gamson`| [[`.csv`](data/gamson.csv)] [[`.dta`](data/gamson.dta)] [[`.rds`](data/gamson.rds)] [[`.xlsx`](data/gamson.xlsx)] 	| [[html](data/gamson-codebook.html)]| From Warwick and Druckman (2006)      | 
+| `health`            | [[`.csv`](data/health.csv)] [[`.dta`](data/health.dta)] [[`.rds`](data/health.rds)] [[`.xlsx`](data/health.xlsx)] 	| [[html](data/health-codebook.html)]| From Barrilleaux and Rainey (2014).                 	|
+| `nominate`| [[`.csv`](data/nominate.csv)] [[`.dta`](data/nominate.dta)] [[`.rds`](data/nominate.rds)] [[`.xlsx`](data/nominate.xlsx)] 	| [[html](data/nominate-codebook.html)]| Ideology scores for members of the U.S. House.                  	|
+| `parties`          	| [[`.csv`](data/parties.csv)] [[`.dta`](data/parties.dta)] [[`.rds`](data/parties.rds)] [[`.xlsx`](data/parties.xlsx)] 	| [[html](data/parties-codebook.html)]   	| From Clark and Golder (2006)     .             	|
+| `state-legislators`          	| [[`.csv`](data/state-legislators.csv)] [[`.dta`](data/state-legislators.dta)] [[`.rds`](data/state-legislators.rds)] [[`.xlsx`](data/state-legislators.xlsx)] 	|    	|           	|
+

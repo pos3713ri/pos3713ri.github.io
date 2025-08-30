@@ -6,14 +6,14 @@ title: "Assignment for Class 1"
 
 We didn't get to this notes, so you'll need to read them on your own. Come prepared next class with questions, comments, etc. 
 
-- [[notes](files/02-notes-questions.html) on questions]
-- [[notes](files/03-notes-models.html) on models] 
+- [[notes](files/01b-notes-questions.html) on questions]
+- [[notes](files/01c-notes-models.html) on models] 
 
 
 We didn't use the slides below. There's no need for you to review them---everything is in the notes.
 
-- [[slides](files/02-slides-questions.pdf) on questions] 
-- [[slides](files/03-slides-models.pdf) on models] 
+- [[slides](files/01b-slides-questions.pdf) on questions] 
+- [[slides](files/01c-slides-models.pdf) on models] 
 
 In class, we used [Gapminder](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v2) to explore some data.
 
