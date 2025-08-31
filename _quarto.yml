@@ -17,7 +17,7 @@ project:
 website:
   title: "POS 3713"
   site-url: https://pos3713ri.github.io/
-  google-analytics: "G-F57WQLHH67"
+  google-analytics: "G-9VC4L6QDRK"
   navbar:
     left:
       - text: "Schedule"
