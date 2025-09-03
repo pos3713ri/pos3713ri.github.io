@@ -6,18 +6,18 @@ Please complete before the next class. Make sure that you've completed all previ
 
 ## FPP
 
-Read chs. 1 and 2 of FPP (the textbook; I sent a pdf via email) and do the assigned review exercises [here](fpp-exercises.pdf). 
+Read chs. 1 and 2 of FPP (the textbook; see [here](https://www.dropbox.com/scl/fi/ulz39wi8k4pk0ox6m8yme/Freedman-Pisani-and-Purves-2007.pdf?rlkey=ktnom50ppagcj7640jpfee5xa&dl=0)) and do the assigned review exercises [here](fpp-exercises.pdf). 
 
 Notes: 
 
 1. *You only need to do the review exercises for chs. 1 and 2---not every single chapter.* We'll get to the rest over the course of the semester. And yes, there is a reason I include this note.
-1. If you want to print this PDF for convenience, that's a great idea. It's unlikely to change during the semester.
+1. If you want to print this PDF of assigned exercises to use later, that's a great idea. It's unlikely to change during the semester.
 
 
 
 ## R
 
-Read and review your notes, [my notes](03-notes-dfs.html), and [my slides](03-slides-dfs.pdf) over the basics of loading data into R. Answer the review questions **throughout** the document. Remember to practice!
+Read and review your notes, [my notes](files/03-notes-dfs.html), and [my slides](files/03-slides-dfs.pdf) (I just discussed these ideas verbally without slides) over the basics of loading data into R. Answer the review questions **throughout** the document. Remember to practice!
 
 
 ::: callout-warning

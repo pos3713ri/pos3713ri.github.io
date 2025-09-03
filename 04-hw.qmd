@@ -6,7 +6,7 @@ Please complete before the next class. Make sure that you've completed all previ
 
 ## 1. Causality
 
-Review my [slides](04-slides-causality.pdf) on causality. Answer the following questions:
+Review my [slides](files/04-slides-causality.pdf) on causality. Answer the following questions:
 
 1. Describe the four ways to obtain a correlation.
 1. Describe the other, fifth way you can get a correlation (i.e., by tricking yourself).
@@ -19,4 +19,4 @@ Review my [slides](04-slides-causality.pdf) on causality. Answer the following q
 
 ## 2. FPP
 
-Read ch 3. of FPP (the textbook; I sent a pdf via email) and do the assigned review exercises [here](fpp-exercises.pdf). 
+Read ch 3. of FPP (the textbook; link in previous homework) and do the assigned review exercises [here](fpp-exercises.pdf). 

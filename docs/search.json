@@ -137,7 +137,7 @@
     "href": "04-hw.html#fpp",
     "title": "Assignment 4",
     "section": "2. FPP",
-    "text": "2. FPP\nRead ch 3. of FPP (the textbook; I sent a pdf via email) and do the assigned review exercises here."
+    "text": "2. FPP\nRead ch 3. of FPP (the textbook; link in previous homework) and do the assigned review exercises here."
   },
   {
     "objectID": "02-hw.html",
@@ -165,14 +165,14 @@
     "href": "03-hw.html#fpp",
     "title": "Assignment 3",
     "section": "FPP",
-    "text": "FPP\nRead chs. 1 and 2 of FPP (the textbook; I sent a pdf via email) and do the assigned review exercises here.\nNotes:\n\nYou only need to do the review exercises for chs. 1 and 2—not every single chapter. We’ll get to the rest over the course of the semester. And yes, there is a reason I include this note.\nIf you want to print this PDF for convenience, that’s a great idea. It’s unlikely to change during the semester."
+    "text": "FPP\nRead chs. 1 and 2 of FPP (the textbook; see here) and do the assigned review exercises here.\nNotes:\n\nYou only need to do the review exercises for chs. 1 and 2—not every single chapter. We’ll get to the rest over the course of the semester. And yes, there is a reason I include this note.\nIf you want to print this PDF of assigned exercises to use later, that’s a great idea. It’s unlikely to change during the semester."
   },
   {
     "objectID": "03-hw.html#r",
     "href": "03-hw.html#r",
     "title": "Assignment 3",
     "section": "R",
-    "text": "R\nRead and review your notes, my notes, and my slides over the basics of loading data into R. Answer the review questions throughout the document. Remember to practice!\n\n\n\n\n\n\nDebugging\n\n\n\nWhen you can’t get your code to work, it’s usually just a missing parenthesis or quotation mark. It’s not that you’re making a huge mistake. Huamns can sitll mkae snese wehn tehre are tpyos, but not computers! Check your code for typos carefully. Run your script one line at a time, from top to bottom, to find mistakes. As examples, most mistakes are like the following:\nb &lt;- c(\"Male\", \"Female)  # missing the second \" after \"Female\"\nexp(23  # forgot to close a parentheses\nlog(10 base = 2)  # missing comma between arguments\n\na &lt;- c(1, 2, 3)\nmean(A)  # R is case-sensitive--there's an object \"a\", but no object \"A\" \nmena(a)  # misspelled function name\nMean(a)  # R is case-senstive\nmean(a   # missing parentheses\nmean(\"a\")# using quotes when you shouldn't (or vice versa)"
+    "text": "R\nRead and review your notes, my notes, and my slides (I just discussed these ideas verbally without slides) over the basics of loading data into R. Answer the review questions throughout the document. Remember to practice!\n\n\n\n\n\n\nDebugging\n\n\n\nWhen you can’t get your code to work, it’s usually just a missing parenthesis or quotation mark. It’s not that you’re making a huge mistake. Huamns can sitll mkae snese wehn tehre are tpyos, but not computers! Check your code for typos carefully. Run your script one line at a time, from top to bottom, to find mistakes. As examples, most mistakes are like the following:\nb &lt;- c(\"Male\", \"Female)  # missing the second \" after \"Female\"\nexp(23  # forgot to close a parentheses\nlog(10 base = 2)  # missing comma between arguments\n\na &lt;- c(1, 2, 3)\nmean(A)  # R is case-sensitive--there's an object \"a\", but no object \"A\" \nmena(a)  # misspelled function name\nMean(a)  # R is case-senstive\nmean(a   # missing parentheses\nmean(\"a\")# using quotes when you shouldn't (or vice versa)"
   },
   {
     "objectID": "data.html",
