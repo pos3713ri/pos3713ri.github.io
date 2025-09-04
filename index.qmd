@@ -11,7 +11,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 2**: Data [[hw](03-hw.html)] [[slides](files/03-slides-dfs.pdf)] [[notes](files/03-notes-dfs.html)]
 
-**Sep 4**: Causality and Histograms [[hw](04-hw.html)] [[slides](04-slides-causality.pdf)]
+**Sep 4**: Causality and Histograms [[hw](04-hw.html)] [[slides](files/04-slides-causality.pdf)]
 
 **Sep 9**: Histograms in R  
 
