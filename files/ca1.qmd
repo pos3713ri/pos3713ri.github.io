@@ -1,0 +1,42 @@
+---
+title: "Computing Assignment 1"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+::: callout-caution
+## Academic Honesty
+
+In a recent semester, we had a big problem with honesty on the computing assignments. My least favorite part of my job is sanctioning students who cheat. It's a lot of work, uncomfortable, and unrewarding. That said, it is my job. Please make sure to complete the assignment honestly.
+
+After all, it's worth relatively few points and is good practice to learn the material for the exam and build the skills you need for the research paper.
+
+[This document](honesty.qmd) details the standards. Please read it carefully before you begin.
+:::
+
+## Do the following:
+
+1.  Start a new project in RStudio Cloud.
+2.  Install the package {tidyverse}.
+3.  Upload the `.rds` version of the `state-legislators` data set from the [data page](../data.qmd). This data set contains ideology scores for legislators in the lower house of the 50 U.S. states (similar to the NOMINATE scores for the U.S. House of Representatives that we've been using).
+4.  Start a new R script. Save the script as `analysis.R`.
+5.  In the script, do the following (include comments!):
+    a.  Load the tidyverse package.
+    b.  Load the data file `state-legislators.rds`.
+    c.  Use the glimpse functions to quickly (1) check the data are what you expect and (2) see the variable names.
+    d.  Create a density plot where the `x` aesthetic corresponds to `ideology` and the `color` aesthetic corresponds to `party`. Facet by state.
+    e.  Improve the plot using the `labs()` functions. Use a theme that you like.
+6.  At the bottom of your script, in three separate comments, jot down three observations about the data. For example, "Party 1 in State A is more conservative than Party 1 in State B." Feel free to briefly elaborate why those observations might be true. For example, "... perhaps because the voters in State A are more conservative than in State B." Hint: to break your comments into equally-sized lines, you can highly the comment and click *Code \> Reflow Comment*.
+7.  Once you are satisfied with your code and observations, click the tiny notebook icon (to the left of the *Run* button). When prompted, select *PDF* (PDF tends to work better, in my experience) or *MS Word*. You may be prompted to download the document--do it! If not, then select the *Files* tab in the lower-right, check the box for the document you want to download (it should be `analysis.docx` or `analysis.pdf`), and click *More \> Export...*, and follow the instructions Submit this `docx` or `.pdf` file to Canvas. Do not submit the `.R` script itself.
+
+Your plots should appear in the document you submit, but might not be sized in a way that makes them readable. That's okay.
+
+## Example
+
+The follow shows the basic format of the R code and shows what the output should look like after you compile it into a notebook. Note these are not the solution keys, so **your work will look different**. These just show what the output will look like relative to the code.
+
+-   R script \[[R](example.R)\]
+-   MS Word Output \[[docx](example.docx)\]
+-   PDF Output \[[pdf](example.pdf)\]

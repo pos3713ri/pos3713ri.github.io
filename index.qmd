@@ -13,16 +13,16 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 4**: Causality and Histograms [[hw](04-hw.html)] [[slides](files/04-slides-causality.pdf)]
 
-**Sep 9**: Histograms in R  
+**Sep 9**: Histograms in R [[hw](05-hw.html)] [[notes](files/05-notes-histograms-R.qmd)] [[Computing Assignment 1](files/ca1.qmd)]
 
-**Sep 11**: Avg and SD  
+**Sep 11**: Avg and SD [[hw](06-hw.html)]
 
 **Sep 16**: Avg and SD in R  
 
 **Sep 18**: Normal Model  
 
 **Sep 23**: Review  
-[Computing Assignment 1 due.]{.remarks}
+[[Computing Assignment 1](files/ca1.qmd) due.]{.remarks}
 
 **Sep 25**: [**Exam 1**]{.text-warning}  
 

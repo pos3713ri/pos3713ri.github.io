@@ -1,0 +1,7 @@
+---
+title: "Assignment 6"
+---
+
+Read ch. 4 of FPP (the textbook; see the syllabus) and do the assigned review exercises [here](fpp-exercises.html). 
+
+For a given list of numbers, make sure that you can calculate the average and SD. If you're signed in to your Google account, you can create problems and check your work by [creating a copy of this](https://docs.google.com/spreadsheets/d/1R31nIhl2NCUmtU6JDWI3f5amCnum9i-vG19okfpWb4M/copy) Google Sheet.

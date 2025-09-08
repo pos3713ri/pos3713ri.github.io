@@ -1,0 +1,45 @@
+---
+title: "Assignment 5"
+---
+
+Review my [notes](files/05-notes-histograms-R.qmd) on histograms in R. Answer the questions throughout.
+
+---
+
+## In-Class
+
+Here's my outline for the class and code to load the data. See the finished product link below.
+
+```
+# load packages
+library(tidyverse) # load tidyverse package, which has lots of useful functions.
+
+# load data
+nominate_df <- read_csv("https://pos3713ri.github.io/data/nominate.csv")
+# note: for the sake of simplicity we're linking to the file directly on the course site.
+# note: this only works for csv files
+# feel free to download it, add it to the RStudio Cloud project, and use read_csv("nominate.csv").
+
+glimpse(nominate_df) # use glimpse() to see what your data frame looks like.
+
+# histograms
+# ----
+
+# filtering
+# ----
+
+# faceting
+# ----
+
+# density plots
+# ----
+
+# color, fill, and alpha
+# ----
+
+# labels
+# ----
+
+# themes
+# ----
+```

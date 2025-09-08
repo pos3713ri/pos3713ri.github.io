@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>notes-histograms-r – POS 3713</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9VC4L6QDRK"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">POS 3713</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research-project.html"> 
+<span class="menu-text">Research Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.pdf"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../data.html"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#histograms" id="toc-histograms" class="nav-link active" data-scroll-target="#histograms">Histograms</a>
+  <ul class="collapse">
+  <li><a href="#nominate-data" id="toc-nominate-data" class="nav-link" data-scroll-target="#nominate-data">NOMINATE Data</a></li>
+  <li><a href="#histograms-geom_histogram" id="toc-histograms-geom_histogram" class="nav-link" data-scroll-target="#histograms-geom_histogram">Histograms: <code>geom_histogram()</code></a>
+  <ul class="collapse">
+  <li><a href="#the-three-critical-components" id="toc-the-three-critical-components" class="nav-link" data-scroll-target="#the-three-critical-components">The Three Critical Components</a></li>
+  <li><a href="#drawing-a-histogram" id="toc-drawing-a-histogram" class="nav-link" data-scroll-target="#drawing-a-histogram">Drawing a Histogram</a></li>
+  <li><a href="#but-geom_histogram-uses-counts" id="toc-but-geom_histogram-uses-counts" class="nav-link" data-scroll-target="#but-geom_histogram-uses-counts">But <code>geom_histogram()</code> uses counts!</a></li>
+  </ul></li>
+  <li><a href="#filtering-filter" id="toc-filtering-filter" class="nav-link" data-scroll-target="#filtering-filter">Filtering: <code>filter()</code></a></li>
+  <li><a href="#faceting-facet_wrap" id="toc-faceting-facet_wrap" class="nav-link" data-scroll-target="#faceting-facet_wrap">Faceting: <code>facet_wrap()</code></a></li>
+  <li><a href="#density-plots-geom_density" id="toc-density-plots-geom_density" class="nav-link" data-scroll-target="#density-plots-geom_density">Density Plots: <code>geom_density()</code></a></li>
+  <li><a href="#color-and-fill" id="toc-color-and-fill" class="nav-link" data-scroll-target="#color-and-fill">Color and Fill</a>
+  <ul class="collapse">
+  <li><a href="#color" id="toc-color" class="nav-link" data-scroll-target="#color">Color</a></li>
+  <li><a href="#fill" id="toc-fill" class="nav-link" data-scroll-target="#fill">Fill</a></li>
+  <li><a href="#alpha" id="toc-alpha" class="nav-link" data-scroll-target="#alpha">Alpha</a></li>
+  </ul></li>
+  <li><a href="#labels-labs" id="toc-labels-labs" class="nav-link" data-scroll-target="#labels-labs">Labels: <code>labs()</code></a></li>
+  <li><a href="#themes-theme_bw-and-others" id="toc-themes-theme_bw-and-others" class="nav-link" data-scroll-target="#themes-theme_bw-and-others">Themes: <code>theme_bw()</code> and Others</a></li>
+  <li><a href="#putting-it-all-together" id="toc-putting-it-all-together" class="nav-link" data-scroll-target="#putting-it-all-together">Putting It All Together</a></li>
+  <li><a href="#saving-plots-ggsave" id="toc-saving-plots-ggsave" class="nav-link" data-scroll-target="#saving-plots-ggsave">Saving Plots: <code>ggsave()</code></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="histograms" class="level1">
+<h1>Histograms</h1>
+<p>Histograms (and their variants, such as density plots and dot plots) serve as a useful tool for understanding the distribution of a single variable. For a histogram to work well, the variable of interest should take on enough values to require “binning” or lumping several values into the same column of the figure. This usually works for variables that we think of as continuous, such as income, age, effective number of political parties, GDP, number of casualties, etc.</p>
+<section id="nominate-data" class="level2">
+<h2 class="anchored" data-anchor-id="nominate-data">NOMINATE Data</h2>
+<p>To see how histograms work, let’s work with estimates of the ideology of the U.S. House of Representatives. These data are called DW-NOMINATE Scores and are available at <a href="http://voteview.com/dwnl.htm">voteview.com</a>. The cleaned data set <code>nominate.csv</code> includes the 100th through the 114th Congresses and contains a variable called <code>ideology</code> that captures a representative’s ideology.</p>
+<p>These data are at the legislator-Congress level, so that each row in the data set represents an individual legislator in a particular Congress. More negative values indicate a more liberal representative. More positive values indicate a more conservative representative. For example, Ron Paul is one of the most conservative representatives in the data set with a score of about 0.86. Dennis Kucinich is among the most liberal and has a score of about -0.58.</p>
+<p>To get started, let’s load the cleaned data.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># load data</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>nominate <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/nominate.csv"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># note: make sure the file 'nominate.csv' is in the 'data' subdirectory</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>We can use the <code>glimpse()</code> function (part of tidyverse) to check that we properly load the data and get a quick overview. It shows us the variable names, the types of variables we’re working with (e.g., character, integer, double), and the first few values.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># quick look at the data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(nominate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 7,992
+Columns: 7
+$ congress &lt;dbl&gt; 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1…
+$ chamber  &lt;chr&gt; "House", "House", "House", "House", "House", "House", "House"…
+$ state    &lt;chr&gt; "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AK", "AZ", "AZ", "…
+$ district &lt;dbl&gt; 2, 4, 3, 5, 6, 1, 7, 1, 2, 3, 5, 4, 1, 3, 1, 4, 2, 36, 10, 29…
+$ party    &lt;chr&gt; "Republican", "Democrat", "Democrat", "Democrat", "Democrat",…
+$ name     &lt;chr&gt; "DICKINSON, William Louis", "BEVILL, Tom", "NICHOLS, William …
+$ ideology &lt;dbl&gt; 0.398, -0.213, -0.042, -0.175, -0.060, 0.373, -0.085, 0.283, …</code></pre>
+</div>
+</div>
+<p>I’ve given the variables very descriptive names, but if you need more information, look in <a href="data/nominate-codebook.html">my codebook</a>.</p>
+</section>
+<section id="histograms-geom_histogram" class="level2">
+<h2 class="anchored" data-anchor-id="histograms-geom_histogram">Histograms: <code>geom_histogram()</code></h2>
+<p>Now let’s try a histogram.</p>
+<p>To do this, we’ll use R package ggplot2, which is part of tidyverse. When we ran <code>library(tidyverse)</code>, it automatically loaded ggplot2. If we hadn’t already run <code>library(tidyverse)</code>, we could run <code>library(ggplot2)</code>.</p>
+<p>Though ggplot2 is a complex package, we’ll get some sense of how it works this semester. It is <a href="https://ggplot2.tidyverse.org">well-documented online</a>, so feel free to read about it as much as you want or need.</p>
+<section id="the-three-critical-components" class="level3">
+<h3 class="anchored" data-anchor-id="the-three-critical-components">The Three Critical Components</h3>
+<p>There are three critical components to each plot created using ggplot2, which we’ll refer to as a “ggplot.”</p>
+<ol type="1">
+<li><strong>the data</strong>: a formal data frame in R.</li>
+<li><strong>the aesthetics</strong>: the relationship between the variables in the data set and the aesthetics of the plotted objects–location, color, size, shape, etc.</li>
+<li><strong>the geometry</strong>: the type of plot.</li>
+</ol>
+<p>There are other components, such as scales, statistics, and coordinate systems, but these the three critical components usually provide what we need.</p>
+</section>
+<section id="drawing-a-histogram" class="level3">
+<h3 class="anchored" data-anchor-id="drawing-a-histogram">Drawing a Histogram</h3>
+<ol type="1">
+<li>data: the first argument to <code>ggplot()</code>. Because the variable we want to plot, <code>ideology</code> is contained in the data frame <code>nominate</code>, we use <code>nominate</code> as the first argument.</li>
+<li>aesthetic: the second argument to <code>ggplot()</code>. Because we want to create a histogram, we want <code>ideology</code> to correspond to the location along the horizontal-axis. To create this correspondence, we use <code>aes(x = ideology)</code> as the second argument.</li>
+<li>geometry: added to <code>ggplot()</code> with <code>+</code>. Because we want a histogram, we use <code>geom_histogram()</code>. (It’s weird to add a function to another function with <code>+</code>. And it is unusual. Nothing else in R works quite like this. It’s how ggplot2 works, though.)</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data and aesthetic, then add the geometry</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate, <span class="fu">aes</span>(<span class="at">x =</span> ideology)) <span class="sc">+</span> <span class="fu">geom_histogram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="288"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This histogram makes sense. We have a grouping of Democrats (presumably) on the left and a grouping of Republicans (again, presumably) on the right. You could probably come up with a model that explains why there are few politicians in the center.</p>
+<p>There are three subtle points that I should emphasize about the line <code>ggplot(nominate, aes(x = ideology)) + geom_histogram()</code>.</p>
+<ol type="1">
+<li>The first argument supplied to <code>ggplot()</code> is the data. The second argument is the aesthetics.</li>
+<li>The second argument, <code>aes(...)</code> is itself a function. This function just creates the “aesthetic mapping,” a link between the variables in the data set and space, color, size, shape, etc, in the chart.</li>
+<li><code>geom_histogram()</code> is also a function, but it is added to the plot using <code>+</code>. We’ll see several other functions that can be added to the plot.</li>
+</ol>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>List and describe the three critical components of a ggplot.</li>
+<li>In the following snippet of code, label the data, the aesthetics, and the geometry: <code>ggplot(nominate, aes(x = ideology)) + geom_histogram()</code>.</li>
+<li>In this section, we’ve seen three new functions: <code>ggplot()</code>, <code>aes()</code>, and <code>geom_histogram()</code>. Describe what each one does and how to use it.</li>
+</ol>
+</section>
+<section id="but-geom_histogram-uses-counts" class="level3">
+<h3 class="anchored" data-anchor-id="but-geom_histogram-uses-counts">But <code>geom_histogram()</code> uses counts!</h3>
+<p>FPP uses density on the vertical-axis, not counts. <code>geom_histogram()</code> uses counts by default.</p>
+<p>This is important, because if the bin widths of the histograms are not equal, then counts create a misleading histogram. However, if the bin widths are equal, then counts and densities produce identically shaped histograms. (The vertical axis has a different scale, though.)</p>
+<p>Because we tend to use equal bin widths in practice, it often doesn’t matter whether we use counts or densities.</p>
+<p>If you want to change the default behavior, add <code>y = ..density..</code> to the aesthetics. (By default, <code>geom_histogram()</code> sets <code>y = ..count..</code>.)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data and aesthetic, then add the geometry</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">y =</span> ..density..)) <span class="sc">+</span> <span class="fu">geom_histogram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="288"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="filtering-filter" class="level2">
+<h2 class="anchored" data-anchor-id="filtering-filter">Filtering: <code>filter()</code></h2>
+<p>Above, I plot the distribution of ideology scores for 15 different Congresses (the 100th through the 114th) in the same histogram.</p>
+<p>Let’s create a histogram for the 100th Congress only.</p>
+<p>To do this, first create a data set that contains only cases from the 100th Congress</p>
+<p>To create a subset of <code>nominate</code> that only contains the 100th Congress, use the <code>filter()</code> function (part of tidyverse). The first argument to <code>filter()</code> is the data frame to be filtered and the second argument is a logical statement that identifies the cases <em>to keep</em>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># filter the 100th congress</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>nominate100 <span class="ot">&lt;-</span> <span class="fu">filter</span>(nominate, congress <span class="sc">==</span> <span class="dv">100</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># quick look</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(nominate100)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 441
+Columns: 7
+$ congress &lt;dbl&gt; 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1…
+$ chamber  &lt;chr&gt; "House", "House", "House", "House", "House", "House", "House"…
+$ state    &lt;chr&gt; "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AK", "AZ", "AZ", "…
+$ district &lt;dbl&gt; 2, 4, 3, 5, 6, 1, 7, 1, 2, 3, 5, 4, 1, 3, 1, 4, 2, 36, 10, 29…
+$ party    &lt;chr&gt; "Republican", "Democrat", "Democrat", "Democrat", "Democrat",…
+$ name     &lt;chr&gt; "DICKINSON, William Louis", "BEVILL, Tom", "NICHOLS, William …
+$ ideology &lt;dbl&gt; 0.398, -0.213, -0.042, -0.175, -0.060, 0.373, -0.085, 0.283, …</code></pre>
+</div>
+</div>
+<p>Use this new data frame to draw the histgram.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create histogram for 100th congress</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology)) <span class="sc">+</span> <span class="fu">geom_histogram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="288"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Repeat that process, but for the 114th Congress.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># subset data to only 114th congress</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>nominate114 <span class="ot">&lt;-</span> <span class="fu">filter</span>(nominate, congress <span class="sc">==</span> <span class="dv">114</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># quick look</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(nominate114)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 441
+Columns: 7
+$ congress &lt;dbl&gt; 114, 114, 114, 114, 114, 114, 114, 114, 114, 114, 114, 114, 1…
+$ chamber  &lt;chr&gt; "House", "House", "House", "House", "House", "House", "House"…
+$ state    &lt;chr&gt; "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AK", "AZ", "AZ", "…
+$ district &lt;dbl&gt; 3, 7, 2, 5, 1, 6, 4, 1, 8, 3, 1, 4, 6, 9, 2, 7, 5, 1, 3, 2, 4…
+$ party    &lt;chr&gt; "Republican", "Democrat", "Republican", "Republican", "Republ…
+$ name     &lt;chr&gt; "ROGERS, Mike Dennis", "SEWELL, Terri", "ROBY, Martha", "BROO…
+$ ideology &lt;dbl&gt; 0.359, -0.393, 0.362, 0.645, 0.610, 0.693, 0.376, 0.283, 0.74…</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create histogram</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate114, <span class="fu">aes</span>(<span class="at">x =</span> ideology)) <span class="sc">+</span> <span class="fu">geom_histogram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="288"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>Explain what the <code>filter()</code> function does and how to use it. What are the first and second arguments? What type of object does it return? Use <code>help(filter)</code> for the details.</li>
+</ol>
+</section>
+<section id="faceting-facet_wrap" class="level2">
+<h2 class="anchored" data-anchor-id="faceting-facet_wrap">Faceting: <code>facet_wrap()</code></h2>
+<p>Let’s investigate this divergence in the parties more carefully.</p>
+<p>Is the left hump actually Democrats? Is the right hump actually Republicans?</p>
+<p>Apply a facet to the histogram. A facet simply breaks the data frame into subsets and draws one histogram per subset.</p>
+<p>Create a facet by adding the function <code>facet_wrap()</code> to the plot. You’ll have to specify the faceting variable as an argument to the <code>facet_wrap()</code> function. In this case, we’ll do it by <code>party</code>, adding <code>+ facet_wrap(vars(party))</code> (i.e., “create a facet by the variable party”) to the ggplot we’ve been using.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build histogram</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology)) <span class="sc">+</span> </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>() <span class="sc">+</span> </span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="fu">vars</span>(party))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="576"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Indeed, the left hump is Democrats and the right hump is Republicans.</p>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>What does a facet do to a plot?</li>
+<li>Explain what the <code>facet_wrap()</code> function does and how to use it.</li>
+<li>Suppose I added <code>+ facet_wrap(party)</code>. Would that work? What is missing?</li>
+<li>Suppose you <code>+ facet_wrap(vars(state))</code> to <code>ggplot(nominate100, aes(x = ideology)) + geom_histogram()</code>. What would happen?</li>
+<li><code>facet_grid()</code> offers an alternative method to faceting. How is it different from <code>facet_wrap()</code>? You might find <a href="https://ggplot2.tidyverse.org/reference/facet_grid.html">this</a> documentation helpful. With an example, show how to use <code>facet_grid()</code>.</li>
+</ol>
+</section>
+<section id="density-plots-geom_density" class="level2">
+<h2 class="anchored" data-anchor-id="density-plots-geom_density">Density Plots: <code>geom_density()</code></h2>
+<p>FPP sometimes uses a rough sketch of a histogram using a smooth curve rather than a complete histograms with vertical bars.</p>
+<p>For our purposes, a density plot is a smooth curve that approximates a histogram.</p>
+<p>We can easily create a density plot rather than a histogram by using <code>geom_density()</code> as the geometry rather than <code>geom_histogram()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create density plot</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology)) <span class="sc">+</span> </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="288"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>How is a density plot similar to and different from a histogram? The proceedure for estimating the density is actually complicated and there are several ways to do it. I care about the intuition.</li>
+<li>What does the function <code>geom_density()</code> do and how do you use it?</li>
+</ol>
+</section>
+<section id="color-and-fill" class="level2">
+<h2 class="anchored" data-anchor-id="color-and-fill">Color and Fill</h2>
+<section id="color" class="level3">
+<h3 class="anchored" data-anchor-id="color">Color</h3>
+<p>A density plot has the advantage it uses less ink. Because of this, we could use color rather than faceting to distinguish Republicans and Democrats.</p>
+<p>To distinguish Republicans and Democrats with color, add <code>color = party</code> to the aesthetics.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">color =</span> party)) <span class="sc">+</span> </span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="384"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This look really good! Since we are most interested in the overlap between the parties, I think this density plot makes more sense for us, so let’s stick with it.</p>
+</section>
+<section id="fill" class="level3">
+<h3 class="anchored" data-anchor-id="fill">Fill</h3>
+<p>Instead of coloring the lines differently, you can “fill” the density with different colors. While the color aesthetic represents the color of the line itself, the fill aesthetic represents the fill inside the line.</p>
+<p>To distinguish between the parties using fill, add <code>fill = party</code> to the aesthetics.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">fill =</span> party)) <span class="sc">+</span> </span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="384"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="alpha" class="level3">
+<h3 class="anchored" data-anchor-id="alpha">Alpha</h3>
+<p>Notice that the Republican fill (blue-green) completely covers the Democrat fill (orange-red). But here’s a hint. The <code>alpha</code> argument to <code>geom_density()</code> controls the transparency. <code>alpha = 0</code> is completely transparent. <code>alpha = 1</code> is not transparent at all.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">fill =</span> party)) <span class="sc">+</span> </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="384"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This slight transparency makes both distributions visible, even when the two overlap.</p>
+<p><strong>Review Questions</strong></p>
+<ol type="1">
+<li>Explain the difference between the color and fill aesthetics for density plots.</li>
+<li>Use color to show the separate distributions of ideology scores for all 15 Congresses. It this useful?</li>
+<li>Explain how alpha transparency works and why you might use it. Suppose I used <code>alpha = 0.1</code> instead of <code>alpha = 0.5</code> in the plot above. How would the plot change?</li>
+</ol>
+</section>
+</section>
+<section id="labels-labs" class="level2">
+<h2 class="anchored" data-anchor-id="labels-labs">Labels: <code>labs()</code></h2>
+<p>By default, <code>ggplot()</code> uses the variable names to label the axes and legend. By default, there is no title, subtitle, or caption.</p>
+<p>You will usually want to improve the axis labels and legends. You will sometimes want to add a title, subtitle, and/or caption. Make these changes by adding the <code>labs()</code> function to the plot.</p>
+<p>To the <code>labs()</code> function, supply one argument per aesthetic, such as <code>x</code>, <code>y</code>, <code>color</code>, or <code>fill</code>. You can also supply arguments for <code>title</code>, <code>subtitle</code>, or <code>caption</code> if you wish. These argument are character strings (surrounded by quotes), such as <code>"Ideology Score"</code> or <code>"A Density Plot of Ideology Scores for the 100th Congress"</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">fill =</span> party)) <span class="sc">+</span> </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span> </span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Ideology Score"</span>,</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Density"</span>,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill =</span> <span class="st">"Party"</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"A Density Plot of Ideology Scores for the 100th Congress"</span>,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"There Are Few Moderates in Congress"</span>,</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Data Source: DW-NOMINATE from voteview.com"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="576"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This plot looks pretty nice.</p>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>By default, how does <code>ggplot()</code> label the axes and legends?</li>
+<li>How can you change the default labels? How can you add a title, subtitle, or caption?</li>
+<li>Explain what the <code>labs()</code> function does and how to use it.</li>
+<li>Explain, in as much detail as you can, what each part the last block of code above does.</li>
+</ol>
+</section>
+<section id="themes-theme_bw-and-others" class="level2">
+<h2 class="anchored" data-anchor-id="themes-theme_bw-and-others">Themes: <code>theme_bw()</code> and Others</h2>
+<p>Use themes to control the overall look of our ggplots. The theme controls elements such as the color of the background, the font family and size, the color and size of the grid, etc.</p>
+<p>There are the six themes provided with ggplot2.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Theme</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>theme_grey()</code></td>
+<td>The signature ggplot2 theme with a grey background and white gridlines, designed to put the data forward yet make comparisons easy.</td>
+</tr>
+<tr class="even">
+<td><code>theme_bw()</code></td>
+<td>The classic dark-on-light ggplot2 theme. May work better for presentations displayed with a projector.</td>
+</tr>
+<tr class="odd">
+<td><code>theme_linedraw()</code></td>
+<td>A theme with only black lines of various widths on white backgrounds, reminiscent of a line drawings. Serves a purpose similar to <code>theme_bw()</code>.</td>
+</tr>
+<tr class="even">
+<td><code>theme_light()</code></td>
+<td>A theme similar to <code>theme_linedraw()</code> but with light grey lines and axes, to direct more attention towards the data.</td>
+</tr>
+<tr class="odd">
+<td><code>theme_minimal()</code></td>
+<td>A minimalist theme with no background annotations.</td>
+</tr>
+<tr class="even">
+<td><code>theme_classic()</code></td>
+<td>A classic-looking theme, with x and y axis lines and no gridlines.</td>
+</tr>
+</tbody>
+</table>
+<p>Notice what happens when you add <code>theme_bw()</code> (my favorite!) to the plot.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">fill =</span> party)) <span class="sc">+</span> </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span> </span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="384"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>If you are interested, the <code>ggthemes</code> package includes several other themes.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Theme</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>theme_economist()</code></td>
+<td>based on the Economist</td>
+</tr>
+<tr class="even">
+<td><code>theme_economist_white()</code></td>
+<td>based on the Economist</td>
+</tr>
+<tr class="odd">
+<td><code>theme_excel()</code></td>
+<td>based on Excel</td>
+</tr>
+<tr class="even">
+<td><code>theme_few()</code></td>
+<td>based on Few’s “Practical Rules for Using Color in Charts”</td>
+</tr>
+<tr class="odd">
+<td><code>theme_fivethirtyeight()</code></td>
+<td>based on fivethirtyeight.com plots</td>
+</tr>
+<tr class="even">
+<td><code>theme_gdocs()</code></td>
+<td>based on Google docs</td>
+</tr>
+<tr class="odd">
+<td><code>theme_igray()</code></td>
+<td>inverse grey</td>
+</tr>
+<tr class="even">
+<td><code>theme_pander()</code></td>
+<td>based on the pander package</td>
+</tr>
+<tr class="odd">
+<td><code>theme_solarized()</code></td>
+<td>based on the Solarized palette</td>
+</tr>
+<tr class="even">
+<td><code>theme_solarized_2()</code></td>
+<td>based on the Solarized palette</td>
+</tr>
+<tr class="odd">
+<td><code>theme_stata()</code></td>
+<td>based on default Stata graphics</td>
+</tr>
+<tr class="even">
+<td><code>theme_tufte()</code></td>
+<td>based on Tufte–minimum ink, maximum data</td>
+</tr>
+<tr class="odd">
+<td><code>theme_wsj()</code></td>
+<td>based on Wall Street Journal</td>
+</tr>
+</tbody>
+</table>
+<p>Try the the infamous (famously ugly) Excel theme.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggthemes)  <span class="co"># for additional themes and even more fun!</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate100, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">fill =</span> party)) <span class="sc">+</span> </span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span> </span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_excel</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="384"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>What are themes in ggplot2? What do they control/change?</li>
+<li>How do you change the theme of a ggplot?</li>
+<li>What are a few theme options from ggplot2? From ggthemes?</li>
+<li>Try a few different themes from both ggplot2 and ggthemes. What is your favorite and why?</li>
+</ol>
+</section>
+<section id="putting-it-all-together" class="level2">
+<h2 class="anchored" data-anchor-id="putting-it-all-together">Putting It All Together</h2>
+<p>We’ll add two things back in. First, we’ll put out nice labels back in. Second, let’s go back to the <code>nominate</code> data frame (we’ve been using <code>nominate100</code>) and facet by Congress.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build density plot</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nominate, <span class="fu">aes</span>(<span class="at">x =</span> ideology, <span class="at">fill =</span> party)) <span class="sc">+</span> </span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span> </span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="fu">vars</span>(congress)) <span class="sc">+</span> </span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Ideology Score"</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Density"</span>,</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill =</span> <span class="st">"Party"</span>,</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"A Density Plot of Ideology Scores for the 100th Congress"</span>,</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"There Are Few Moderates in Congress"</span>,</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Data Source: DW-NOMINATE from voteview.com"</span>) <span class="sc">+</span> </span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05-notes-histograms-R_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="saving-plots-ggsave" class="level2">
+<h2 class="anchored" data-anchor-id="saving-plots-ggsave">Saving Plots: <code>ggsave()</code></h2>
+<p>It is quite easy to save a ggplot as a <code>.png</code> or some other file. You just use the function <code>ggsave()</code>, which, by default, saves the last plot you created.</p>
+<ol type="1">
+<li>Create the plot you want.</li>
+<li>Decide the file type you want to save your figure as. <code>.png</code> is a fine choice for our purposes.</li>
+<li>Choose where you want to save your figure. This should be somewhere in your working directory. I use <code>doc/figs/</code>.</li>
+<li>Choose a compact, descriptive name for your figure. For our final density plot, perhaps use <code>ideology-by-congress.png</code>.</li>
+<li>Use <code>ggsave()</code>.</li>
+</ol>
+<p>There are three important arguments to <code>ggsave()</code>.</p>
+<ol type="1">
+<li><code>filename</code>: This is the first argument to <code>ggsave()</code>. This is the file path. Given the choices above, it’s <code>"doc/figs/ideology-density-by-congress.png"</code>.</li>
+<li><code>height</code>: Explicitly name this argument. It controls the height of the figure (in inches, by default). <code>height = 4</code> is a good starting point, but experiment.</li>
+<li><code>width</code>: Explicitly name this argument. It controls the width of the figure (in inches, by default). <code>width = 5</code> is a good starting point, but experiment.</li>
+</ol>
+<pre><code># save last plot as png
+ggsave("doc/figs/ideology-density-by-congress.pdf", height = 5, width = 8)</code></pre>
+<p>Just to review and wrap up, here is the fill R script that I might use to create and save this figure.</p>
+<pre><code># load packages
+library(tidyverse)  # loads readr, ggplot2, and others
+
+# load data
+nominate &lt;- read_csv("data/nominate.csv")  # data are in the data/ subdirectory
+
+# quick look at the data
+glimpse(nominate)
+
+# build plot
+ggplot(nominate, aes(x = ideology, fill = party)) + 
+  geom_density(alpha = 0.5) + 
+  facet_wrap(vars(congress)) + 
+  labs(x = "Ideology Score",
+       y = "Density",
+       fill = "Party",
+       title = "A Density Plot of Ideology Scores for the 100th Congress",
+       subtitle = "There Are Few Moderates in Congress",
+       caption = "Data Source: DW-NOMINATE from voteview.com") + 
+  theme_bw()
+
+# save last plot as png to the figs subfolder of the doc subfolder
+ggsave("doc/figs/ideology-density-by-congress.pdf", height = 5, width = 8)</code></pre>
+<p><strong>Review Exercises</strong></p>
+<ol type="1">
+<li>Explain how to save a ggplot. Be sure to discuss each of the five steps.</li>
+<li>Identify and describe each of the three arguments we usually supply to <code>ggsave()</code>.</li>
+<li>Explain, in as much detail as you can, what each part the last block of code above does.</li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/pos3713ri\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
