@@ -15,7 +15,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 9**: Histograms in R [[hw](05-hw.html)] [[notes](files/05-notes-histograms-R.qmd)] [[Computing Assignment 1](files/ca1.qmd)]
 
-**Sep 11**: Avg and SD [[hw](06-hw.html)]
+**Sep 11**: Avg and SD [[hw](06-hw.qmd)]
 
 **Sep 16**: Avg and SD in R  
 
