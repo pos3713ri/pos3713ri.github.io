@@ -1,0 +1,17 @@
+---
+title: "Assignment 8"
+---
+
+
+
+- Slides [pdf](files/normal-approx.pdf) 
+- We have [a normal table](files/normal-table.pdf) on p. A-104 of FPP. You'll have a copy of this one on the exam.
+
+## FPP
+
+Read ch. 5 of FPP and do the assigned review exercises [here](fpp-exercises.html). Make sure you're familiar with [this exercise](files/leadership-extremity.pdf) that we partially completed in class. *The exam will use these data.*
+
+## Review
+
+We have an exam on Thursday. We have a review planned---I'm hoping you can drive it with questions.
+

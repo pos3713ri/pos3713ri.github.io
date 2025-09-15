@@ -1,0 +1,11 @@
+---
+title: "Assignment 7"
+---
+
+## Do and Submit Computing Assignment 1
+
+You can find it [here](files/ca1.html). It's due **by midnight on Tuesday, Sep. 23**. I strongly suggest that you submit this at least one day early to allow margin for unexpected problems.
+
+## Average and SD in R
+
+Read, review, and work through [my notes](files/07-notes-avg-sd-R.qmd) on average and SD in R and complete the review exercises throughout.

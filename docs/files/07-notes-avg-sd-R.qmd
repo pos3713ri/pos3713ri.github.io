@@ -1,0 +1,261 @@
+
+# Average and SD in R
+
+```{r, include=FALSE}
+# packages for entire chapter
+library(tidyverse)
+#library(ggtext)
+library(ggpubr)
+library(kableExtra)
+
+# options for entire document
+knitr::opts_chunk$set(echo = TRUE)
+
+# ggplot theme for entire document
+doc_theme <- theme_bw() 
+```
+
+In the last chapter, we learned how to describe the location and spread of a variable using the average and SD. I suggested that we can describe a large collection of numbers as: "...about ________, give or take ________ or so." (The average belongs in the first blank; the SD belongs in the second.)
+
+We also learned how to compute the average and SD with paper-and-pencil to help us understand how these summaries work.
+
+In this chapter, I show how to compute the average, SD, and related summaries.
+
+## `mean()` and `sd()`
+
+If we have a vector of data, we can easily calculate the average and SD in R using the `mean()` and `sd()` functions in R. (Note that the `sd()` function uses a slightly different formula, but the difference usually isn't important in practice.)
+
+```{r}
+# create variable x = {1, 2, 3, 4, 5}
+x <- c(1, 2, 3, 4, 5)
+
+# compute two-number summary
+mean(x)  # average
+sd(x) # SD; see note below
+```
+
+**Exercises**
+
+1. In R, create the vector \{1, 2, 2, 3, 3, 3, 2, 2, 1\} and find the average and SD. Compare the SD from R to the SD using the RMS of the deviations formula we learned in the previous chapter.
+1. In R, create the vector \{2, 1, ?, 1, 4\}. Here, "?" represents a missing value (e.g., perhaps a survey respondent refused to reveal their income to an interviewer). Use R to find the average and SD. You might find helpful to supply the argument `na.rm = TRUE` to each function (the default is `na.rm = FALSE`). How does this argument alter the calculations? Does the default behavior make sense?
+
+### A Note About R's `sd()` Function
+
+For reasons I don't want to deal with now, R uses the formula $SD = \sqrt{\dfrac{(x_i - \text{avg}(X))^2}{n - 1}}$ rather than $\sqrt{\dfrac{(x_i - \text{avg}(X))^2}{n}}$. At the "M" stage of RMS, the `sd()` function divides by *one less than the number of observations*  (or $n - 1$) rather than just the *number of observations* ($n$). In fairness to the software developers, the "one less" approach is more common, but is connected to ideas we'll learn later in the class. For now, just realize that there are two ways to compute the SD and that R's SD will be slightly larger than the SD with my formula. Importantly, the difference will be tiny in datasets with a typical number of observations.
+
+```{r}
+# illustrating the difference in R's sd() formula
+
+# R's method (see above)
+
+# our method
+deviations <- x - mean(x)  # compute the deviations from the average
+
+s <- deviations^2          # square: the "s" in RMS of deviations      
+m <- mean(s)               # mean: the "m" in RMS of deviations
+r <- sqrt(m)              # root: the "r" in RMS of deviations
+
+print(r)  # RMS of deviations = SD
+```
+
+For this small dataset, R's method (divide by $n - 1$ at the *M*-step) gives an answer of `r round(sd(x), 2)`. Our method (divide by $n$ at the *m*-step, the way we usually would for an average) gives an answer of `r round(r, 2)`.
+
+## Other Summaries
+
+We can also use other obviously-named functions to compute the other summaries from the previous chapter. The only tricky part is that you must supply the percentiles you want as a proportion to the `prob` argument for the `quantile()` function.
+
+```{r}
+# compute five-number summary
+min(x)                    # minimum
+quantile(x, prob = 0.25)  # 25th percentile
+median(x)                 # median
+quantile(x, prob = 0.75)  # 75th percentile
+max(x)                    # maximum
+
+# all at once
+fivenum(x)
+
+# alternatively, but with average included
+summary(x)
+
+# interquartile range
+IQR(x)  # note that IQR is all caps
+```
+
+**Exercises**
+
+1. In R, create the vector \{1, 2, 2, 3, 3, 3, 2, 2, 1\} and find each component of the five-number summary separately. Then using the `fivenum()` and `summary()` functions. Compute the interquartile range.
+1. (Continued from a previous exercise.) In R, create the vector \{2, 1, ?, 1, 4\}. Here, "?" represents a missing value (e.g., perhaps a survey respondent refused to reveal their income to an interviewer). Use R to find the each component of the five-number summary separately. Experiment with supplying the argument `na.rm = FALSE` (the default) and `na.rm = TRUE`. How does this argument alter the calculations? Does the default behavior make sense? Now try the `fivenum()` and `summary()` function without supplying `na.rm = TRUE`. Does the default behavior differ?
+
+  
+## Data Frame Nuance
+  
+We can compute on variables in data frames using the `data$variable` syntax we learned earlier in the semester. If the vector (or "variable" or "collection of numbers") that we want to use is contained in a data frame, then we need to remember to use the `data$variable` syntax to give R permission to use that variable.
+  
+```{r}
+# load packages
+library(tidyverse)
+
+# load nominate data
+nominate_df <- read_rds("data/nominate.rds") 
+
+# compute summaries on variable "ideology" in the data frame "nominate_df"
+
+## compute two-number summary, without removing NA values
+mean(nominate_df$ideology)  # average
+sd(nominate_df$ideology)    # SD
+```
+  
+We run into an issue with the `NA` values. Because the ideology score is missing for one representative who never cast a vote, we cannot compute the average, which requires us to sum *all* the observations. If we don't know all the values, then we don't know the sum. 
+  
+As a quick fix, we can just ignore the missing values. We can tell R to remove the `NA` values before computing each statistic using the `na.rm = TRUE` argument.
+  
+```{r}
+## compute two-number summary, without removing NA values
+mean(nominate_df$ideology, na.rm = TRUE)  # average
+sd(nominate_df$ideology, na.rm = TRUE)    # SD
+
+## compute five-number summary
+min(nominate_df$ideology, na.rm = TRUE)                    # minimum
+quantile(nominate_df$ideology, prob = 0.25, na.rm = TRUE)  # 25th percentile
+median(nominate_df$ideology, na.rm = TRUE)                 # median
+quantile(nominate_df$ideology, prob = 0.75, na.rm = TRUE)  # 75th percentile
+max(nominate_df$ideology, na.rm = TRUE)                    # maximum
+
+## all at once
+fivenum(nominate_df$ideology)  # this function drops NA values by default
+
+## alternatively, but with average included
+summary(nominate_df$ideology)  # this function also drops NA values by default
+
+## interquartile range
+IQR(nominate_df$ideology, na.rm = TRUE)  # note that IQR is all caps
+```
+  
+**Exercises**
+
+- Load the dataset `health.rds` and compute the two-number and five-number summaries (all separately) for the variable `percent_uninsured`.
+  
+## The `group_by()`/`summarize()` Workflow
+  
+The `mean()`, `sd()`, and other functions above work nicely for computing these summaries using all the values of a variable. 
+  
+But in most cases, we are interested in comparing the the average (or another summary) across groups. We usually want to compute the averages for men and women, the average for each of the 50 U.S. states, or the average for each party in each congress, for example.
+  
+Let's take a close look at the nominate dataset.
+  
+```{r}
+# load packages
+library(tidyverse)
+
+# load nominate data
+nominate_df <- read_rds("nominate.rds") 
+
+# quick look
+glimpse(nominate_df)
+```
+  
+For these data, we might want to know the average ideology for Republicans and Democrats. We could do it the hard way, using `filter()` to create separate datasets for Republicans and Democrats.
+  
+```{r}
+# create a data frame with only republicans
+rep_df <- filter(nominate_df, party == "Republican") 
+
+# compute average
+mean(rep_df$ideology, na.rm = TRUE)
+```
+  
+But this is tedious, especially if we wanted to do it by party *and* Congress. That would be two parties and 16 Congresses--32 separate datasets to create and compute the average with. 
+  
+Much like faceting allows us to draw lots of plots for different subsets of the data, the `group_by()`/`summarize()` workflow allows us to do the same thing for averages (or other summaries).
+  
+As you might guess, the `group_by()`/`summarize()` workflow has two steps: a grouping step and a summarizing step.
+  
+### `group_by()`
+  
+`group_by()` defines groups in the data frame. The first argument is the data frame to group. The remaining arguments are the grouping variables. You can think if the groups as a footnote at the bottom of the data set that just mentions the variables that define the groups of interest. 
+  
+```{r}
+# group the data frame by party and congress
+grouped_df <- group_by(nominate_df, party, congress)
+
+# quick look at the grouped data frame; notice the groups
+glimpse(grouped_df)
+```
+  
+Notice that `glimpse()` shows us the groups that we defined: `party, congress [32]`. This means that this data set now has 32 groups, one for each party-Congress combination.
+  
+### `summarize()`
+  
+After grouping, we use `summarize()` to create summaries for each group. Whenever we use `summarize()` on a grouped data frame, `summarize()` will compute quantities *for each group*. Since we created a group for each party-Congress, we can now use summarize to find the average for each, for example.
+  
+The first argument to `summarize()` is the grouped data frame to summarize. The remaining arguments are the summaries to compute. As examples, let's compute the average, SD, and median.
+  
+```{r}
+# group the data frame by party and congress
+grouped_df <- group_by(nominate_df, party, congress)
+
+# summarize the grouped data frame (across the groups)
+summarized_df <- summarize(grouped_df, 
+                           average = mean(ideology, na.rm = TRUE),
+                           sd = sd(ideology, na.rm = TRUE), 
+                           median = median(ideology, na.rm = TRUE))
+
+# quick look at ou  glimpse()
+glimpse(summarized_df)
+```
+  
+Notice three important things above.
+  
+1. `summarize()` returns a data frame with one row per group. 
+1. There are two types of variables in the new data frame. 
+    a. First, we have one variable for each grouping variable from the original data frame. Together, these identify each group.
+    a. Second, the names of the second, third, ..., arguments become variables in the resulting data frame. These variables contain the summaries for each group. 
+  
+We now have a data frame with our desired summaries. For the first row in the dataset, we have the average, SD, and median for the Democrats in the 100th Congress. The `party` and `congress` variables identify the group. The `average`, `sd`, and `median` variables contain the summaries for that group.   
+  
+**Exercises**
+
+1. Use `filter()` create a dataset that contains only observations from the 115th Congress. The use `group_by()` and `summarize()` to compute the average ideology for each state's delegation. Select the *Environment* tab in the upper-right panel. Click on the data frame with the summaries. Explore the values. What state has the most conservative delegation? Most liberal? 
+1. Use `group_by()` and `summarize()` to compute the minimum and maximum ideology for each congress (regardless of party). Select the *Environment* tab in the upper-right panel. Click on the data frame with the summaries. Explore the values. 
+
+## `geom_line()`
+
+Because `summarize()` returns a data frame, we can easily work with it in ggplot. Let's draw a **line plot* with `congress` mapped to the `x` aesthetic, `average` mapped to the `y` aesthetic, and `party` mapped to the `color` aesthetic. To draw a line plot rather than a histogram, we can use `geom_line()` as the geometry.
+
+```{r}
+# plot the average ideology by party and congress
+ggplot(summarized_df, aes(x = congress, y = average, color = party)) + 
+  geom_line()
+```
+
+**Exercises**
+
+1. Reproduce the plot above of the average ideology across Congress for each party. Create a second plot of the SD over time. Comment briefly on one or two interesting patterns in the data.
+1. Use `group_by()` and `summarize()` to compute the minimum and maximum ideology for each congress (regardless of party). Select the *Environment* tab in the upper-right panel. Click on the data frame with the summaries. Explore the values. Create a line plot of the minimum across Congresses. Repeat for the maximum. Do any interesting patterns emerge? Would you say there's a strong pattern or trend? Or do the results seem idiosyncratic?
+
+<details><summary>Solution</summary><p>
+```{r fig.height=2, fig.width=3, message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+
+# load nominate data
+nominate_df <- read_rds("data/nominate.rds") 
+
+# group the data frame by congress
+grouped_df <- group_by(nominate_df, congress)
+
+# summarize the grouped data frame (across the groups)
+summarized_df <- summarize(grouped_df,
+                           minimum = min(ideology, na.rm = TRUE),
+                           maximum = max(ideology, na.rm = TRUE))
+
+# plot the minimum across congresses
+ggplot(summarized_df, aes(x = congress, y = minimum)) + 
+  geom_line()
+
+# plot the maximum across congresses
+ggplot(summarized_df, aes(x = congress, y = maximum)) + 
+  geom_line()
+```
+</p></details>
