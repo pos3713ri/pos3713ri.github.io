@@ -1,0 +1,22 @@
+---
+title: "Assignment 9"
+---
+
+Slowly reproduce the data wrangling from the [slides](files/09-slides-wrangling/09-sl-wrangling.html). Use careful comments to explain each steps. You can find the datasets [here](https://www.dropbox.com/scl/fo/ilww3yawcq85tq68559eh/AOupomxeJp0JrWHwV8rh1MU?rlkey=cj6vkuwckdjzrhrb4zb85nw6y&dl=0).
+
+In your own words, explain what the following function do. You should use the help file for each function as needed (e.g., `?filter`)
+
+- `read_csv()`, `read_dta()`, `read_rds()`, `read_excel()`
+- `glimpse()`
+- `rename()`
+- `select()`
+- `filter()`
+- `mutate()`
+- `separate()`
+- `pivot_longer()`
+- `pivot_wider()`
+- `left_join()`, `right_join()`, `inner_join()`, `full_join()`
+- `bind_rows()`
+- `bind_cols()`
+
+Optional: For s

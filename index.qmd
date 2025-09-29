@@ -26,7 +26,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 25**: [**Exam 1**]{.text-warning}  
 
-**Sep 30**: Wrangling 1  
+**Sep 30**: Wrangling 1 [[hw](09-hw.qmd)]
 
 **Oct 2**: Wrangling 2  
 
