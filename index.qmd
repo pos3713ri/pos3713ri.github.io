@@ -28,9 +28,9 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Sep 30**: Wrangling 1 [[hw](09-hw.qmd)]
 
-**Oct 2**: Wrangling 2  
+**Oct 2**: Wrangling 2 [[hw](10-hw.qmd)]
 
-**Oct 7**: Scatterplots  
+**Oct 7**: Scatterplots [[hw](11-hw.qmd)]  
 
 **Oct 9**: Correlation  
 

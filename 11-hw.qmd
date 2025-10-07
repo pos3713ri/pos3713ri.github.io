@@ -1,0 +1,14 @@
+---
+title: "Assignment 11"
+---
+
+Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfptPaNCx0Ra8TrEQNvBQvhS80wM1XgLB3NwOfwcQKTMVXdNw/viewform?usp=header) to sketch your initial project ideas and indicate your interest in co-authorship. Here's the question you'll want to reflect on before filling out the form:
+
+> Sketch your ideas for the project. You can sketch one idea or several. You can be brief or detailed. Ideally, you want to write 2-3 sentences about 2-3 separate ideas. I recommend starting with available datasets, so mention those if you can.
+
+Read ch. 7 of FPP and do the [assigned exercises](fpp-exercises.pdf).
+
+Read notes and do exercises for the following: 
+
+- [notes](files/xy.qmd) on x-y space
+- [notes](files/scatterplots.qmd) on scatterplots

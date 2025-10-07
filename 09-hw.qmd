@@ -19,4 +19,3 @@ In your own words, explain what the following function do. You should use the he
 - `bind_rows()`
 - `bind_cols()`
 
-Optional: For s

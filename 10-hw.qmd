@@ -1,0 +1,16 @@
+---
+title: "Assignment 10"
+---
+
+Begin to think about your [research project](research-project.qmd).
+
+- What general topics interest you?
+- What sort of datasets seem appropriate?
+
+Survey data are awesome for this project. If that seems fun, then the [ANES](https://electionstudies.org), [GSS](https://gss.norc.org), and [WVS](https://www.worldvaluessurvey.org/wvs.jsp) are great places to start.
+
+If you are interested in country-level data, [Gapminder](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v2) has a great tool to start exploring.
+
+I'm happy to chat about other datasets.
+
+
