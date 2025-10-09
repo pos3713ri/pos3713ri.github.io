@@ -32,7 +32,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 7**: Scatterplots [[hw](11-hw.qmd)]  
 
-**Oct 9**: Correlation  
+**Oct 9**: Correlation [[hw](12-hw.qmd)] 
 
 **Oct 14**: Regression  
 
