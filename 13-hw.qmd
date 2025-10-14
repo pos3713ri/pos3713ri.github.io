@@ -1,0 +1,14 @@
+---
+title: "Assignment 13"
+---
+
+## Research Paper
+
+Finalize your co-author teams. I think the idea groups are 2-3 students. It's okay to work along, but it's worth putting in a lot of work to find a good group. E-mailing each other to express an interest is appropriate.
+
+## FPP
+
+- Skim ch. 10 of FPP. (No need to do the exercises.) 
+- Read ch. 11 and 12 of FPP and do the [assigned exercises](fpp-exercises.pdf).
+- Review my [slides](files/sl-regression/sl-regression.html) on regression.
+

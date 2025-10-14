@@ -34,7 +34,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 9**: Correlation [[hw](12-hw.qmd)] 
 
-**Oct 14**: Regression  
+**Oct 14**: Regression [[hw](13-hw.qmd)] [[slides](files/sl-regression/sl-regression.html)]
 
 **Oct 16**: Regression in R  
 
