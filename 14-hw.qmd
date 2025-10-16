@@ -1,0 +1,19 @@
+---
+title: "Assignment 14"
+---
+
+## Research Paper
+
+Begin the prospectus! See the details about the project [here](research-project.qmd). 
+
+At a minimum, the prospects should say (1) the exact dataset(s) that you plan to use, (2) the exact variables you plan to use, and (3) why the relationship between these variables are important. Read the details [here](research-project.qmd) carefully--make sure that your argument about importance (3) does not depend on one variable causing another. 
+
+Lot's of students are interested in American politics and surveys. If so, the [ANES](https://electionstudies.org) is a dataset to use.
+
+There are thousands of other good datasets out there, so you should be able to find something appropriate within your topic. I'm happy to help if let me know your general topic (email me; crainey@fsu.edu). I'll always advise you to start with the good datasets before thinking much about the variables your want to study.^[Footnote: it's easy to find interesting variables in the good datasets; it's hard to find good datasets for interesting variables.]
+
+
+## Regression
+
+Review my [notes](files/regression-in-r.qmd) on regression in R and do the exercises.
+

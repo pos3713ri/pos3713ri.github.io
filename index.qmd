@@ -36,7 +36,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 14**: Regression [[hw](13-hw.qmd)] [[slides](files/sl-regression/sl-regression.html)]
 
-**Oct 16**: Regression in R  
+**Oct 16**: Regression in R [[hw](14-hw.qmd)]
 
 **Oct 21**: Multiple Regression  
 [RP prospectus due.]{.remarks}

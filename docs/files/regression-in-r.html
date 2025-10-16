@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Schedule – POS 3713</title>
+<title>Regression in R – POS 3713</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,8 +110,37 @@ gtag('js', new Date());
 gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -87,7 +150,7 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">POS 3713</span>
     </a>
   </div>
@@ -98,19 +161,19 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research-project.html"> 
+    <a class="nav-link" href="../research-project.html"> 
 <span class="menu-text">Research Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.pdf"> 
+    <a class="nav-link" href="../syllabus.pdf"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data.html"> 
+    <a class="nav-link" href="../data.html"> 
 <span class="menu-text">Data</span></a>
   </li>  
 </ul>
@@ -124,15 +187,24 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#geom_smooth" id="toc-geom_smooth" class="nav-link active" data-scroll-target="#geom_smooth"><code>geom_smooth()</code></a></li>
+  <li><a href="#lm" id="toc-lm" class="nav-link" data-scroll-target="#lm"><code>lm()</code></a></li>
+  <li><a href="#quick-look-at-the-fit" id="toc-quick-look-at-the-fit" class="nav-link" data-scroll-target="#quick-look-at-the-fit">Quick Look at the Fit</a></li>
+  <li><a href="#review-exercises" id="toc-review-exercises" class="nav-link" data-scroll-target="#review-exercises">Review Exercises</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
+<h1 class="title">Regression in R</h1>
 </div>
 
 
@@ -149,47 +221,114 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
 </header>
 
 
-<p>Note: Complete the homework <em>after</em> the associated class, but <em>before</em> the next class.</p>
-<p><strong>Aug 26</strong>: Questions and Models [<a href="01-hw.html">hw</a>]</p>
-<p><strong>Aug 28</strong>: R [<a href="02-hw.html">hw</a>] [<a href="files/02-notes-computing.html">notes</a>]</p>
-<p><strong>Sep 2</strong>: Data [<a href="03-hw.html">hw</a>] [<a href="files/03-slides-dfs.pdf">slides</a>] [<a href="files/03-notes-dfs.html">notes</a>]</p>
-<p><strong>Sep 4</strong>: Causality and Histograms [<a href="04-hw.html">hw</a>] [<a href="files/04-slides-causality.pdf">slides</a>]</p>
-<p><strong>Sep 9</strong>: Histograms in R [<a href="05-hw.html">hw</a>] [<a href="./files/05-notes-histograms-R.html">notes</a>] [<a href="./files/ca1.html">Computing Assignment 1</a>]</p>
-<p><strong>Sep 11</strong>: Avg and SD [<a href="./06-hw.html">hw</a>]</p>
-<p><strong>Sep 16</strong>: Avg and SD in R [<a href="./07-hw.html">hw</a>] [<a href="./files/07-notes-avg-sd-R.html">notes</a>]</p>
-<p><strong>Sep 18</strong>: Normal Model [<a href="./08-hw.html">hw</a>] [<a href="files/08-normal-approx.pdf">slides</a>]</p>
-<p><strong>Sep 23</strong>: Review<br>
-<span class="remarks"><a href="./files/ca1.html">Computing Assignment 1</a> due.</span></p>
-<p><strong>Sep 25</strong>: <span class="text-warning"><strong>Exam 1</strong></span></p>
-<p><strong>Sep 30</strong>: Wrangling 1 [<a href="./09-hw.html">hw</a>]</p>
-<p><strong>Oct 2</strong>: Wrangling 2 [<a href="./10-hw.html">hw</a>]</p>
-<p><strong>Oct 7</strong>: Scatterplots [<a href="./11-hw.html">hw</a>]</p>
-<p><strong>Oct 9</strong>: Correlation [<a href="./12-hw.html">hw</a>]</p>
-<p><strong>Oct 14</strong>: Regression [<a href="./13-hw.html">hw</a>] [<a href="files/sl-regression/sl-regression.html">slides</a>]</p>
-<p><strong>Oct 16</strong>: Regression in R [<a href="./14-hw.html">hw</a>]</p>
-<p><strong>Oct 21</strong>: Multiple Regression<br>
-<span class="remarks">RP prospectus due.</span></p>
-<p><strong>Oct 23</strong>: Extensions to Multiple Regression</p>
-<p><strong>Oct 28</strong>: Review</p>
-<p><strong>Oct 30</strong>: <span class="text-warning"><strong>Exam 2</strong></span></p>
-<p><strong>Nov 4</strong>: Probability Basics</p>
-<p><strong>Nov 6</strong>: Numbered-Ticket Model<br>
-<span class="remarks">RP 1st draft due.</span></p>
-<p><strong>Nov 11</strong>: <span class="text-success">Veterans Day - No Classes</span></p>
-<p><strong>Nov 13</strong>: Sample Surveys<br>
-<span class="remarks">RP peer review due.</span></p>
-<p><strong>Nov 18</strong>: Randomized Experiments</p>
-<p><strong>Nov 20</strong>: Confidence Intervals</p>
-<p><strong>Nov 25</strong>: Hypothesis Tests</p>
-<p><strong>Nov 27</strong>: <span class="text-success">Thanksgiving - No Classes</span></p>
-<p><strong>Dec 2</strong>: Wrap<br>
-<span class="remarks">RP poster presentation around here.</span></p>
-<p><strong>Dec 4</strong>: Review<br>
-<span class="remarks">Computing Assignment 2 due.</span></p>
-<p><strong>Dec 9</strong>: <span class="text-warning"><strong>Final Exam</strong></span>, 7:30 a.m.– 9:30 a.m.<br>
-<span class="remarks">RP final draft due.</span></p>
+<p>To fit a regression model in R, we can use the following approach:</p>
+<ol type="1">
+<li>Use <code>lm()</code> to fit the model.</li>
+<li>Use <code>coef()</code>, <code>arm::display()</code>, <code>modelsummary::modelsummary</code>, or <code>summary()</code> to quickly inspect the slope and intercept.</li>
+</ol>
+<section id="geom_smooth" class="level2">
+<h2 class="anchored" data-anchor-id="geom_smooth"><code>geom_smooth()</code></h2>
+<p>In the context of ggplot, we can show the fitted line with <code>geom_smooth()</code>.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>gamson <span class="ot">&lt;-</span> <span class="fu">read_rds</span>(<span class="st">"data/gamson.rds"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gamson, <span class="fu">aes</span>(<span class="at">x =</span> seat_share, <span class="at">y =</span> portfolio_share)) <span class="sc">+</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="regression-in-r_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>By default, <code>geom_smooth()</code> does two things we don’t want:</p>
+<ol type="1">
+<li>First, it fits a smoothed curve rather than a straight line. There’s nothing wrong with a smoothed curve—sometimes it’s preferable to a straight line. But we don’t yet understand how to fit a smoothed curve. To us the least-squares fit, we supply the argument <code>method = "lm"</code> to <code>geom_smooth()</code>.</li>
+<li>Second, it also includes the uncertainty around the line by default. Notice the grey band around the line, especially in the top-right. We don’t have a clear sense of how uncertainty enters the fit, nor do we understand a standard error, so we should not include the uncertainty in the plot (at least for now). To remove the grey band, we supply the argument <code>se = FALSE</code> to <code>geom_smooth()</code>.</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gamson, <span class="fu">aes</span>(<span class="at">x =</span> seat_share, <span class="at">y =</span> portfolio_share)) <span class="sc">+</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="regression-in-r_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In the case of Gamson’s law, the line <span class="math inline">\(y = x\)</span> is theoretically relevant. It’s not the regression line, it’s the line that indicates a perfectly proportional portfolio distribution. To include it, we can use <code>geom_abline()</code>.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gamson, <span class="fu">aes</span>(<span class="at">x =</span> seat_share, <span class="at">y =</span> portfolio_share)) <span class="sc">+</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>(<span class="at">intercept =</span> <span class="dv">0</span>, <span class="at">slope =</span> <span class="dv">1</span>, <span class="at">color =</span> <span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="regression-in-r_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lm" class="level2">
+<h2 class="anchored" data-anchor-id="lm"><code>lm()</code></h2>
+<p>The <code>lm()</code> function takes two key arguments.</p>
+<ol type="1">
+<li>The first argument is a formula, which is a special type of object in R. It has a left-hand side and a right-hand side, separated by a <code>~</code>. You put the name of the outcome variable <span class="math inline">\(y\)</span> on the LHS and the name of the explanatory variable <span class="math inline">\(x\)</span> on the RHS. (We haven’t seen this yet, but it’s common to have <em>multiple</em> variables on the RHS like <code>y ~ x1 + x2 + x3</code>.)</li>
+<li>The second argument is the dataset.</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">lm</span>(portfolio_share <span class="sc">~</span> seat_share, <span class="at">data =</span> gamson)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="quick-look-at-the-fit" class="level2">
+<h2 class="anchored" data-anchor-id="quick-look-at-the-fit">Quick Look at the Fit</h2>
+<p>We have several ways to look at the fit. Experiment with <code>coef()</code>, <code>arm::display()</code>, <code>modelsummary::modelsummary()</code>, and <code>summary()</code> to see the differences. For now, we only understand the slope and intercept, so <code>coef()</code> works perfectly.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">coef</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>(Intercept)  seat_share 
+ 0.06913558  0.79158398 </code></pre>
+</div>
+</div>
+<p>The <code>coef()</code> function outputs a numeric vector with named entries. The intercept is named <code>(Intercept)</code> and the slope is named after its associated variable.</p>
+<p>Experiment with the others!</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># a bit more detail</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>arm<span class="sc">::</span><span class="fu">display</span>(fit)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># a lot more detail</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># exports to a lot of different formats, see help file</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>modelsummary<span class="sc">::</span><span class="fu">modelsummary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="review-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="review-exercises">Review Exercises</h2>
+<p><strong>Exercise 1</strong></p>
+<ol type="1">
+<li>Load the <code>anscmobe</code> dataset into R. Download from <a href="https://www.dropbox.com/scl/fi/f6nmdf3sheonzfdsxxhlj/anscombe.csv?rlkey=eapgvs70zz0ols3658tkeyjzl&amp;dl=0">here</a> if needed. Use <code>glimpse(anscombe)</code> to get a quick look at the data. Realize that this one data frame actually contains four different datasets stacked on top of each other and numbered I, II, III, and IV.</li>
+<li>Fit a regression model on each “dataset” in the anscombe dataset. To only use a subset of the dataset, you can <code>filter()</code> the dataset before supplying the <code>data</code> to <code>lm()</code> or use can supply the <code>subset</code> argument to <code>lm()</code>. In this case, just supplying <code>subset = dataset == "I"</code>, for example, is probably easiest. Fit the regression to all four datasets and put the intercept, slope, RMS of the residuals, and number of observations for each regression in a little table. Interpret the results.</li>
+<li>For each of the four regression fits, create a scatterplot with the least squares regression line. Describe any inadequacies.</li>
+</ol>
+<p><strong>Exercise 2</strong></p>
+<p>Use regression to test Clark and Golder’s (2006) theory using the <code>parties</code> dataset we’ve seen before (from <a href="https://pos3713ri.github.io/data.html">here</a>). First, create scatterplots between ENEG and ENEP faceted by the electoral system with with the least-squares fit included in each. Then fit three separate regression models. Fit the model <span class="math inline">\(\text{ENEP}_i = \alpha + \beta \text{ENEG}_i + r_i\)</span> for SMD systems, small-magnitude PR systems, and large-magnitude PR systems. Include the intercept, slope, and RMS of the residuals from each fit in a little table. Explain the results. Explain any inadequacies of the regression model (from the scatterplots).</p>
+<p><strong>Exercise 3</strong></p>
+<p>Get the <code>economic-models.csv</code> dataset <a href="https://github.com/pos5737/economic-models/blob/master/data/economic-models.csv">here</a>. You can find all the details <a href="https://github.com/pos5737/economic-models">here</a>.</p>
+<ol type="1">
+<li>In three separate regressions, use GDP, RDI, and unemployment to explain the incumbent’s margin of victory. Which measure of economic performance best describes incumbents’ vote shares?</li>
+<li>Using the best model of the three, which incumbents did much better than the model suggests? Which incumbents did much worse? Hint: Inspect the scatterplots; use labels!</li>
+</ol>
+<p>Use tables and figures wisely to answer the questions above.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
