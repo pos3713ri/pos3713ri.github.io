@@ -6,11 +6,15 @@
   </url>
   <url>
     <loc>https://pos3713ri.github.io/index.html</loc>
-    <lastmod>2025-10-16T13:37:00.848Z</lastmod>
+    <lastmod>2025-10-21T13:10:08.883Z</lastmod>
   </url>
   <url>
     <loc>https://pos3713ri.github.io/files/scatterplots.html</loc>
     <lastmod>2025-10-07T12:52:37.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pos3713ri.github.io/files/multiple-regression.html</loc>
+    <lastmod>2025-10-21T12:59:17.521Z</lastmod>
   </url>
   <url>
     <loc>https://pos3713ri.github.io/files/correlation.html</loc>
@@ -31,6 +35,10 @@
   <url>
     <loc>https://pos3713ri.github.io/data.html</loc>
     <lastmod>2025-08-30T14:38:45.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pos3713ri.github.io/14-hw.html</loc>
+    <lastmod>2025-10-16T13:37:47.449Z</lastmod>
   </url>
   <url>
     <loc>https://pos3713ri.github.io/12-hw.html</loc>
@@ -85,6 +93,10 @@
     <lastmod>2025-10-14T13:34:53.561Z</lastmod>
   </url>
   <url>
+    <loc>https://pos3713ri.github.io/15-hw.html</loc>
+    <lastmod>2025-10-21T13:12:41.865Z</lastmod>
+  </url>
+  <url>
     <loc>https://pos3713ri.github.io/files/01b-notes-questions.html</loc>
     <lastmod>2025-08-26T13:18:56.086Z</lastmod>
   </url>
@@ -105,19 +117,15 @@
     <lastmod>2025-09-08T19:37:19.767Z</lastmod>
   </url>
   <url>
+    <loc>https://pos3713ri.github.io/files/regression-in-r.html</loc>
+    <lastmod>2025-10-16T13:17:37.748Z</lastmod>
+  </url>
+  <url>
     <loc>https://pos3713ri.github.io/files/xy.html</loc>
     <lastmod>2025-10-07T12:44:00.804Z</lastmod>
   </url>
   <url>
     <loc>https://pos3713ri.github.io/office-hours.html</loc>
     <lastmod>2025-08-26T15:40:22.359Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pos3713ri.github.io/files/regression-in-r.html</loc>
-    <lastmod>2025-10-16T13:17:37.748Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pos3713ri.github.io/14-hw.html</loc>
-    <lastmod>2025-10-16T13:37:47.449Z</lastmod>
   </url>
 </urlset>

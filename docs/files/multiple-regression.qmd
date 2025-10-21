@@ -1,0 +1,139 @@
+# Multiple Regression and Econometric Notation
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+I emphasize concepts over notation. For example, I prefer to say (and write) "slope" rather than $m$. I prefer to think of the SD as the "r.m.s. of the deviations from the average" rather than $\sqrt{\frac{ \sum \left ( X - \overline{X} \right) ^2}{n}}$.
+
+However, we eventually need to represent ideas with symbols so that we can precisely present and reason about our ideas.
+
+With that in mind, most political scientists represent the regression model with "econometric notation."
+
+The textbook by FPP offers a nice, intuitive discussion of regression and other statistical tools. But their discussion deviates from the usual notation-heavy presentation in political science. The standard presentation in political science borrows heavily from econometrics. We're going to dive in to the notation a bit in these notes. 
+
+## Simple Regression Model
+
+FPP represent the regression model as $y = mx + b$, where we understand $y$ as the "predicted value" or "average value" of $y$ rather than the outcome variable itself.
+
+The standard econometric notation represents the same idea slightly differently, as $y = \beta_0 + \beta_1x + u$. There are a few differences:
+
+1. In econometric notation, $y$ represents the observed outcome variable, not the predicted or average outcome as FPP's notation. This is a subtle distinction.
+  a. FPP use $y = mx + b$. This is the equation for a line; it makes a line.
+  a. Econometric notation uses $y = \beta_0 + \beta_1x + u$. This is the equation for a line ($\beta_0 + \beta_1x$) *plus-or-minus* a little bit $u$.
+1. The intercept is denoted as $\beta_0$ rather than $b$ and is typically written first. Similarly, the slope is denoted as $\beta_1$ rather than $m$.
+1. The term $u$ is new. It represents the error--the vertical distance between the regression line and the points. This allows $y$ to represent the observed outcome rather than the predicted or average outcome. $u$ is referred to as the "error," "error term," or "disturbance."
+
+The observed variables $y$ and $x$ have different names depending on the author and discipline.
+
+| $y$                | $x$                  |
+|--------------------|----------------------|
+| Dependent Variable | Independent Variable |
+| Outcome Variable   | Explanatory Variable |
+| Response           | Predictor            |
+| Regressand         | Regressor            |
+|                    | Feature              |
+|                    | Covariate            |
+
+Economists draw a sharp distinction between the *actual* regression model $y = \beta_0 + \beta_1x + u$ and the estimated regression model $\hat{y} = \hat{\beta}_0 + \hat{\beta}_1x$. 
+
+This distinction is important for statistical theory, because it allows methodologists to evaluate approaches to estimating $\beta_0$ and $\beta_1$. The idea is that there is some true model---the actual relationship between $x$ and $y$---but the researcher can only find *estimates* of $\beta_0$ and $\beta_1$. The estimate is distinguished from the true value by adding a "hat," so that the estimate of the true value $\beta_0$ is denoted as $\hat{\beta}_1$.
+
+Similarly, $u$ is the distance between the observed values of $y$ and the *true* regression line $\beta_0 + \beta_1x$. $\hat{u}$ represents the distance between observed values of $y$ and the *estimated* regression line $\hat{\beta}_0 + \hat{\beta}_1x$.
+
+In order to justify the least squares estimator (i.e., using the line that minimizes the r.m.s. error), econometricians make several assumptions about the model $y = \beta_0 + \beta_1x + u$. However, in my view, these assumptions are not particularly important because least squares tends to work well even when the assumptions are not met. Also, we don't yet have the probability theory we need to describe these assumptions.
+
+## Multiple Regression Model
+
+This notational approach is hugely helpful for one reasons: we can easily add more explanatory variables. 
+
+We can add variables by simply expanding the econometric notation to two variables, so that $y = \beta_0 + \beta_1x_1 + \beta_2x_2 + u$. Note that we have two explanatory variables now, so we attach subscripts 1 and 2 to distinguish them.
+
+Similarly, we could expand the model to three explanatory variables, so that $y = \beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3x_3 + u$. 
+
+In general, we can have $k$ explanatory variables in the model, so that 
+$$
+y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_kx_k + u.
+$$
+
+The interpretation of the slope coefficients $\beta_1$, $\beta_2$, ..., and $\beta_k$ remains similar to our interpretation of $m$. As $x_i$ increases by one unit, the average value of $y$ increases by $\beta_i$ units, where $y$ equals 1, 2, ..., or $k$. We need to add to this interepretation though, and specify "holding all other explanatory variables in the model fixed."
+
+This last bit is useful. **If we include the confounds in the regression model, then we can "control" for them and draw causal inferences.** However, this depends on strong assumptions. However, this is a common approach to causal inference in political science  (though increasingly considered unconvincing).
+
+See below for the least squares estimate of the regression model $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + u$. (In this case, the variables are fictional.) Notice that in this case, we are fitting a plane, not a line. You can spin the plot around to better visualized the plane.
+
+```{r echo=FALSE, fig.height=4, fig.width=4, message=FALSE, warning=FALSE}
+# load packages
+library(plotly)
+
+# create a hypothetical data frame
+n <- 100
+x1 <- rnorm(n)  # create x1 by sampling from a normal distribution
+x2 <- rnorm(n)  # create x2 by sampling from a normal distribution
+u <- rnorm(n)   # create x2 by sampling from a normal distribution
+y <- 2 + 1*x1 -0.5*x2 + u
+df <- data.frame(x1, x2, y)
+
+# fit linear regression model
+fit <- lm(y ~ x1 + x2, data = df)
+
+# plot data and plane
+x1_pred <- seq(-3, 3, length.out = 100)
+x2_pred <- seq(-3, 3, length.out = 100)
+xy <- expand.grid(x1 = x1_pred, 
+                  x2 = x2_pred)
+X <- matrix (nrow = 100, ncol = 100, byrow = TRUE,
+                    data = predict(fit, newdata = data.frame(xy), interval = "prediction"))
+
+plot_ly(df, x = ~ x1,
+        y = ~ x2,
+        z = ~ y) %>%
+  add_markers(color = "black") %>%
+  layout(scene = list(xaxis = list(title = "x1"),
+                      yaxis = list(title = "x2"),
+                      zaxis = list(title = "y"))) %>%
+  add_surface(x = x1_pred, y = x2_pred, z = X)
+
+```
+
+## Penguins
+
+The {palmerpenguins} dataset is popular in R. Here, we can use it to illustrate the multiple regression.
+
+```{r}
+# load the penguins data frame
+penguins <- palmerpenguins::penguins
+
+# quick look
+glimpse(penguins)
+
+# subset of only gentoo penguins
+gent <- filter(penguins, species == "Gentoo")
+```
+
+```{r}
+# fit linear regression model with least squares
+fit <- lm(bill_length_mm ~ flipper_length_mm + body_mass_g, data = gent)
+
+# print table
+arm::display(fit, digits = 4)
+```
+This means that...
+
+- Holding body mass constant, penguins with flippers that are one millimeter longer have bills that are about 0.18 millimeters longer, on average.
+- Holding flipper length constant, penguins with bodies that are one gram larger have bills that are about 0.0025 millimeters longer, on average. 
+
+**Exercise**
+
+Experiment with the `datasets::mtcars` dataset. See `?datasets::mtcars` for the details. Use `mpg` as the outcome variable (i.e., y). Use `cyl`, `hp`, and `wt` as explanatory variables. 
+
+1. Interpret the slope coefficients carefully. In your interpretation, clearly state what is being held constant.
+1. Start with a regression model with no explanatory variables; `mpg ~ 1`. This model contains only an intercept, and this intercept is exactly the mean of `mpg`. (Check for yourself!) Use `arm::display()` to summarize the model and note the "residual sd" or what FPP call the rms error of the regression.^[This is what we might call "the SD of the points around the line."] This is exactly the SD of `mpg`. (Check for yourself!)
+1. Add the three explanatory variables to the model, one at a time. Run `arm::display()` after re-fitting each model. Start with what you suspect is the most important and work toward the least important. Describe how the rms error of the regression changes with each added variable. 
+
+```{r}
+# load data
+cars <- datasets::mtcars %>%
+  glimpse()
+```
+
