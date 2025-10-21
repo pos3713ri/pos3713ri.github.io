@@ -9,7 +9,7 @@ Make sure to finalize and upload your prospectus by 10/21.
 
 ## Mutliple Regression
 
-Review my [notes](files/multiple-regression.qmd.qmd) on multiple regression and do the exercise.
+Review my [notes](files/multiple-regression.qmd) on multiple regression and do the exercise.
 
 Notice that we have an exam coming up soon (10/30), so begin preparing.
 
