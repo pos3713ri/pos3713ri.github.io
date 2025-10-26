@@ -1,0 +1,17 @@
+---
+title: "Assignment 16"
+---
+
+## Exam Preparation
+
+Begin to prepare for the exam. The exam will not cover data wrangling. It will cover assignments from Oct. 7 until Oct. 21. This is mostly or entirely exercises from FPP and my linked notes/slides. 
+
+In class on Oct. 21, we talked about extensions to the regression model. The following questions may appear on the exam:
+
+1. FPP write the regression model as $y = mx + b$. Econometricians write the regression model as $y = \beta_0 + \beta_1 x + u$. Compare the similarities and differences between the two models. Which terms have the same meaning and same symbol? Which terms have the same meaning but different symbols? Which terms have the same symbol but different meanings? And what does $u$ represent?
+1. [*A simpler variant of the question above.*] FPP write the regression model as $y = mx + b$. Econometricians write the regression model as $y = \beta_0 + \beta_1 x + u$. Compare the meaning of $y$ in the two models.
+1. In regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with two categories in our regression model? What is the interpretation of the coefficients?
+1. In regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with more than two categories in our regression model? What is the interpretation of the coefficients?
+
+*I'll not ask about interactions and curves.*
+

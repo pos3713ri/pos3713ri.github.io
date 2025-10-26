@@ -41,7 +41,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 **Oct 21**: Multiple Regression [[hw](15-hw.qmd)]
 [RP prospectus due.]{.remarks}
 
-**Oct 23**: Extensions to Multiple Regression  
+**Oct 23**: Extensions to Multiple Regression [[hw](16-hw.qmd)]  
 
 **Oct 28**: Review  
 

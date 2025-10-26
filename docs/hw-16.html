@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Schedule – POS 3713</title>
+<title>Assignment 16 – POS 3713</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,6 +76,35 @@ gtag('js', new Date());
 gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -98,7 +127,7 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
@@ -124,15 +153,21 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exam-preparation" id="toc-exam-preparation" class="nav-link active" data-scroll-target="#exam-preparation">Exam Preparation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
+<h1 class="title">Assignment 16</h1>
 </div>
 
 
@@ -149,46 +184,20 @@ gtag('config', 'G-9VC4L6QDRK', { 'anonymize_ip': true});
 </header>
 
 
-<p>Note: Complete the homework <em>after</em> the associated class, but <em>before</em> the next class.</p>
-<p><strong>Aug 26</strong>: Questions and Models [<a href="01-hw.html">hw</a>]</p>
-<p><strong>Aug 28</strong>: R [<a href="02-hw.html">hw</a>] [<a href="files/02-notes-computing.html">notes</a>]</p>
-<p><strong>Sep 2</strong>: Data [<a href="03-hw.html">hw</a>] [<a href="files/03-slides-dfs.pdf">slides</a>] [<a href="files/03-notes-dfs.html">notes</a>]</p>
-<p><strong>Sep 4</strong>: Causality and Histograms [<a href="04-hw.html">hw</a>] [<a href="files/04-slides-causality.pdf">slides</a>]</p>
-<p><strong>Sep 9</strong>: Histograms in R [<a href="05-hw.html">hw</a>] [<a href="./files/05-notes-histograms-R.html">notes</a>] [<a href="./files/ca1.html">Computing Assignment 1</a>]</p>
-<p><strong>Sep 11</strong>: Avg and SD [<a href="./06-hw.html">hw</a>]</p>
-<p><strong>Sep 16</strong>: Avg and SD in R [<a href="./07-hw.html">hw</a>] [<a href="./files/07-notes-avg-sd-R.html">notes</a>]</p>
-<p><strong>Sep 18</strong>: Normal Model [<a href="./08-hw.html">hw</a>] [<a href="files/08-normal-approx.pdf">slides</a>]</p>
-<p><strong>Sep 23</strong>: Review<br>
-<span class="remarks"><a href="./files/ca1.html">Computing Assignment 1</a> due.</span></p>
-<p><strong>Sep 25</strong>: <span class="text-warning"><strong>Exam 1</strong></span></p>
-<p><strong>Sep 30</strong>: Wrangling 1 [<a href="./09-hw.html">hw</a>]</p>
-<p><strong>Oct 2</strong>: Wrangling 2 [<a href="./10-hw.html">hw</a>]</p>
-<p><strong>Oct 7</strong>: Scatterplots [<a href="./11-hw.html">hw</a>]</p>
-<p><strong>Oct 9</strong>: Correlation [<a href="./12-hw.html">hw</a>]</p>
-<p><strong>Oct 14</strong>: Regression [<a href="./13-hw.html">hw</a>] [<a href="files/sl-regression/sl-regression.html">slides</a>]</p>
-<p><strong>Oct 16</strong>: Regression in R [<a href="./14-hw.html">hw</a>]</p>
-<p><strong>Oct 21</strong>: Multiple Regression [<a href="./15-hw.html">hw</a>] <span class="remarks">RP prospectus due.</span></p>
-<p><strong>Oct 23</strong>: Extensions to Multiple Regression [<a href="16-hw.qmd">hw</a>]</p>
-<p><strong>Oct 28</strong>: Review</p>
-<p><strong>Oct 30</strong>: <span class="text-warning"><strong>Exam 2</strong></span></p>
-<p><strong>Nov 4</strong>: Probability Basics</p>
-<p><strong>Nov 6</strong>: Numbered-Ticket Model<br>
-<span class="remarks">RP 1st draft due.</span></p>
-<p><strong>Nov 11</strong>: <span class="text-success">Veterans Day - No Classes</span></p>
-<p><strong>Nov 13</strong>: Sample Surveys<br>
-<span class="remarks">RP peer review due.</span></p>
-<p><strong>Nov 18</strong>: Randomized Experiments</p>
-<p><strong>Nov 20</strong>: Confidence Intervals</p>
-<p><strong>Nov 25</strong>: Hypothesis Tests</p>
-<p><strong>Nov 27</strong>: <span class="text-success">Thanksgiving - No Classes</span></p>
-<p><strong>Dec 2</strong>: Wrap<br>
-<span class="remarks">RP poster presentation around here.</span></p>
-<p><strong>Dec 4</strong>: Review<br>
-<span class="remarks">Computing Assignment 2 due.</span></p>
-<p><strong>Dec 9</strong>: <span class="text-warning"><strong>Final Exam</strong></span>, 7:30 a.m.– 9:30 a.m.<br>
-<span class="remarks">RP final draft due.</span></p>
+<section id="exam-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="exam-preparation">Exam Preparation</h2>
+<p>Begin to prepare for the exam. The exam will not cover data wrangling. It will cover assignments from Oct.&nbsp;7 until Oct.&nbsp;21. This is mostly or entirely exercises from FPP and my linked notes/slides.</p>
+<p>In class on Oct.&nbsp;21, we talked about extensions to the regression model. The following questions may appear on the exam:</p>
+<ol type="1">
+<li>FPP write the regression model as <span class="math inline">\(y = mx + b\)</span>. Econometricians write the regression model as <span class="math inline">\(y = \beta_0 + \beta_1 x + u\)</span>. Compare the similarities and differences between the two models. Which terms have the same meaning and same symbol? Which terms have the same meaning but different symbols? Which terms have the same symbol but different meanings? And what does <span class="math inline">\(u\)</span> represent?</li>
+<li>[<em>A simpler variant of the question above.</em>] FPP write the regression model as <span class="math inline">\(y = mx + b\)</span>. Econometricians write the regression model as <span class="math inline">\(y = \beta_0 + \beta_1 x + u\)</span>. Compare the meaning of <span class="math inline">\(y\)</span> in the two models.</li>
+<li>In regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with two categories in our regression model? What is the interpretation of the coefficients?</li>
+<li>In regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with more than two categories in our regression model? What is the interpretation of the coefficients?</li>
+</ol>
+<p><em>I’ll not ask about interactions and curves.</em></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
