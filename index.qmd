@@ -43,7 +43,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 23**: Extensions to Multiple Regression [[hw](16-hw.qmd)]  
 
-**Oct 28**: Review  
+**Oct 28**: Review [[calculator](https://docs.google.com/spreadsheets/d/17x8cV_l89exOOQmXzETWQzxJ1ZLmoEGuhxPdKDxDxqc/edit?usp=sharing)]
 
 **Oct 30**: [**Exam 2**]{.text-warning}
 
