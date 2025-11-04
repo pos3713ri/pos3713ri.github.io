@@ -1,0 +1,7 @@
+---
+title: "Assignment 17"
+---
+
+In class, I used [these slides](files/31-basics-of-probability.pdf). 
+
+Before next class, read [these notes](hhttps://pos3713ri.github.io/inference-notes/the-basics-of-probability.html) (ch. 1 only) and do the exercises throughout.

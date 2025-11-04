@@ -47,7 +47,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Oct 30**: [**Exam 2**]{.text-warning}
 
-**Nov 4**: Probability Basics  
+**Nov 4**: Probability Basics  [[hw](17-hw.qmd)]  
 
 **Nov 6**: Numbered-Ticket Model  
 [RP 1st draft due.]{.remarks}
