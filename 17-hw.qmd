@@ -2,6 +2,10 @@
 title: "Assignment 17"
 ---
 
+The 1st draft of the research paper is due Thursday. For this draft, prioritize completeness over polish. It's better to have all the sections present but rough rather than have a polished introduction without any data. At this point, you should clearly make a descriptive claim, explain the claim's importance, and use data to demonstrate the correctness of the claim.
+
+***
+
 In class, I used [these slides](files/31-basics-of-probability.pdf). 
 
 Before next class, read [these notes](hhttps://pos3713ri.github.io/inference-notes/the-basics-of-probability.html) (ch. 1 only) and do the exercises throughout.
