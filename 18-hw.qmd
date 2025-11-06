@@ -1,0 +1,21 @@
+---
+title: "Assignment 18"
+---
+
+## Extra Credit Opportunity!
+
+My PhD students are working hard this semester to learn and teach advanced statistical modeling. As part of their course, they are putting on three 60-minute workshops. 
+
+- *Modeling Unordered Categorical Outcomes*. Tuesday, November 18 from 1pm to 2pm.
+- *Modeling Ordered Categorical Outcomes*. Wednesday, November 19 from 1pm to 2pm.
+- *Modeling Time-to-Event Outcomes*. Friday, November 21 from 11am to 12noon.
+
+You will receive **three points of extra credit on Exam 2** for each workshop you attend. 
+
+Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfJ3NRAD-bCD6R1UNYJwwxKm6eSRivlLN2usS8F1hbAmIcMag/viewform?usp=preview).
+
+## Lecture and Notes
+
+In class, I used [these slides](files/32-ntm.pdf). 
+
+Before next class, read [these notes](https://pos3713ri.github.io/inference-notes/NTM.html) (ch. 3 only) and do the exercises throughout.

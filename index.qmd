@@ -49,7 +49,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov 4**: Probability Basics  [[hw](17-hw.qmd)]  
 
-**Nov 6**: Numbered-Ticket Model  
+**Nov 6**: Numbered-Ticket Model [[hw](18-hw.qmd)] [[NTM App](https://019a5969-e9b2-196d-6299-e67d844f7f51.share.connect.posit.cloud/)]  
 [RP 1st draft due.]{.remarks}
 
 **Nov 11**: [Veterans Day - No Classes]{.text-success}
