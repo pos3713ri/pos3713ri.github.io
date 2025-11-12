@@ -1,0 +1,14 @@
+---
+title: "Peer Review Instructions"
+---
+
+
+Provide comments on your assigned paper. When providing feedback on colleagues' work, I like the RAP model [here](https://milnepublishing.geneseo.edu/medical-writing/chapter/20-how-to-give-good-feedback-on-colleagues-drafts/). Most importantly, in this model, "focus time and effort on the *highest points of leverage* for improving the document."
+
+The goal is to make suggestions that improve the final product at the end of the semester.  
+
+In addition to other comments, please make sure to provide feedback on these three items:
+
+1. Does the paper make a clear *descriptive* claim? It might be helpful to review the key readings on descriptive research [here](https://pos5747.github.io/research-project.html), such as Gerring (2012), Holmes et al. (2024), and de Kadt and Grzymala-Busse (2025).
+1. Does the paper make a compelling empirical argument for that descriptive claim?
+1. Does the paper clearly explain the substantive/theoretical/normative importance of that descriptive claim? It's important that the defense not rely on any assumed/implied *causal* relationship among the variables. 
