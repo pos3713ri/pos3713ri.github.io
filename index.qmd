@@ -54,7 +54,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov 11**: [Veterans Day - No Classes]{.text-success}
 
-**Nov 13**: Sample Surveys [[hw](18-hw.qmd)] [[peer review instructions](peer-review.qmd)]  
+**Nov 13**: Sample Surveys [[hw](19-hw.qmd)] [[peer review instructions](peer-review.qmd)]  
 [RP peer review due.]{.remarks}
 
 **Nov 18**: Randomized Experiments  
