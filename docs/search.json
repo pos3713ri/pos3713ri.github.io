@@ -322,39 +322,228 @@
     "text": "Review Exercises\n\nClearly define normative, descriptive, and causal questions/claims.\nDefine causation using the counterfactual.\nDescribe the fundamental problem of causal inference.\nConsider the concept of war. Come up with two examples each of normative, descriptive, and causal questions about war. Posit an answer to these questions as a claim.\nUsing the logic of the counterfactual that we discussed in class, explain why we cannot observe whether the two causal claims from question 4 are true or false.\nRepeat questions 4 and 5, but for the political variable that most interests you."
   },
   {
-    "objectID": "18-hw.html",
-    "href": "18-hw.html",
-    "title": "Assignment 18",
+    "objectID": "19-hw.html",
+    "href": "19-hw.html",
+    "title": "Assignment 19",
     "section": "",
-    "text": "My PhD students are working hard this semester to learn and teach advanced statistical modeling. As part of their course, they are putting on three 60-minute workshops.\n\nModeling Unordered Categorical Outcomes. Tuesday, November 18 from 1pm to 2pm.\nModeling Ordered Categorical Outcomes. Wednesday, November 19 from 1pm to 2pm.\nModeling Time-to-Event Outcomes. Friday, November 21 from 11am to 12noon.\n\nYou will receive three points of extra credit on Exam 2 for each workshop you attend.\nSign up here."
+    "text": "Extra Credit Opportunity!\n\n\n\nYou will receive three points of extra credit on Exam 2 for each workshop you attend.\n✅ Sign up here.\n\nMy PhD students are working hard this semester to learn and teach advanced statistical modeling. As part of their course, they are putting on three 60-minute workshops.\n\nModeling Unordered Categorical Outcomes. Tuesday, November 18 from 1pm to 2pm.\nModeling Ordered Categorical Outcomes. Wednesday, November 19 from 1pm to 2pm.\nModeling Time-to-Event Outcomes. Friday, November 21 from 11am to 12noon."
   },
   {
-    "objectID": "18-hw.html#extra-credit-opportunity",
-    "href": "18-hw.html#extra-credit-opportunity",
-    "title": "Assignment 18",
-    "section": "",
-    "text": "My PhD students are working hard this semester to learn and teach advanced statistical modeling. As part of their course, they are putting on three 60-minute workshops.\n\nModeling Unordered Categorical Outcomes. Tuesday, November 18 from 1pm to 2pm.\nModeling Ordered Categorical Outcomes. Wednesday, November 19 from 1pm to 2pm.\nModeling Time-to-Event Outcomes. Friday, November 21 from 11am to 12noon.\n\nYou will receive three points of extra credit on Exam 2 for each workshop you attend.\nSign up here."
-  },
-  {
-    "objectID": "18-hw.html#lecture-and-notes",
-    "href": "18-hw.html#lecture-and-notes",
-    "title": "Assignment 18",
+    "objectID": "19-hw.html#lecture-and-notes",
+    "href": "19-hw.html#lecture-and-notes",
+    "title": "Assignment 19",
     "section": "Lecture and Notes",
-    "text": "Lecture and Notes\nIn class, I used these slides.\nBefore next class, read these notes (ch. 3 only) and do the exercises throughout."
+    "text": "Lecture and Notes\nIn class, I used these slides.\nBefore next class, read these notes and do the exercises throughout."
   },
   {
-    "objectID": "16-hw.html",
-    "href": "16-hw.html",
-    "title": "Assignment 16",
+    "objectID": "17-hw.html",
+    "href": "17-hw.html",
+    "title": "Assignment 17",
     "section": "",
-    "text": "Begin to prepare for the exam. The exam will not cover data wrangling. It will cover assignments from Oct. 7 until Oct. 21. This is mostly or entirely exercises from FPP and my linked notes/slides.\nIn class on Oct. 21, we talked about extensions to the regression model. The following questions may appear on the exam:\n\nFPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the similarities and differences between the two models. Which terms have the same meaning and same symbol? Which terms have the same meaning but different symbols? Which terms have the same symbol but different meanings? And what does \\(u\\) represent?\n[A simpler variant of the question above.] FPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the meaning of \\(y\\) in the two models.\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with two categories in our regression model? What is the interpretation of the coefficients?\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with more than two categories in our regression model? What is the interpretation of the coefficients?\n\nI’ll not ask about interactions and curves."
+    "text": "The 1st draft of the research paper is due Thursday. For this draft, prioritize completeness over polish. It’s better to have all the sections present (even if rough) rather than have a polished introduction without any data. At this point, you should clearly make a descriptive claim, explain the claim’s importance, and use data to demonstrate the correctness of the claim.\nHere is a minimal set of sections that you might use:\n\nIntroduction. Booth’s “context, problem, solution” formula is very helpful advice. For example:\n\nContext: There’s an explosion of research on affective polarization.\nProblem: But we don’t know whether these pernicious trends are consistent across racial groups. (Be sure to explain why this is an important problem–0why should we care if trends among racial groups are similar or different?)\nSolution: We use the ANES to show…\n\nData and Measures. Explain your data and measures clearly and carefully.\nResults (included tables and figures). Explain your procedures and results carefully.\nConclusion. See Booth above."
   },
   {
-    "objectID": "16-hw.html#exam-preparation",
-    "href": "16-hw.html#exam-preparation",
-    "title": "Assignment 16",
+    "objectID": "17-hw.html#research-paper",
+    "href": "17-hw.html#research-paper",
+    "title": "Assignment 17",
     "section": "",
-    "text": "Begin to prepare for the exam. The exam will not cover data wrangling. It will cover assignments from Oct. 7 until Oct. 21. This is mostly or entirely exercises from FPP and my linked notes/slides.\nIn class on Oct. 21, we talked about extensions to the regression model. The following questions may appear on the exam:\n\nFPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the similarities and differences between the two models. Which terms have the same meaning and same symbol? Which terms have the same meaning but different symbols? Which terms have the same symbol but different meanings? And what does \\(u\\) represent?\n[A simpler variant of the question above.] FPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the meaning of \\(y\\) in the two models.\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with two categories in our regression model? What is the interpretation of the coefficients?\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with more than two categories in our regression model? What is the interpretation of the coefficients?\n\nI’ll not ask about interactions and curves."
+    "text": "The 1st draft of the research paper is due Thursday. For this draft, prioritize completeness over polish. It’s better to have all the sections present (even if rough) rather than have a polished introduction without any data. At this point, you should clearly make a descriptive claim, explain the claim’s importance, and use data to demonstrate the correctness of the claim.\nHere is a minimal set of sections that you might use:\n\nIntroduction. Booth’s “context, problem, solution” formula is very helpful advice. For example:\n\nContext: There’s an explosion of research on affective polarization.\nProblem: But we don’t know whether these pernicious trends are consistent across racial groups. (Be sure to explain why this is an important problem–0why should we care if trends among racial groups are similar or different?)\nSolution: We use the ANES to show…\n\nData and Measures. Explain your data and measures clearly and carefully.\nResults (included tables and figures). Explain your procedures and results carefully.\nConclusion. See Booth above."
+  },
+  {
+    "objectID": "17-hw.html#lecture-and-notes",
+    "href": "17-hw.html#lecture-and-notes",
+    "title": "Assignment 17",
+    "section": "Lecture and Notes",
+    "text": "Lecture and Notes\nIn class, I used these slides.\nBefore next class, read these notes (ch. 2 only) and do the exercises throughout."
+  },
+  {
+    "objectID": "15-hw.html",
+    "href": "15-hw.html",
+    "title": "Assignment 15",
+    "section": "",
+    "text": "Make sure to finalize and upload your prospectus by 10/21."
+  },
+  {
+    "objectID": "15-hw.html#research-paper",
+    "href": "15-hw.html#research-paper",
+    "title": "Assignment 15",
+    "section": "",
+    "text": "Make sure to finalize and upload your prospectus by 10/21."
+  },
+  {
+    "objectID": "15-hw.html#mutliple-regression",
+    "href": "15-hw.html#mutliple-regression",
+    "title": "Assignment 15",
+    "section": "Mutliple Regression",
+    "text": "Mutliple Regression\nReview my notes on multiple regression and do the exercise.\nNotice that we have an exam coming up soon (10/30), so begin preparing."
+  },
+  {
+    "objectID": "13-hw.html",
+    "href": "13-hw.html",
+    "title": "Assignment 13",
+    "section": "",
+    "text": "Finalize your co-author teams. I think the idea groups are 2-3 students. It’s okay to work along, but it’s worth putting in a lot of work to find a good group. E-mailing each other to express an interest is appropriate."
+  },
+  {
+    "objectID": "13-hw.html#research-paper",
+    "href": "13-hw.html#research-paper",
+    "title": "Assignment 13",
+    "section": "",
+    "text": "Finalize your co-author teams. I think the idea groups are 2-3 students. It’s okay to work along, but it’s worth putting in a lot of work to find a good group. E-mailing each other to express an interest is appropriate."
+  },
+  {
+    "objectID": "13-hw.html#fpp",
+    "href": "13-hw.html#fpp",
+    "title": "Assignment 13",
+    "section": "FPP",
+    "text": "FPP\n\nSkim ch. 10 of FPP. (No need to do the exercises.)\nRead ch. 11 and 12 of FPP and do the assigned exercises.\nReview my slides on regression."
+  },
+  {
+    "objectID": "11-hw.html",
+    "href": "11-hw.html",
+    "title": "Assignment 11",
+    "section": "",
+    "text": "Fill out this form to sketch your initial project ideas and indicate your interest in co-authorship. Here’s the question you’ll want to reflect on before filling out the form:\n\nSketch your ideas for the project. You can sketch one idea or several. You can be brief or detailed. Ideally, you want to write 2-3 sentences about 2-3 separate ideas. I recommend starting with available datasets, so mention those if you can.\n\nRead ch. 7 of FPP and do the assigned exercises.\nRead notes and do exercises for the following:\n\nnotes on x-y space\nnotes on scatterplots"
+  },
+  {
+    "objectID": "09-hw.html",
+    "href": "09-hw.html",
+    "title": "Assignment 9",
+    "section": "",
+    "text": "Slowly reproduce the data wrangling from the slides. Use careful comments to explain each steps. You can find the datasets here.\nIn your own words, explain what the following function do. You should use the help file for each function as needed (e.g., ?filter)\n\nread_csv(), read_dta(), read_rds(), read_excel()\nglimpse()\nrename()\nselect()\nfilter()\nmutate()\nseparate()\npivot_longer()\npivot_wider()\nleft_join(), right_join(), inner_join(), full_join()\nbind_rows()\nbind_cols()"
+  },
+  {
+    "objectID": "07-hw.html",
+    "href": "07-hw.html",
+    "title": "Assignment 7",
+    "section": "",
+    "text": "You can find it here. It’s due by midnight on Tuesday, Sep. 23. I strongly suggest that you submit this at least one day early to allow margin for unexpected problems."
+  },
+  {
+    "objectID": "07-hw.html#do-and-submit-computing-assignment-1",
+    "href": "07-hw.html#do-and-submit-computing-assignment-1",
+    "title": "Assignment 7",
+    "section": "",
+    "text": "You can find it here. It’s due by midnight on Tuesday, Sep. 23. I strongly suggest that you submit this at least one day early to allow margin for unexpected problems."
+  },
+  {
+    "objectID": "07-hw.html#average-and-sd-in-r",
+    "href": "07-hw.html#average-and-sd-in-r",
+    "title": "Assignment 7",
+    "section": "Average and SD in R",
+    "text": "Average and SD in R\nRead, review, and work through my notes on average and SD in R and complete the review exercises throughout."
+  },
+  {
+    "objectID": "05-hw.html",
+    "href": "05-hw.html",
+    "title": "Assignment 5",
+    "section": "",
+    "text": "Review my notes on histograms in R. Answer the questions throughout."
+  },
+  {
+    "objectID": "05-hw.html#in-class",
+    "href": "05-hw.html#in-class",
+    "title": "Assignment 5",
+    "section": "In-Class",
+    "text": "In-Class\nHere’s my outline for the class and code to load the data. See the finished product link below.\n# load packages\nlibrary(tidyverse) # load tidyverse package, which has lots of useful functions.\n\n# load data\nnominate_df &lt;- read_csv(\"https://pos3713ri.github.io/data/nominate.csv\")\n# note: for the sake of simplicity we're linking to the file directly on the course site.\n# note: this only works for csv files\n# feel free to download it, add it to the RStudio Cloud project, and use read_csv(\"nominate.csv\").\n\nglimpse(nominate_df) # use glimpse() to see what your data frame looks like.\n\n# histograms\n# ----\n\n# filtering\n# ----\n\n# faceting\n# ----\n\n# density plots\n# ----\n\n# color, fill, and alpha\n# ----\n\n# labels\n# ----\n\n# themes\n# ----"
+  },
+  {
+    "objectID": "03-hw.html",
+    "href": "03-hw.html",
+    "title": "Assignment 3",
+    "section": "",
+    "text": "Please complete before the next class. Make sure that you’ve completed all previous HW first."
+  },
+  {
+    "objectID": "03-hw.html#fpp",
+    "href": "03-hw.html#fpp",
+    "title": "Assignment 3",
+    "section": "FPP",
+    "text": "FPP\nRead chs. 1 and 2 of FPP (the textbook; see here) and do the assigned review exercises here.\nNotes:\n\nYou only need to do the review exercises for chs. 1 and 2—not every single chapter. We’ll get to the rest over the course of the semester. And yes, there is a reason I include this note.\nIf you want to print this PDF of assigned exercises to use later, that’s a great idea. It’s unlikely to change during the semester."
+  },
+  {
+    "objectID": "03-hw.html#r",
+    "href": "03-hw.html#r",
+    "title": "Assignment 3",
+    "section": "R",
+    "text": "R\nRead and review your notes, my notes, and my slides (I just discussed these ideas verbally without slides) over the basics of loading data into R. Answer the review questions throughout the document. Remember to practice!\n\n\n\n\n\n\nDebugging\n\n\n\nWhen you can’t get your code to work, it’s usually just a missing parenthesis or quotation mark. It’s not that you’re making a huge mistake. Huamns can sitll mkae snese wehn tehre are tpyos, but not computers! Check your code for typos carefully. Run your script one line at a time, from top to bottom, to find mistakes. As examples, most mistakes are like the following:\nb &lt;- c(\"Male\", \"Female)  # missing the second \" after \"Female\"\nexp(23  # forgot to close a parentheses\nlog(10 base = 2)  # missing comma between arguments\n\na &lt;- c(1, 2, 3)\nmean(A)  # R is case-sensitive--there's an object \"a\", but no object \"A\" \nmena(a)  # misspelled function name\nMean(a)  # R is case-senstive\nmean(a   # missing parentheses\nmean(\"a\")# using quotes when you shouldn't (or vice versa)"
+  },
+  {
+    "objectID": "01-hw.html",
+    "href": "01-hw.html",
+    "title": "Assignment for Class 1",
+    "section": "",
+    "text": "Misc. Links\nWe didn’t get to this notes, so you’ll need to read them on your own. Come prepared next class with questions, comments, etc.\n\n[notes on questions]\n[notes on models]\n\nWe didn’t use the slides below. There’s no need for you to review them—everything is in the notes.\n\n[slides on questions]\n[slides on models]\n\nIn class, we used Gapminder to explore some data.\n\n\nHomework\nPlease complete before the next class.\n\nRead the syllabus carefully. If I’ve missed anything or failed to clearly explain any policy, please let me know. Come prepared to the next class with any questions or comments.\nOrder the simple pocket calculator that you’ll need for homework and exams, or make a plan to buy one (e.g., Walmart or other stores). Any “pocket” calculator works fine (not your phone or a graphing calculator). If you have questions about whether a calculator counts as “pocket,” just ask.\nRead my notes on questions and notes on models. Complete the exercises; you’ll find some at the bottom of both sets of notes.\nBookmark the course webpage for easy access. It’s https://pos3713ri.github.io. I’ll add material here throughout the semester.\nMake sure you have an up-to-date profile picture on Canvas.\nCreate an account on Posit Cloud. You can sign up directly or use an existing Google or GitHub account."
+  },
+  {
+    "objectID": "02-hw.html",
+    "href": "02-hw.html",
+    "title": "Assignment for Class 1",
+    "section": "",
+    "text": "Misc. Links\n\n\nHomework\nPlease complete before the next class.\nReview the notes on computing and complete the exercises throughout. Note that the exercises are mixed in throughout the notes, so don’t miss any."
+  },
+  {
+    "objectID": "04-hw.html",
+    "href": "04-hw.html",
+    "title": "Assignment 4",
+    "section": "",
+    "text": "Please complete before the next class. Make sure that you’ve completed all previous HW first."
+  },
+  {
+    "objectID": "04-hw.html#causality",
+    "href": "04-hw.html#causality",
+    "title": "Assignment 4",
+    "section": "1. Causality",
+    "text": "1. Causality\nReview my slides on causality. Answer the following questions:\n\nDescribe the four ways to obtain a correlation.\nDescribe the other, fifth way you can get a correlation (i.e., by tricking yourself).\nI write that, under randomization, \\(R^{obs}_T - R^{obs}_C \\approx R^{hyp}_T - R^{hyp}_C\\).\n\nWhat do each of these four quantities refer to? What do we call the left-hand side? The right-hand side?\nNotice that the equality is not exact. Instead, it is approximate. What is the only reason it is not exact.\nExplain why randomization allows us to rule out spuriousness and reverse causation.\nDescribe the design of Gerber and Green’s turnout experiment. Describe the results (i.e., what percent of each group voted?). Discuss whether and how you can rule out any of the four possible ways to obtain a correlation.\n\nWas Gerber, Green, and Larimer’s study ethical?"
+  },
+  {
+    "objectID": "04-hw.html#fpp",
+    "href": "04-hw.html#fpp",
+    "title": "Assignment 4",
+    "section": "2. FPP",
+    "text": "2. FPP\nRead ch 3. of FPP (the textbook; link in previous homework) and do the assigned review exercises here."
+  },
+  {
+    "objectID": "06-hw.html",
+    "href": "06-hw.html",
+    "title": "Assignment 6",
+    "section": "",
+    "text": "Read ch. 4 of FPP (the textbook; see the syllabus) and do the assigned review exercises here.\nFor a given list of numbers, make sure that you can calculate the average and SD. If you’re signed in to your Google account, you can create problems and check your work by creating a copy of this Google Sheet."
+  },
+  {
+    "objectID": "08-hw.html",
+    "href": "08-hw.html",
+    "title": "Assignment 8",
+    "section": "",
+    "text": "Slides pdf\nWe have a normal table on p. A-104 of FPP. You’ll have a copy of this one on the exam."
+  },
+  {
+    "objectID": "08-hw.html#fpp",
+    "href": "08-hw.html#fpp",
+    "title": "Assignment 8",
+    "section": "FPP",
+    "text": "FPP\nRead ch. 5 of FPP and do the assigned review exercises here. Make sure you’re familiar with this exercise that we partially completed in class. The exam will use these data."
+  },
+  {
+    "objectID": "08-hw.html#review",
+    "href": "08-hw.html#review",
+    "title": "Assignment 8",
+    "section": "Review",
+    "text": "Review\nWe have an exam on Thursday. We have a review planned—I’m hoping you can drive it with questions."
+  },
+  {
+    "objectID": "10-hw.html",
+    "href": "10-hw.html",
+    "title": "Assignment 10",
+    "section": "",
+    "text": "Begin to think about your research project.\n\nWhat general topics interest you?\nWhat sort of datasets seem appropriate?\n\nSurvey data are awesome for this project. If that seems fun, then the ANES, GSS, and WVS are great places to start.\nIf you are interested in country-level data, Gapminder has a great tool to start exploring.\nI’m happy to chat about other datasets."
+  },
+  {
+    "objectID": "12-hw.html",
+    "href": "12-hw.html",
+    "title": "Assignment 12",
+    "section": "",
+    "text": "Read FPP chs. 8 and 9 do the assigned exercises.\nReview my notes on the correlation coefficient and do the exercises throughout.\n\n\n\n\n\n\n\nWarning\n\n\n\nMake sure to complete this ASAP if you haven’t already.\nFill out this form to sketch your initial project ideas and indicate your interest in co-authorship. Here’s the question you’ll want to reflect on before filling out the form:\n\nSketch your ideas for the project. You can sketch one idea or several. You can be brief or detailed. Ideally, you want to write 2-3 sentences about 2-3 separate ideas. I recommend starting with available datasets, so mention those if you can."
   },
   {
     "objectID": "14-hw.html",
@@ -385,214 +574,39 @@
     "text": "Footnotes\n\n\nFootnote: it’s easy to find interesting variables in the good datasets; it’s hard to find good datasets for interesting variables.↩︎"
   },
   {
-    "objectID": "12-hw.html",
-    "href": "12-hw.html",
-    "title": "Assignment 12",
+    "objectID": "16-hw.html",
+    "href": "16-hw.html",
+    "title": "Assignment 16",
     "section": "",
-    "text": "Read FPP chs. 8 and 9 do the assigned exercises.\nReview my notes on the correlation coefficient and do the exercises throughout.\n\n\n\n\n\n\n\nWarning\n\n\n\nMake sure to complete this ASAP if you haven’t already.\nFill out this form to sketch your initial project ideas and indicate your interest in co-authorship. Here’s the question you’ll want to reflect on before filling out the form:\n\nSketch your ideas for the project. You can sketch one idea or several. You can be brief or detailed. Ideally, you want to write 2-3 sentences about 2-3 separate ideas. I recommend starting with available datasets, so mention those if you can."
+    "text": "Begin to prepare for the exam. The exam will not cover data wrangling. It will cover assignments from Oct. 7 until Oct. 21. This is mostly or entirely exercises from FPP and my linked notes/slides.\nIn class on Oct. 21, we talked about extensions to the regression model. The following questions may appear on the exam:\n\nFPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the similarities and differences between the two models. Which terms have the same meaning and same symbol? Which terms have the same meaning but different symbols? Which terms have the same symbol but different meanings? And what does \\(u\\) represent?\n[A simpler variant of the question above.] FPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the meaning of \\(y\\) in the two models.\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with two categories in our regression model? What is the interpretation of the coefficients?\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with more than two categories in our regression model? What is the interpretation of the coefficients?\n\nI’ll not ask about interactions and curves."
   },
   {
-    "objectID": "10-hw.html",
-    "href": "10-hw.html",
-    "title": "Assignment 10",
+    "objectID": "16-hw.html#exam-preparation",
+    "href": "16-hw.html#exam-preparation",
+    "title": "Assignment 16",
     "section": "",
-    "text": "Begin to think about your research project.\n\nWhat general topics interest you?\nWhat sort of datasets seem appropriate?\n\nSurvey data are awesome for this project. If that seems fun, then the ANES, GSS, and WVS are great places to start.\nIf you are interested in country-level data, Gapminder has a great tool to start exploring.\nI’m happy to chat about other datasets."
+    "text": "Begin to prepare for the exam. The exam will not cover data wrangling. It will cover assignments from Oct. 7 until Oct. 21. This is mostly or entirely exercises from FPP and my linked notes/slides.\nIn class on Oct. 21, we talked about extensions to the regression model. The following questions may appear on the exam:\n\nFPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the similarities and differences between the two models. Which terms have the same meaning and same symbol? Which terms have the same meaning but different symbols? Which terms have the same symbol but different meanings? And what does \\(u\\) represent?\n[A simpler variant of the question above.] FPP write the regression model as \\(y = mx + b\\). Econometricians write the regression model as \\(y = \\beta_0 + \\beta_1 x + u\\). Compare the meaning of \\(y\\) in the two models.\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with two categories in our regression model? What is the interpretation of the coefficients?\nIn regression models, we sometimes want to include qualitative variables like partisanship in our regression models. How can we use the indicator trick to include qualitative variables with more than two categories in our regression model? What is the interpretation of the coefficients?\n\nI’ll not ask about interactions and curves."
   },
   {
-    "objectID": "08-hw.html",
-    "href": "08-hw.html",
-    "title": "Assignment 8",
+    "objectID": "18-hw.html",
+    "href": "18-hw.html",
+    "title": "Assignment 18",
     "section": "",
-    "text": "Slides pdf\nWe have a normal table on p. A-104 of FPP. You’ll have a copy of this one on the exam."
+    "text": "My PhD students are working hard this semester to learn and teach advanced statistical modeling. As part of their course, they are putting on three 60-minute workshops.\n\nModeling Unordered Categorical Outcomes. Tuesday, November 18 from 1pm to 2pm.\nModeling Ordered Categorical Outcomes. Wednesday, November 19 from 1pm to 2pm.\nModeling Time-to-Event Outcomes. Friday, November 21 from 11am to 12noon.\n\nYou will receive three points of extra credit on Exam 2 for each workshop you attend.\nSign up here."
   },
   {
-    "objectID": "08-hw.html#fpp",
-    "href": "08-hw.html#fpp",
-    "title": "Assignment 8",
-    "section": "FPP",
-    "text": "FPP\nRead ch. 5 of FPP and do the assigned review exercises here. Make sure you’re familiar with this exercise that we partially completed in class. The exam will use these data."
-  },
-  {
-    "objectID": "08-hw.html#review",
-    "href": "08-hw.html#review",
-    "title": "Assignment 8",
-    "section": "Review",
-    "text": "Review\nWe have an exam on Thursday. We have a review planned—I’m hoping you can drive it with questions."
-  },
-  {
-    "objectID": "06-hw.html",
-    "href": "06-hw.html",
-    "title": "Assignment 6",
+    "objectID": "18-hw.html#extra-credit-opportunity",
+    "href": "18-hw.html#extra-credit-opportunity",
+    "title": "Assignment 18",
     "section": "",
-    "text": "Read ch. 4 of FPP (the textbook; see the syllabus) and do the assigned review exercises here.\nFor a given list of numbers, make sure that you can calculate the average and SD. If you’re signed in to your Google account, you can create problems and check your work by creating a copy of this Google Sheet."
+    "text": "My PhD students are working hard this semester to learn and teach advanced statistical modeling. As part of their course, they are putting on three 60-minute workshops.\n\nModeling Unordered Categorical Outcomes. Tuesday, November 18 from 1pm to 2pm.\nModeling Ordered Categorical Outcomes. Wednesday, November 19 from 1pm to 2pm.\nModeling Time-to-Event Outcomes. Friday, November 21 from 11am to 12noon.\n\nYou will receive three points of extra credit on Exam 2 for each workshop you attend.\nSign up here."
   },
   {
-    "objectID": "04-hw.html",
-    "href": "04-hw.html",
-    "title": "Assignment 4",
-    "section": "",
-    "text": "Please complete before the next class. Make sure that you’ve completed all previous HW first."
-  },
-  {
-    "objectID": "04-hw.html#causality",
-    "href": "04-hw.html#causality",
-    "title": "Assignment 4",
-    "section": "1. Causality",
-    "text": "1. Causality\nReview my slides on causality. Answer the following questions:\n\nDescribe the four ways to obtain a correlation.\nDescribe the other, fifth way you can get a correlation (i.e., by tricking yourself).\nI write that, under randomization, \\(R^{obs}_T - R^{obs}_C \\approx R^{hyp}_T - R^{hyp}_C\\).\n\nWhat do each of these four quantities refer to? What do we call the left-hand side? The right-hand side?\nNotice that the equality is not exact. Instead, it is approximate. What is the only reason it is not exact.\nExplain why randomization allows us to rule out spuriousness and reverse causation.\nDescribe the design of Gerber and Green’s turnout experiment. Describe the results (i.e., what percent of each group voted?). Discuss whether and how you can rule out any of the four possible ways to obtain a correlation.\n\nWas Gerber, Green, and Larimer’s study ethical?"
-  },
-  {
-    "objectID": "04-hw.html#fpp",
-    "href": "04-hw.html#fpp",
-    "title": "Assignment 4",
-    "section": "2. FPP",
-    "text": "2. FPP\nRead ch 3. of FPP (the textbook; link in previous homework) and do the assigned review exercises here."
-  },
-  {
-    "objectID": "02-hw.html",
-    "href": "02-hw.html",
-    "title": "Assignment for Class 1",
-    "section": "",
-    "text": "Misc. Links\n\n\nHomework\nPlease complete before the next class.\nReview the notes on computing and complete the exercises throughout. Note that the exercises are mixed in throughout the notes, so don’t miss any."
-  },
-  {
-    "objectID": "01-hw.html",
-    "href": "01-hw.html",
-    "title": "Assignment for Class 1",
-    "section": "",
-    "text": "Misc. Links\nWe didn’t get to this notes, so you’ll need to read them on your own. Come prepared next class with questions, comments, etc.\n\n[notes on questions]\n[notes on models]\n\nWe didn’t use the slides below. There’s no need for you to review them—everything is in the notes.\n\n[slides on questions]\n[slides on models]\n\nIn class, we used Gapminder to explore some data.\n\n\nHomework\nPlease complete before the next class.\n\nRead the syllabus carefully. If I’ve missed anything or failed to clearly explain any policy, please let me know. Come prepared to the next class with any questions or comments.\nOrder the simple pocket calculator that you’ll need for homework and exams, or make a plan to buy one (e.g., Walmart or other stores). Any “pocket” calculator works fine (not your phone or a graphing calculator). If you have questions about whether a calculator counts as “pocket,” just ask.\nRead my notes on questions and notes on models. Complete the exercises; you’ll find some at the bottom of both sets of notes.\nBookmark the course webpage for easy access. It’s https://pos3713ri.github.io. I’ll add material here throughout the semester.\nMake sure you have an up-to-date profile picture on Canvas.\nCreate an account on Posit Cloud. You can sign up directly or use an existing Google or GitHub account."
-  },
-  {
-    "objectID": "03-hw.html",
-    "href": "03-hw.html",
-    "title": "Assignment 3",
-    "section": "",
-    "text": "Please complete before the next class. Make sure that you’ve completed all previous HW first."
-  },
-  {
-    "objectID": "03-hw.html#fpp",
-    "href": "03-hw.html#fpp",
-    "title": "Assignment 3",
-    "section": "FPP",
-    "text": "FPP\nRead chs. 1 and 2 of FPP (the textbook; see here) and do the assigned review exercises here.\nNotes:\n\nYou only need to do the review exercises for chs. 1 and 2—not every single chapter. We’ll get to the rest over the course of the semester. And yes, there is a reason I include this note.\nIf you want to print this PDF of assigned exercises to use later, that’s a great idea. It’s unlikely to change during the semester."
-  },
-  {
-    "objectID": "03-hw.html#r",
-    "href": "03-hw.html#r",
-    "title": "Assignment 3",
-    "section": "R",
-    "text": "R\nRead and review your notes, my notes, and my slides (I just discussed these ideas verbally without slides) over the basics of loading data into R. Answer the review questions throughout the document. Remember to practice!\n\n\n\n\n\n\nDebugging\n\n\n\nWhen you can’t get your code to work, it’s usually just a missing parenthesis or quotation mark. It’s not that you’re making a huge mistake. Huamns can sitll mkae snese wehn tehre are tpyos, but not computers! Check your code for typos carefully. Run your script one line at a time, from top to bottom, to find mistakes. As examples, most mistakes are like the following:\nb &lt;- c(\"Male\", \"Female)  # missing the second \" after \"Female\"\nexp(23  # forgot to close a parentheses\nlog(10 base = 2)  # missing comma between arguments\n\na &lt;- c(1, 2, 3)\nmean(A)  # R is case-sensitive--there's an object \"a\", but no object \"A\" \nmena(a)  # misspelled function name\nMean(a)  # R is case-senstive\nmean(a   # missing parentheses\nmean(\"a\")# using quotes when you shouldn't (or vice versa)"
-  },
-  {
-    "objectID": "05-hw.html",
-    "href": "05-hw.html",
-    "title": "Assignment 5",
-    "section": "",
-    "text": "Review my notes on histograms in R. Answer the questions throughout."
-  },
-  {
-    "objectID": "05-hw.html#in-class",
-    "href": "05-hw.html#in-class",
-    "title": "Assignment 5",
-    "section": "In-Class",
-    "text": "In-Class\nHere’s my outline for the class and code to load the data. See the finished product link below.\n# load packages\nlibrary(tidyverse) # load tidyverse package, which has lots of useful functions.\n\n# load data\nnominate_df &lt;- read_csv(\"https://pos3713ri.github.io/data/nominate.csv\")\n# note: for the sake of simplicity we're linking to the file directly on the course site.\n# note: this only works for csv files\n# feel free to download it, add it to the RStudio Cloud project, and use read_csv(\"nominate.csv\").\n\nglimpse(nominate_df) # use glimpse() to see what your data frame looks like.\n\n# histograms\n# ----\n\n# filtering\n# ----\n\n# faceting\n# ----\n\n# density plots\n# ----\n\n# color, fill, and alpha\n# ----\n\n# labels\n# ----\n\n# themes\n# ----"
-  },
-  {
-    "objectID": "07-hw.html",
-    "href": "07-hw.html",
-    "title": "Assignment 7",
-    "section": "",
-    "text": "You can find it here. It’s due by midnight on Tuesday, Sep. 23. I strongly suggest that you submit this at least one day early to allow margin for unexpected problems."
-  },
-  {
-    "objectID": "07-hw.html#do-and-submit-computing-assignment-1",
-    "href": "07-hw.html#do-and-submit-computing-assignment-1",
-    "title": "Assignment 7",
-    "section": "",
-    "text": "You can find it here. It’s due by midnight on Tuesday, Sep. 23. I strongly suggest that you submit this at least one day early to allow margin for unexpected problems."
-  },
-  {
-    "objectID": "07-hw.html#average-and-sd-in-r",
-    "href": "07-hw.html#average-and-sd-in-r",
-    "title": "Assignment 7",
-    "section": "Average and SD in R",
-    "text": "Average and SD in R\nRead, review, and work through my notes on average and SD in R and complete the review exercises throughout."
-  },
-  {
-    "objectID": "09-hw.html",
-    "href": "09-hw.html",
-    "title": "Assignment 9",
-    "section": "",
-    "text": "Slowly reproduce the data wrangling from the slides. Use careful comments to explain each steps. You can find the datasets here.\nIn your own words, explain what the following function do. You should use the help file for each function as needed (e.g., ?filter)\n\nread_csv(), read_dta(), read_rds(), read_excel()\nglimpse()\nrename()\nselect()\nfilter()\nmutate()\nseparate()\npivot_longer()\npivot_wider()\nleft_join(), right_join(), inner_join(), full_join()\nbind_rows()\nbind_cols()"
-  },
-  {
-    "objectID": "11-hw.html",
-    "href": "11-hw.html",
-    "title": "Assignment 11",
-    "section": "",
-    "text": "Fill out this form to sketch your initial project ideas and indicate your interest in co-authorship. Here’s the question you’ll want to reflect on before filling out the form:\n\nSketch your ideas for the project. You can sketch one idea or several. You can be brief or detailed. Ideally, you want to write 2-3 sentences about 2-3 separate ideas. I recommend starting with available datasets, so mention those if you can.\n\nRead ch. 7 of FPP and do the assigned exercises.\nRead notes and do exercises for the following:\n\nnotes on x-y space\nnotes on scatterplots"
-  },
-  {
-    "objectID": "13-hw.html",
-    "href": "13-hw.html",
-    "title": "Assignment 13",
-    "section": "",
-    "text": "Finalize your co-author teams. I think the idea groups are 2-3 students. It’s okay to work along, but it’s worth putting in a lot of work to find a good group. E-mailing each other to express an interest is appropriate."
-  },
-  {
-    "objectID": "13-hw.html#research-paper",
-    "href": "13-hw.html#research-paper",
-    "title": "Assignment 13",
-    "section": "",
-    "text": "Finalize your co-author teams. I think the idea groups are 2-3 students. It’s okay to work along, but it’s worth putting in a lot of work to find a good group. E-mailing each other to express an interest is appropriate."
-  },
-  {
-    "objectID": "13-hw.html#fpp",
-    "href": "13-hw.html#fpp",
-    "title": "Assignment 13",
-    "section": "FPP",
-    "text": "FPP\n\nSkim ch. 10 of FPP. (No need to do the exercises.)\nRead ch. 11 and 12 of FPP and do the assigned exercises.\nReview my slides on regression."
-  },
-  {
-    "objectID": "15-hw.html",
-    "href": "15-hw.html",
-    "title": "Assignment 15",
-    "section": "",
-    "text": "Make sure to finalize and upload your prospectus by 10/21."
-  },
-  {
-    "objectID": "15-hw.html#research-paper",
-    "href": "15-hw.html#research-paper",
-    "title": "Assignment 15",
-    "section": "",
-    "text": "Make sure to finalize and upload your prospectus by 10/21."
-  },
-  {
-    "objectID": "15-hw.html#mutliple-regression",
-    "href": "15-hw.html#mutliple-regression",
-    "title": "Assignment 15",
-    "section": "Mutliple Regression",
-    "text": "Mutliple Regression\nReview my notes on multiple regression and do the exercise.\nNotice that we have an exam coming up soon (10/30), so begin preparing."
-  },
-  {
-    "objectID": "17-hw.html",
-    "href": "17-hw.html",
-    "title": "Assignment 17",
-    "section": "",
-    "text": "The 1st draft of the research paper is due Thursday. For this draft, prioritize completeness over polish. It’s better to have all the sections present (even if rough) rather than have a polished introduction without any data. At this point, you should clearly make a descriptive claim, explain the claim’s importance, and use data to demonstrate the correctness of the claim.\nHere is a minimal set of sections that you might use:\n\nIntroduction. Booth’s “context, problem, solution” formula is very helpful advice. For example:\n\nContext: There’s an explosion of research on affective polarization.\nProblem: But we don’t know whether these pernicious trends are consistent across racial groups. (Be sure to explain why this is an important problem–0why should we care if trends among racial groups are similar or different?)\nSolution: We use the ANES to show…\n\nData and Measures. Explain your data and measures clearly and carefully.\nResults (included tables and figures). Explain your procedures and results carefully.\nConclusion. See Booth above."
-  },
-  {
-    "objectID": "17-hw.html#research-paper",
-    "href": "17-hw.html#research-paper",
-    "title": "Assignment 17",
-    "section": "",
-    "text": "The 1st draft of the research paper is due Thursday. For this draft, prioritize completeness over polish. It’s better to have all the sections present (even if rough) rather than have a polished introduction without any data. At this point, you should clearly make a descriptive claim, explain the claim’s importance, and use data to demonstrate the correctness of the claim.\nHere is a minimal set of sections that you might use:\n\nIntroduction. Booth’s “context, problem, solution” formula is very helpful advice. For example:\n\nContext: There’s an explosion of research on affective polarization.\nProblem: But we don’t know whether these pernicious trends are consistent across racial groups. (Be sure to explain why this is an important problem–0why should we care if trends among racial groups are similar or different?)\nSolution: We use the ANES to show…\n\nData and Measures. Explain your data and measures clearly and carefully.\nResults (included tables and figures). Explain your procedures and results carefully.\nConclusion. See Booth above."
-  },
-  {
-    "objectID": "17-hw.html#lecture-and-notes",
-    "href": "17-hw.html#lecture-and-notes",
-    "title": "Assignment 17",
+    "objectID": "18-hw.html#lecture-and-notes",
+    "href": "18-hw.html#lecture-and-notes",
+    "title": "Assignment 18",
     "section": "Lecture and Notes",
-    "text": "Lecture and Notes\nIn class, I used these slides.\nBefore next class, read these notes (ch. 2 only) and do the exercises throughout."
+    "text": "Lecture and Notes\nIn class, I used these slides.\nBefore next class, read these notes (ch. 3 only) and do the exercises throughout."
   },
   {
     "objectID": "data.html",
@@ -858,7 +872,7 @@
     "href": "index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Note: Complete the homework after the associated class, but before the next class.\nAug 26: Questions and Models [hw]\nAug 28: R [hw] [notes]\nSep 2: Data [hw] [slides] [notes]\nSep 4: Causality and Histograms [hw] [slides]\nSep 9: Histograms in R [hw] [notes] [Computing Assignment 1]\nSep 11: Avg and SD [hw]\nSep 16: Avg and SD in R [hw] [notes]\nSep 18: Normal Model [hw] [slides]\nSep 23: Review\nComputing Assignment 1 due.\nSep 25: Exam 1\nSep 30: Wrangling 1 [hw]\nOct 2: Wrangling 2 [hw]\nOct 7: Scatterplots [hw]\nOct 9: Correlation [hw]\nOct 14: Regression [hw] [slides]\nOct 16: Regression in R [hw]\nOct 21: Multiple Regression [hw] RP prospectus due.\nOct 23: Extensions to Multiple Regression [hw]\nOct 28: Review [calculator]\nOct 30: Exam 2\nNov 4: Probability Basics [hw]\nNov 6: Numbered-Ticket Model [hw] [NTM App]\nRP 1st draft due.\nNov 11: Veterans Day - No Classes\nNov 13: Sample Surveys [peer review instructions]\nRP peer review due.\nNov 18: Randomized Experiments\nNov 20: Confidence Intervals\nNov 25: Hypothesis Tests\nNov 27: Thanksgiving - No Classes\nDec 2: Wrap\nRP poster presentation around here.\nDec 4: Review\nComputing Assignment 2 due.\nDec 9: Final Exam, 7:30 a.m.– 9:30 a.m.\nRP final draft due."
+    "text": "Note: Complete the homework after the associated class, but before the next class.\nAug 26: Questions and Models [hw]\nAug 28: R [hw] [notes]\nSep 2: Data [hw] [slides] [notes]\nSep 4: Causality and Histograms [hw] [slides]\nSep 9: Histograms in R [hw] [notes] [Computing Assignment 1]\nSep 11: Avg and SD [hw]\nSep 16: Avg and SD in R [hw] [notes]\nSep 18: Normal Model [hw] [slides]\nSep 23: Review\nComputing Assignment 1 due.\nSep 25: Exam 1\nSep 30: Wrangling 1 [hw]\nOct 2: Wrangling 2 [hw]\nOct 7: Scatterplots [hw]\nOct 9: Correlation [hw]\nOct 14: Regression [hw] [slides]\nOct 16: Regression in R [hw]\nOct 21: Multiple Regression [hw] RP prospectus due.\nOct 23: Extensions to Multiple Regression [hw]\nOct 28: Review [calculator]\nOct 30: Exam 2\nNov 4: Probability Basics [hw]\nNov 6: Numbered-Ticket Model [hw] [NTM App]\nRP 1st draft due.\nNov 11: Veterans Day - No Classes\nNov 13: Sample Surveys [hw] [peer review instructions]\nRP peer review due.\nNov 18: Randomized Experiments\nNov 20: Confidence Intervals\nNov 25: Hypothesis Tests\nNov 27: Thanksgiving - No Classes\nDec 2: Wrap\nRP poster presentation around here.\nDec 4: Review\nComputing Assignment 2 due.\nDec 9: Final Exam, 7:30 a.m.– 9:30 a.m.\nRP final draft due."
   },
   {
     "objectID": "peer-review.html",
