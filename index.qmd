@@ -61,14 +61,14 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov 20**: Confidence Intervals  
 
-**Nov 25**: Hypothesis Tests  
+**Nov 25**: Hypothesis Tests  [Poster due (for printing).]{.remarks}
+
 
 **Nov 27**: [Thanksgiving - No Classes]{.text-success} 
 
-**Dec 2**: Wrap  
-[RP poster presentation around here.]{.remarks}
+**Dec 2**: Review  
 
-**Dec 4**: Review  
+**Dec 4**: Poster Session 
 [Computing Assignment 2 due.]{.remarks}
 
 **Dec 9**: [**Final Exam**]{.text-warning}, 7:30 a.m.– 9:30 a.m.  
