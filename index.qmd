@@ -57,11 +57,11 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 **Nov 13**: Sample Surveys [[hw](19-hw.qmd)] [[peer review instructions](peer-review.qmd)]  
 [RP peer review due.]{.remarks}
 
-**Nov 18**: Confidence Intervals [[hw](20-hw.qmd)] **Meet in Bellamy 532**
+**Nov 18**: Poster Discussion [[hw](20-hw.qmd)] 
 
-**Nov 20**: Hypothesis Tests 
+**Nov 20**: Confidence Intervals [[hw](21-hw.qmd)] 
 
-**Nov 25**: Wrap  [Poster due (for printing).]{.remarks}
+**Nov 25**: Hypothesis Tests  [Poster due (for printing).]{.remarks}
 
 
 **Nov 27**: [Thanksgiving - No Classes]{.text-success} 

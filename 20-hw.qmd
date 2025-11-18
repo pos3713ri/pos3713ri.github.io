@@ -14,8 +14,12 @@ We'll have the poster session on **December 4** from 9:45 to 11 on the 5th floor
 
 :::
 
-## Lecture and Notes
+## Poster
 
-In class, I used [these slides](files/34-confidence-intervals-for-percentages.pdf). 
+Finish a first draft of the poster. 
 
-Before next class, read [these notes](https://pos3713ri.github.io/inference-notes/confidence-intervals.html) and do the exercises throughout.
+- I recommend using Google Slides and starting with [this template](https://docs.google.com/presentation/d/1czi5EQdlLC_-kGiQhIDkCztHbROq22lFzL290mH3uAQ/copy).
+- Review this [guide to the posterpalooza](https://gist.github.com/carlislerainey/cfd128077ba7bff3350022129bb097c2).
+- [Watch this video]( https://www.youtube.com/watch?v=1RwJbhkCA58&t=4s). *If you want*, [watch this follow-up video](https://www.youtube.com/watch?v=SYk29tnxASs). You do not need to follow the author's suggested model, but he does give you lots to think about!
+- Remember that it needs to be 36" by 24". 
+- I'm happy to take a quick look at drafts of figures or posters via email. (The more polished you make it, the more helpful I can be.)

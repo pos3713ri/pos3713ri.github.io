@@ -1,0 +1,21 @@
+---
+title: "Assignment 21"
+---
+
+## Lecture and Notes
+
+In class, I used [these slides](files/34-confidence-intervals-for-percentages.pdf). 
+
+Before next class, read [these notes](https://pos3713ri.github.io/inference-notes/confidence-intervals.html) and do the exercises throughout.
+
+::: callout-note
+
+## Poster
+
+We'll have the poster session on **December 4** from 9:45 to 11am on the 5th floor of Bellamy.
+
+- You'll need to have your posters turned in to me by Tuesday, **November 25** for printing.
+- Your poster must be 36" (W) by 24" (H).
+- Requirements and tips for the posters are [here](https://gist.github.com/carlislerainey/cfd128077ba7bff3350022129bb097c2). 
+
+:::
