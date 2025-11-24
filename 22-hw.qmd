@@ -1,5 +1,5 @@
 ---
-title: "Assignment 21"
+title: "Assignment 22"
 ---
 
 ## Poster Due
@@ -14,10 +14,6 @@ We'll have the poster session on **December 4** from 9:45 to 11am on the 5th flo
 
 ## Lecture and Notes
 
-In class, I used [these slides](files/34-confidence-intervals-for-percentages.pdf). 
+In class, I used [these slides](https://docs.google.com/presentation/d/1OQQW-PRxcCyTm8AVqG3Im7VHjpB_LUZFPpdxbiQ3MgM/edit?usp=sharing). 
 
-Before next class, read [these notes](https://pos3713ri.github.io/inference-notes/confidence-intervals.html) and do the exercises throughout.
-
-## Online Class on Tuesday
-
-We will have a synchronous Zoom meeting on Tuesday, November 25. Check Canvas (or your email) for the Zoom link.
+Before next class, read [these notes](https://pos3713ri.github.io/inference-notes/hypothesis-testing.html) and do the exercises throughout.

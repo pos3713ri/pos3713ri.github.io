@@ -61,7 +61,7 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov 20**: Confidence Intervals [[hw](21-hw.qmd)] 
 
-**Nov 25**: Hypothesis Tests  [Poster due (for printing).]{.remarks}
+**Nov 25**: Hypothesis Tests **via Zoom** [[hw](22-hw.qmd)]   [Poster due (for printing) by Tuesday, Nov. 25.]{.remarks}
 
 
 **Nov 27**: [Thanksgiving - No Classes]{.text-success} 
