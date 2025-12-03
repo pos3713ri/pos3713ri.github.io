@@ -61,12 +61,12 @@ Note: Complete the homework *after* the associated class, but *before* the next 
 
 **Nov 20**: Confidence Intervals [[hw](21-hw.qmd)] 
 
-**Nov 25**: Review   [Poster due (for printing) by Tuesday, Nov. 25.]{.remarks}
+**Nov 25**: Review **via Zoom**   [Poster due (for printing) by Tuesday, Nov. 25.]{.remarks}
 
 
 **Nov 27**: [Thanksgiving - No Classes]{.text-success} 
 
-**Dec 2**: Hypothesis Tests **via Zoom** [[hw](22-hw.qmd)] [[sim code](https://gist.github.com/carlislerainey/20b49faaf105db2211b72765c74d14b7)]
+**Dec 2**: Hypothesis Tests [[hw](22-hw.qmd)] [[sim code](https://gist.github.com/carlislerainey/20b49faaf105db2211b72765c74d14b7)]
 
 
 **Dec 4**: Poster Session 
